@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /secret/
+Disallow: /secret
+
+Sitemap: https://jekyll.lwd-temp.top/sitemap.xml

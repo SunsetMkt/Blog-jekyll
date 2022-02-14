@@ -1,0 +1,15 @@
+{
+    "name": "lwd-temp的博客",
+    "short_name": "lwd-temp Blog",
+    "start_url": "/",
+    "icons": [
+        {
+            "src": "/assets/images/android-chrome-48x48.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone"
+}

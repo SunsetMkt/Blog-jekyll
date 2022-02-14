@@ -1,0 +1,24 @@
+<script>
+// This page was written by (and copyright) Chogg (http://www.arq.net/~chogg), January 2002,
+// explicitly for Josh's browser crash site (http://www.newdream.net/crash/). Any other use
+// is strictly prohibited unless Josh says so at the web address above. As the author, I
+// (Chogg) hereby give Josh all legal rights to this work, as it was entirely inspired by
+// his previous browser crashing CGI script using the same concept. As of this notice, this
+// text and the code herein is copyright Josh, 2002.
+var fc = location.search;
+if (fc.length > 1) {
+  fc = fc.substring(1);
+} else {
+  fc = 0;
+}
+
+if (fc % 2 == 0) {
+  document.write('<frameset rows=*,* bordercolor=blue>');
+} else {
+  document.write('<frameset cols=*,* bordercolor=red>');
+}
+fc ++;
+document.write('<frame src=js2.html?' + fc + ' frameborder=0 scrolling=no>');
+document.write('<frame src=js2.html?' + fc + ' frameborder=1 scrolling=no>');
+document.write('</frameset>');
+</script>

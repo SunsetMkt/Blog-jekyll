@@ -1,0 +1,20 @@
+# main links
+main:
+  #- title: "Quick-Start Guide"
+  #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  # - title: "About"
+  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+   - title: "站点地图"
+     url: /sitemap/
+  # - title: "HBZ"
+  #   url: https://xn--fjqz24belequr.lwd-temp.top/
+   - title: "关于我们"
+     url: /article/about-lwd-temp/
+   - title: "关于隐私"
+     url: /privacy.html
+   - title: "导航页"
+     url: https://navi.lwd-temp.top/
