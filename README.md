@@ -1,5 +1,5 @@
 # lwd-temp.github.io
-lwd-temp的blog
+lwd-temp的Blog
 
 基于 Github Pages 和 Jekyll
 
