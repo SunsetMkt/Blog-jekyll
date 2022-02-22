@@ -234,3 +234,31 @@ function display(id) {
         target.style.display = "none";
     }
 }
+
+//bind scpegglink
+try {
+    document.getElementById("scpegglink").addEventListener("click", function () { scpeggui(); document.getElementById('scpegglink').remove(); });
+} catch (error) {
+    console.log("scpegglink error");
+}
+
+
+//redirect to /dev
+var devcount = 0;
+
+function devredirect() {
+    if (devcount == 10) {
+        window.location.href = "/dev";
+        devcount = 0;
+    }
+    else {
+        devcount++;
+    }
+}
+
+//bind devredirect
+try {
+    document.querySelector(".page__footer-copyright").addEventListener("click", function () { devredirect(); });
+} catch (error) {
+    console.log("devredirect error");
+}
