@@ -1,0 +1,270 @@
+---
+title: "基于three.js的MMD模型展示Demo"
+date: 2022-02-22
+tags: demo 前端 MMD JavaScript threejs
+categories: demo
+layout: pure
+excerpt: 模型版权所有：米哈游
+---
+
+<!--模型版权所有：米哈游-->
+
+<div>
+
+    <!--
+    The MIT License
+
+    Copyright © 2010-2022 three.js authors
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in
+    all copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+    THE SOFTWARE.
+    -->
+
+    <script src="https://cdn.jsdelivr.net/gh/mrdoob/three.js/examples/js/libs/ammo.wasm.js"></script>
+
+    <!-- Import maps polyfill -->
+    <!-- Remove this when import maps will be widely supported -->
+    <script async src="https://unpkg.com/es-module-shims@1.3.6/dist/es-module-shims.js"></script>
+
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://cdn.jsdelivr.net/gh/mrdoob/three.js/build/three.module.js"
+            }
+        }
+    </script>
+
+    <script type="module">
+
+        import * as THREE from 'https://cdn.jsdelivr.net/gh/mrdoob/three.js/build/three.module.js';
+
+        import { GUI } from 'https://cdn.jsdelivr.net/gh/mrdoob/three.js/examples/jsm/libs/lil-gui.module.min.js';
+
+        import { OrbitControls } from 'https://cdn.jsdelivr.net/gh/mrdoob/three.js/examples/jsm/controls/OrbitControls.js';
+        import { OutlineEffect } from 'https://cdn.jsdelivr.net/gh/mrdoob/three.js/examples/jsm/effects/OutlineEffect.js';
+        import { MMDLoader } from 'https://cdn.jsdelivr.net/gh/mrdoob/three.js/examples/jsm/loaders/MMDLoader.js';
+        import { MMDAnimationHelper } from 'https://cdn.jsdelivr.net/gh/mrdoob/three.js/examples/jsm/animation/MMDAnimationHelper.js';
+
+
+        let mesh, camera, scene, renderer, effect;
+        let helper, ikHelper, physicsHelper;
+
+        const clock = new THREE.Clock();
+
+        Ammo().then(function (AmmoLib) {
+
+            Ammo = AmmoLib;
+
+            init();
+            animate();
+
+        });
+
+
+        function init() {
+
+            const container = document.createElement('div');
+            document.body.appendChild(container);
+
+            camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 1, 2000);
+            camera.position.z = 30;
+
+            // scene
+
+            scene = new THREE.Scene();
+            scene.background = new THREE.Color(0xffffff);
+
+            const gridHelper = new THREE.PolarGridHelper(30, 10);
+            gridHelper.position.y = - 10;
+            scene.add(gridHelper);
+
+            const ambient = new THREE.AmbientLight(0x666666);
+            scene.add(ambient);
+
+            const directionalLight = new THREE.DirectionalLight(0x887766);
+            directionalLight.position.set(- 1, 1, 1).normalize();
+            scene.add(directionalLight);
+
+            // renderer
+
+            renderer = new THREE.WebGLRenderer({ antialias: true });
+            renderer.setPixelRatio(window.devicePixelRatio);
+            renderer.setSize(window.innerWidth, window.innerHeight);
+            container.appendChild(renderer.domElement);
+
+            effect = new OutlineEffect(renderer);
+
+
+            // model
+
+            function onProgress(xhr) {
+
+                if (xhr.lengthComputable) {
+
+                    const percentComplete = xhr.loaded / xhr.total * 100;
+                    console.log(Math.round(percentComplete, 2) + '% downloaded');
+
+                }
+
+            }
+
+
+            const modelFile = 'https://cdn.jsdelivr.net/gh/lwd-temp/site-cdn/mmd/blank.pmx';
+            const vmdFiles = ['https://cdn.jsdelivr.net/gh/lwd-temp/site-cdn/mmd/blank.vmd'];
+
+            helper = new MMDAnimationHelper({
+                afterglow: 2.0
+            });
+
+            const loader = new MMDLoader();
+
+            loader.loadWithAnimation(modelFile, vmdFiles, function (mmd) {
+
+                mesh = mmd.mesh;
+                mesh.position.y = - 10;
+                scene.add(mesh);
+
+                helper.add(mesh, {
+                    animation: mmd.animation,
+                    physics: true
+                });
+
+                ikHelper = helper.objects.get(mesh).ikSolver.createHelper();
+                ikHelper.visible = false;
+                scene.add(ikHelper);
+
+                physicsHelper = helper.objects.get(mesh).physics.createHelper();
+                physicsHelper.visible = false;
+                scene.add(physicsHelper);
+
+                initGui();
+                helper.enable('animation', false);
+
+            }, onProgress, null);
+
+
+            const controls = new OrbitControls(camera, renderer.domElement);
+            controls.minDistance = 10;
+            controls.maxDistance = 100;
+
+            window.addEventListener('resize', onWindowResize);
+
+            function initGui() {
+
+                const api = {
+                    'model': "请选择模型",
+                    'ik': true,
+                    'outline': true,
+                    'physics': true,
+                    'show IK bones': false,
+                    'show rigid bodies': false
+                };
+
+                const gui = new GUI();
+
+                gui.add(api, 'model', { 荧: 'https://cdn.jsdelivr.net/gh/lwd-temp/site-cdn/mmd/荧/荧.pmx' }).onChange(function () {
+                    loader.loadWithAnimation(api['model'], vmdFiles, function (mmd) {
+
+                        scene.remove(mesh);
+
+                        mesh = mmd.mesh;
+                        mesh.position.y = - 10;
+                        scene.add(mesh);
+
+                        helper.add(mesh, {
+                            animation: mmd.animation,
+                            physics: true
+                        });
+
+                        ikHelper = helper.objects.get(mesh).ikSolver.createHelper();
+                        ikHelper.visible = false;
+                        scene.add(ikHelper);
+
+                        physicsHelper = helper.objects.get(mesh).physics.createHelper();
+                        physicsHelper.visible = false;
+                        scene.add(physicsHelper);
+
+                        helper.enable('animation', false);
+
+                    }, onProgress, null);
+
+                });
+
+                gui.add(api, 'ik').onChange(function () {
+
+                    helper.enable('ik', api['ik']);
+
+                });
+
+                gui.add(api, 'outline').onChange(function () {
+
+                    effect.enabled = api['outline'];
+
+                });
+
+                gui.add(api, 'physics').onChange(function () {
+
+                    helper.enable('physics', api['physics']);
+
+                });
+
+                gui.add(api, 'show IK bones').onChange(function () {
+
+                    ikHelper.visible = api['show IK bones'];
+
+                });
+
+                gui.add(api, 'show rigid bodies').onChange(function () {
+
+                    if (physicsHelper !== undefined) physicsHelper.visible = api['show rigid bodies'];
+
+                });
+
+            }
+
+        }
+
+        function onWindowResize() {
+
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+
+            effect.setSize(window.innerWidth, window.innerHeight);
+
+        }
+
+
+        function animate() {
+
+            requestAnimationFrame(animate);
+
+            render();
+
+        }
+
+        function render() {
+
+            helper.update(clock.getDelta());
+            effect.render(scene, camera);
+
+        }
+
+    </script>
+
+
+</div>
