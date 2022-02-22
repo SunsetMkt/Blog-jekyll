@@ -9,7 +9,7 @@ permalink: /dev.html
     警告：您清楚您在干什么吗？请在完全理解本页面内容的情况下操作。
 </p>
 <p class="notice--info">
-    使用开发人员选项需要启动JavaScript和Local Storage支持。
+    使用开发人员选项需要启动JavaScript和LocalStorage支持。
 </p>
 
 ------
