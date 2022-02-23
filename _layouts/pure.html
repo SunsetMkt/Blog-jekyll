@@ -8,25 +8,66 @@
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
 -->
-<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
-  <head>
-    <meta charset="utf-8">
+<html lang="{{ site.locale | slice: 0,2 | default: " en" }}" class="no-js">
 
-    {% include seo.html %}
-    
-    {% unless site.atom_feed.hide %}
-      <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
-    {% endunless %}
-    
-    <!-- https://t.co/dKP3o1e -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <script>
-      document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
-    </script>
-  </head>
+<head>
+  <meta charset="utf-8">
 
-  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
-      {{ content }}
-  </body>
+  {% include seo.html %}
+
+  {% unless site.atom_feed.hide %}
+  <link
+    href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"
+    type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
+  {% endunless %}
+
+  <!-- https://t.co/dKP3o1e -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script>
+    document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  </script>
+
+  <!-- start custom head snippets -->
+
+  <!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+  <!--favicons-->
+
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+  <link rel="manifest" href="/assets/images/site.webmanifest">
+  <link rel="mask-icon" href="/assets/images/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/assets/images/favicon.ico">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-config" content="/assets/images/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <!--End of favicons-->
+
+  <script data-cfasync="false">
+    ; (function () {
+      var src = '//cdn.jsdelivr.net/npm/eruda';
+      if (!/eruda=true/.test(window.location) && localStorage.getItem('active-eruda') != 'true') return;
+      document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+      document.write('<scr' + 'ipt>eruda.init();</scr' + 'ipt>');
+    })();
+    ; (function () {
+      var src = '//unpkg.com/vconsole@latest/dist/vconsole.min.js';
+      if (!/vconsole=true/.test(window.location) && localStorage.getItem('active-vconsole') != 'true') return;
+      document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+      document.write('<scr' + 'ipt>var vConsole = new window.VConsole();</scr' + 'ipt>');
+    })();
+  </script>
+  
+  <!-- end custom head snippets -->
+
+</head>
+
+<body
+  class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
+  {{ content }}
+</body>
+
 </html>
