@@ -13,3 +13,5 @@ excerpt: 功劳难量、虚实难辨、抗争资本、勇攀高峰、创新为�
 根据直播中提供的信息推测，在其休眠期间，关注者们可以通过被称作\#KZN-chan的CeVIO AI创作歌曲，基于Kizuna AI的动画项目也正在制作中。
 
 向推进人类文化娱乐事业的艺术工作者们致以最高的敬意！
+
+![img](/assets/postres/2022-02-26-kizuna-ai-the-last-live/7c2cd61513fdbc988771bd95b6026268fe809c7e.webp)
