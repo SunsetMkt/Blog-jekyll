@@ -1,7 +1,7 @@
 ---
 title: "警惕仇恨散布：不应该因为一群人受到伤害就人为让另一群人受伤"
 date: 2022-03-03
-tags: 公益
+tags: 公益 战争
 categories: article
 excerpt: "Be wary of the spread of hate: People should NOT be hurt just because of another group of people was hurt"
 ---
