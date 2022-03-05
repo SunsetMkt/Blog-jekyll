@@ -73,7 +73,7 @@ As the first city to stage both the summer and winter Paralympics, Beijing is pr
 
 Ahead of these Games, hundreds of thousands of facilities have been made barrier free. 
 
-在这些奥运会之前，数十万个设施已经实现无障碍。
+在这些奥运会之前，成百上千个设施已经实现无障碍。
 
 The venues are magnificent. The organisation is extraordinary. The Covid-19 prevention and control — safe and efficient.
 
