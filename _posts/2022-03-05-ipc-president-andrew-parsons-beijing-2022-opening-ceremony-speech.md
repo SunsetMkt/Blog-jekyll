@@ -65,7 +65,7 @@ Tonight, the Paralympic Movement calls on world authorities to come together, as
 
 Change Starts with Sport.  Not only can it bring harmony, but it can be a catalyst to transforming the lives of people, cities and countries.
 
-改变始于运动。它不仅能带来和谐，还能成为改变人们、城市和国家生活的催化剂。
+改变始于运动。它不仅能带来和谐，还能成为改变人们生活、城市和国家的催化剂。
 
 As the first city to stage both the summer and winter Paralympics, Beijing is proof of this.
 
@@ -97,7 +97,7 @@ Paralympians, there is an important moment in your lives when, because of sport,
 
 If 15% of world’s population has a disability, Paralympians show to the remaining 85% of people that persons with disabilities can do whatever they want, if given the opportunity.
 
-如果世界上有 15% 的人口有残疾，残奥会向剩下的 85% 的人表明，如果有机会，残疾人可以做到他们想做的任何事。
+如果世界上有 15% 的人口有残疾，残奥会运动员们向剩下的 85% 的人表明，如果有机会，残疾人可以做到他们想做的任何事。
 
 This is why the IPC and the International Disability Alliance launched WeThe15 alongside a coalition of 18 international organisations.
 
