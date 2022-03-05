@@ -45,11 +45,11 @@ The Olympic Truce for peace during the Olympic and Paralympic Games is a UN Reso
 
 At the IPC we aspire to a better and more inclusive world, free from discrimination, free from hate, free from ignorance and free from conflict.
 
-在国际残奥委会，我们渴望一个更美好、更包容的世界，没有歧视、没有仇恨、没有无知、没有冲突。
+在国际残奥委会，我们渴望一个更美好、更包容的世界，没有歧视、没有仇恨、没有忽视、没有冲突。
 
 Here in Beijing, Paralympic athletes from 46 different nations will compete with each other, not against each other.
 
-在北京，来自46个不同国家的残奥运动员将相互竞争，而不是相互斗争。
+在北京，来自46个不同国家的残奥运动员将相互竞争，而不是相互斗争。（compete和against的区别，against含有敌意）
 
 Through sport they will showcase the best of humanity and highlight the values that should underpin a peaceful and inclusive world.
 
@@ -89,7 +89,7 @@ Efforts to encourage and engage persons with disabilities to try winter sports h
 
 To the people of China: Xièxiè!
 
-致中国人民：谢谢！
+致中国人民：谢谢（汉语拼音）！
 
 Paralympians, there is an important moment in your lives when, because of sport, you embrace your disability. Not as something that defines you, but something that is part of who you are.  As you embrace it, you find your strength, where others have seen weakness, and your find your own power and path to maximise what you can do.
 
@@ -101,7 +101,7 @@ If 15% of world’s population has a disability, Paralympians show to the remain
 
 This is why the IPC and the International Disability Alliance launched WeThe15 alongside a coalition of 18 international organisations.
 
-这就是国际残奥委会和国际残疾人联盟与 18 个国际组织的联盟一起发起 WeThe15 的原因。
+这就是国际残奥委会和国际残疾人联盟与 18 个国际组织的联盟一起发起 WeThe15（直译“我们那百分之十五”） 的原因。
 
 Through WeThe15 we want to campaign for disability visibility, accessibility, inclusion, and equality of rights.
 
