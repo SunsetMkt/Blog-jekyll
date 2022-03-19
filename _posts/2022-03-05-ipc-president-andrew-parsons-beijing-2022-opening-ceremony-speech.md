@@ -49,7 +49,7 @@ At the IPC we aspire to a better and more inclusive world, free from discriminat
 
 Here in Beijing, Paralympic athletes from 46 different nations will compete with each other, not against each other.
 
-在北京，来自46个不同国家的残奥运动员将相互竞争，而不是相互斗争。（compete和against的区别，against含有敌意）
+在北京，来自46个不同国家的残奥运动员将相互竞争，而不是相互斗争。（with和against的区别，against含有敌意）
 
 Through sport they will showcase the best of humanity and highlight the values that should underpin a peaceful and inclusive world.
 
