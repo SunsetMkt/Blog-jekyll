@@ -21,7 +21,7 @@ categories: notice
 |        cf        |                 [Cloudflare](https://www.cloudflare.com/) 本站域名托管及CDN                 |
 |      railway      |                      [Railway](https://railway.app/) Docker容器部署服务                      |
 |     gh-pages     |               [GitHub Pages](https://pages.github.com/) GitHub的静态页托管服务               |
-|      vercel      |               [Vercel](https://vercel.com/) 支持从代码库云端构建的页面托管服务               |
+|      vercel      |      [Vercel](https://vercel.com/) 支持从代码库云端构建的页面托管服务以及Serverless服务      |
 |    cf-workers    | [Cloudflare Workers](https://cloudflareworkers.com) 位于云端的可JavaScript编程的请求处理服务 |
 |      yandex      |                     [Яндекс](https://yandex.ru/) 站点邮箱主提供商                     |
 |    uptimerobot    |                   [UptimeRobot](https://uptimerobot.com/) 网站状态检测服务                   |
@@ -31,7 +31,7 @@ categories: notice
 
 ### 弃用标记
 
-(Deprecated)用于标记长期无人使用且不再被维护的服务。
+(Deprecated)用于标记长期无人使用且不再被维护的服务，请一定不要使用这些服务，它们更有可能随时消失且不保留服务数据。
 
 ## 信息安全警告
 
