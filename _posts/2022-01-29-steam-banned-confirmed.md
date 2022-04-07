@@ -1,5 +1,5 @@
 ---
-title: Steam商店在中国大陆被封锁（已证实）
+title: Steam商店在中国大陆被干扰（已证实）
 date: 2022-01-29
 tags: Steam
 categories: article
