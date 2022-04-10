@@ -101,6 +101,12 @@ Windows附带的Defender？Comodo？Kaspersky？McAfee？
 
 世界知名的源代码分享平台，也不仅是源代码。
 
+### Wayback Machine
+
+[主页](https://web.archive.org/)
+
+历史悠久的非盈利性网页存档服务，可以用于保存特定网页在特定时间的内容用于存档。
+
 ### “接码平台”
 
 请自行搜索寻找合适的“接码平台”，它们通常提供公用的电话号码接收验证码短信。
