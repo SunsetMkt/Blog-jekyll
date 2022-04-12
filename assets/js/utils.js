@@ -17,7 +17,7 @@ function getQueryVariable(variable) {
 //SCPFoundation Easter Egg checker for page footer via SCP Foundation
 function scpegg() {
     loggedin = false;
-    password = document.getElementById("scpeggpass").value;
+    password = prompt();
     password = password.toLowerCase();
     // Add password-->
     if (password == "only when waning.") {
@@ -42,11 +42,12 @@ function scpegg() {
     }
     // If login incorrect -->
     if (loggedin == false) {
-        errorToast("Permission Denied");
+        alert("Permission Denied");
     }
 }
 
 //scpegg GUI
+/**
 function scpeggui() {
     toastr.options = {
         "closeButton": true,
@@ -68,8 +69,11 @@ function scpeggui() {
     };
     toastr["error"]('<div><input value="" id="scpeggpass" type="password"/>&nbsp;<button type="button" id="scpeggBtn" class="btn"onclick="scpegg();">Done</button></div>')
 }
+*/
 
 //functions for toastr via https://blog.csdn.net/tangxiujiang/article/details/77992931
+
+/**
 function errorToast(content) {
     //设定参数
     toastr.options = {
@@ -224,6 +228,7 @@ function criticalToast(content) {
     }
     toastr.error(content);
 }
+*/
 
 //显示或隐藏特定id元素
 function display(id) {
@@ -237,7 +242,7 @@ function display(id) {
 
 //bind scpegglink
 try {
-    document.getElementById("scpegglink").addEventListener("click", function () { scpeggui(); document.getElementById('scpegglink').remove(); });
+    document.getElementById("scpegglink").addEventListener("click", function () { scpegg(); document.getElementById('scpegglink').remove(); });
 } catch (error) {
     console.log("scpegglink error");
 }

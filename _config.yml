@@ -30,7 +30,7 @@ masthead_title           : # overrides the website title displayed in the masthe
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "utterances" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : false # "utterances" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -289,17 +289,17 @@ defaults:
       layout: single
       show_date: true
       author_profile: true
-      read_time: true # true
-      comments: true # true
-      share: true # true
-      related: true # true
-      toc: true # false # To show Table of Content (aka. menu) # modified by me.
+      read_time: false # true
+      comments: false # true
+      share: false # true
+      related: false # true
+      toc: false # false # To show Table of Content (aka. menu) # modified by me.
 
 # head_scripts:
 #   - https://api.lwd-temp.top/static/staticapi.js
 
 after_footer_scripts:
-  - https://unpkg.com/toastr@2.1.4/build/toastr.min.js
+  # - https://unpkg.com/toastr@2.1.4/build/toastr.min.js
   - /assets/js/utils.js
   - /assets/js/custom-script-loads-after-footer.js
   - https://api.lwd-temp.top/static/staticapi.js
