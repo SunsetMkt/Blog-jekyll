@@ -11,7 +11,7 @@ categories: demo
 
 
 </div>
-<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
 <script>
 /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
 particlesJS.load('particles-js', '/assets/json/particles.json', function() {
