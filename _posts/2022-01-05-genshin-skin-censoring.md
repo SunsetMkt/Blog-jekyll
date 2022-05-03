@@ -89,7 +89,7 @@ categories: article
     THE SOFTWARE.
     -->
 
-    <script src="https://fastly.jsdelivr.net/gh/mrdoob/three.js/examples/js/libs/ammo.wasm.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/mrdoob/three.js/examples/js/libs/ammo.wasm.js"></script>
 
     <!-- Import maps polyfill -->
     <!-- Remove this when import maps will be widely supported -->
@@ -98,21 +98,21 @@ categories: article
     <script type="importmap">
         {
             "imports": {
-                "three": "https://fastly.jsdelivr.net/gh/mrdoob/three.js/build/three.module.js"
+                "three": "https://cdn.jsdelivr.net/gh/mrdoob/three.js/build/three.module.js"
             }
         }
     </script>
 
     <script type="module">
 
-        import * as THREE from 'https://fastly.jsdelivr.net/gh/mrdoob/three.js/build/three.module.js';
+        import * as THREE from 'https://cdn.jsdelivr.net/gh/mrdoob/three.js/build/three.module.js';
 
-        import { GUI } from 'https://fastly.jsdelivr.net/gh/mrdoob/three.js/examples/jsm/libs/lil-gui.module.min.js';
+        import { GUI } from 'https://cdn.jsdelivr.net/gh/mrdoob/three.js/examples/jsm/libs/lil-gui.module.min.js';
 
-        import { OrbitControls } from 'https://fastly.jsdelivr.net/gh/mrdoob/three.js/examples/jsm/controls/OrbitControls.js';
-        import { OutlineEffect } from 'https://fastly.jsdelivr.net/gh/mrdoob/three.js/examples/jsm/effects/OutlineEffect.js';
-        import { MMDLoader } from 'https://fastly.jsdelivr.net/gh/mrdoob/three.js/examples/jsm/loaders/MMDLoader.js';
-        import { MMDAnimationHelper } from 'https://fastly.jsdelivr.net/gh/mrdoob/three.js/examples/jsm/animation/MMDAnimationHelper.js';
+        import { OrbitControls } from 'https://cdn.jsdelivr.net/gh/mrdoob/three.js/examples/jsm/controls/OrbitControls.js';
+        import { OutlineEffect } from 'https://cdn.jsdelivr.net/gh/mrdoob/three.js/examples/jsm/effects/OutlineEffect.js';
+        import { MMDLoader } from 'https://cdn.jsdelivr.net/gh/mrdoob/three.js/examples/jsm/loaders/MMDLoader.js';
+        import { MMDAnimationHelper } from 'https://cdn.jsdelivr.net/gh/mrdoob/three.js/examples/jsm/animation/MMDAnimationHelper.js';
 
 
         let mesh, camera, scene, renderer, effect;
@@ -178,8 +178,8 @@ categories: article
             }
 
 
-            const modelFile = 'https://fastly.jsdelivr.net/gh/lwd-temp/site-cdn/mmd/blank.pmx';
-            const vmdFiles = ['https://fastly.jsdelivr.net/gh/lwd-temp/site-cdn/mmd/blank.vmd'];
+            const modelFile = 'https://cdn.jsdelivr.net/gh/lwd-temp/site-cdn/mmd/blank.pmx';
+            const vmdFiles = ['https://cdn.jsdelivr.net/gh/lwd-temp/site-cdn/mmd/blank.vmd'];
 
             helper = new MMDAnimationHelper({
                 afterglow: 2.0
@@ -231,7 +231,7 @@ categories: article
 
                 const gui = new GUI();
 
-                gui.add(api, 'model', { 安柏: 'https://fastly.jsdelivr.net/gh/lwd-temp/site-cdn/mmd/安柏/安柏.pmx', 罗莎莉亚: 'https://fastly.jsdelivr.net/gh/lwd-temp/site-cdn/mmd/罗莎莉亚/罗莎莉亚.pmx', 莫娜: 'https://fastly.jsdelivr.net/gh/lwd-temp/site-cdn/mmd/莫娜/莫娜1.0.pmx', 琴: 'https://fastly.jsdelivr.net/gh/lwd-temp/site-cdn/mmd/琴/琴.pmx', 神里绫华: 'https://fastly.jsdelivr.net/gh/lwd-temp/site-cdn/mmd/神里绫华/神里绫华.pmx' }).onChange(function () {
+                gui.add(api, 'model', { 安柏: 'https://cdn.jsdelivr.net/gh/lwd-temp/site-cdn/mmd/安柏/安柏.pmx', 罗莎莉亚: 'https://cdn.jsdelivr.net/gh/lwd-temp/site-cdn/mmd/罗莎莉亚/罗莎莉亚.pmx', 莫娜: 'https://cdn.jsdelivr.net/gh/lwd-temp/site-cdn/mmd/莫娜/莫娜1.0.pmx', 琴: 'https://cdn.jsdelivr.net/gh/lwd-temp/site-cdn/mmd/琴/琴.pmx', 神里绫华: 'https://cdn.jsdelivr.net/gh/lwd-temp/site-cdn/mmd/神里绫华/神里绫华.pmx' }).onChange(function () {
                     loader.loadWithAnimation(api['model'], vmdFiles, function (mmd) {
 
                         scene.remove(mesh);

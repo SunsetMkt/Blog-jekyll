@@ -35,7 +35,7 @@ excerpt: 模型版权所有：米哈游
     THE SOFTWARE.
     -->
 
-    <script src="https://fastly.jsdelivr.net/gh/mrdoob/three.js/examples/js/libs/ammo.wasm.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/mrdoob/three.js/examples/js/libs/ammo.wasm.js"></script>
 
     <!-- Import maps polyfill -->
     <!-- Remove this when import maps will be widely supported -->
@@ -44,21 +44,21 @@ excerpt: 模型版权所有：米哈游
     <script type="importmap">
         {
             "imports": {
-                "three": "https://fastly.jsdelivr.net/gh/mrdoob/three.js/build/three.module.js"
+                "three": "https://cdn.jsdelivr.net/gh/mrdoob/three.js/build/three.module.js"
             }
         }
     </script>
 
     <script type="module">
 
-        import * as THREE from 'https://fastly.jsdelivr.net/gh/mrdoob/three.js/build/three.module.js';
+        import * as THREE from 'https://cdn.jsdelivr.net/gh/mrdoob/three.js/build/three.module.js';
 
-        import { GUI } from 'https://fastly.jsdelivr.net/gh/mrdoob/three.js/examples/jsm/libs/lil-gui.module.min.js';
+        import { GUI } from 'https://cdn.jsdelivr.net/gh/mrdoob/three.js/examples/jsm/libs/lil-gui.module.min.js';
 
-        import { OrbitControls } from 'https://fastly.jsdelivr.net/gh/mrdoob/three.js/examples/jsm/controls/OrbitControls.js';
-        import { OutlineEffect } from 'https://fastly.jsdelivr.net/gh/mrdoob/three.js/examples/jsm/effects/OutlineEffect.js';
-        import { MMDLoader } from 'https://fastly.jsdelivr.net/gh/mrdoob/three.js/examples/jsm/loaders/MMDLoader.js';
-        import { MMDAnimationHelper } from 'https://fastly.jsdelivr.net/gh/mrdoob/three.js/examples/jsm/animation/MMDAnimationHelper.js';
+        import { OrbitControls } from 'https://cdn.jsdelivr.net/gh/mrdoob/three.js/examples/jsm/controls/OrbitControls.js';
+        import { OutlineEffect } from 'https://cdn.jsdelivr.net/gh/mrdoob/three.js/examples/jsm/effects/OutlineEffect.js';
+        import { MMDLoader } from 'https://cdn.jsdelivr.net/gh/mrdoob/three.js/examples/jsm/loaders/MMDLoader.js';
+        import { MMDAnimationHelper } from 'https://cdn.jsdelivr.net/gh/mrdoob/three.js/examples/jsm/animation/MMDAnimationHelper.js';
 
 
         let mesh, camera, scene, renderer, effect;
@@ -124,8 +124,8 @@ excerpt: 模型版权所有：米哈游
             }
 
 
-            const modelFile = 'https://fastly.jsdelivr.net/gh/lwd-temp/site-cdn/mmd/blank.pmx';
-            const vmdFiles = ['https://fastly.jsdelivr.net/gh/lwd-temp/site-cdn/mmd/blank.vmd'];
+            const modelFile = 'https://cdn.jsdelivr.net/gh/lwd-temp/site-cdn/mmd/blank.pmx';
+            const vmdFiles = ['https://cdn.jsdelivr.net/gh/lwd-temp/site-cdn/mmd/blank.vmd'];
 
             helper = new MMDAnimationHelper({
                 afterglow: 2.0
@@ -177,7 +177,7 @@ excerpt: 模型版权所有：米哈游
 
                 const gui = new GUI();
 
-                gui.add(api, 'model', { 荧: 'https://fastly.jsdelivr.net/gh/lwd-temp/site-cdn/mmd/荧/荧.pmx' }).onChange(function () {
+                gui.add(api, 'model', { 荧: 'https://cdn.jsdelivr.net/gh/lwd-temp/site-cdn/mmd/荧/荧.pmx' }).onChange(function () {
                     loader.loadWithAnimation(api['model'], vmdFiles, function (mmd) {
 
                         scene.remove(mesh);

@@ -5,7 +5,7 @@ tags: demo 前端
 categories: demo
 ---
 
-<script src="https://fastly.jsdelivr.net/gh/Tencent/vConsole/dist/vconsole.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/Tencent/vConsole/dist/vconsole.min.js"></script>
 <script>
   // 初始化
   var vConsole = new VConsole();

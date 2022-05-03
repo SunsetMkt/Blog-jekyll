@@ -8,11 +8,11 @@ categories: demo
     <head>
         <!--support for raw python code-->
         <script type="text/javascript"
-            src="https://fastly.jsdelivr.net/npm/brython@3.8.8/brython.min.js">
+            src="https://cdn.jsdelivr.net/npm/brython@3.8.8/brython.min.js">
         </script>
         <!--support for libs-->
         <script type="text/javascript"
-            src="https://fastly.jsdelivr.net/npm/brython@3.8.8/brython_stdlib.js">
+            src="https://cdn.jsdelivr.net/npm/brython@3.8.8/brython_stdlib.js">
         </script>
         <!--https://github.com/brython-dev/brython-->
     </head>
