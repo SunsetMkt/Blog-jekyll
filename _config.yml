@@ -126,9 +126,9 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/lwd-temp"
       # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+    - label: "Discord服务器"
+      icon: "fab fa-fw fa-discord"
+      url: "https://discord.gg/4EnZHQGSrk"
 
 # Site Footer
 footer:
