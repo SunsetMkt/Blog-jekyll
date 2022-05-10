@@ -1,7 +1,7 @@
 ---
 title: 【转载】方方日记
 date: 2020-03-24
-tags:转载
+tags: 转载
 categories: article
 toc: true
 ---
