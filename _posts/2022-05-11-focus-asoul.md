@@ -38,3 +38,16 @@ categories: article
 似乎有那么点思辨性？不妨一看。
 
 {% include video id="BV1XY4y1Y7BT" provider="bilibili" %}
+
+<div>
+    <div id="carol"></div>
+    <script>
+        function carol() {
+            document.getElementById("carol").innerHTML = "https://space.bilibili.com/33605910" + "<br>" + "https://weibo.com/u/5693602165" + "<br>" + "https://music.163.com/artist?id=52047598";
+            //window.open("https://space.bilibili.com/33605910");
+            //window.open("https://weibo.com/u/5693602165");
+            //window.open("https://music.163.com/artist?id=52047598");
+        }
+    </script>
+    <a class="btn btn--info" onclick="carol();">Carol</a>
+</div>
