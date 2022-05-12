@@ -1,6 +1,6 @@
 ---
 title: '聚焦：商业化的虚拟主播行业可能存在的对“中之人”的压榨'
-date: 2022-05-10
+date: 2022-05-11
 tags: 评论 聚焦 新闻 虚拟主播 ASoul
 categories: article
 ---
