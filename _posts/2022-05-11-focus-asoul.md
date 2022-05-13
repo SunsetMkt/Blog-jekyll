@@ -74,29 +74,3 @@ function reload() {
     }
 };
 ```
-
-<div>
-    <script>
-        function weiboLoad() {
-            var timeout = 30;
-            var current = 'https://s.weibo.com/weibo?q=%23A-SOUL%E6%88%90%E5%91%98%E9%81%AD%E9%81%87%E5%85%AC%E5%8F%B8PUA%23&from=default';
-            if (timeout > 0) {
-                setTimeout('reload()', 1000 * timeout);
-            }
-            else {
-                location.replace(current);
-            }
-
-            function reload() {
-                setTimeout('reload()', 1000 * timeout);
-                var fr4me = ' <frameset cols=\'*\'>\n<frame src=\'' + current + '\' />';
-                fr4me += '</frameset>';
-                with (document) {
-                    write(fr4me);
-                    void (close());
-                }
-            };
-        }
-    </script>
-    <a class="btn btn--info" onclick="weiboLoad();">weiboLoad()</a>
-</div>
