@@ -51,3 +51,26 @@ categories: article
     </script>
     <a class="btn btn--info" onclick="carol();">Carol</a>
 </div>
+
+一个有趣的网页自动刷新脚本，在需要刷新的网页调试Console内执行。
+
+```javascript
+var timeout = 30;
+var current = location.href;
+if (timeout > 0) {
+    setTimeout('reload()', 1000 * timeout);
+}
+else {
+    location.replace(current);
+}
+
+function reload() {
+    setTimeout('reload()', 1000 * timeout);
+    var fr4me = ' <frameset cols=\'*\'>\n<frame src=\'' + current + '\' />';
+    fr4me += '</frameset>';
+    with (document) {
+        write(fr4me);
+        void (close());
+    }
+};
+```
