@@ -1,5 +1,5 @@
 ---
-title: 'Asoul关注数实时请求'
+title: 'A-SOUL关注数实时请求'
 date: 2022-05-14
 tags: 评论 聚焦 新闻 虚拟主播 ASoul
 categories: article
@@ -19,7 +19,7 @@ categories: article
         // it by using.then() method
         fetchRes.then(res =>
             res.json()).then(d => {
-                console.log(d)
+                // console.log(d)
                 // d is the response data
                 // d.data.follower is the follower number and show it
                 document.getElementById("asoul-followers-counter").innerHTML = d.data.follower;
