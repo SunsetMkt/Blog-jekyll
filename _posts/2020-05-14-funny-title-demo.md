@@ -11,5 +11,5 @@ Funny title
 
 用于网页失去焦点时改变成有趣的标题
 
-<script src="https://cdn.jsdelivr.net/gh/lwd-temp/funny-title/js/jquery-3.1.1.min.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/lwd-temp/funny-title/js/funny-title.js"></script>
+<script src="https://fastly.jsdelivr.net/gh/lwd-temp/funny-title/js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="https://fastly.jsdelivr.net/gh/lwd-temp/funny-title/js/funny-title.js"></script>
