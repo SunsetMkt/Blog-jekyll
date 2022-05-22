@@ -1,7 +1,7 @@
 ---
 title: Do they do this just for mourning the dead?
 date: 2020-04-04
-tags:  评论 原创 COVID19
+tags:  评论 COVID19
 categories: article
 ---
 

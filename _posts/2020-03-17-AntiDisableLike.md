@@ -1,7 +1,7 @@
 ---
 title: AntiDisableLike
 date: 2020-03-17
-tags:  原创 JavaScript 前端
+tags:  JavaScript 前端
 categories: article
 ---
 
