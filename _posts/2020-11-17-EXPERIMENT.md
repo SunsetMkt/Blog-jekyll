@@ -1,7 +1,7 @@
 ---
-title: 【转载】EXPERIMENT
+title: 【投稿】EXPERIMENT
 date: 2020-11-17
-tags:  转载 ████████ SGP计划 EXPLORER
+tags:  投稿 ████████ SGP计划 EXPLORER
 categories: article
 ---
 

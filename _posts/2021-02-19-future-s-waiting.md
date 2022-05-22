@@ -1,7 +1,7 @@
 ---
 title: "Future's Waiting"
 date: 2021-02-19
-tags:  ████████ EXPLORER 转载
+tags:  ████████ EXPLORER 投稿
 categories: article
 ---
 
