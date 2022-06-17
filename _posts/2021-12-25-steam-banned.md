@@ -4,7 +4,6 @@ date: 2021-12-25 22:22:00 +0800
 tags: Steam GitHub
 categories: article
 ---
-{% include video id="BV1Sq4y1m7pD" provider="bilibili" %}
 
 有未证实的报告称，Steam商店自2021-12-25起在中国大陆部分地区出现访问异常。
 
@@ -728,5 +727,3 @@ Michel C
 2022-01-07更新
 
 冬促结束，情况依旧。
-
-{% include video id="BV13Z4y1S7iN" provider="bilibili" %}

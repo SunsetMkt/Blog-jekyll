@@ -6,8 +6,6 @@ categories: article
 excerpt: “前后端都我写还兼职美工文案啊”
 ---
 
-{% include video id="BV1Cb4y1h7JY" provider="bilibili" %}
-
 放弃啦
 
 不干啦

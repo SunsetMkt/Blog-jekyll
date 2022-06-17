@@ -41,18 +41,3 @@ categories: article
 <p align="right">供文者：Li Hua</p>
 
 <p align="right">（本文转自霍格沃兹驻中新华分部官方网站，仅支持魔幻主义文学爱好者进行交流和分享，禁止用于商业盈利和非法转载，转载者所持观点中立且暂时无法联系到供文者，如有疑问或合作请致电霍格沃兹校长办公室或穿越93/4站台面议）</p>
-
-## 参考资料
-*Fig.1*
-
-<video  width="100%" controls>
-    <source src="https://lwdedu.wdfiles.com/local--files/free%3Axxx/xxxxx.mp4" type="video/mp4">
-    您的浏览器不支持 video 标签。
-</video>
-
-*Fig.2*
-
-<audio controls>
-  <source src="https://lwdedu.wdfiles.com/local--files/free%3Axxx/xxx.mp3" type="audio/mpeg">
-  您的浏览器不支持 audio 元素。
-</audio>
