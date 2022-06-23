@@ -42,13 +42,13 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-Minimal Mistakes incorporates icons from [The Noun Project](https://thenounproject.com/)
+Minimal Mistakes incorporates icons from [The Noun Project](https://thenounproject.com/) 
 creators Garrett Knoll, Arthur Shlain, and tracy tam.
 Icons are distributed under Creative Commons Attribution 3.0 United States (CC BY 3.0 US).
 
 Minimal Mistakes incorporates [Font Awesome](http://fontawesome.io/),
 Copyright (c) 2017 Dave Gandy.
-Font Awesome is distributed under the terms of the [SIL OFL 1.1](http://scripts.sil.org/OFL)
+Font Awesome is distributed under the terms of the [SIL OFL 1.1](http://scripts.sil.org/OFL) 
 and [MIT License](http://opensource.org/licenses/MIT).
 
 Minimal Mistakes incorporates photographs from [Unsplash](https://unsplash.com).

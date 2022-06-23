@@ -1,7 +1,7 @@
 <!-- Including InstantSearch.js library and styling -->
-<script src="https://fastly.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.js"></script>
-<link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.css">
-<link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch-theme-algolia.min.css">
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch-theme-algolia.min.css">
 
 <script>
 // Instanciating InstantSearch.js with Algolia credentials
@@ -19,8 +19,9 @@ const search = instantsearch({
 
 const hitTemplate = function(hit) {
   const url = hit.url;
-  const title = hit._highlightResult.title.value;
-  const content = hit._highlightResult.html.value;
+  const hightlight = hit._highlightResult;
+  const title = hightlight.title && hightlight.title.value  || "";
+  const content = hightlight.html && hightlight.html.value  || "";
 
   return `
     <div class="list__item">
