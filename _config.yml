@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale                   : "zh-CN"
-title                    : "lwd-temp的博客"
+title                    : "Sunset的博客"
 title_separator          : "-"
 subtitle                 : "Ad astra abyssosque!" # site tagline that appears below site title in masthead
-name                     : "lwd-temp"
-description              : "lwd-temp的博客"
+name                     : "Sunset"
+description              : "Sunset的博客"
 url                      : "https://jekyll.lwd-temp.top" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "lwd-temp/lwd-temp.github.io-jekyll" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
