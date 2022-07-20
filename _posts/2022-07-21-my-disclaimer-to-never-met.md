@@ -7,14 +7,12 @@ categories: article
 
 <!--段首缩进样式-->
 <style>
-    p {
-        white-space: pre-wrap;
+    .page__inner-wrap p {
+        text-indent: 2em;
     }
 </style>
 
 全文内容如下：
-
------
 
 <!--Main Content Starts Here-->
 ## 致从未谋面的阁下：一份来自Sunset的免责声明
@@ -75,7 +73,6 @@ Sunset祝阁下在使用互联网的过程中得偿所愿。
 <p align="right">Sunset &lt;i@lwd-temp.top&gt;</p>
 
 <!--Main Content Ends Here-->
------
 
 ## 签名
 以上信息由Sunset签名，并提供签名文件`disclaimer.md.asc`内容如下：
