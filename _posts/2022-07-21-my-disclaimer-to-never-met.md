@@ -7,7 +7,7 @@ categories: article
 
 <!--段首缩进样式-->
 <style>
-    .page__inner-wrap p {
+    .page__inner-wrap .e-content p {
         text-indent: 2em;
     }
 </style>
