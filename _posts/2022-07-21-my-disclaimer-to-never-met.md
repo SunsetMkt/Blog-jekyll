@@ -19,6 +19,10 @@ categories: article
 ### 介绍
 您好，这是一份通用非正式免责声明 *（下称“文件”，或带有指代意义的其它称谓）* 。由于阁下与Sunset *（译作：“余晖”，如必须使用第三人称代词则为“祂”）* 所建立联系的特殊性，综合考虑您的具体情况，您有可能收到本文件作为 **例行提醒** 。 **本文件事实上不具有任何效力和（或）约束力，亦作为通用声明，不具有指向性和普适性，但Sunset仍希望阁下能在力所能及的范围内协助本文件内容的实施。** 祂相信，共同努力将会造就双赢局面。
 
+本文件内容若存在多个语言版本，产生歧义时，以简体中文版本为准。本文件内容也许会随时更新，请自行检索Sunset的个人网站的相关内容，恕不另行通知。
+
+本文件的上次修订时间为：2022-07-21 10:06:00 UTC+8。
+
 ### 未成年人
 本文件适用于具有完全民事行为能力的自然人，在中华人民共和国 *（英语：People's Republic of China）* 境内，需要阁下年满18周岁。根据阁下所在地的法律法规，具体年龄可能会有所不同。
 
@@ -60,17 +64,19 @@ Sunset希望阁下能够遵守所在地的法律法规，且无意唆使您违�
 
 Sunset充分尊重阁下的宗教信仰和政治主张，但保留在理论上对其讨论和（或）评价的权力。
 
-### 责任
-Sunset不会公开披露阁下的个人信息，亦不会公开通过您已公开的数字足迹推断出的信息。
+### 责任和义务
+Sunset不会公开披露阁下的个人信息和（或）交流内容，亦不会公开通过您已公开的数字足迹推断出的信息。
 
 Sunset会在力所能及的情况下，尽力协助阁下解决问题，但不会承担任何责任和（或）损失 *（存在其他可能影响此条款的协议或承诺的情况不包含在内）* 。
+
+**阁下没有责任和（或）义务必须阅读、认同、和（或）遵守本文件的任何条款。** 阁下亦不需要告知Sunset有关履行本条款的任何决定或保证。 **阁下的平安高于一切规则和（或）协议。**
 
 ### 结语
 Sunset十分珍视与阁下的相识，且从未怀疑过您的真心实意。
 
 Sunset祝阁下在使用互联网的过程中得偿所愿。
 
-<p align="right">Sunset &lt;i@lwd-temp.top&gt;</p>
+<p align="right">Sunset（译作：余晖） &lt;i@lwd-temp.top&gt;</p>
 
 <!--Main Content Ends Here-->
 
@@ -80,19 +86,21 @@ Sunset祝阁下在使用互联网的过程中得偿所愿。
 ```
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAABCAAdFiEEr85y3hWmSiD55zG7yNENIf3LQFoFAmLYRuUACgkQyNENIf3L
-QFrNFQwAk81ZeSzDVx5LXHGzMrCLaAIUnOLXJ/GImkiwPTnhpsb9k/5fuWtm+ZwU
-M7sDcA1z0V+SkAGlvX9D9inWhQOAV0qd8AIa0gXNhRu8KQ0NZbUVpaoAaYU7OKaK
-YpkLB4zacv3vM5PyJF2piY9wx2leNoMJR9r9V9TaxFT9QvDU81+JqDRj7B9HY3oS
-oGzHsq4k04DcMXz+AOWTHKYaOx47tpOOUv/2VdsYtMIVToUPfpw2PEGEVd8eNu4D
-RjDyqzauP8nNtglzgwCUBl1U8amMWMWWwQ+TGsaNutppmNf+x+7dZ9Vz4V3B2aCz
-r+gt/fetvmX0rKcGvlnHKjOKYHEFHo95pWU7ygym1Fevri2u1nj0ZOTR8UpgBIpq
-aiDEsgCVjng1nfLuBBDdUDlCkukkWopGy0+d8Jgxtmqxt5RbkYuWYGHOckvsV+I/
-xIN7ja6ufiTKaSuwfVPqHW3WSD5yS2caO6ZOYiheRvQcLDn1t/x4d1Qy18XPlRRa
-9DxllHsN
-=LNH9
+iQGzBAABCAAdFiEEr85y3hWmSiD55zG7yNENIf3LQFoFAmLYtnIACgkQyNENIf3L
+QFp8jgv+Oy+Y8eAtxVL/7o2mAa2mJkJBwes8z6EvJz0KRL8mq6jEHMgt6xGAY47q
+LMz93oZ4YIFPqa92Q1VM1UCapsgnrxGWKUyjLvUkxTmEjI0j1Bly26B8fGa23kui
+ZgKu5ChZdt1WKU5D2ZoZq/7bteP+Hm83YnU/n5cm4eN12HvKv5JWl5rU4xpo00xO
+kOb4r0j57aGYJQ4XHWU6OmkEkm6cRq4YnNwj3F/lguYb+fatV3E2q3gYRWIoXyPh
+8BOSehQQBApxbdaU4naR8sNVMUefgll4UnVas/kUeZLzJXbZ7gYSoyNgSjMnI+Z0
+WHYiOsyENVGe54ippkRjFkBGuqS76QsBHjtz+D0M3NEXxRXFONZuhBnjXiuu96W8
+o8SqmnEAZz5T8u5iJBdiQppreiP99Tn0UzYo2J7TyU1ETOnoNJcQRwCcdLCtjntV
+wPK2T2WVImPPUFotzyYbX4smZuIciZr39EZ2FvOx9oUNXC+06LenpPgIocp/qvlH
+mvqiUnGt
+=LX8X
 -----END PGP SIGNATURE-----
 
 ```
 
 请获取本文档源码，将`<!--Main Content Starts Here-->`和`<!--Main Content Ends Here-->`之间的部分使用`UTF-8`编码保存为`disclaimer.md`，并使用`disclaimer.md.asc`验证签名。
+
+Sunset的公钥可以在其个人网站主页找到。
