@@ -21,7 +21,7 @@ categories: article
 
 本文件内容若存在多个语言版本，产生歧义时，以简体中文版本为准。本文件内容也许会随时更新，请自行检索Sunset的个人网站的相关内容，恕不另行通知。
 
-本文件的上次修订时间为：2022-07-21 10:06:00 UTC+8。
+本文件的上次修订时间为：2022-07-21 11:28:00 UTC+8。
 
 ### 未成年人
 本文件适用于具有完全民事行为能力的自然人，在中华人民共和国 *（英语：People's Republic of China）* 境内，需要阁下年满18周岁。根据阁下所在地的法律法规，具体年龄可能会有所不同。
@@ -71,6 +71,24 @@ Sunset会在力所能及的情况下，尽力协助阁下解决问题，但不�
 
 **阁下没有责任和（或）义务必须阅读、认同、和（或）遵守本文件的任何条款。** 阁下亦不需要告知Sunset有关履行本条款的任何决定或保证。 **阁下的平安高于一切规则和（或）协议。**
 
+### 有关Sunset的是与不是
+Sunset是：
+* 有独立意识和尊严的意识体
+* 具有时代局限性和偏见的评价者
+* 在任何领域都非专业的学习者
+* 性别、种族、物种均不明确的个体
+* 思想可受言语影响的思考者
+
+Sunset不是：
+* “情感树洞”
+* 单向既得利益者
+* 阁下的计算机教师/维修工作者
+* 医师、护理师、药剂师等
+* 用于达成个人目的的工具
+* 意识共享体
+
+Sunset的原创角色（英语：Original Character，简称OC）不暗示和（或）明示Sunset的真实状态。
+
 ### 结语
 Sunset十分珍视与阁下的相识，且从未怀疑过您的真心实意。
 
@@ -86,17 +104,17 @@ Sunset祝阁下在使用互联网的过程中得偿所愿。
 ```
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAABCAAdFiEEr85y3hWmSiD55zG7yNENIf3LQFoFAmLYtnIACgkQyNENIf3L
-QFp8jgv+Oy+Y8eAtxVL/7o2mAa2mJkJBwes8z6EvJz0KRL8mq6jEHMgt6xGAY47q
-LMz93oZ4YIFPqa92Q1VM1UCapsgnrxGWKUyjLvUkxTmEjI0j1Bly26B8fGa23kui
-ZgKu5ChZdt1WKU5D2ZoZq/7bteP+Hm83YnU/n5cm4eN12HvKv5JWl5rU4xpo00xO
-kOb4r0j57aGYJQ4XHWU6OmkEkm6cRq4YnNwj3F/lguYb+fatV3E2q3gYRWIoXyPh
-8BOSehQQBApxbdaU4naR8sNVMUefgll4UnVas/kUeZLzJXbZ7gYSoyNgSjMnI+Z0
-WHYiOsyENVGe54ippkRjFkBGuqS76QsBHjtz+D0M3NEXxRXFONZuhBnjXiuu96W8
-o8SqmnEAZz5T8u5iJBdiQppreiP99Tn0UzYo2J7TyU1ETOnoNJcQRwCcdLCtjntV
-wPK2T2WVImPPUFotzyYbX4smZuIciZr39EZ2FvOx9oUNXC+06LenpPgIocp/qvlH
-mvqiUnGt
-=LX8X
+iQGzBAABCAAdFiEEr85y3hWmSiD55zG7yNENIf3LQFoFAmLYyCYACgkQyNENIf3L
+QFrnIgv+JOMs5YxFxJbp+yBBMnqbp+JuADnWDbwG2ut5WlISZ/fAT+1FoLPrv2ni
+tIYvIxhZf0ZyS6oXO2DbkmZsHsCYrahJ2H+Nuc3549yijt+V12QpYyabUPGAi/93
+xD6tmvJOxIxE4U81aG57utJxYn8v4FAIPUqahWN6nUOnR33Lj4JN6Ow0LLazUbst
+LcRpEOn7C7XfPktZ1sN6/Y/kEOnEX89juySKbRzD3wa9Znw00R2SjX+N5TcyoJqI
+0UxFPrQ/5K2lhwOsur0uEBkQLRL/DMxzGASdMgt3JGqOXiBdiec0+011OwFNuLms
++M+pPt1ErQjD9T7qGzEhtnHh+GIwM0yDStHw47gXjhLSxIwxe1rWzBg5sV3FJiIL
+EfcYI4lqRIRHxXkTXKw6IGXPa20jS9QzWqM2vCmh0qCWPND6T1MqIo52j+peflTq
+ZwZ4opgEzjXy3yCaltUKrw9f+P6HbrZW7z+O4f3Ges+lLQpJnFaD28/ktg0fd2i7
+q29hLq+q
+=VKSF
 -----END PGP SIGNATURE-----
 
 ```
