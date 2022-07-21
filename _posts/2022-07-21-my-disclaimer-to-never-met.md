@@ -87,7 +87,7 @@ Sunset不是：
 * 用于达成个人目的的工具
 * 意识共享体
 
-Sunset的原创角色（英语：Original Character，简称OC）不暗示和（或）明示Sunset的真实状态。
+Sunset的原创角色 *（英语：Original Character，简称OC）* 不明示或暗示Sunset的真实状态。
 
 ### 结语
 Sunset十分珍视与阁下的相识，且从未怀疑过您的真心实意。
@@ -104,17 +104,17 @@ Sunset祝阁下在使用互联网的过程中得偿所愿。
 ```
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAABCAAdFiEEr85y3hWmSiD55zG7yNENIf3LQFoFAmLYyCYACgkQyNENIf3L
-QFrnIgv+JOMs5YxFxJbp+yBBMnqbp+JuADnWDbwG2ut5WlISZ/fAT+1FoLPrv2ni
-tIYvIxhZf0ZyS6oXO2DbkmZsHsCYrahJ2H+Nuc3549yijt+V12QpYyabUPGAi/93
-xD6tmvJOxIxE4U81aG57utJxYn8v4FAIPUqahWN6nUOnR33Lj4JN6Ow0LLazUbst
-LcRpEOn7C7XfPktZ1sN6/Y/kEOnEX89juySKbRzD3wa9Znw00R2SjX+N5TcyoJqI
-0UxFPrQ/5K2lhwOsur0uEBkQLRL/DMxzGASdMgt3JGqOXiBdiec0+011OwFNuLms
-+M+pPt1ErQjD9T7qGzEhtnHh+GIwM0yDStHw47gXjhLSxIwxe1rWzBg5sV3FJiIL
-EfcYI4lqRIRHxXkTXKw6IGXPa20jS9QzWqM2vCmh0qCWPND6T1MqIo52j+peflTq
-ZwZ4opgEzjXy3yCaltUKrw9f+P6HbrZW7z+O4f3Ges+lLQpJnFaD28/ktg0fd2i7
-q29hLq+q
-=VKSF
+iQGzBAABCAAdFiEEr85y3hWmSiD55zG7yNENIf3LQFoFAmLYy/sACgkQyNENIf3L
+QFqo7Qv8Dq2UkREDTDegLzMdsFZsW05GR70p8jGjcaiEjYAakR+y9k5gF0aE5CJb
+emAPjsudN55xvklWynGpBNhbO70QOZFlMWumh9FO5Fa0/Lw9/iIRX+BVXL8Kvy/V
+KD7IdC40Vpt7qVu7f0j/OXSQn59Dl+aYo/xw42Ql3nV0mLjnINUM6NN2IsggJ6aH
+nK8Ld4KjpHEusMGgCCreCNb+rqBWD5coRl8DLEhaGAbT9w/F2LHuAuH+XG0EEUE8
+8xebalXrqUsFZleIhUQXEdFZGTqBPdWHLhs86fveSaGHGNB2PACapb+r7tGVYxsB
+oYgC4hgswwD/+eX9HvBsufoYaSIXLTV+kDo9jDLIGq/gHHYPD2G/ao+01e2NwzNf
+puCOYOPsdk0RL9GgFoPAyV9JKGEkUS4aBiCkEZYI4NslBBM536x2JsPAmGBbiJt2
+6J+4y+2ttGAFHLX5ZjeDlS88qlao+m4iZ/lqtBf4OCCKmO2tyWZz9ErrNTXvQSPO
+peEbkys7
+=nz0u
 -----END PGP SIGNATURE-----
 
 ```
