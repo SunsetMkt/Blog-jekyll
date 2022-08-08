@@ -88,3 +88,34 @@ categories: demo
     }
 </script>
 -->
+
+<!--
+    // get all class=name and combine their content with ;
+
+function getAllClass(name) {
+    var all = document.getElementsByClassName(name);
+    var result = "";
+    for (var i = 0; i < all.length; i++) {
+        result += all[i].innerHTML + ";";
+    }
+    return result;
+}
+
+// download string as a file
+
+function download(filename, text) {
+    var element = document.createElement('a');
+    element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+    element.setAttribute('download', filename);
+
+    element.style.display = 'none';
+    document.body.appendChild(element);
+
+    element.click();
+
+    document.body.removeChild(element);
+}
+
+// do it on https://www.cloudflarestatus.com/
+download("cloudflare.txt", getAllClass("name"));
+-->
