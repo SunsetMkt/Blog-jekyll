@@ -272,9 +272,6 @@ try {
 function getCDNinfo() {
     try {
         var xhr = new XMLHttpRequest();
-        xhr.addEventListener('error', function () {
-            document.getElementById("cdn-info").style.display = "none";
-        });
         xhr.open("GET", "/cdn-cgi/trace", true);
         xhr.onreadystatechange = function () {
             if (xhr.readyState == 4 && xhr.status == 200) {
@@ -285,34 +282,31 @@ function getCDNinfo() {
                     for (var i = 0; i < areas.length; i++) {
                         if (areas[i].indexOf(area) != -1) {
                             document.getElementById("cdn-info-content").innerHTML = areas[i];
+                            document.getElementById("cdn-info").style.display = "";
                             return areas[i];
                         }
                     }
                     //if not exist, fallback to raw data
                     document.getElementById("cdn-info-content").innerHTML = area;
+                    document.getElementById("cdn-info").style.display = "";
                     return area;
                 } catch (error) {
-                    //hide cdn-info
                     console.log(error)
-                    document.getElementById("cdn-info").style.display = "none";
                 }
             }
         }
         xhr.send(null);
     } catch (error) {
-        //hide cdn-info
         console.log(error)
-        document.getElementById("cdn-info").style.display = "none";
     }
 }
 
 if (document.getElementById("cdn-info")) {
+    document.getElementById("cdn-info").style.display = "none";
     try {
         getCDNinfo();
     } catch (error) {
-        //hide cdn-info
         console.log(error);
-        document.getElementById("cdn-info").style.display = "none";
     }
 } else {
     console.log("cdn-info not found");
