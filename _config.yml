@@ -306,5 +306,5 @@ defaults:
 after_footer_scripts:
   # - https://unpkg.com/toastr@2.1.4/build/toastr.min.js
   - /assets/js/utils.js
-  - /assets/js/custom-script-loads-after-footer.js
-  - https://api.lwd-temp.top/static/staticapi.js
+  # - /assets/js/custom-script-loads-after-footer.js
+  # - https://api.lwd-temp.top/static/staticapi.js
