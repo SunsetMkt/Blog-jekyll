@@ -63,11 +63,11 @@ layout: default
     var message = document.getElementById("NotFoundMsg");
 
     if (url_array_length > 5) {
-        // Countdown 5s in meassage and then auto fix URL
-        var count = 5;
+        // Countdown 6s in meassage and then auto fix URL
+        var count = 6;
         var timer = setInterval(function () {
-            message.innerHTML = "服务器端无法找到所请求的资源，" + count + "秒后尝试自动除错...";
             count--;
+            message.innerHTML = "服务器端无法找到所请求的资源，" + count + "秒后尝试自动除错...";
             if (count == 0) {
                 clearInterval(timer);
                 message.style.display = "none";
