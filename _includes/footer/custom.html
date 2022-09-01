@@ -73,4 +73,26 @@
 </script>
 -->
 
+<div class="sakana-box"></div>
+<style>
+    html .sakana-box {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        transform-origin: 100% 100%;
+        /* 从右下开始变换 */
+    }
+</style>
+<script src="https://unpkg.com/sakana@1.0.8/html/sakana.min.js"></script>
+<script>
+    // 设定静音
+    Sakana.setMute(true);
+
+    Sakana.init({
+        el: '.sakana-box',     // 启动元素 node 或 选择器
+        scale: .5,                // 缩放倍数
+        canSwitchCharacter: true,      // 允许换角色
+    });
+</script>
+
 <!-- end custom footer snippets -->
