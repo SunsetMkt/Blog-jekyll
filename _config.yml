@@ -105,8 +105,8 @@ analytics:
 # Site Author
 author:
   name             : "Sunset"
-  avatar           : "https://api.lwd-temp.top/api/getGitHubAvatar.php?username=lwd-temp" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "「请为一切不真实之物感到骄傲，因为我们高于这个世界！」"
+  avatar           : "/assets/images/sunset_compressed.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "「用伤害无辜者来掩盖自己的错误是心虚的体现，也永远掩盖不了。」"
   location         : "SCP Foundation Site-CN-34"
   email            : "i@lwd-temp.top"
   links:
