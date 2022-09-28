@@ -1,0 +1,98 @@
+---
+title: "Base16384"
+date: 2022-09-28
+tags: demo 前端 JavaScript Base16384
+categories: demo
+layout: pure
+---
+
+
+<!--https://github.com/shigma/base16384.js-->
+<script>
+    function align(input, output, sWidth, tWidth, sOffset, tOffset) {
+        let offset = 0;
+        let rest = 0;
+        let i = 0, j = 0;
+        const mask = (1 << tWidth) - 1;
+        while (i < input.length) {
+            const char = input[i] - sOffset;
+            offset += sWidth;
+            while (offset >= tWidth) {
+                offset -= tWidth;
+                output[j++] = rest + (char >> offset) + tOffset;
+                if (j === output.length)
+                    return;
+                rest = 0;
+            }
+            rest += (char << (tWidth - offset)) & mask;
+            i++;
+        }
+        if (offset) {
+            output[j++] = rest + tOffset;
+        }
+    }
+    function toUint8Array(source) {
+        return new TextEncoder().encode(source);
+    }
+    function encode(input) {
+        if (typeof input === 'string') {
+            input = toUint8Array(input);
+        }
+        const output = new Uint16Array(Math.ceil(input.length * 4 / 7) + 1);
+        align(input, output, 8, 14, 0, 0x4e00);
+        output[output.length - 1] = input.length % 7 + 0x3d00;
+        return output;
+    }
+    function toUint16Array(source) {
+        const input = new Uint16Array(source.length);
+        for (let i = 0; i < source.length; i++) {
+            input[i] = source.charCodeAt(i);
+        }
+        return input;
+    }
+    function decode(input) {
+        if (typeof input === 'string') {
+            input = toUint16Array(input);
+        }
+        const length = input.length - 1;
+        const residue = (input[length] - 0x3d00) || 7;
+        const output = new Uint8Array(Math.floor((length - 1) / 4) * 7 + residue);
+        align(input, output, 14, 8, 0x4e00, 0);
+        return output;
+    }
+
+    function encode_to_string(input) {
+        return String.fromCharCode(...encode(input));
+    }
+
+    function decode_to_string(input) {
+        return new TextDecoder().decode(decode(input));
+    }
+</script>
+
+
+<h1>Base16384</h1>
+<p><a href="https://github.com/shigma/base16384.js">Source</a></p>
+<!--Input area-->
+<div>
+    <textarea id="input" rows="10" cols="80"></textarea>
+    <!--Encode & Decode Btn-->
+    <div>
+        <button id="encode">Encode</button>
+        <button id="decode">Decode</button>
+    </div>
+    <!--Output area-->
+    <textarea id="output" rows="10" cols="80"></textarea>
+</div>
+<script>
+    const input = document.getElementById('input');
+    const output = document.getElementById('output');
+    const encodeBtn = document.getElementById('encode');
+    const decodeBtn = document.getElementById('decode');
+    encodeBtn.addEventListener('click', () => {
+        output.value = encode_to_string(input.value);
+    });
+    decodeBtn.addEventListener('click', () => {
+        output.value = decode_to_string(input.value);
+    });
+</script>
