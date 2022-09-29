@@ -1,0 +1,83 @@
+<script type="text/javascript" src="/assets/js/zhihuWatermark.js"></script>
+
+<!--Disable Copying-->
+<script>
+    document.oncontextmenu = function () { return false; }
+    document.onselectstart = function () { return false; }
+</script>
+<style>
+    body {
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+</style>
+
+<!--Anti-Devtools-->
+<script type="module">
+    import devtools from '/assets/js/devtools-detect.js'
+
+    function antiDevtools() {
+        // Redirect to /
+        window.location.href = '/';
+        // Clear console
+        console.clear();
+    }
+
+    window.addEventListener('devtoolschange', event => {
+        if (event.detail.isOpen) {
+            antiDevtools();
+        }
+    });
+</script>
+
+
+<!--If noscript, show a fullscreen cover-->
+<noscript>
+    <div class="anti-noscript">
+        <p>Please enable JavaScript.</p>
+    </div>
+    <style>
+        .anti-noscript {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #fff;
+            z-index: 9999;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</noscript>
+
+
+<!--Try to get information from Cloudflare trace-->
+<script>
+    function watermark() {
+        var url = "/cdn-cgi/trace";
+        var xhr = new XMLHttpRequest();
+        xhr.open("GET", url, true);
+        // Get useragent & timestamp
+        var timestamp = new Date().getTime();
+        var oldClassName = insertWatermark("Unloaded", timestamp);
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState == 4) {
+                var trace = xhr.responseText;
+                var ip = trace.split("ip=")[1].split("\n")[0];
+                var ts = trace.split("ts=")[1].split("\n")[0];
+                // Remove class == oldClassName
+                var oldClass = document.getElementsByClassName(oldClassName)[0];
+                oldClass.remove();
+                // Insert new watermark
+                insertWatermark(ip, ts);
+            }
+        }
+        xhr.send();
+    }
+
+    watermark();
+</script>
