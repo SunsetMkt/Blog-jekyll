@@ -5,7 +5,7 @@ tags: 原创角色 Sunset 报妹 Ce-daros Cedaros 同人 转载 R18
 categories: article
 ---
 
-作者：向东\/酒千钟\/风车骑士 \<电子邮箱SHA256:1ca0cadb409d6ed44c039c146a83a39d0581a42c525ed746bad9ade301235804\>
+作者：向东/酒千钟/风车骑士 \<电子邮箱SHA256:1ca0cadb409d6ed44c039c146a83a39d0581a42c525ed746bad9ade301235804\>
 
 本文获得了使用原创角色“Sunset”设定的单独许可，不使用CC协议发布。禁止基于本文的二次创作、商业化使用或转载。
 
