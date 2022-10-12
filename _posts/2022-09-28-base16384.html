@@ -99,6 +99,13 @@ layout: pure
         margin: 0 0 10px;
     }
 
+    h3 {
+        color: #333;
+        font-size: 12px;
+        font-weight: normal;
+        margin: 0 0 10px;
+    }
+
     button {
         background-color: #0088cc;
         border: 1px solid #0077b3;
@@ -143,65 +150,11 @@ layout: pure
     }
 
     a {
-        /*like a button*/
-        background-color: #0088cc;
-        border: 1px solid #0077b3;
-        border-radius: 3px;
-        color: #fff;
-        cursor: pointer;
-        display: block;
-        font-size: 14px;
-        margin: 10px 0;
-        padding: 10px;
-        text-align: center;
+        color: #0088cc;
         text-decoration: none;
     }
 
     a:hover {
-        background-color: #0077b3;
-    }
-
-    a:active {
-        background-color: #006699;
-    }
-
-    /*if class link, normal a*/
-    .link {
-        background-color: transparent;
-        border: none;
-        color: #0088cc;
-        cursor: pointer;
-        display: inline;
-        font-size: 14px;
-        margin: 0;
-        padding: 0;
-        text-align: left;
-        text-decoration: underline;
-    }
-
-    .link:hover {
-        background-color: transparent;
-        border: none;
-        color: #0077b3;
-        cursor: pointer;
-        display: inline;
-        font-size: 14px;
-        margin: 0;
-        padding: 0;
-        text-align: left;
-        text-decoration: underline;
-    }
-
-    .link:active {
-        background-color: transparent;
-        border: none;
-        color: #006699;
-        cursor: pointer;
-        display: inline;
-        font-size: 14px;
-        margin: 0;
-        padding: 0;
-        text-align: left;
         text-decoration: underline;
     }
 
@@ -230,18 +183,21 @@ layout: pure
 <h2>Encode & Decode String</h2>
 <!--Input area-->
 <div>
-    <textarea id="input" rows="10" cols="80"></textarea>
+    <textarea id="input" rows="10" cols="80" placeholder="Encode"></textarea>
     <!--Encode & Decode Btn-->
+    <!--
     <div>
         <button id="encode">Encode</button>
         <button id="decode">Decode</button>
     </div>
+    -->
     <!--Output area-->
-    <textarea id="output" rows="10" cols="80"></textarea>
+    <textarea id="output" rows="10" cols="80" placeholder="Decode"></textarea>
 </div>
 <script>
     const input = document.getElementById('input');
     const output = document.getElementById('output');
+    /**
     const encodeBtn = document.getElementById('encode');
     const decodeBtn = document.getElementById('decode');
     encodeBtn.addEventListener('click', () => {
@@ -250,15 +206,25 @@ layout: pure
     decodeBtn.addEventListener('click', () => {
         output.value = decode_to_string(input.value);
     });
+    **/
+    // Auto encode & decode when input changed
+    input.addEventListener('input', () => {
+        output.value = encode_to_string(input.value);
+    });
+    output.addEventListener('input', () => {
+        input.value = decode_to_string(output.value);
+    });
 </script>
 
 <h2>Encode File to String</h2>
 <!--Upload File & Encode-->
 <div>
+    <h3>Upload File</h3>
     <input type="file" id="file" />
     <button id="encode_file">Encode</button>
     <button id="encode_file_txt">Encode to TXT File</button>
-    <a id="download_encode_txt" download="encode.txt">Download TXT File</a>
+    <a id="download_encode_txt" download="encode.txt" style="display:none;">Download TXT File</a>
+    <h3>Encoded String</h3>
     <textarea id="output_file" rows="10" cols="80"></textarea>
 </div>
 <script>
@@ -291,11 +257,12 @@ layout: pure
 <h2>Decode String to File</h2>
 <!--Decode string to file-->
 <div>
+    <h3>Upload TXT File or Input String</h3>
     <input type="file" id="txt_file" />
     <textarea id="input_file" rows="10" cols="80"></textarea>
     <button id="decode_file">Decode</button>
     <button id="decode_file_txt">Decode From TXT</button>
-    <a id="download" download="file">Download</a>
+    <a id="download" download="file" style="display:none;">Download</a>
 </div>
 <script>
     const inputFile = document.getElementById('input_file');
@@ -307,6 +274,7 @@ layout: pure
         const array = decode(inputFile.value);
         const blob = new Blob([array], { type: 'application/octet-stream' });
         download.href = URL.createObjectURL(blob);
+        download.click();
     });
     decodeFileTxtBtn.addEventListener('click', () => {
         const reader = new FileReader();
