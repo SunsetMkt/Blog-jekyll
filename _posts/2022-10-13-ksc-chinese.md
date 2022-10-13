@@ -19,6 +19,12 @@ Kaspersky Security Cloud是个人认为卡巴斯基系列免费版的最优产�
 kis21.3.10.391abzh-Hans_26153.exe /pPRODUCTTYPE=saas
 ```
 
+或者，在安装程序所在文件夹按下Shift+鼠标右键，选择“在此处打开PowerShell窗口”，输入以下命令：
+
+```powershell
+.\kis21.3.10.391abzh-Hans_26153.exe /pPRODUCTTYPE=saas
+```
+
 运行`install.cmd`文件，即可安装KSC中文版。
 
 注意：使用KSC需要注册账号。
