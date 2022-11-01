@@ -5,18 +5,6 @@ tags: demo 前端 JavaScript
 categories: demo
 ---
 
-```javascript
-//这是一段来自某省青年大学习的陈旧代码
-var b = new Date()
-var day = b.getFullYear() + '-' + (b.getMonth() + 1) + '-' + b.getDate()
-if (day == '2020-4-4') {
-    var style = document.createElement("style");
-    var t = document.createTextNode("html { -webkit-filter: grayscale(100%);-moz-filter: grayscale(100%);-ms-filter: grayscale(100%);-o-filter: grayscale(100%);filter: grayscale(100%);filter: gray; }");
-    style.appendChild(t);
-    document.body.appendChild(style);
-}
-```
-
 优化版
 
 ```javascript

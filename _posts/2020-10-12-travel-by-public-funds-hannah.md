@@ -6,22 +6,6 @@ categories: article
 excerpt: Deleted by the author.
 ---
 
-<script data-cfasync="false" src="/assets/js/geturlargv.js"></script>
-<script data-cfasync="false">
-    var isView = 0;
-</script>
-<script data-cfasync="false">
-    isView = getQueryVariable("show");
-</script>
-<script data-cfasync="false">
-    if (isView == 1) {
-        console.log("show=1 exists.Pass.");
-    } else {
-        console.log("Arg show=1 is NOT in the URL.");
-        window.location.replace("/");
-    }
-</script>
-
 本页内容采用以下授权方式： [Creative Commons Attribution-ShareAlike 3.0 License](http://creativecommons.org/licenses/by-sa/3.0/)
 
 转载自[公款旅游：梅花计划](http://scp-wiki-cn.wikidot.com/travel-by-public-funds-hannah) By [Freedom Koo](http://www.wikidot.com/user:info/freedom-koo)
