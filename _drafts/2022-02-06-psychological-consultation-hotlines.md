@@ -58,3 +58,8 @@ author:
   /**覆写网站副标题，即最顶端的网站主标题下方文字，在_config.yml中subtitle设置**/
   document.getElementsByClassName("site-subtitle")[0].innerHTML="您不必独自面对一切。";
 </script>
+
+<!--
+「虽然我活着也很痛苦，不知道意义何在，但是我知道尽力挽回别人的生命一定不会后悔。」
+https://www.one-among.us/profile/GLaDOSister
+-->
