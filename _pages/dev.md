@@ -2,7 +2,7 @@
 title: "开发人员工具"
 excerpt: "开发人员工具"
 layout: single
-permalink: /dev.html
+permalink: /dev/
 ---
 
 <p class="notice--danger">
