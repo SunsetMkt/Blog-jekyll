@@ -1,6 +1,6 @@
 ---
-title: "开发人员选项"
-excerpt: "开发人员选项"
+title: "开发人员工具"
+excerpt: "开发人员工具"
 layout: single
 permalink: /dev.html
 ---
@@ -9,8 +9,12 @@ permalink: /dev.html
     警告：您清楚您在干什么吗？请在完全理解本页面内容的情况下操作。
 </p>
 <p class="notice--info">
-    使用开发人员选项需要启动JavaScript和LocalStorage支持。
+    使用开发人员工具需要启动JavaScript和LocalStorage支持。
 </p>
+
+------
+
+当前提交：{{ site.github.build_revision }}
 
 ------
 
@@ -18,7 +22,7 @@ permalink: /dev.html
 
 ------
 
-# 开发人员选项
+# 开发人员工具
 
 ## Eruda
 
@@ -45,10 +49,11 @@ URL参数`vconsole=true`
 </div>
 
 <br>
+
 ```html
 <script data-cfasync="false">
 ;(function () {
-    var src = '//fastly.jsdelivr.net/npm/eruda';
+    var src = '//unpkg.com/eruda@latest/eruda.js';
     if (!/eruda=true/.test(window.location) && localStorage.getItem('active-eruda') != 'true') return;
     document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
     document.write('<scr' + 'ipt>eruda.init();</scr' + 'ipt>');
