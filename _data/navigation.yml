@@ -12,8 +12,8 @@ main:
      url: /sitemap/
   # - title: "HBZ"
   #   url: https://xn--fjqz24belequr.lwd-temp.top/
-   - title: "关于我们"
-     url: /article/about-lwd-temp/
+  #  - title: "关于我们"
+  #    url: /article/about-lwd-temp/
    - title: "关于隐私"
      url: /privacy.html
    - title: "导航页"
