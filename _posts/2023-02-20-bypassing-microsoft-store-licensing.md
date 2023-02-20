@@ -17,11 +17,11 @@ categories: article
 
 一些开源项目（如[StoreLib](https://github.com/StoreDev/StoreLib)）和在线服务（如[Microsoft Store - Generation Project](https://store.rg-adguard.net/)）允许用户直接下载应用的appx/appxbundle安装包，而不需要实际购买它们。
 
-下载的安装包可以被直接安装，但若启动应用，将会被提示应用在当前微软账号中不可用（未购买），错误代码`0x803F8001`。
+下载的安装包可以被直接安装，但若启动应用，将会被提示应用在当前微软账号中不可用（未购买），错误代码`0x803F8001`。（我没有找到这个行为的文档，在这里称为“Microsoft Store应用的运行前正版验证”）
 
 通过7-Zip（有时不可靠）或Windows 10 SDK（可通过Visual Studio Installer安装）中的`MakeAppx.exe`工具（[文档](https://learn.microsoft.com/en-us/windows/win32/appxpkg/make-appx-package--makeappx-exe-)）（推荐），可以提取appx/appxbundle安装包内的文件。
 
-通常，我们处理的是appx安装包的提取文件。若是appxbundle，请确定bundle中主要的appx。
+通常，我们处理的是appx安装包的提取文件。若是appxbundle，请确定并提取bundle中主要的appx。
 
 删除提取文件中的`AppxSignature.p7x`。
 
