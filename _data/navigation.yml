@@ -15,6 +15,6 @@ main:
   #  - title: "关于我们"
   #    url: /article/about-lwd-temp/
    - title: "关于隐私"
-     url: /privacy.html
-   - title: "导航页"
-     url: https://navi.lwd-temp.top/
+     url: /privacy
+  #  - title: "导航页"
+  #    url: https://navi.lwd-temp.top/
