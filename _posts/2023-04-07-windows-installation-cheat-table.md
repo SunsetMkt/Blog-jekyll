@@ -1,7 +1,7 @@
 ---
 title: 标准Windows安装速查表
 date: 2023-04-07
-tags: Windows
+tags: Microsoft Windows Office
 categories: article
 ---
 
