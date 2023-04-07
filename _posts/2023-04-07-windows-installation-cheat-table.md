@@ -18,7 +18,7 @@ categories: article
 [Rufus](https://rufus.ie/zh/)
 
 ### Windows 11 OOBE跳过在线账号
-按下`Shift + F10`，在弹出的CMD中执行`oobe\bypassnro`。
+按下`Shift + F10`，在弹出的CMD中执行`oobe\bypassnro`
 
 ## 安装Office
 [Office Tool Plus](https://otp.landian.vip/zh-cn/)
