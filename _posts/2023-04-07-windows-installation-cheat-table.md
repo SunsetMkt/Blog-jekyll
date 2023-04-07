@@ -39,3 +39,12 @@ irm https://massgrave.dev/get | iex
 ```
 
 支持永久数字激活Windows 10/11，KMS激活Windows和Office（包括365，以一种*workaround*的方法）。
+
+或者，
+
+[CMWTAT_Digital_Edition](https://github.com/TGSAN/CMWTAT_Digital_Edition)
+
+有漂亮的GUI，并且可以切换Windows授权版本。
+
+> 两者可以结合使用，`CMWTAT_Digital_Edition`切换版本和激活Windows，`Microsoft-Activation-Scripts`KMS激活Office。
+
