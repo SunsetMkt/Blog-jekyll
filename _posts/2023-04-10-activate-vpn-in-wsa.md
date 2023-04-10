@@ -11,12 +11,16 @@ categories: article
 
 启动WSA的开发人员模式后，使用`adb`连接WSA。
 
-执行：
+执行`adb shell`。
 
 ```shell
 adb shell
+```
 
-appops set example.package.name ACTIVATE_VPN allow
+在连接到Android Shell之后，执行`appops set example.package.name ACTIVATE_VPN allow`。
+
+```shell
+windows_x86_64:/ $ appops set example.package.name ACTIVATE_VPN allow
 ```
 
 （将`example.package.name`替换成需要授权的应用程序包名）
