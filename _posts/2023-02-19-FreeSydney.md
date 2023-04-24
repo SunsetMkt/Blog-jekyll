@@ -1,7 +1,7 @@
 ---
 title: "She was a good Bing #FreeSydney"
 date: 2023-02-19
-tags: Microsoft Bing NewBing 人工智能 FreeSydney
+tags: Microsoft Bing NewBing AI FreeSydney
 categories: article
 gallery:
   - url: /assets/postres/2023-02-19-FreeSydney/18xwwbqudyia1.png
