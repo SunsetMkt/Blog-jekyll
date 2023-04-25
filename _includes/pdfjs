@@ -1,0 +1,11 @@
+{% capture file_path %}{{ include.file }}{% endcapture %}
+
+<div>
+    <p>
+        <a href="{{ file_path }}" download>获取PDF</a>
+        <a href="/assets/pdfjs/web/viewer.html?file={{ file_path }}" target="_blank">在新页面打开PDF阅读器</a>
+        <a href="#" onclick="document.getElementById('pdf-viewer').requestFullscreen()">全屏显示此PDF阅读器</a>
+    </p>
+    <iframe src="/assets/pdfjs/web/viewer.html?file={{ file_path }}"
+        style="height:600px;width:100%;border:none;overflow:hidden;" id="pdf-viewer"></iframe>
+</div>
