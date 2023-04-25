@@ -9,4 +9,12 @@ categories: article
 
 [获取PDF](/assets/postres/2023-04-25-pinduoduo_backdoor_detailed_report/report_cn.pdf)
 
-<embed src="/assets/postres/2023-04-25-pinduoduo_backdoor_detailed_report/report_cn.pdf" width="100%" height="auto" alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">
+<div>
+    <p>
+        <a
+            href="/assets/pdfjs/web/viewer.html?file=/assets/postres/2023-04-25-pinduoduo_backdoor_detailed_report/report_cn.pdf">在新页面打开PDF阅读器</a>
+    </p>
+    <iframe
+        src="/assets/pdfjs/web/viewer.html?file=/assets/postres/2023-04-25-pinduoduo_backdoor_detailed_report/report_cn.pdf"
+        style="height:600px;width:100%;border:none;overflow:hidden;"></iframe>
+</div>
