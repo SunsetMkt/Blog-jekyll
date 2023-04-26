@@ -1,11 +1,10 @@
-{% capture file_path %}{{ include.file }}{% endcapture %}
-
+{% assign unique_id = include.file | replace: '/', '_' | replace: '.', '_' | replace: ' ', '_' | replace: '#', '_' | replace: '?', '_' | replace: '\', '_' | %}
 <div>
     <p>
-        <a href="{{ file_path }}" download>获取PDF</a>
-        <a href="/assets/pdfjs/web/viewer.html?file={{ file_path }}" target="_blank">在新页面打开PDF阅读器</a>
-        <a href="#" onclick="document.getElementById('pdf-viewer').requestFullscreen()">全屏显示此PDF阅读器</a>
+        <a href="{{ include.file }}" download>获取PDF</a>
+        <a href="/assets/pdfjs/web/viewer.html?file={{ include.file }}" target="_blank">在新页面打开PDF阅读器</a>
+        <a href="#" onclick="document.getElementById('{{ unique_id }}').requestFullscreen()">全屏显示此PDF阅读器</a>
     </p>
-    <iframe src="/assets/pdfjs/web/viewer.html?file={{ file_path }}"
-        style="height:600px;width:100%;border:none;overflow:hidden;" id="pdf-viewer"></iframe>
+    <iframe src="/assets/pdfjs/web/viewer.html?file={{ include.file }}"
+        style="height:600px;width:100%;border:none;overflow:hidden;" id="{{ unique_id }}"></iframe>
 </div>
