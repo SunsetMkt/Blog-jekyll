@@ -5,6 +5,15 @@ tags:  EndNote 版权争议
 categories: article
 ---
 
+<div>
+    <style>
+        body {
+            /* Blur */
+            filter: blur(5px);
+        }
+    </style>
+</div>
+
 ## 基于CyberChef的简单字符串的非对称加密
 使用CyberChef可以实现简单字符串的非对称加密，例子如下：
 
