@@ -12,6 +12,15 @@ categories: article
 
 您可使用[AigioL/OpenInternetExplorer](https://github.com/AigioL/OpenInternetExplorer)。
 
+您的UserAgent信息如下:
+
+<div>
+    <p id="useragent"></p>
+    <script>
+        document.getElementById("useragent").innerHTML = navigator.userAgent;
+    </script>
+</div>
+
 ## Flash
 最初的Flash Player已于2021年1月12日停用，但Adobe在中国授权**重庆重橙网络科技有限公司**代理Flash Player并提供官方更新。
 
@@ -20,3 +29,24 @@ categories: article
 [CleanFlash](https://gitlab.com/cleanflash/installer)是基于Flash Player中国版、去除了广告软件的Flash Player安装工具。
 
 即使您成功安装了Flash Player，大多数现代浏览器也禁止使用它。
+
+<div>
+    <p id="hasflash"></p>
+    <script>
+        // https://stackoverflow.com/a/20095467/20675299
+        var hasFlash = false;
+        try {
+            var fo = new ActiveXObject('ShockwaveFlash.ShockwaveFlash');
+            if (fo) {
+                hasFlash = true;
+            }
+        } catch (e) {
+            if (navigator.mimeTypes
+                && navigator.mimeTypes['application/x-shockwave-flash'] != undefined
+                && navigator.mimeTypes['application/x-shockwave-flash'].enabledPlugin) {
+                hasFlash = true;
+            }
+        }
+        document.getElementById('hasflash').innerHTML = hasFlash ? 'Flash已安装（或正在使用Flash的替代方案）' : 'Flash未安装';
+    </script>
+</div>
