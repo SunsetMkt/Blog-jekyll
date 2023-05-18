@@ -12,7 +12,6 @@ permalink: /privacy/
 * 本站的部分媒体资源引用自Bilibili、Netease和其他可能的服务提供者
 * 本站使用Google Analytics
 * 本站使用FontAwesome提供的字体CDN
-* 网站群采用的服务详见[状态页](https://status.lwd-temp.top/)
 * 访问本站将被上述服务提供者记录包括但不限于IP地址、UserAgent、设备信息在内的用户信息且不受网站管理人员限制
 
 # Cookies
