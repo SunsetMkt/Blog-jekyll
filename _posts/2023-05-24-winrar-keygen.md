@@ -34,8 +34,6 @@ categories: article
 [Data2-inlined]: http://latex.codecogs.com/svg.latex?%5Cinline%20Data%5E2
 [Data3-inlined]: http://latex.codecogs.com/svg.latex?%5Cinline%20Data%5E3
 
-# "rarreg.key"是如何生成的？
-
 WinRAR 使用了基于 ECC 的签名算法来生成 `rarreg.key` 文件，其使用的签名算法是中国 SM2 数字签名算法的变体。与各种标准 ECDSA 不同的是，WinRAR 使用的椭圆曲线是一个基于复合域 ![GF2p15p17-inlined] 上的曲线。
 
 ## 1. 复合域 ![GF2p15p17-inlined]
@@ -49,13 +47,13 @@ WinRAR 使用了基于 ECC 的签名算法来生成 `rarreg.key` 文件，其使
 各项系数全部位于 ![GF2-inlined]。设基域的标准基为：
 
 <p align="center">
-    <img src="http://latex.codecogs.com/svg.latex?B_1%3D%5C%7B1%2C%5Calpha%2C%5Calpha%5E2%2C%5Cldots%2C%5Calpha%5E%7B14%7D%5C%7D")
+    <img src="http://latex.codecogs.com/svg.latex?B_1%3D%5C%7B1%2C%5Calpha%2C%5Calpha%5E2%2C%5Cldots%2C%5Calpha%5E%7B14%7D%5C%7D">
 </p>
 
 则位于基域 ![GF2p15-inlined] 上的元素 ![A-inlined] 可以用如下方式表达：
 
 <p align="center">
-    <img src="http://latex.codecogs.com/svg.latex?A%3D%5Csum_%7Bi%3D0%7D%5E%7B14%7Da_i%5Calpha%5Ei%20%5Cquad%20%5Cquad%20%5Cquad%20a_i%5Cin%5Ctextrm%7BGF%7D%282%29")
+    <img src="http://latex.codecogs.com/svg.latex?A%3D%5Csum_%7Bi%3D0%7D%5E%7B14%7Da_i%5Calpha%5Ei%20%5Cquad%20%5Cquad%20%5Cquad%20a_i%5Cin%5Ctextrm%7BGF%7D%282%29">
 </p>
 
 ---
@@ -63,19 +61,19 @@ WinRAR 使用了基于 ECC 的签名算法来生成 `rarreg.key` 文件，其使
 复合域 ![GF2p15p17-inlined] 的不可约多项式为：
 
 <p align="center">
-    <img src="http://latex.codecogs.com/svg.latex?Q%28%5Cbeta%29%3D%5Cbeta%5E%7B17%7D&plus;%5Cbeta%5E3&plus;1")
+    <img src="http://latex.codecogs.com/svg.latex?Q%28%5Cbeta%29%3D%5Cbeta%5E%7B17%7D&plus;%5Cbeta%5E3&plus;1">
 </p>
 
 各项系数全部位于 ![GF2p15-inlined]。设复合域的标准基为：
 
 <p align="center">
-    <img src="http://latex.codecogs.com/svg.latex?B_2%3D%5C%7B1%2C%5Cbeta%2C%5Cbeta%5E2%2C%5Cldots%2C%5Cbeta%5E%7B16%7D%5C%7D")
+    <img src="http://latex.codecogs.com/svg.latex?B_2%3D%5C%7B1%2C%5Cbeta%2C%5Cbeta%5E2%2C%5Cldots%2C%5Cbeta%5E%7B16%7D%5C%7D">
 </p>
 
 则位于复合域 ![GF2p15p17-inlined] 上的元素 ![B-inlined] 可以用如下方式表达：
 
 <p align="center">
-    <img src="http://latex.codecogs.com/svg.latex?B%3D%5Csum_%7Bj%3D0%7D%5E%7B16%7D%28%5Csum_%7Bi%3D0%7D%5E%7B14%7Da_%7Bj%2Ci%7D%5Calpha%5Ei%29%5Cbeta%5Ej%3D%5Csum_%7Bj%3D0%7D%5E%7B16%7D%5Csum_%7Bi%3D0%7D%5E%7B14%7Da_%7Bj%2Ci%7D%5Calpha%5Ei%5Cbeta%5Ej%20%5Cquad%20%5Cquad%20%5Cquad%20a_%7Bj%2Ci%7D%5Cin%5Ctextrm%7BGF%7D%282%29")
+    <img src="http://latex.codecogs.com/svg.latex?B%3D%5Csum_%7Bj%3D0%7D%5E%7B16%7D%28%5Csum_%7Bi%3D0%7D%5E%7B14%7Da_%7Bj%2Ci%7D%5Calpha%5Ei%29%5Cbeta%5Ej%3D%5Csum_%7Bj%3D0%7D%5E%7B16%7D%5Csum_%7Bi%3D0%7D%5E%7B14%7Da_%7Bj%2Ci%7D%5Calpha%5Ei%5Cbeta%5Ej%20%5Cquad%20%5Cquad%20%5Cquad%20a_%7Bj%2Ci%7D%5Cin%5Ctextrm%7BGF%7D%282%29">
 </p>
 
 ---
@@ -83,7 +81,7 @@ WinRAR 使用了基于 ECC 的签名算法来生成 `rarreg.key` 文件，其使
 为了方便表述我们用255比特的大数 ![D-inlined] 来表示位于复合域 ![GF2p15p17-inlined] 上的元素 ![B-inlined]。它们的对应关系为：
 
 <p align="center">
-    <img src="http://latex.codecogs.com/svg.latex?B%3D%5Csum_%7Bj%3D0%7D%5E%7B16%7D%5Csum_%7Bi%3D0%7D%5E%7B14%7Da_%7Bj%2Ci%7D%5Calpha%5Ei%5Cbeta%5Ej%20%5Cleftrightarrow%20D%3D%5Csum_%7Bj%3D0%7D%5E%7B16%7D%5Csum_%7Bi%3D0%7D%5E%7B14%7Da_%7Bj%2Ci%7D%5Ccdot%202%5E%7B15j&plus;i%7D")
+    <img src="http://latex.codecogs.com/svg.latex?B%3D%5Csum_%7Bj%3D0%7D%5E%7B16%7D%5Csum_%7Bi%3D0%7D%5E%7B14%7Da_%7Bj%2Ci%7D%5Calpha%5Ei%5Cbeta%5Ej%20%5Cleftrightarrow%20D%3D%5Csum_%7Bj%3D0%7D%5E%7B16%7D%5Csum_%7Bi%3D0%7D%5E%7B14%7Da_%7Bj%2Ci%7D%5Ccdot%202%5E%7B15j&plus;i%7D">
 </p>
 
 ## 2. 复合域 ![GF2p15p17-inlined] 上的椭圆曲线
@@ -91,19 +89,19 @@ WinRAR 使用了基于 ECC 的签名算法来生成 `rarreg.key` 文件，其使
 曲线方程为：
 
 <p align="center">
-    <img src="http://latex.codecogs.com/svg.latex?y%5E2&plus;xy%3Dx%5E3&plus;161%20%5Cquad%20%5Cquad%20%5Cquad%20161%5Cin%5Ctextrm%7BGF%7D%28%282%5E%7B15%7D%29%5E%7B17%7D%29")
+    <img src="http://latex.codecogs.com/svg.latex?y%5E2&plus;xy%3Dx%5E3&plus;161%20%5Cquad%20%5Cquad%20%5Cquad%20161%5Cin%5Ctextrm%7BGF%7D%28%282%5E%7B15%7D%29%5E%7B17%7D%29">
 </p>
 
 基点 ![G-inlined] 为：
 
 <p align="center">
-    <img src="http://latex.codecogs.com/svg.latex?%5Cbegin%7Baligned%7D%20G%26%3D%28G_x%2CG_y%29%20%5C%5C%20G_x%26%3D%5Ctextrm%7B0x56fdcbc6a27acee0cc2996e0096ae74feb1acf220a2341b898b549440297b8cc%7D%20%5Cquad%20G_x%5Cin%5Ctextrm%7BGF%7D%28%282%5E%7B15%7D%29%5E%7B17%7D%29%5C%5C%20G_y%26%3D%5Ctextrm%7B0x20da32e8afc90b7cf0e76bde44496b4d0794054e6ea60f388682463132f931a7%7D%20%5Cquad%20G_y%5Cin%5Ctextrm%7BGF%7D%28%282%5E%7B15%7D%29%5E%7B17%7D%29%20%5Cend%7Baligned%7D")
+    <img src="http://latex.codecogs.com/svg.latex?%5Cbegin%7Baligned%7D%20G%26%3D%28G_x%2CG_y%29%20%5C%5C%20G_x%26%3D%5Ctextrm%7B0x56fdcbc6a27acee0cc2996e0096ae74feb1acf220a2341b898b549440297b8cc%7D%20%5Cquad%20G_x%5Cin%5Ctextrm%7BGF%7D%28%282%5E%7B15%7D%29%5E%7B17%7D%29%5C%5C%20G_y%26%3D%5Ctextrm%7B0x20da32e8afc90b7cf0e76bde44496b4d0794054e6ea60f388682463132f931a7%7D%20%5Cquad%20G_y%5Cin%5Ctextrm%7BGF%7D%28%282%5E%7B15%7D%29%5E%7B17%7D%29%20%5Cend%7Baligned%7D">
 </p>
 
 基点 ![G-inlined] 的阶 ![n-inlined] 为：
 
 <p align="center">
-    <img src="http://latex.codecogs.com/svg.latex?n%3D%5Ctextrm%7B0x1026dd85081b82314691ced9bbec30547840e4bf72d8b5e0d258442bbcd31%7D%20%5Cquad%20n%5Cin%5Cnolinebreak%5Cmathbb%7BZ%7D")
+    <img src="http://latex.codecogs.com/svg.latex?n%3D%5Ctextrm%7B0x1026dd85081b82314691ced9bbec30547840e4bf72d8b5e0d258442bbcd31%7D%20%5Cquad%20n%5Cin%5Cnolinebreak%5Cmathbb%7BZ%7D">
 </p>
 
 ## 3. 消息哈希算法
@@ -111,13 +109,13 @@ WinRAR 使用了基于 ECC 的签名算法来生成 `rarreg.key` 文件，其使
 设长度为 ![l-inlined] 的消息为：
 
 <p align="center">
-    <img src="http://latex.codecogs.com/svg.latex?M%3Dm_0m_1%20%5Cldots%20m_%7Bl-1%7D%20%5Cquad%20%5Cquad%20m_i%5Cin%5B0%2C%20256%29")
+    <img src="http://latex.codecogs.com/svg.latex?M%3Dm_0m_1%20%5Cldots%20m_%7Bl-1%7D%20%5Cquad%20%5Cquad%20m_i%5Cin%5B0%2C%20256%29">
 </p>
 
 则消息 ![M-inlined] 的SHA1值为：
 
 <p align="center">
-    <img src="http://latex.codecogs.com/svg.latex?%5Ctextrm%7BSHA%7D_1%28M%29%3DS_0%7C%7CS_1%7C%7CS_2%7C%7CS_3%7C%7CS_4%20%5Cquad%20%5Cquad%20S_i%5Cin%5B0%2C%202%5E%7B32%7D%29")
+    <img src="http://latex.codecogs.com/svg.latex?%5Ctextrm%7BSHA%7D_1%28M%29%3DS_0%7C%7CS_1%7C%7CS_2%7C%7CS_3%7C%7CS_4%20%5Cquad%20%5Cquad%20S_i%5Cin%5B0%2C%202%5E%7B32%7D%29">
 </p>
 
 其中 ![](http://latex.codecogs.com/svg.latex?%5Cinline%20S_0%2CS_1%2CS_2%2CS_3%2CS_4) 为SHA1算法输出时的5个状态值；将这5个状态值按照大端字节序依次输出，即为的SHA1哈希值 ![](http://latex.codecogs.com/svg.latex?%5Cinline%20%5Ctextrm%7BSHA%7D_1%28M%29)。
@@ -125,7 +123,7 @@ WinRAR 使用了基于 ECC 的签名算法来生成 `rarreg.key` 文件，其使
 WinRAR在做完SHA1计算后，采用大数 ![h-inlined] 作为ECC签名时消息的哈希：
 
 <p align="center">
-    <img src="http://latex.codecogs.com/svg.latex?h%3D%28%5Csum_%7Bi%3D0%7D%5E%7B4%7DS_i%20%5Ccdot%202%5E%7B32i%7D%29&plus;%5Ctextrm%7B0x1bd10xb4e33c7c0ffd8d43%7D%20%5Ccdot%202%5E%7B32*5%7D")
+    <img src="http://latex.codecogs.com/svg.latex?h%3D%28%5Csum_%7Bi%3D0%7D%5E%7B4%7DS_i%20%5Ccdot%202%5E%7B32i%7D%29&plus;%5Ctextrm%7B0x1bd10xb4e33c7c0ffd8d43%7D%20%5Ccdot%202%5E%7B32*5%7D">
 </p>
 
 
@@ -134,7 +132,7 @@ WinRAR在做完SHA1计算后，采用大数 ![h-inlined] 作为ECC签名时消�
 设私钥为 ![k-inlined]，公钥为 ![P-inlined]，即：
 
 <p align="center">
-    <img src="http://latex.codecogs.com/svg.latex?P%3Dk%20%5Ccdot%20G")
+    <img src="http://latex.codecogs.com/svg.latex?P%3Dk%20%5Ccdot%20G">
 </p>
 
 消息哈希为 ![h-inlined]，则签名 ![](http://latex.codecogs.com/svg.latex?%5Cinline%20%28r%2Cs%29) 为：
