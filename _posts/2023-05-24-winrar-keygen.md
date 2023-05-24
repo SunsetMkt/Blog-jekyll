@@ -324,3 +324,9 @@ WinRAR的私钥 ![k-inlined] 为：
       </p>
 
     * 将 ![Data-inlined] 按照每行54个字符输出。
+
+
+## 拓展阅读
+[winrar-keygen](https://github.com/bitcookies/winrar-keygen)
+
+[WinRAR-Extractor](https://github.com/lvtx/WinRAR-Extractor)
