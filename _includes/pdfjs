@@ -4,6 +4,7 @@
         <a href="{{ include.file }}" download>获取PDF</a>
         <a href="/assets/pdfjs/web/viewer.html?file={{ include.file }}" target="_blank">在新页面打开PDF阅读器</a>
         <a href="#" onclick="document.getElementById('{{ unique_id }}').requestFullscreen()">全屏显示此PDF阅读器</a>
+        <a href="#" onclick="window.open('/assets/pdfjs/web/viewer.html?file={{ include.file }}', '_blank', 'toolbar=yes,scrollbars=no,resizable=yes');">小窗打开PDF阅读器</a>
     </p>
     <iframe src="/assets/pdfjs/web/viewer.html?file={{ include.file }}"
         style="height:600px;width:100%;border:none;overflow:hidden;" id="{{ unique_id }}"></iframe>
