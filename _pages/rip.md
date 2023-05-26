@@ -1,6 +1,7 @@
 ---
-layout: single
 title: "永恒的代码：纪念我们的同仁"
+excerpt: "谨以此页面纪念那些贡献过代码、分享过知识、影响过他人的同仁。"
+layout: single
 permalink: /rip/
 QianMo:
   - url: /assets/postres/rip/QianMo.jpg
