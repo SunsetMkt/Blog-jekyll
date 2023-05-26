@@ -16,6 +16,8 @@ permalink: /dev/
 
 当前提交：{{ site.github.build_revision }}
 
+当前构建随机码：{% include random %}
+
 ------
 
 [Jekyll主题参考文档](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
