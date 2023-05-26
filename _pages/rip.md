@@ -12,8 +12,8 @@ HomoYamakaze:
     image_path: /assets/postres/rip/HomoYamakaze-1.jpg
     alt: "HomoYamakaze"
     title: "Via [One Among Us](https://one-among.us/profile/homoyamakaze/)"
-  - url: /assets/postres/rip/HomoYamakaze-2.jpg
-    image_path: /assets/postres/rip/HomoYamakaze-2.jpg
+  - url: /assets/postres/rip/HomoYamakaze-2.png
+    image_path: /assets/postres/rip/HomoYamakaze-2.png
     alt: "HomoYamakaze"
     title: "Via [One Among Us](https://one-among.us/profile/homoyamakaze/)"
   - url: /assets/postres/rip/HomoYamakaze-3.jpg
