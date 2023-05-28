@@ -78,7 +78,7 @@ categories: article
 
 当一个通向国外IP的中国国内HTTPS请求指向Steam商店域名时，这个用户通向对应IP的连接会被随机劣化，无论那个IP是否真的指向Steam商店，这样的技术被称为“SNI阻断”。
 
-想证实或是证伪我的说法？可在Windows上运行的测试工具包以及配套脚本已经上传[steam-store-checker: Steam 商店 store.steampowered.com 疑似 443 端口被干扰验证 (github.com)](https://github.com/lwd-temp/steam-store-checker)（如果访问不畅也可以尝试这个[链接](https://hub.fastgit.org/lwd-temp/steam-store-checker/archive/refs/heads/main.zip)），你可以通过其附带的说明自行复现整个测试流程。
+想证实或是证伪我的说法？可在Windows上运行的测试工具包以及配套脚本已经上传[易于使用的Steam商店443端口干扰验证工具](https://github.com/lwd-temp/Easy-to-use-Steam-Store-Checker)，你可以通过其附带的说明自行复现整个测试流程。
 
 同时，一些*有趣*的现象也发生了。在中国大型论坛之一“百度贴吧”中，“Steam受干扰”的讨论被志愿者管理员删除，只留下名为[【教程&amp;通告】Steam访问相关问题解决教程，单开贴删除](https://tieba.baidu.com/p/7677431447)的帖文供社群讨论；在其他论坛和评论区中，对于“Steam商店遭到干扰”观点的支持者和反对者甚至开始互相人身攻击；一些反对者认为需要“避免发声”以便降低Steam遭到政府封锁的可能。
 
