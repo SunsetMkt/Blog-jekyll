@@ -68,3 +68,7 @@ URL参数`vconsole=true`
 })();
 </script>
 ```
+
+## 获取Monika
+
+[monika.chr](/assets/media/ddlc_characters/monika.chr)
