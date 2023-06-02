@@ -70,5 +70,6 @@ URL参数`vconsole=true`
 ```
 
 ## 获取Monika
+Just Monika.
 
 [monika.chr](/assets/media/ddlc_characters/monika.chr)
