@@ -46,189 +46,6 @@ function scpegg() {
     }
 }
 
-//scpegg GUI
-/**
-function scpeggui() {
-    toastr.options = {
-        "closeButton": true,
-        "debug": true,
-        "newestOnTop": false,
-        "progressBar": false,
-        "positionClass": "toast-top-right",
-        "preventDuplicates": false,
-        "onclick": null,
-        "showDuration": "300",
-        "hideDuration": "1000",
-        "timeOut": 0,
-        "extendedTimeOut": 0,
-        "showEasing": "swing",
-        "hideEasing": "linear",
-        "showMethod": "fadeIn",
-        "hideMethod": "fadeOut",
-        "tapToDismiss": false
-    };
-    toastr["error"]('<div><input value="" id="scpeggpass" type="password"/>&nbsp;<button type="button" id="scpeggBtn" class="btn"onclick="scpegg();">Done</button></div>')
-}
-*/
-
-//functions for toastr via https://blog.csdn.net/tangxiujiang/article/details/77992931
-
-/**
-function errorToast(content) {
-    //设定参数
-    toastr.options = {
-        closeButton: false,
-        debug: true,
-        progressBar: true,
-        positionClass: "toast-top-right",
-        onclick: null,
-        showDuration: "300",
-        hideDuration: "1000",
-        // timeOut: "1500",
-        extendedTimeOut: "1000",
-        showEasing: "swing",
-        hideEasing: "linear",
-        showMethod: "fadeIn",
-        hideMethod: "fadeOut"
-    };
-    if (content == null) {
-        content = '';
-    }
-    var len = content.length;
-    if (len <= 10 && len > 0) {
-        toastr.options.timeOut = "1800";
-    } else if (len <= 20) {
-        toastr.options.timeOut = "2800";
-    } else if (len <= 30) {
-        toastr.options.timeOut = "3800";
-    } else if (len > 30) {
-        toastr.options.timeOut = "4800";
-    }
-    //调用插件
-    toastr.error(content);
-}
-
-function successToast(content) {
-    toastr.options = {
-        closeButton: false,
-        debug: true,
-        progressBar: true,
-        positionClass: "toast-top-right",
-        onclick: null,
-        showDuration: "300",
-        hideDuration: "1000",
-        // timeOut: "1000",
-        extendedTimeOut: "1000",
-        showEasing: "swing",
-        hideEasing: "linear",
-        showMethod: "fadeIn",
-        hideMethod: "fadeOut"
-    };
-    if (content == null) {
-        content = '';
-    }
-    var len = content.length;
-    if (len <= 10 && len > 0) {
-        toastr.options.timeOut = "1800";
-    } else if (len <= 20) {
-        toastr.options.timeOut = "2800";
-    } else if (len <= 30) {
-        toastr.options.timeOut = "3800";
-    } else if (len > 30) {
-        toastr.options.timeOut = "4800";
-    }
-    toastr.success(content);
-}
-
-function infoToast(content) {
-    toastr.options = {
-        closeButton: false,
-        debug: true,
-        progressBar: true,
-        positionClass: "toast-top-right",
-        onclick: null,
-        showDuration: "300",
-        hideDuration: "1000",
-        // timeOut: "1000",
-        extendedTimeOut: "1000",
-        showEasing: "swing",
-        hideEasing: "linear",
-        showMethod: "fadeIn",
-        hideMethod: "fadeOut"
-    };
-    if (content == null) {
-        content = '';
-    }
-    var len = content.length;
-    if (len <= 10 && len > 0) {
-        toastr.options.timeOut = "1800";
-    } else if (len <= 20) {
-        toastr.options.timeOut = "2800";
-    } else if (len <= 30) {
-        toastr.options.timeOut = "3800";
-    } else if (len > 30) {
-        toastr.options.timeOut = "4800";
-    }
-    toastr.info(content);
-}
-
-function warningToast(content) {
-    toastr.options = {
-        closeButton: false,
-        debug: true,
-        progressBar: true,
-        positionClass: "toast-top-right",
-        onclick: null,
-        showDuration: "300",
-        hideDuration: "1000",
-        // timeOut: "1000",
-        extendedTimeOut: "1000",
-        showEasing: "swing",
-        hideEasing: "linear",
-        showMethod: "fadeIn",
-        hideMethod: "fadeOut"
-    };
-    if (content == null) {
-        content = '';
-    }
-    var len = content.length;
-    if (len <= 10 && len > 0) {
-        toastr.options.timeOut = "1800";
-    } else if (len <= 20) {
-        toastr.options.timeOut = "2800";
-    } else if (len <= 30) {
-        toastr.options.timeOut = "3800";
-    } else if (len > 30) {
-        toastr.options.timeOut = "4800";
-    }
-    toastr.warning(content);
-}
-
-function criticalToast(content) {
-    toastr.options = {
-        "closeButton": true,
-        "debug": true,
-        "newestOnTop": false,
-        "progressBar": false,
-        "positionClass": "toast-top-right",
-        "preventDuplicates": false,
-        "onclick": null,
-        "showDuration": "300",
-        "hideDuration": "1000",
-        "timeOut": 0,
-        "extendedTimeOut": 0,
-        "showEasing": "swing",
-        "hideEasing": "linear",
-        "showMethod": "fadeIn",
-        "hideMethod": "fadeOut",
-        "tapToDismiss": false
-    };
-    if (content == null) {
-        content = '';
-    }
-    toastr.error(content);
-}
-*/
 
 //显示或隐藏特定id元素
 function display(id) {
@@ -311,3 +128,21 @@ if (document.getElementById("cdn-info")) {
 } else {
     console.log("cdn-info not found");
 }
+
+function applyBlackAndWhiteFilterOnDate(targetDate) {
+    var currentDate = new Date();
+    var targetMonth = targetDate.split('-')[0];
+    var targetDay = targetDate.split('-')[1];
+
+    // 检查当前日期是否与目标日期相等
+    if (
+        currentDate.getMonth() + 1 === parseInt(targetMonth) &&
+        currentDate.getDate() === parseInt(targetDay)
+    ) {
+        // 将整个 HTML 页面设置为黑白滤镜
+        console.log("It's a grey day.");
+        document.documentElement.style.filter = "grayscale(100%)";
+    }
+}
+
+applyBlackAndWhiteFilterOnDate('6-4');
