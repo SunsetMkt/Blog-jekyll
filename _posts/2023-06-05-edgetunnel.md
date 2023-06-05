@@ -639,6 +639,10 @@ clash-meta
 
 显然，部分社区成员的言行没有尊重开源项目。
 
-有些观点认为，这个项目会导致Cloudflare被滥用且被中国政府屏蔽，但这显然不是第一次Cloudflare被用于代理用途（或其中的一部分）了，[reflare](https://github.com/xiaoyang-sde/reflare)、[jsproxy](https://github.com/EtherDream/jsproxy)、[siteproxy](https://github.com/netptop/siteproxy)、[cfproxy](https://github.com/DNetL/cfproxy)，还有本文中提到的[edgetunnel](https://github.com/zizifn/edgetunnel)，Cloudflare从未惩罚/删除使用这些项目的用户，真正的加害者到底是谁呢？
+有些观点认为，这个项目会导致Cloudflare被滥用且被中国政府屏蔽，但这显然不是第一次Cloudflare被用于代理用途（或其中的一部分）了，[reflare](https://github.com/xiaoyang-sde/reflare)、[jsproxy](https://github.com/EtherDream/jsproxy)、[siteproxy](https://github.com/netptop/siteproxy)、[cfproxy](https://github.com/DNetL/cfproxy)、[cfp-plus](https://github.com/DNetL/cfp-plus)，还有本文中提到的[edgetunnel](https://github.com/zizifn/edgetunnel)，Cloudflare从未惩罚/删除使用这些项目的用户，真正的加害者到底是谁呢？
+
+又有谁注意到，这些项目对伊朗的用户有多大的意义？
 
 显然，这是一个“底层互害”的滑稽剧。
+
+> 仍然，除非遇到极端情况，从稳定性上考虑，不建议使用Cloudflare Workers作为代理。
