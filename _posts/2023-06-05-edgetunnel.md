@@ -637,4 +637,8 @@ clash-meta
 
 > 删除代码。为了回忆保留项目。我只是出于娱乐、尝试新事物和学习的目的创建这个项目。我甚至没有为这个项目撰写任何外部营销文章。只是为了我自己的乐趣... 但是，我感到受到社区的情感伤害。
 
-显然，部分社区成员的言行没有尊重开源项目。我不深究其中的具体原因和经过，希望所有人引以为戒。
+显然，部分社区成员的言行没有尊重开源项目。
+
+有些观点认为，这个项目会导致Cloudflare被滥用且被中国政府屏蔽，但这显然不是第一次Cloudflare被用于代理用途（或其中的一部分）了，[reflare](https://github.com/xiaoyang-sde/reflare)、[jsproxy](https://github.com/EtherDream/jsproxy)、[siteproxy](https://github.com/netptop/siteproxy)、[cfproxy](https://github.com/DNetL/cfproxy)，还有本文中提到的[edgetunnel](https://github.com/zizifn/edgetunnel)，Cloudflare从未惩罚/删除使用这些项目的用户，真正的加害者到底是谁呢？
+
+显然，这是一个“底层互害”的滑稽剧。
