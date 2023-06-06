@@ -129,7 +129,7 @@ if (document.getElementById("cdn-info")) {
     console.log("cdn-info not found");
 }
 
-function applyBlackAndWhiteFilterOnDate(targetDate) {
+function applyGrayFilterOnDate(targetDate) {
     var currentDate = new Date();
     var targetMonth = targetDate.split('-')[0];
     var targetDay = targetDate.split('-')[1];
@@ -140,9 +140,40 @@ function applyBlackAndWhiteFilterOnDate(targetDate) {
         currentDate.getDate() === parseInt(targetDay)
     ) {
         // 将整个 HTML 页面设置为黑白滤镜
-        console.log("It's a grey day.");
+        console.log("It's a gray day.");
         document.documentElement.style.filter = "grayscale(100%)";
     }
 }
 
-applyBlackAndWhiteFilterOnDate('6-4');
+/**
+ * Returns a hash code from a string
+ * @param  {String} str The string to hash.
+ * @return {Number}    A 32bit integer
+ * @see http://werxltd.com/wp/2010/05/13/javascript-implementation-of-javas-string-hashcode-method/
+ */
+function hashCode(str) {
+    let hash = 0;
+    for (let i = 0, len = str.length; i < len; i++) {
+        let chr = str.charCodeAt(i);
+        hash = (hash << 5) - hash + chr;
+        hash |= 0; // Convert to 32bit integer
+    }
+    return hash;
+}
+
+function applyGrayFilterOnHashedDate(targetHashedDate) {
+    // Accept hashed 'M-D' format
+    var currentDate = new Date();
+    var formattedCurrentDate = (currentDate.getMonth() + 1) + '-' + currentDate.getDate();
+    var hashedFormattedCurrentDate = hashCode(formattedCurrentDate);
+
+    if (
+        hashedFormattedCurrentDate === targetHashedDate
+    ) {
+        // 将整个 HTML 页面设置为黑白滤镜
+        console.log("It's a gray day.");
+        document.documentElement.style.filter = "grayscale(100%)";
+    }
+}
+
+applyGrayFilterOnHashedDate(53341);
