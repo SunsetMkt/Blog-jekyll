@@ -1,3 +1,6 @@
+// https://raw.githubusercontent.com/saucxs/watermark-dom/0922f8c2a258f02afd4f1416635ba86918204074/watermark.js
+// https://raw.githubusercontent.com/saucxs/watermark-dom/dc68b1ac7b057f76aafc34a4ac6c8e4fd92a2ea7/watermark.js
+
 (function (root,factory) {
   if (typeof define === 'function' && define.amd) {
     /*AMD. Register as an anonymous module.
@@ -43,7 +46,7 @@
     monitor:true,                   //monitor 是否监控， true: 不可删除水印; false: 可删水印。
   };
 
-  const MutationObserver = window.MutationObserver || window.WebKitMutationObserver || window.MozMutationObserver;
+  var MutationObserver = window.MutationObserver || window.WebKitMutationObserver || window.MozMutationObserver;
 
   //监听dom是否被移除或者改变属性的回调函数
   var domChangeCallback = function (records){
@@ -69,7 +72,7 @@
     /*采用配置项替换默认值，作用类似jquery.extend*/
     if(arguments.length===1&&typeof arguments[0] ==="object" ){
       var src=arguments[0]||{};
-      for(key in src)
+      for(var key in src)
       {
         if(src[key]&&defaultSettings[key]&&src[key]===defaultSettings[key])continue;
         /*veronic: resolution of watermark_angle=0 not in force*/
@@ -206,7 +209,7 @@
     }
 
     // monitor 是否监控， true: 不可删除水印; false: 可删水印。
-    const minotor = settings.monitor === undefined ? defaultSettings.monitor : settings.monitor;
+    var minotor = settings.monitor === undefined ? defaultSettings.monitor : settings.monitor;
     if (minotor && hasObserver) {
       watermarkDom.observe(watermark_hook_element, option);
       watermarkDom.observe(document.getElementById(defaultSettings.watermark_id).shadowRoot, option);
@@ -283,7 +286,7 @@
       }
     }
   };
-  // const MutationObserver = window.MutationObserver || window.WebKitMutationObserver || window.MozMutationObserver;
+
   var watermarkDom = new MutationObserver(callback);
   var option = {
     'childList': true,
