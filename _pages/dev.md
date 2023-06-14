@@ -16,6 +16,8 @@ permalink: /dev/
 
 当前提交：{{ site.github.build_revision }}
 
+（若`commit hash`不存在，则非GitHub Pages构建，此时utterances不可用）
+
 当前构建随机码：{% include random %}
 
 ------
