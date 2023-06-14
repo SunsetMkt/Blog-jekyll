@@ -5,6 +5,7 @@ tags: demo 前端 JavaScript Cloudflare
 categories: demo
 ---
 
+```html
 <p>当前CDN节点: <span id="cdn"></span></p>
 <script>
     function getCDNinfo() {
@@ -31,6 +32,31 @@ categories: demo
         getCDNinfo();
     }
 </script>
+```
+
+`areas`字符串是这样生成的：
+```python
+import requests
+
+summary_url = 'https://www.cloudflarestatus.com/api/v2/summary.json'
+
+summary = requests.get(summary_url).json()
+
+areas = []
+
+for i in summary['components']:
+    name = i['name']
+    if '-' in name and '(' in name and ')' in name:
+        areas.append(name)
+
+output = ''
+
+for i in areas:
+    output = output + i + ';'
+
+print(output)
+```
+
 
 <!-- Useless Below -->
 <!--
