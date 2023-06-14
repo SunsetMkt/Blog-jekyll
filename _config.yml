@@ -298,7 +298,7 @@ defaults:
       comments: true # true
       share: true # true
       related: true # true
-      toc: false # false # To show Table of Content (aka. menu)
+      toc: true # false # To show Table of Content (aka. menu)
 
 # head_scripts:
 #   - https://api.lwd-temp.top/static/staticapi.js
