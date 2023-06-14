@@ -24,7 +24,7 @@ description              : "Sunset的博客"
 url                      : "https://jekyll.lwd-temp.top" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "lwd-temp/lwd-temp.github.io-jekyll" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/images/500x300.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : # "/assets/images/500x300.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
@@ -227,7 +227,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 10 # amount of posts to show
 paginate_path: /page:num/
-timezone: Asia/Shanghai # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Singapore # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
@@ -294,11 +294,11 @@ defaults:
       layout: single
       show_date: true
       author_profile: true
-      read_time: false # true
+      read_time: true # true
       comments: false # true
-      share: false # true
-      related: false # true
-      toc: false # false # To show Table of Content (aka. menu) # modified by me.
+      share: true # true
+      related: true # true
+      toc: false # false # To show Table of Content (aka. menu)
 
 # head_scripts:
 #   - https://api.lwd-temp.top/static/staticapi.js
