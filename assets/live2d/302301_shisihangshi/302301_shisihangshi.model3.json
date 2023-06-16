@@ -10,7 +10,7 @@
     ],
     "Physics": null,
     "Motions": {
-      "": [
+      "Full": [
         {
           "File": "motions/t_shengqi.motion3.json"
         },
@@ -73,6 +73,34 @@
         },
         {
           "File": "motions/t_chijing.motion3.json"
+        },
+        {
+          "File": "motions/b_qidao.motion3.json"
+        }
+      ],
+      "Idle": [
+        {
+          "File": "motions/b_idle.motion3.json"
+        }
+      ],
+      "PlayTrick": [
+        {
+          "File": "motions/b_yangtou.motion3.json"
+        },
+        {
+          "File": "motions/b_yidali.motion3.json"
+        },
+        {
+          "File": "motions/b_zhuanbi.motion3.json"
+        },
+        {
+          "File": "motions/b_moxiaba.motion3.json"
+        },
+        {
+          "File": "motions/b_diantou.motion3.json"
+        },
+        {
+          "File": "motions/b_yaotou.motion3.json"
         },
         {
           "File": "motions/b_qidao.motion3.json"

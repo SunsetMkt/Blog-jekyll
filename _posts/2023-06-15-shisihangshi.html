@@ -3,38 +3,73 @@ title: "十四行诗"
 date: 2023-06-15
 tags: Web JavaScript 前端 Live2D 重返未来：1999
 categories: article
+layout: pure
 ---
 
 <script src="https://cubism.live2d.com/sdk-web/cubismcore/live2dcubismcore.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/dylanNew/live2d/webgl/Live2D/lib/live2d.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/pixi.js@6.5.2/dist/browser/pixi.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/pixi-live2d-display/dist/index.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/pixi-live2d-display/dist/extra.min.js"></script>
 
 <canvas id=canvas></canvas>
 
 <script>
-    //const cubism2Model =
-    //    "https://cdn.jsdelivr.net/gh/guansss/pixi-live2d-display/test/assets/shizuku/shizuku.model.json";
     const cubism4Model =
         "/assets/live2d/302301_shisihangshi/302301_shisihangshi.model3.json";
+
+    const live2d = PIXI.live2d;
 
     (async function main() {
         const app = new PIXI.Application({
             view: document.getElementById("canvas"),
             autoStart: true,
-            resizeTo: window
+            resizeTo: window,
+            backgroundColor: 0x333333
         });
 
-        //const model2 = await PIXI.live2d.Live2DModel.from(cubism2Model);
-        const model4 = await PIXI.live2d.Live2DModel.from(cubism4Model);
+        const models = await Promise.all([
+            live2d.Live2DModel.from(cubism4Model)
+        ]);
 
-        //app.stage.addChild(model2);
-        app.stage.addChild(model4);
+        models.forEach((model) => {
+            app.stage.addChild(model);
 
-        //model2.scale.set(0.3);
-        model4.scale.set(0.1);
+            const scaleX = innerWidth / model.width;
+            const scaleY = innerHeight / model.height;
 
-        model4.y = 300;
+            // fit the window
+            model.scale.set(Math.min(scaleX, scaleY));
+
+            model.y = innerHeight * 0.4;
+
+            draggable(model);
+        });
+
+        const model4 = models[0];
+
+        model4.on("pointerdown", (hitAreas) => {
+            model4.motion("PlayTrick");
+        });
+
+        // play Idle
+        // model4.motion("Full");
     })();
 
+    function draggable(model) {
+        model.buttonMode = true;
+        model.on("pointerdown", (e) => {
+            model.dragging = true;
+            model._pointerX = e.data.global.x - model.x;
+            model._pointerY = e.data.global.y - model.y;
+        });
+        model.on("pointermove", (e) => {
+            if (model.dragging) {
+                model.position.x = e.data.global.x - model._pointerX;
+                model.position.y = e.data.global.y - model._pointerY;
+            }
+        });
+        model.on("pointerupoutside", () => (model.dragging = false));
+        model.on("pointerup", () => (model.dragging = false));
+    }
 </script>
