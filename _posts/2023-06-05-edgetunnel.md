@@ -27,7 +27,7 @@ Cloudflare Workers有执行时间限制（15s？）和调用数量限制，无�
 
 ```javascript
 // https://raw.githubusercontent.com/zizifn/edgetunnel/main/src/worker-vless.js
-// <!--GAMFC-->version base on commit df901088ee3cf3cf583e7a987b97842bcb1ed7b5, time is 2023-06-04 04:35:23 UTC<!--GAMFC-END-->.
+// <!--GAMFC-->version base on commit c2fe6ec1be8f49276f16a3b235413fdbd0cdc1ae, time is 2023-06-17 14:36:01 UTC<!--GAMFC-END-->.
 // @ts-ignore
 import { connect } from 'cloudflare:sockets';
 
