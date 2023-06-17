@@ -1,7 +1,7 @@
 ---
 title: "Sonnet: Political Greatness"
 date: 2023-06-17
-tags: 转载 翻译 十四行诗
+tags: 转载 翻译 十四行诗 重返未来：1999
 categories: article
 ---
 
@@ -55,3 +55,30 @@ Of hopes and fears, being himself alone.
 敉平他内心希望和恐惧的蛊惑
 
 和叛乱，完全成为他自己本人。
+
+---
+
+最近看到一个美术风格不错的游戏，《重返未来：1999》，里面引用/改编了这首诗。
+
+在游戏内测阶段是直接翻唱的，有这样的音频存档：
+
+<audio controls>
+  <source src="/assets/postres/2023-06-17-Percy-bysshe-shelley-sonnet-political-greatness-annotated/bili.m4a">
+您的浏览器不支持 audio 元素。
+</audio>
+
+但是公测的时候就改成改编版了，资源提取如下：
+
+<audio controls>
+  <source src="/assets/postres/2023-06-17-Percy-bysshe-shelley-sonnet-political-greatness-annotated/770913_1.wav">
+您的浏览器不支持 audio 元素。
+</audio>
+
+还有无歌词的版本：
+
+<audio controls>
+  <source src="/assets/postres/2023-06-17-Percy-bysshe-shelley-sonnet-political-greatness-annotated/753105343_1.wav">
+您的浏览器不支持 audio 元素。
+</audio>
+
+再提一句，这游戏的剧情有着悲伤的基调，游玩时记得适当放松，或者戏谑一点也没关系。
