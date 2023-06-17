@@ -60,14 +60,14 @@ Of hopes and fears, being himself alone.
 
 最近看到一个美术风格不错的游戏，《重返未来：1999》，里面引用/改编了这首诗。
 
-在游戏内测阶段是直接翻唱的，有这样的音频存档：
+在游戏内测阶段是直接翻唱的，有这样的音频存档（[来源](https://www.bilibili.com/video/BV1sW4y167BN/)）：
 
 <audio controls>
   <source src="/assets/postres/2023-06-17-Percy-bysshe-shelley-sonnet-political-greatness-annotated/bili.m4a">
 您的浏览器不支持 audio 元素。
 </audio>
 
-但是公测的时候就改成改编版了，资源提取如下：
+但是公测的时候就换成改编版了，资源提取如下：
 
 <audio controls>
   <source src="/assets/postres/2023-06-17-Percy-bysshe-shelley-sonnet-political-greatness-annotated/770913_1.wav">
@@ -80,5 +80,125 @@ Of hopes and fears, being himself alone.
   <source src="/assets/postres/2023-06-17-Percy-bysshe-shelley-sonnet-political-greatness-annotated/753105343_1.wav">
 您的浏览器不支持 audio 元素。
 </audio>
+
+---
+
+改编后的歌词如下（[来源](https://www.bilibili.com/read/cv24154619)）：
+
+<p style="text-align: center;">
+  <span style="font-size: 1.25em;">《人之伟大》</span>
+</p>
+<p style="text-align: center;">—《重返未来：1999》 第一防线学校校歌改编</p>
+<p style="text-align: center;">第一防线学校校合唱队</p>
+
+Nor happness, nor harmony, nor fame
+
+欢欣，平安，或是声名，康健
+
+Nor pride, nor strength, nor skill in arms or arts
+
+又及敬佩与尊严，技巧同孔武
+
+Shepherd those herds whom blindness makes tame
+
+都不关照顺意而盲从的牧群
+
+their eyes see not one light of bright stars
+
+启明的星，闪烁不见他们双眼
+
+Men passed ways are shaded by their shame
+
+古旧的迹，遍布羞耻的荫蔽
+
+Paeans are but admirations mirrored half
+
+明镜不映诗篇，盲目高呼礼赞
+
+Tides running blind by that ever been routine
+
+千百万潮水，皆遵循潮汐奔流
+
+Staining at heaven with obscene calamity
+
+以亵渎不洁的姿态，玷污天幕
+
+When folly wraps wit , where to stand we?
+
+以荒蛮祸乱的行迹，吞没学识
+
+Before a cruel whip ？Man who man would be
+
+那牧鞭与谦卑羔羊又算得什么？
+
+Of hopes and fears , being himself alone
+
+平定他的渴求与惧怕之蛊惑，完全成为其自身
+
+\---------------------------------------------------------------------
+
+Nor happness, nor harmony, nor fame
+
+欢欣，平安，或是声名，康健
+
+Nor peace, nor strength, nor skill in arms or arts
+
+又及敬佩与尊严，技巧同孔武
+
+Shepherd those herds whom blindness makes tame
+
+都不关照顺意而盲从的牧群
+
+their eyes see not one light of bright stars
+
+启明的星，闪烁不见他们双眼
+
+Men passed ways are shaded by their shame
+
+古旧的迹，遍布羞耻的荫蔽
+
+Paeans are but admirations mirrored half
+
+明镜不映诗篇，盲目高呼礼赞
+
+Tides running blind by that ever been routine
+
+千百万潮水，皆遵循潮汐奔流
+
+Staining at heaven with obscene calamity
+
+以亵渎不洁的姿态，玷污天幕
+
+When folly wraps wit , where to stand we?
+
+以荒蛮祸乱的行迹，吞没学识
+
+Before a cruel whip ？Man who man would be
+
+那牧鞭与谦卑羔羊又算得什么？
+
+ 
+
+Must rule the empire of himself
+
+人欲成人
+
+In it , Must be supreme
+
+须主宰自身建立之王庭
+
+Establishing his throne vanquished well
+
+以自我所克制的意识
+
+Quelling the challenges
+
+平定他的渴求
+
+Of hopes and fears , being himself alone
+
+与惧怕之蛊惑，完全成为其自身。
+
+---
 
 再提一句，这游戏的剧情有着悲伤的基调，游玩时记得适当放松，或者戏谑一点也没关系。
