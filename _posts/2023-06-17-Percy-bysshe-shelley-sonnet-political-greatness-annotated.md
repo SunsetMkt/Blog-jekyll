@@ -1,5 +1,5 @@
 ---
-title: "Sonnet: Political Greatness"
+title: "Sonnet: Political Greatness & 有关《重返未来：1999》"
 date: 2023-06-17
 tags: 转载 翻译 十四行诗 重返未来：1999
 categories: article
@@ -198,6 +198,16 @@ Quelling the challenges
 Of hopes and fears , being himself alone
 
 与惧怕之蛊惑，完全成为其自身。
+
+---
+
+这里本来会有一个剧情导读，但想想还是省略了。
+
+> 文艺作品写的是人的故事，只要深刻，一定会涉及政治，因为政治本来就是人的故事的一部分。
+>
+> 如果完全不涉及，才是奇怪的事情。
+>
+> ——我说的
 
 ---
 
