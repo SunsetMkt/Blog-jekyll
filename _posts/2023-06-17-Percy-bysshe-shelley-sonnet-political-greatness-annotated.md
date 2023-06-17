@@ -24,6 +24,7 @@ Of hopes and fears, being himself alone.
 
 [Source](https://genius.com/Percy-bysshe-shelley-sonnet-political-greatness-annotated)
 
+---
 
 译者：江枫（中国社会科学院近代史所研究员）[来源](http://www.wxg.org.cn/jzzx/1583.jhtml)
 
