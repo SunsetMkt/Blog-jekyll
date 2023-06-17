@@ -141,7 +141,7 @@ Nor happness, nor harmony, nor fame
 
 欢欣，平安，或是声名，康健
 
-Nor peace, nor strength, nor skill in arms or arts
+Nor pride, nor strength, nor skill in arms or arts
 
 又及敬佩与尊严，技巧同孔武
 
