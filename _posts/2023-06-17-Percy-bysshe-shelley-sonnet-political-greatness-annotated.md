@@ -60,26 +60,46 @@ Of hopes and fears, being himself alone.
 
 最近看到一个美术风格不错的游戏，《重返未来：1999》，里面引用/改编了这首诗。
 
-在游戏内测阶段是直接翻唱的，有这样的音频存档（[来源](https://www.bilibili.com/video/BV1ha411s7LR?p=1)）：
+在游戏二测阶段是直接翻唱的，有[这样](https://www.bilibili.com/video/BV1ha411s7LR?p=1)的音频存档。
 
-<audio controls>
-  <source src="/assets/postres/2023-06-17-Percy-bysshe-shelley-sonnet-political-greatness-annotated/bili.m4a">
-您的浏览器不支持 audio 元素。
-</audio>
+但是公测的时候就换成改编版了，资源提取如下（还有无歌词的版本）：
 
-但是公测的时候就换成改编版了，资源提取如下：
-
-<audio controls>
-  <source src="/assets/postres/2023-06-17-Percy-bysshe-shelley-sonnet-political-greatness-annotated/770913_1.wav">
-您的浏览器不支持 audio 元素。
-</audio>
-
-还有无歌词的版本：
-
-<audio controls>
-  <source src="/assets/postres/2023-06-17-Percy-bysshe-shelley-sonnet-political-greatness-annotated/753105343_1.wav">
-您的浏览器不支持 audio 元素。
-</audio>
+<div>
+    <link rel="stylesheet" href="https://unpkg.com/aplayer@1.10.1/dist/APlayer.min.css">
+    <div id="aplayer"></div>
+    <script src="https://unpkg.com/aplayer@1.10.1/dist/APlayer.min.js"></script>
+    <script>
+        const ap = new APlayer({
+            container: document.getElementById('aplayer'),
+            mini: false,
+            autoplay: false,
+            preload: 'auto',
+            mutex: true,
+            listFolded: false,
+            listMaxHeight: 90,
+            audio: [
+                {
+                    name: '二测版',
+                    artist: '《重返未来：1999》',
+                    url: '/assets/postres/2023-06-17-Percy-bysshe-shelley-sonnet-political-greatness-annotated/bili.m4a',
+                    cover: '/assets/postres/2023-06-17-Percy-bysshe-shelley-sonnet-political-greatness-annotated/cover.png',
+                },
+                {
+                    name: '公测提取',
+                    artist: '《重返未来：1999》',
+                    url: '/assets/postres/2023-06-17-Percy-bysshe-shelley-sonnet-political-greatness-annotated/770913_1.wav',
+                    cover: '/assets/postres/2023-06-17-Percy-bysshe-shelley-sonnet-political-greatness-annotated/cover.png',
+                },
+                {
+                    name: '无歌词',
+                    artist: '《重返未来：1999》',
+                    url: '/assets/postres/2023-06-17-Percy-bysshe-shelley-sonnet-political-greatness-annotated/753105343_1.wav',
+                    cover: '/assets/postres/2023-06-17-Percy-bysshe-shelley-sonnet-political-greatness-annotated/cover.png',
+                }
+            ]
+        });
+    </script>
+</div>
 
 ---
 
