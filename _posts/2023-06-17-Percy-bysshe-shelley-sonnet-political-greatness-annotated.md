@@ -60,7 +60,7 @@ Of hopes and fears, being himself alone.
 
 最近看到一个美术风格不错的游戏，《重返未来：1999》，里面引用/改编了这首诗。
 
-在游戏内测阶段是直接翻唱的，有这样的音频存档（[来源](https://www.bilibili.com/video/BV1sW4y167BN/)）：
+在游戏内测阶段是直接翻唱的，有这样的音频存档（[来源](https://www.bilibili.com/video/BV1ha411s7LR?p=1)）：
 
 <audio controls>
   <source src="/assets/postres/2023-06-17-Percy-bysshe-shelley-sonnet-political-greatness-annotated/bili.m4a">
