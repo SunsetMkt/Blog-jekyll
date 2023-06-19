@@ -18,3 +18,5 @@ main:
   #    url: /privacy
   #  - title: "导航页"
   #    url: https://navi.lwd-temp.top/
+   - title: "开发人员工具"
+     url: /dev/

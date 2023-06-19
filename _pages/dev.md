@@ -6,10 +6,10 @@ permalink: /dev/
 ---
 
 <p class="notice--danger">
-    警告：您清楚您在干什么吗？请在完全理解本页面内容的情况下操作。
+    警告：您清楚您在做什么吗？请在完全理解本页面内容的情况下操作。
 </p>
 <p class="notice--info">
-    使用开发人员工具需要启动JavaScript和LocalStorage支持。
+    使用开发人员工具需要启动JavaScript和localStorage支持。
 </p>
 
 ------
