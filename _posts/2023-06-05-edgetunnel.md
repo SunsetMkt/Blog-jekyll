@@ -13,7 +13,7 @@ categories: article
 
 这个项目可以部署在Cloudflare Workers上，参考Cloudflare的许可协议，不违反现有规定。（而且现有的Workers反向代理也不少）
 
-`userID`是VLESS连接时的UUID，`proxyIP`用于解决Cloudflare Workers无法直接连接Cloudflare服务器的问题（据描述，是Cloudflare的bug，导致无代理/中转时无法访问使用Cloudflare CDN的网站），参考issue[162](https://github.com/zizifn/edgetunnel/issues/162)，或者`"192.203.230." + Math.floor(Math.random() * 255);`。
+`userID`是VLESS连接时的UUID，`proxyIP`用于解决Cloudflare Workers无法直接连接Cloudflare服务器的问题（据描述，是Cloudflare的bug，导致无代理/中转时无法访问使用Cloudflare CDN的网站），参考issue[162](https://github.com/zizifn/edgetunnel/issues/162)。
 
 ## 局限性
 `edgetunnel`运行在Cloudflare Workers上，这会导致它没有固定的代理IP地址（应该是最近的**Cloudflare数据中心**），这可能会导致一些网站的风控，也有可能触发安全保护。
