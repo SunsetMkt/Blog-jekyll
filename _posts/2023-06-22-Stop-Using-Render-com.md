@@ -53,7 +53,11 @@ This should not be the proper way to deal with user requests, I guess.
 During the process, I've found the staff in Render lacks motivation without pushing, is passive-aggressive towards blocked users, and never reads users' statements.
 
 ## Half-blocked account and security concerns
-Though my account is blocked by Render, I was astonished to find that Render did not suspend all of my applications. One of them is still running and accessible from my custom domain. Even worse, my secret key is still in its environment variables. Does this lead to the question, are blocked users' data security still protected?
+Though my account is blocked by Render, I was astonished to find that Render did not suspend all of my applications. One of them is still running and accessible from my custom domain. Even worse, my secret key is still in its environment variables. Now this leads to a question, are blocked users' data security still protected?
+
+On 2023/6/22, the same Render staff replied to my post titled "Account Blocked but App’s still running and undeleted". I quote, "We will be resolving this later today." 
+
+I'm still waiting.
 
 ## Lacks notification and feedback
 In most modern PaaS, if your project is potentially harmful, the platform will pop up a warning to tell you, "You are not allowed to deploy this", like what we could see on Railway.
