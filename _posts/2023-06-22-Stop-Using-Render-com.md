@@ -57,10 +57,10 @@ Though my account is blocked by Render, I was astonished to find that Render did
 
 On 2023/6/22, the same Render staff replied to my post titled "Account Blocked but App’s still running and undeleted". I quote, "We will be resolving this later today." 
 
-I'm still waiting.
+On 2023/6/23, the application is suspended, but not deleted. Not sure if the environment variables are still there. Staff's reply is "The custom domain may still be active pointing at our service  but it is our proxy that is responding since the domain is still pointing at us".
 
 ## Lacks notification and feedback
-In most modern PaaS, if your project is potentially harmful, the platform will pop up a warning to tell you, "You are not allowed to deploy this", like what we could see on Railway.
+In most modern PaaS, if your project is potentially harmful, the platform will pop up a warning to tell you, "You are not allowed to deploy this", like what we could see on Railway or Heroku.
 
 In Render, this is different. 
 
@@ -71,7 +71,7 @@ If you search for the Render Community for "Render dashboard keeps redirecting m
 ## Conclusion
 I've tried not to be mean or rude, but the offense I experienced during contacting Render Support makes me very angry and unsatisfied. I've never seen any development platform has such poor service.
 
-Render's service and staffs are still immature and unprofessional. Although free deployment is its current advantage, who knows if it will change in the future like what happened to Railway?
+Render's service and staffs are still immature and unprofessional. Although free deployment is its current advantage, who knows if it will change in the future like what happened to Heroku?
 
 ## Fairness Commitment
 I promise that in this document, I have not intentionally omitted any facts that may be unfavorable to myself, and I have accurately described the actions of both Render employees and myself.
