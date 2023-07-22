@@ -15,10 +15,14 @@ categories: article
 
 `userID`是VLESS连接时的UUID，`proxyIP`用于解决Cloudflare Workers无法直接连接Cloudflare服务器的问题（据描述，是Cloudflare的bug，导致无代理/中转时无法访问使用Cloudflare CDN的网站），参考issue[162](https://github.com/zizifn/edgetunnel/issues/162)。
 
+复制[源码](https://raw.githubusercontent.com/zizifn/edgetunnel/main/src/worker-vless.js)到新建的Workers代码中即可，推荐使用环境变量`UUID`和`PROXYIP`来设置这两个配置项。部署完成后，访问`Workers地址/UUID`即可获得配置信息。
+
 ## 局限性
 `edgetunnel`运行在Cloudflare Workers上，这会导致它没有固定的代理IP地址（应该是最近的**Cloudflare数据中心**），这可能会导致一些网站的风控，也有可能触发安全保护。
 
 Cloudflare Workers有执行时间限制（15s？）和调用数量限制，无论是使用免费计划还是付费，这显然不是稳定运行代理服务器的最佳选择。
+
+`proxyIP`的实现原理是第三方对Cloudflare的代理，而不是Cloudflare自己的服务。**这有可能导致第三方获取到您与Cloudflare的通信内容。**
 
 因此，我不建议将`edgetunnel`作为生产环境的代理服务。它的技术展示意义可能大于实际意义。
 
