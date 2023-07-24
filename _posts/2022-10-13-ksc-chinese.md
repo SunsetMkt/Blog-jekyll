@@ -32,6 +32,6 @@ kis21.3.10.391abzh-Hans_26153.exe /pPRODUCTTYPE=saas
 ## 备注
 在联机时，采用此方法安装的KSC中文版和通过官方渠道安装的英文版，版本号相同。
 
-Kaspersky可能正在变更产品策略，若上述页面不可用，可尝试[此链接](https://trial.s.kaspersky-labs.com/registered/xapi5wqwgf32q6omgp38/3436353739367c44454c7c32_26153/kis21.3.10.391abzh-Hans_26153.exe)直接下载安装程序（通过Kaspersky的服务器）。
+Kaspersky可能正在变更产品策略，若上述页面不可用，可尝试[此链接](https://trial.s.kaspersky-labs.com/registered/xapi5wqwgf32q6omgp38/3436353739367c44454c7c32_26153/kis21.3.10.391abzh-Hans_26153.exe)直接下载安装程序（通过Kaspersky的服务器）。（[备用](https://dm.s.kaspersky-labs.com/zh-Hans-CN/KIS/21.3.10.391/startup.exe)）
 
 若您正在使用中国大陆的网络，登录Kaspersky账号可能会有问题，请使用全局代理。
