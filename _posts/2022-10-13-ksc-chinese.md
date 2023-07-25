@@ -34,4 +34,21 @@ kis21.3.10.391abzh-Hans_26153.exe /pPRODUCTTYPE=saas
 
 Kaspersky可能正在变更产品策略，若上述页面不可用，可尝试[此链接](https://trial.s.kaspersky-labs.com/registered/xapi5wqwgf32q6omgp38/3436353739367c44454c7c32_26153/kis21.3.10.391abzh-Hans_26153.exe)直接下载安装程序（通过Kaspersky的服务器）。（[备用](https://dm.s.kaspersky-labs.com/zh-Hans-CN/KIS/21.3.10.391/startup.exe)）
 
-若您正在使用中国大陆的网络，登录Kaspersky账号可能会有问题，请使用全局代理。
+若您正在使用中国大陆的网络且登录Kaspersky账号有问题，请尝试使用全局代理。
+
+## 卡巴斯基免费版
+如果Kaspersky彻底移除了KSC产品，您可以尝试卡巴斯基免费版（[在线安装链接](https://dm.s.kaspersky-labs.com/zh-Hans-CN/Kaspersky4Win/21.14.5.462/startup.exe)）并使用激活码：
+
+<div>
+    <div class="keys">
+        <code>3SXCM-M9RJM-6985N-PWKP7</code>
+    </div>
+    <style>
+        .keys {
+            user-select: none;
+            filter: blur(3px);
+        }
+    </style>
+</div>
+
+来激活免费版。
