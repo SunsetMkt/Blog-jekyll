@@ -1,6 +1,6 @@
 ---
-title: 安装Kaspersky Security Cloud Free简体中文版
-date: 2022-10-13
+title: 安装Kaspersky Security Cloud Free简体中文版或卡巴斯基免费版
+date: 2023-07-24
 tags: Windows 杀毒软件 Kaspersky 卡巴斯基
 categories: article
 ---
