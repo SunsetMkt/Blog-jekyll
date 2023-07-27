@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Sunset"
   avatar           : "/assets/images/sunset_compressed.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Main Programmer of Sunset Edu. & Tech. Group"
+  bio              : "Main Programmer of Sunset Edu. & Tech. Group\n“把这个不完美的故事，变成我们所期望的样子”"
   location         : "Tokyo"
   email            : "i@lwd-temp.top"
   links:
