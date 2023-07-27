@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 locale                   : "zh-CN"
 title                    : "Sunset的博客"
 title_separator          : "-"
-subtitle                 : "Sunset's Draft Pile" # site tagline that appears below site title in masthead
+subtitle                 : "“而且我不借你一点什么的话，我们明天怎么再见？”" # site tagline that appears below site title in masthead
 name                     : "Sunset"
 description              : "Sunset的博客"
 url                      : "https://jekyll.lwd-temp.top" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Sunset"
   avatar           : "/assets/images/sunset_compressed.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Main Programmer of Sunset Edu. & Tech. Group. “把这个不完美的故事，变成我们所期望的样子”"
+  bio              : "Main Programmer of Sunset Edu. & Tech. Group."
   location         : "Tokyo"
   email            : "i@lwd-temp.top"
   links:
