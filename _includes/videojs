@@ -1,0 +1,20 @@
+{% assign unique_id = include.file | replace: '/', '_' | replace: '.', '_' | replace: ' ', '_' | replace: '#', '_' | replace: '?', '_' | replace: '\', '_' | %}
+<div>
+    <p>
+        <a href="{{ include.file }}" download>下载视频</a>
+    </p>
+    <!-- unpkg : use a specific version of Video.js (change the version numbers as necessary) -->
+    <link href="https://unpkg.com/video.js@8.3.0/dist/video-js.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/video.js@8.3.0/dist/video.min.js"></script>
+    <video id="{{ unique_id }}" class="video-js" controls preload="auto" data-setup='{}'>
+        <source src="{{ include.file }}">
+        </source>
+        <p class="vjs-no-js">
+            To view this video please enable JavaScript, and consider upgrading to a
+            web browser that
+            <a href="https://videojs.com/html5-video-support/" target="_blank">
+                supports HTML5 video
+            </a>
+        </p>
+    </video>    
+</div>
