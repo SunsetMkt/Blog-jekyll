@@ -53,6 +53,8 @@ Kaspersky可能正在变更产品策略，若上述页面不可用，可尝试[�
 
 来激活免费版。
 
+> 卡巴斯基免费版和Kaspersky Security Cloud Free相比，缺少“文件粉碎机”、“无用数据清理”、“浏览器配置”、“Microsoft Windows 疑难解答”功能，其余特性几乎一致。
+
 <!--
 不一定有效:
 
