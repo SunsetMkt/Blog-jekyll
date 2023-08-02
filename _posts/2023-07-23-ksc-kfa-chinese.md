@@ -53,4 +53,8 @@ Kaspersky可能正在变更产品策略，若上述页面不可用，可尝试[�
 
 来激活免费版。
 
+<!--
+不一定有效:
+
 您可以参考[此资料](https://forum.kaspersky.com/topic/latest-offline-installer-for-kis-2572/#comment-13319)和[此资料](https://forum.kaspersky.com/topic/install-kaspersky-in-command-prompt-31603/)来构建Kaspersky拒绝提供的离线安装包。
+-->
