@@ -5,6 +5,8 @@ tags: 转载 题库
 categories: article
 ---
 
+也参见[2023年全国高校学生会组织工作人员培训测试]({% post_url 2023-07-26-College-Students-Union-organizes-staff-training-test-2023 %})。
+
 ## 高校学生会招募志愿者参与工作，应当______。
 * 保持志愿者队伍的相对稳定
 * ✓以项目化方式
