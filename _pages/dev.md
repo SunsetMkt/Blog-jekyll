@@ -83,6 +83,8 @@ URL参数`vconsole=true`
 
 </div>
 
+## 其他网站统计
+使用[uBlock Origin](https://ublockorigin.com/)以禁用。
 
 ## 获取Monika
 ~~Just Monika.~~ [monika.chr](/assets/media/ddlc_characters/monika.chr)
