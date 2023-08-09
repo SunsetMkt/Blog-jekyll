@@ -13,6 +13,6 @@ Build Command: `npx pnpm i --store=node_modules/.pnpm-store && npx pnpm run gene
 
 Output Directory: `packages/hoppscotch-selfhost-web/dist`
 
-Root Directory: ``
+Root Directory: ` `（留空）
 
 Environment Variables: 复制`https://github.com/hoppscotch/hoppscotch/blob/main/.env.example`全部内容
