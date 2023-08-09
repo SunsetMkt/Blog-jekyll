@@ -18,15 +18,15 @@ permalink: /dev/
 
 （若`commit hash`不存在，则非GitHub Pages构建，此时utterances不可用）
 
-当前构建随机码：{% include random %}
+当前构建随机码（仅在此处展示）：{% include random %}
+
+构建状态：![pages-build-deployment](https://github.com/lwd-temp/lwd-temp.github.io-jekyll/actions/workflows/pages/pages-build-deployment/badge.svg)
 
 ------
 
 [Jekyll主题参考文档](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
 
 ------
-
-# 开发人员工具
 
 ## Eruda
 
@@ -52,7 +52,7 @@ URL参数`vconsole=true`
 
 </div>
 
-<br>
+<!--
 
 ```html
 <script data-cfasync="false">
@@ -71,7 +71,18 @@ URL参数`vconsole=true`
 </script>
 ```
 
-## 获取Monika
-Just Monika.
+-->
 
-[monika.chr](/assets/media/ddlc_characters/monika.chr)
+## Umami
+
+<div class="umami-btns">
+
+    <a class="btn btn--info" onclick="localStorage.setItem('umami.disabled','true');location.reload();">禁用Umami标记</a>
+
+    <a class="btn btn--info" onclick="localStorage.removeItem('umami.disabled');location.reload();">删除禁用Umami标记</a>
+
+</div>
+
+
+## 获取Monika
+~~Just Monika.~~ [monika.chr](/assets/media/ddlc_characters/monika.chr)
