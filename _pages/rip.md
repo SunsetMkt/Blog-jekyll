@@ -35,6 +35,11 @@ haoel:
     image_path: /assets/postres/rip/haoel.jpg
     alt: "GitHub Avatar"
     title: "GitHub Avatar"
+brammool:
+  - url: /assets/postres/rip/brammool.jpg
+    image_path: /assets/postres/rip/brammool.jpg
+    alt: "GitHub Avatar"
+    title: "GitHub Avatar"
 ---
 
 <style>
@@ -104,3 +109,17 @@ haoel:
 [GitHub Profile](https://github.com/haoel) [Twitter](https://web.archive.org/web/20230526075708/https://twitter.com/haoel)
 
 {% include gallery id="haoel" %}
+
+## brammool
+
+> Moolenaar是一位了不起的计算机科学家，一生对业界做出了巨大的贡献，业界外的普通人也间接受益于Moolenaar。
+>
+> 得知他60多岁就去世的消息，让人非常的难过。祝福他来生有福报。希望vim社区能继承他的遗志，发扬他的精神，让他继续活在我们之间，一起让vim变得越来越好。
+>
+> 但，我还是感到很悲伤。
+>
+> [Source](https://github.com/vim/vim/issues/12730)
+
+[GitHub Profile](https://github.com/brammool)
+
+{% include gallery id="brammool" %}
