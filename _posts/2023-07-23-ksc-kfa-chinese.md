@@ -41,7 +41,11 @@ Kaspersky可能正在变更产品策略，若上述页面不可用，可尝试[�
 
 <div>
     <div class="keys">
-        <code>3SXCM-M9RJM-6985N-PWKP7</code> 或 <code>A23B5-44EXM-85MVF-KM2GQ</code>
+        <ul>
+            <li><code>3SXCM-M9RJM-6985N-PWKP7</code></li>
+            <li><code>A23B5-44EXM-85MVF-KM2GQ</code></li>
+            <li><code>ZM4YW-FUTDY-W9B62-GSK26</code></li>
+        </ul>
     </div>
     <style>
         .keys {
