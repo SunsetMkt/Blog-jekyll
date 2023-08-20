@@ -77,7 +77,7 @@ URL参数`vconsole=true`
 
 <div class="umami-btns">
 
-    <a class="btn btn--info" onclick="localStorage.setItem('umami.disabled','true');location.reload();">禁用Umami标记</a>
+    <a class="btn btn--info" onclick="localStorage.setItem('umami.disabled','true');location.reload();">添加禁用Umami标记</a>
 
     <a class="btn btn--info" onclick="localStorage.removeItem('umami.disabled');location.reload();">删除禁用Umami标记</a>
 
