@@ -38,7 +38,7 @@ categories: article
 irm https://massgrave.dev/get | iex
 ```
 
-支持永久数字激活Windows 10/11，KMS激活Windows和Office（包括365，以一种*workaround*的方法）。
+支持永久数字激活Windows 10/11，KMS激活Windows和Office（包括365，以一种*workaround*的方法），并且可以切换Windows授权版本。
 
 或者，
 
@@ -46,5 +46,5 @@ irm https://massgrave.dev/get | iex
 
 有漂亮的GUI，并且可以切换Windows授权版本。
 
-> 两者可以结合使用，`CMWTAT_Digital_Edition`切换版本和激活Windows，`Microsoft-Activation-Scripts`KMS激活Office。
-
+## 其他的
+可以通过[创建一个恢复驱动器](https://support.microsoft.com/zh-cn/windows/%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E6%81%A2%E5%A4%8D%E9%A9%B1%E5%8A%A8%E5%99%A8-abb4691b-5324-6d4a-8766-73fab304c246)来备份OEM提供的操作系统镜像（若存在），建议在收到产品后就这样做，此备份可能有不可替代的应用场景。
