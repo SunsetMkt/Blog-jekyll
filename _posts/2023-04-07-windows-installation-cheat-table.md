@@ -30,6 +30,11 @@ Office版本一律推荐O365ProPlus，并使用Microsoft-Activation-Scripts激�
 ## 安装Office
 推荐：[官方O365ProPlusRetail简体中文在线安装程序](https://c2rsetup.officeapps.live.com/c2r/download.aspx?productReleaseID=O365ProPlusRetail&platform=Def&language=zh-cn)
 
+<!--
+https://massgrave.dev/office_c2r_links.html#Chinese_[zh-cn] 认为，此链接为
+https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=O365ProPlusRetail&platform=x64&language=zh-cn&version=O16GA
+-->
+
 需要安装特定版本：[Office Tool Plus](https://otp.landian.vip/zh-cn/)
 
 ## 激活
@@ -56,7 +61,7 @@ irm https://massgrave.dev/get | iex
 ## 其他的
 可以通过[创建一个恢复驱动器](https://support.microsoft.com/zh-cn/windows/%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E6%81%A2%E5%A4%8D%E9%A9%B1%E5%8A%A8%E5%99%A8-abb4691b-5324-6d4a-8766-73fab304c246)来备份OEM提供的操作系统镜像（若存在），建议在收到产品后就这样做，此备份可能有不可替代的应用场景。
 
-你可以在[这里](https://massgrave.dev/)获得更多关于下载和安装Windows和Office的参考资料。
+你可以在[这里](https://massgrave.dev/)获得更多关于下载和安装Windows和Office的参考资料。此第三方提供的[Windows和Office下载资源](https://massgrave.dev/genuine-installation-media.html)被认为是可靠的。
 
 不建议使用[UUPDump](https://uupdump.net/)获取镜像，除非有必须这样做的需求。
 
