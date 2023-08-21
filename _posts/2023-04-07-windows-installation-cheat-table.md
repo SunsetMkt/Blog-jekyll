@@ -53,4 +53,6 @@ irm https://massgrave.dev/get | iex
 
 有关下载Windows 10 LTSC的说明,请参考[这里](https://massgrave.dev/windows_ltsc_links.html)。[TL;DR](https://files.rg-adguard.net/file/7ce8b5a4-57d2-905c-62f3-e4d44e25bcf3)。
 
+LTSC安装Microsoft Store：管理员执行`wsreset -i`。
+
 特别感谢[MASSGRAVE](https://github.com/massgravel)。
