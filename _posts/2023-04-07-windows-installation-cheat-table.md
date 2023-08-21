@@ -5,8 +5,17 @@ tags: Microsoft Windows Office
 categories: article
 ---
 
+## 推荐的方案
+对于任何可运行Windows 11的现代设备，推荐使用Windows 11专业工作站版。
+
+不再建议安装Windows 10，除非有必须这样做的原因。
+
+若设备无法运行面向个人消费者的Windows 10版本，可使用Windows 10 IoT Enterprise LTSC 2021（使用简体中文版Enterprise LTSC 2021安装，Microsoft-Activation-Scripts会自动将其转换为IoT版本）。
+
+Office版本一律推荐O365ProPlus，并使用Microsoft-Activation-Scripts激活。
+
 ## 系统镜像
-建议：[Windows11 官方媒体制作工具/ISO下载](https://www.microsoft.com/zh-cn/software-download/windows11)
+建议：[Windows 11 官方媒体制作工具/ISO下载](https://www.microsoft.com/zh-cn/software-download/windows11)
 
 不建议：[Windows 10（October 14, 2025停止支持）](https://www.microsoft.com/zh-cn/software-download/windows10)
 
