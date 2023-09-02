@@ -13,3 +13,9 @@ categories: article
 
 * 对于部分小米设备，如果跟随[Magisk的官方安装教程](https://topjohnwu.github.io/Magisk/install.html)，在执行`fastboot flash vbmeta --disable-verity --disable-verification vbmeta.img`后发生了bootloop，这可能说明这一步根本不需要。执行`fastboot flash vbmeta vbmeta.img`可能会修复bootloop。
 * 在一些设备上，刷入国际版系统后登录Google账号可能会导致不可逆的交替性开机时间严重延长，原因未知。恢复出厂设置可以解决问题，但登录Google账号后问题仍发生。
+
+一些可能有用的链接：
+
+https://cdn.alsgp0.fds.api.mi-img.com/micomm/MiFlash2020-3-14-0.rar
+
+https://cdn.cnbj1.fds.api.mi-img.com/flash-tool/miflash_unlock_7.6.727.43.zip
