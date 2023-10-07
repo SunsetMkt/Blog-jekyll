@@ -1,0 +1,30 @@
+---
+title: "关于MIUI EU的备忘"
+date: 2023-10-07
+tags: Android MIUI MIUIEU
+categories: article
+---
+
+[Unofficial Xiaomi European Community](https://xiaomi.eu/community/)是一个可信的MIUI修改版提供来源，我们将其修改发布的MIUI成为MIUI EU/EU版。
+
+MIUI EU大多修改自对应的MIUI中国版，但移除了只针对中国大陆服务的功能和广告，并提供更多语言支持和默认启动Google服务。
+
+若需要在中国大陆使用，目前尚未发现比MIUI EU更本地化的MIUI版本（排除中国版）。
+
+`xiaomi.eu`不能从中国大陆直接访问（网站方主动屏蔽），需要代理。
+
+**挑选设备**：不是所有设备都被MIUI EU支持，建议只选择**高通骁龙™**（Qualcomm Snapdragon）设备（参考[MIUI EU发布列表](https://xiaomi.eu/community/forums/miui-rom-releases.103/)），并建议使用有**独立Recovery分区**的设备（见[Devices with Dedicated Recovery Partitions](https://xiaomi.eu/community/threads/installing-a-custom-recovery.67841/)）。
+
+**解锁Bootloader**：设备需要被[解锁](https://www.miui.com/unlock/index.html)才能刷入MIUI EU，设备解锁只能在登录小米账号后的168小时（7天）后操作（会清除用户数据）。
+
+尽管网页有警告“解锁后指纹识别、查找手机等服务将变得不安全”，但实际上影响不大：
+
+* 无论如何，长按电源键10秒都会强制关闭设备，查找手机将无法定位/响铃，Bootloader锁只能保证此手机不会被刷入第三方系统从而绕过小米的防盗，但设备仍然可以被拆解售卖。
+* 现代Android会默认启动存储加密，只要设置锁定密码，个人信息将无法被解密。
+* 指纹识别的安全功能理论上没有改变，除非第三方软件故意检测解锁从而拒绝使用指纹
+
+但也确实会创造可能被利用的通道，例如：攻击者可以通过**物理接触设备**的方式刷入被恶意修改的系统镜像，当用户没有察觉并输入锁屏密码后，利用镜像中预先植入的恶意软件窃取用户数据。
+
+**这里建议，无论是否决定刷入系统/root，一律解锁Bootloader，除非有上面描述的顾虑或个人需求。Xiaomi/Redmi不会因为解锁而失去保修。**
+
+存在[MIUI EU本地化Magisk模块](https://blog.minamigo.moe/archives/184)，但在不同设备上的效果不同，很可能效果不佳。
