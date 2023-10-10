@@ -19,3 +19,5 @@ categories: article
 https://cdn.alsgp0.fds.api.mi-img.com/micomm/MiFlash2020-3-14-0.rar
 
 https://miuirom.xiaomi.com/rom/u1106245679/7.3.706.21/miflash_pro-7.3.706.21.zip
+
+https://miuirom.xiaomi.com/rom/u1106245679/7.3.224.9/miflash_pro-7.3.224.9.zip
