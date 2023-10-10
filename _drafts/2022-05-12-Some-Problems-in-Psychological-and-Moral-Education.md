@@ -1,5 +1,5 @@
 ---
-title: '心理道德教育中的一些问题'
+title: "心理道德教育中的一些问题"
 date: 2022-05-12
 tags: 评论
 categories: article

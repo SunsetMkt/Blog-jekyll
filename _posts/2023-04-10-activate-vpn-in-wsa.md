@@ -5,11 +5,11 @@ tags: Microsoft Windows WSA Android
 categories: article
 ---
 
-虽然WSA似乎已提供`VpnDialogs`应用程序，但它似乎仍然不能正常显示VPN应用授权对话。
+虽然 WSA 似乎已提供`VpnDialogs`应用程序，但它似乎仍然不能正常显示 VPN 应用授权对话。
 
 这是一个可行的跳过授权的方法：
 
-启动WSA的开发人员模式后，使用`adb`连接WSA。
+启动 WSA 的开发人员模式后，使用`adb`连接 WSA。
 
 执行`adb shell`。
 
@@ -17,7 +17,7 @@ categories: article
 adb shell
 ```
 
-在连接到Android Shell之后，执行`appops set example.package.name ACTIVATE_VPN allow`。
+在连接到 Android Shell 之后，执行`appops set example.package.name ACTIVATE_VPN allow`。
 
 ```shell
 windows_x86_64:/ $ appops set example.package.name ACTIVATE_VPN allow

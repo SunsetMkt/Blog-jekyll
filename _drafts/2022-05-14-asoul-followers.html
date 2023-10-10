@@ -1,35 +1,48 @@
 ---
-title: 'A-SOUL关注数实时请求'
+title: "A-SOUL关注数实时请求"
 date: 2022-05-14
 tags: 评论 聚焦 新闻 虚拟主播 ASoul
 categories: article
 ---
 
-<div id="asoul-followers-counter" style="font-size: xxx-large;">点击按钮开始显示，刷新时间1s</div>
+<div id="asoul-followers-counter" style="font-size: xxx-large">
+  点击按钮开始显示，刷新时间1s
+</div>
 
 <script>
-    function getFollowers(userid) {
-        // API for get requests
-        // Asoul 703007996
-        let fetchRes = fetch("https://cors.lwd-temp.top/?https://api.bilibili.com/x/relation/stat?vmid=" + userid + "&jsonp=jsonp", {
-            "body": null,
-            "method": "GET"
-        });
-        // fetchRes is the promise to resolve
-        // it by using.then() method
-        fetchRes.then(res =>
-            res.json()).then(d => {
-                // console.log(d)
-                // d is the response data
-                // d.data.follower is the follower number and show it
-                document.getElementById("asoul-followers-counter").innerHTML = d.data.follower;
-            })
-    }
-    function loop() {
-        getFollowers("703007996");
-        setTimeout(loop, 1000);
-    }
+  function getFollowers(userid) {
+    // API for get requests
+    // Asoul 703007996
+    let fetchRes = fetch(
+      "https://cors.lwd-temp.top/?https://api.bilibili.com/x/relation/stat?vmid=" +
+        userid +
+        "&jsonp=jsonp",
+      {
+        body: null,
+        method: "GET",
+      }
+    );
+    // fetchRes is the promise to resolve
+    // it by using.then() method
+    fetchRes
+      .then((res) => res.json())
+      .then((d) => {
+        // console.log(d)
+        // d is the response data
+        // d.data.follower is the follower number and show it
+        document.getElementById("asoul-followers-counter").innerHTML =
+          d.data.follower;
+      });
+  }
+  function loop() {
+    getFollowers("703007996");
+    setTimeout(loop, 1000);
+  }
 </script>
 
-<a class="btn btn--info" onclick="document.getElementById('asoul-followers-counter-btn').remove();loop();"
-    id="asoul-followers-counter-btn">开始请求</a>
+<a
+  class="btn btn--info"
+  onclick="document.getElementById('asoul-followers-counter-btn').remove();loop();"
+  id="asoul-followers-counter-btn"
+  >开始请求</a
+>

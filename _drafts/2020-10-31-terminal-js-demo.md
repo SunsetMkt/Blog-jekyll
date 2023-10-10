@@ -24,6 +24,7 @@ categories: demo
 
       box-sizing: border-box;
     }
+
   </style>
 </head>
 
@@ -36,7 +37,6 @@ categories: demo
   </div>
   <script src="/assets/terminal.js/terminal.js"></script>
   <script>
-
 
     var commands = {};
 
@@ -89,6 +89,7 @@ categories: demo
     };
 
     Terminal.init(document.getElementById("terminal"), commands);
+
   </script>
 </body>
 

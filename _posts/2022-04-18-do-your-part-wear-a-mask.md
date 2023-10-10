@@ -6,7 +6,7 @@ categories: article
 excerpt: Do your part. Wear a mask.（标题文案来自美剧The Good Doctor S4E2）
 ---
 
-（标题文案来自美剧The Good Doctor S4E2）
+（标题文案来自美剧 The Good Doctor S4E2）
 
 这是个迟到的公益广告，但我们相信它依旧重要。
 
@@ -18,7 +18,7 @@ excerpt: Do your part. Wear a mask.（标题文案来自美剧The Good Doctor S4
 
 同时，其他恰当的个人卫生习惯也必不可缺，如勤洗手、酒精消毒、保持社交距离等，这是必要的措施，并不是为了创造恐慌而捏造出的。
 
-想要了解更多信息，请致电当地CDC或访问当地CDC的官方网站。
+想要了解更多信息，请致电当地 CDC 或访问当地 CDC 的官方网站。
 
 [Prevent Getting Sick](https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/index.html)
 

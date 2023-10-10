@@ -6,36 +6,41 @@ categories: article
 ---
 
 ## 背景
-蔚蓝档案(Blue Archive)是个除了Gameplay外都很有趣的游戏。
+
+蔚蓝档案(Blue Archive)是个除了 Gameplay 外都很有趣的游戏。
 
 ## 资源文件下载解包
-游戏的资源文件是Unity的AssetBundle，可以通过AssetStudio解包。
+
+游戏的资源文件是 Unity 的 AssetBundle，可以通过 AssetStudio 解包。
 
 [K0lb3/Blue-Archive---Asset-Downloader](https://github.com/K0lb3/Blue-Archive---Asset-Downloader)是一个支持下载蔚蓝档案资源文件并导出的工具。
 
-BA的大部分媒体资源文件都未经加密，可以直接解包。文本资源是加密的，部分可用解密方法见`K0lb3/Blue-Archive---Asset-Downloader`，我读不懂。（使用此仓库解密文本会出现一部分文本乱码的情况，不清楚是否被二次加密。但是对于推测明文相同开头的不同字符串，其“密文”的开头也相同，可能是某种新式加密方法或是提取错误）
+BA 的大部分媒体资源文件都未经加密，可以直接解包。文本资源是加密的，部分可用解密方法见`K0lb3/Blue-Archive---Asset-Downloader`，我读不懂。（使用此仓库解密文本会出现一部分文本乱码的情况，不清楚是否被二次加密。但是对于推测明文相同开头的不同字符串，其“密文”的开头也相同，可能是某种新式加密方法或是提取错误）
 
 我的执念之一是导出这个游戏的对话文本，似乎很难实现。
 
-和此项目类似的还有[blue-archive-spine](https://github.com/respectZ/blue-archive-spine)用于下载并导出蔚蓝档案的Spine动画和立绘（纪念大厅动画和人物立绘），并可直接在浏览器中播放。（不幸的是，部分动画会崩坏，原因不明）
+和此项目类似的还有[blue-archive-spine](https://github.com/respectZ/blue-archive-spine)用于下载并导出蔚蓝档案的 Spine 动画和立绘（纪念大厅动画和人物立绘），并可直接在浏览器中播放。（不幸的是，部分动画会崩坏，原因不明）
 
-此项目的日服支持见[这个Fork](https://github.com/lwd-temp/blue-archive-spine)，可能并不完善。
+此项目的日服支持见[这个 Fork](https://github.com/lwd-temp/blue-archive-spine)，可能并不完善。
 
-[有项目](https://github.com/lonqie/SchaleDB)提供了BA的部分文本资源，但是根据[开发者的描述](https://github.com/lonqie/SchaleDB/issues/10)，这似乎不是通过解包得来的。我认为这没有意义。
+[有项目](https://github.com/lonqie/SchaleDB)提供了 BA 的部分文本资源，但是根据[开发者的描述](https://github.com/lonqie/SchaleDB/issues/10)，这似乎不是通过解包得来的。我认为这没有意义。
 
 ## 私服？
+
 这个游戏存在创建私服的可能性，但是我不知道如何实现。
 
-一些初步调查表明，它没有SSL Pinning，连接使用TCP。
+一些初步调查表明，它没有 SSL Pinning，连接使用 TCP。
 
 ## 有趣的事实
-BA会收集用户的手机型号、通信运营商、系统语言、系统地区、内网和公网IP、系统Launcher（启动器）包名和系统版本。
 
-这个产品的不同服务器的资源更新和API实现似乎不同，日服甚至将资源更新URL硬编码进游戏。
+BA 会收集用户的手机型号、通信运营商、系统语言、系统地区、内网和公网 IP、系统 Launcher（启动器）包名和系统版本。
+
+这个产品的不同服务器的资源更新和 API 实现似乎不同，日服甚至将资源更新 URL 硬编码进游戏。
 
 游戏的资源文件命名规则有不规范的情况。
 
 ## 废话
+
 无论是哪种游戏都存在开发者和逆向工程者的对抗，单机游戏有正版验证破解、联机游戏有外挂私服、任何游戏都有解包。
 
 在版权法存在的情况下，我认为在客户端对资源文件的非必须（出于便于分发和更新目的的除外）保护是无意义的，因为客户端的运行环境本来就不可信。

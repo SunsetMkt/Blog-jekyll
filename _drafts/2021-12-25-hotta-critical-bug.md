@@ -1,7 +1,7 @@
 ---
 title: 《幻塔》抽卡结果疑似本地生成导致的安全漏洞
 date: 2021-12-25
-tags:  漏洞 bug 后端 入狱警告 法律的边缘 幻塔 游戏 TCP
+tags: 漏洞 bug 后端 入狱警告 法律的边缘 幻塔 游戏 TCP
 categories: article
 ---
 
@@ -9,24 +9,24 @@ categories: article
 
 《幻塔》的抽卡逻辑推测如下：
 
-* 服务器先发送当前卡池的历史记录(完整版)到本地
-* 本地生成抽卡结果之后把结果附在历史记录上面发回
+- 服务器先发送当前卡池的历史记录(完整版)到本地
+- 本地生成抽卡结果之后把结果附在历史记录上面发回
 
-抽卡数据格式为JSON，内容对人类友好。
+抽卡数据格式为 JSON，内容对人类友好。
 
-与服务器端的连接时TCP但不是HTTP协议，服务器端口是30031，此外还有个UDP的端口但不具有研究价值。
+与服务器端的连接时 TCP 但不是 HTTP 协议，服务器端口是 30031，此外还有个 UDP 的端口但不具有研究价值。
 
 ## （脱敏的）抓包记录
 
-由于是TCP原始包，我们只在这里放上人类可读的部分和关键词，采用UTF-8尝试解码原始包数据。
+由于是 TCP 原始包，我们只在这里放上人类可读的部分和关键词，采用 UTF-8 尝试解码原始包数据。
 
-### 客户端发包Upstream
+### 客户端发包 Upstream
 
 ```
 stats data token..LotteryRecord:【编号脱敏1】:WeaponLottery_3【这个3代表第三个卡池】:0
 ```
 
-### 客户端收包Downstream
+### 客户端收包 Downstream
 
 ```json
 {
@@ -52,7 +52,7 @@ stats data token..LotteryRecord:【编号脱敏1】:WeaponLottery_3【这个3代
 lottery_json_data【未知数据脱敏】.LotteryRecord:【编号脱敏1】:WeaponLottery_3:0
 ```
 
-### 客户端发包Upstream
+### 客户端发包 Upstream
 
 ```
 stats data token..LotteryRecord:【编号脱敏1】:WeaponLottery_3:0.LotteryRecord:【编号脱敏1】:WeaponLottery_3:0
@@ -88,11 +88,11 @@ stats data token..LotteryRecord:【编号脱敏1】:WeaponLottery_3:0.LotteryRec
 
 ## 对于抓包记录的补充说明
 
-需要注意，【编号脱敏1】无论何时何地何情况抽卡相同账号始终不变，推测为账号ID。
+需要注意，【编号脱敏 1】无论何时何地何情况抽卡相同账号始终不变，推测为账号 ID。
 
-【编号脱敏2-4】推测为抽卡单号，生成原理暂时未知，但算法可能存在于本地。
+【编号脱敏 2-4】推测为抽卡单号，生成原理暂时未知，但算法可能存在于本地。
 
-新的抽卡结果`"spear_ice"`似乎在本地生成并直接附在JSON中，经事后检查确与抽卡记录相符。
+新的抽卡结果`"spear_ice"`似乎在本地生成并直接附在 JSON 中，经事后检查确与抽卡记录相符。
 
 服务器端返回的当前卡池抽卡数据历史似乎是完整的。
 
@@ -106,7 +106,7 @@ stats data token..LotteryRecord:【编号脱敏1】:WeaponLottery_3:0.LotteryRec
 
 我们不能共情，悲剧的主人公，在即将来临的代码重构中，即将迎来的折磨和绝望。
 
-Bug看似修复，但在玩家群体口中描述的，是相似问题更加离谱的触发和利用......
+Bug 看似修复，但在玩家群体口中描述的，是相似问题更加离谱的触发和利用......
 
 > 本段借鉴并修改自哔哩哔哩用户@提瓦特电视频道的无关视频内容
 

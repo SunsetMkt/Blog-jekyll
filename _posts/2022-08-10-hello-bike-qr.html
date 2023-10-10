@@ -12,40 +12,45 @@ layout: pure
 <script src="https://www.unpkg.com/qrcodejs@1.0.0/qrcode.min.js"></script>
 
 <style>
-    #qrcode {
-        width: 160px;
-        height: 160px;
-        margin-top: 15px;
-    }
+  #qrcode {
+    width: 160px;
+    height: 160px;
+    margin-top: 15px;
+  }
 </style>
 
-<input id="text" type="text" value="http://c3x.me/?n=单车编号" style="width:80%" /><br />
+<input
+  id="text"
+  type="text"
+  value="http://c3x.me/?n=单车编号"
+  style="width: 80%"
+/><br />
 <div id="qrcode"></div>
 
 <script>
-    var qrcode = new QRCode("qrcode");
+  var qrcode = new QRCode("qrcode");
 
-    function makeCode() {
-        var elText = document.getElementById("text");
+  function makeCode() {
+    var elText = document.getElementById("text");
 
-        if (!elText.value) {
-            alert("Input a text");
-            elText.focus();
-            return;
-        }
-
-        qrcode.makeCode(elText.value);
+    if (!elText.value) {
+      alert("Input a text");
+      elText.focus();
+      return;
     }
 
-    makeCode();
+    qrcode.makeCode(elText.value);
+  }
 
-    $("#text").
-        on("blur", function () {
-            makeCode();
-        }).
-        on("keydown", function (e) {
-            if (e.keyCode == 13) {
-                makeCode();
-            }
-        });
+  makeCode();
+
+  $("#text")
+    .on("blur", function () {
+      makeCode();
+    })
+    .on("keydown", function (e) {
+      if (e.keyCode == 13) {
+        makeCode();
+      }
+    });
 </script>

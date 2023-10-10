@@ -9,4 +9,4 @@ categories: article
 mpv --player-operation-mode=pseudo-gui --vo=gpu-next video.mp4
 ```
 
-[获取MPV](https://mpv.io/)
+[获取 MPV](https://mpv.io/)

@@ -1,5 +1,5 @@
 ---
-title: 'Minecraft整合包推荐：XPlus 2.0 基础整合'
+title: "Minecraft整合包推荐：XPlus 2.0 基础整合"
 date: 2021-12-18
 tags: Minecraft 游戏
 categories: article

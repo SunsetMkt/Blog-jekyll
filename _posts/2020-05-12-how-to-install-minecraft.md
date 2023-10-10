@@ -1,7 +1,7 @@
 ---
 title: 教程：如何安装并运行Minecraft国际版(For Windows)(非正版)
 date: 2020-05-12
-tags:  教程 Minecraft
+tags: 教程 Minecraft
 categories: article
 ---
 
@@ -885,61 +885,75 @@ BagP/9k='/>
 [图源](https://www.minecraft.net/zh-hans/about-minecraft)
 
 ### 如果你不想看这篇文章并且不在意游戏质量：
-[我的世界Minecraft中国版官方网站——你想玩的，这里都有](http://mc.163.com/)
 
-### 为什么我们不建议使用Minecraft中国版：
-* [引用材料](https://www.bilibili.com/video/BV1Gi4y1b7sa)
+[我的世界 Minecraft 中国版官方网站——你想玩的，这里都有](http://mc.163.com/)
+
+### 为什么我们不建议使用 Minecraft 中国版：
+
+- [引用材料](https://www.bilibili.com/video/BV1Gi4y1b7sa)
 
 {% include video id="BV1Gi4y1b7sa" provider="bilibili" %}
 
-* 中国版的运行受不合理的网络连接限制
-* 中国版游戏内容可能受中国政府的有关政策限制
-* 知名UP主使用国际版
-* Minecraft中国版更新速度慢
-* Minecraft中国版前途渺茫
-* ......
+- 中国版的运行受不合理的网络连接限制
+- 中国版游戏内容可能受中国政府的有关政策限制
+- 知名 UP 主使用国际版
+- Minecraft 中国版更新速度慢
+- Minecraft 中国版前途渺茫
+- ......
 
-------
+---
+
 # 教程开始
 
-# Step 1:安装Java
-如果你已经在设备上安装了Java，请[跳过这一段](#step-2%e8%8e%b7%e5%8f%96%e5%90%af%e5%8a%a8%e5%99%a8)。
-## 获取Java安装包
+# Step 1:安装 Java
+
+如果你已经在设备上安装了 Java，请[跳过这一段](#step-2%e8%8e%b7%e5%8f%96%e5%90%af%e5%8a%a8%e5%99%a8)。
+
+## 获取 Java 安装包
+
 ### Java.com
-你可以在[Java.com](https://www.java.com/zh_CN/)获取Java的各平台安装包。
+
+你可以在[Java.com](https://www.java.com/zh_CN/)获取 Java 的各平台安装包。
 
 前往[下载页](https://www.java.com/zh_CN/download/)并点击下载按钮，运行安装程序并安装。
->For Windows:
+
+> For Windows:
 >
->如果你不清楚该如何安装，请持续点击窗口中的“下一步”、“我同意EULA”、“安装”直到安装成功。
+> 如果你不清楚该如何安装，请持续点击窗口中的“下一步”、“我同意 EULA”、“安装”直到安装成功。
+
 ### 网络问题？
-限于中国特色的网络环境，你在下载Java完整安装包的过程中可能会遇到一些困难。这时，你可以向国内下载站寻求帮助。
+
+限于中国特色的网络环境，你在下载 Java 完整安装包的过程中可能会遇到一些困难。这时，你可以向国内下载站寻求帮助。
 
 在这里，我们建议使用[腾讯软件中心](https://pc.qq.com/)下载安装包。
 
-网站上提供的JRE(Java Runtime Environment,Java运行环境)仍然是在线安装包，这时，我们要安装提供离线安装包的JDK(Java Development Kit,Java开发包)。
+网站上提供的 JRE(Java Runtime Environment,Java 运行环境)仍然是在线安装包，这时，我们要安装提供离线安装包的 JDK(Java Development Kit,Java 开发包)。
 
 [Java SE Development Kit x86](https://pc.qq.com/detail/0/detail_18360.html) [安装包链接](https://dl.softmgr.qq.com/original/Development/jdk-8u191-windows-i586-8.0.1910.12.exe)
 
 [Java SE Development Kit x64](https://pc.qq.com/detail/13/detail_56573.html) [安装包链接](https://dl.softmgr.qq.com/original/Development/jdk-8u191-windows-x64-8.0.1910.12.exe)
 
-#### JRE和JDK的区别？
-JDK包括了Java运行环境(JRE)、Java工具和Java基础类库。
+#### JRE 和 JDK 的区别？
+
+JDK 包括了 Java 运行环境(JRE)、Java 工具和 Java 基础类库。
 
 #### x86 & x64 ?
+
 这里不作更多讲解，请右键单击“计算机”或“这台电脑”或“我的电脑”或“只要你打开它就能看到所有连接到这台设备的所有外接设备和驱动器或硬盘的那个图标”并点击“属性”，查看“系统类型”。
 
-* 若其为32位操作系统或x86操作系统，使用x86安装包。
-* 若其为64位操作系统，使用x64安装包。
-* 若你不想分辨x86和x64，请无视上述内容并直接选择x86安装包。
-* 若你想用试错法确定安装包，请先运行x64安装包，若报错，使用x86安装包。
+- 若其为 32 位操作系统或 x86 操作系统，使用 x86 安装包。
+- 若其为 64 位操作系统，使用 x64 安装包。
+- 若你不想分辨 x86 和 x64，请无视上述内容并直接选择 x86 安装包。
+- 若你想用试错法确定安装包，请先运行 x64 安装包，若报错，使用 x86 安装包。
 
 # Step 2:获取启动器
+
 在这里，我们建议使用[Hello Minecraft! Launcher](https://hmcl.huangyuhui.net/)。
 
-在[这里](https://hmcl.huangyuhui.net/download)选择Windows（就是那个紫色的上面写着Windows的按钮）并下载，将下载的可执行文件放置在一个新建的文件夹（例如新建一个叫做“Minecraft”的文件夹）中。
+在[这里](https://hmcl.huangyuhui.net/download)选择 Windows（就是那个紫色的上面写着 Windows 的按钮）并下载，将下载的可执行文件放置在一个新建的文件夹（例如新建一个叫做“Minecraft”的文件夹）中。
 
-# Step 3:下载Minecraft
+# Step 3:下载 Minecraft
+
 运行你刚刚下载的启动器（第一次启动可能缓慢）。
 
 <img src='data:img/jpg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/4RD0RXhpZgAATU0AKgAAAAgABAE7AAIAAAAOAAAISodpAAQA
@@ -1906,7 +1920,7 @@ SUbs9qM0wMrdRmmZpQazKHg04UwU4UxDqUU3NOFADxSgUCgtimIdijFM3mjfTAk4oyKjzmjNADya
 YaTNLTAAacDikC04DFADwc06mA04fWkA7NGaSjNMBwNLmmZopAPopopc0wMmlFFFZlDhThRRQAtK
 DRRTEPDUp5FFFAEfIpaKKAHUUUVSEFOFFFADwQKXNFFABSiiigB9FFFABRRRQAUZoopgf//Z'/>
 
-点击启动器设置，依网络情况选择下载源BMCLAPI或我的世界中文论坛。
+点击启动器设置，依网络情况选择下载源 BMCLAPI 或我的世界中文论坛。
 
 <img src='data:img/jpg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/4RD0RXhpZgAATU0AKgAAAAgABAE7AAIAAAAOAAAISodpAAQA
 AAABAAAIWJydAAEAAAAcAAAQ0OocAAcAAAgMAAAAPgAAAAAc6gAAAAgAAAAAAAAAAAAAAAAAAAAA
@@ -4571,15 +4585,15 @@ fM8bor2TA9BRgego/tT+5+P/AAA9j5njdFeyYHoKMD0FH9qf3Px/4Aex8zxuivZMD0FKoGego/tT
 dKKBRXIWFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFF
 ABRRRQB//9k='/>
 
->不建议的操作
+> 不建议的操作
 >
->如果你有意向安装Mod，请选择安装Forge并选择Forge版本（建议使用最新版）。
+> 如果你有意向安装 Mod，请选择安装 Forge 并选择 Forge 版本（建议使用最新版）。
 >
->如果你的Mod使用Fabric或LiteLoader，请选择相应选项安装。
+> 如果你的 Mod 使用 Fabric 或 LiteLoader，请选择相应选项安装。
 >
->如果你有意向使用光影，请选择安装OptiFine。
+> 如果你有意向使用光影，请选择安装 OptiFine。
 >
->但是，我们并不建议在这里安装其他项目。
+> 但是，我们并不建议在这里安装其他项目。
 
 选择完成后，点击“安装”按钮。
 
@@ -6238,7 +6252,7 @@ BRRRQAUUUUAIaq3P3DRRQB5V4n/5GS6/4D/6AKyaKK+go/w4+iOWW7CiiitRBRRRQAUUUUAFFFFA
 BRRRQAV7JZfdFFFeZjvs/P8AQ1p9TRXpS0UV5psFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
 BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAH//Z'/>
 
-如果你选择了Forge或其他选项，等待安装完成。
+如果你选择了 Forge 或其他选项，等待安装完成。
 
 <img src='data:img/jpg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/4RD0RXhpZgAATU0AKgAAAAgABAE7AAIAAAAOAAAISodpAAQA
 AAABAAAIWJydAAEAAAAcAAAQ0OocAAcAAAgMAAAAPgAAAAAc6gAAAAgAAAAAAAAAAAAAAAAAAAAA
@@ -6412,7 +6426,7 @@ xj/74FH2aD/njH/3wKkooAj+zQf88Y/++BR9mg/54x/98CpKKAI/s0H/ADxj/wC+BR9mg/54x/8A
 fAqSigCP7NB/zxj/AO+BR9mg/wCeMf8A3wKkooAj+zQf88Y/++BR9mg/54x/98CpKKAI/s0H/PGP
 /vgUfZoP+eMf/fAqSigCP7NB/wA8Y/8AvgUfZoP+eMf/AHwKkooAj+zQf88Y/wDvgVJRRQB//9k='/>
 
-安装**非**Minecraft本体时，受限于中国特色的网络环境，你可能会在获取来自Google或GitHub的资源时遇到网络问题，请使用你自己的方法解决。
+安装**非**Minecraft 本体时，受限于中国特色的网络环境，你可能会在获取来自 Google 或 GitHub 的资源时遇到网络问题，请使用你自己的方法解决。
 
 <img src='data:img/jpg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/4RD0RXhpZgAATU0AKgAAAAgABAE7AAIAAAAOAAAISodpAAQA
 AAABAAAIWJydAAEAAAAcAAAQ0OocAAcAAAgMAAAAPgAAAAAc6gAAAAgAAAAAAAAAAAAAAAAAAAAA

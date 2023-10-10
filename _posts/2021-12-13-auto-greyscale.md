@@ -8,9 +8,9 @@ categories: demo
 ```javascript
 function applyBlackAndWhiteFilterOnDate(targetDate) {
   var currentDate = new Date();
-  var targetMonth = targetDate.split('-')[0];
-  var targetDay = targetDate.split('-')[1];
-  
+  var targetMonth = targetDate.split("-")[0];
+  var targetDay = targetDate.split("-")[1];
+
   // 检查当前日期是否与目标日期相等
   if (
     currentDate.getMonth() + 1 === parseInt(targetMonth) &&
@@ -21,5 +21,5 @@ function applyBlackAndWhiteFilterOnDate(targetDate) {
   }
 }
 
-applyBlackAndWhiteFilterOnDate('12-31');
+applyBlackAndWhiteFilterOnDate("12-31");
 ```

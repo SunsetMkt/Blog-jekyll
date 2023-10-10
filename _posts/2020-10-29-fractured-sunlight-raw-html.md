@@ -1,14 +1,13 @@
 ---
 title: 【转载】日色破碎 原始HTML格式
 date: 2020-10-29
-tags:  MyLittlePony 转载 版权争议 ACG
+tags: MyLittlePony 转载 版权争议 ACG
 categories: article
 ---
 
 > 编者注：本文尚未获得转载许可，原翻译者暂时无法联系。原发布站点已经关闭。
 >
 > 来自于对原站点的[备份](/assets/html/Fractured-Sunlight.html)。
-> 
 
 <style type='text/css'>html, body {overflow-x: initial !important;}html { font-size: 14px; background-color: rgb(255, 255, 255); color: rgb(51, 51, 51); }
 body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 1rem; line-height: 1.42857143; overflow-x: hidden; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; background-position: inherit inherit; background-repeat: inherit inherit; }

@@ -13,61 +13,59 @@ excerpt: "十四行诗是由深蓝互动所制作的游戏《重返未来：1999
 <script src="https://cdn.jsdelivr.net/npm/pixi-live2d-display/dist/index.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/pixi-live2d-display/dist/extra.min.js"></script>
 
-<canvas id=canvas></canvas>
+<canvas id="canvas"></canvas>
 
 <script>
-    const cubism4Model =
-        "/assets/postres/2023-06-15-shisihangshi/302301_shisihangshi/302301_shisihangshi.model3.json";
+  const cubism4Model =
+    "/assets/postres/2023-06-15-shisihangshi/302301_shisihangshi/302301_shisihangshi.model3.json";
 
-    const live2d = PIXI.live2d;
+  const live2d = PIXI.live2d;
 
-    (async function main() {
-        const app = new PIXI.Application({
-            view: document.getElementById("canvas"),
-            autoStart: true,
-            resizeTo: window,
-            backgroundColor: 0x333333
-        });
+  (async function main() {
+    const app = new PIXI.Application({
+      view: document.getElementById("canvas"),
+      autoStart: true,
+      resizeTo: window,
+      backgroundColor: 0x333333,
+    });
 
-        const models = await Promise.all([
-            live2d.Live2DModel.from(cubism4Model)
-        ]);
+    const models = await Promise.all([live2d.Live2DModel.from(cubism4Model)]);
 
-        models.forEach((model) => {
-            app.stage.addChild(model);
+    models.forEach((model) => {
+      app.stage.addChild(model);
 
-            const scaleX = innerWidth / model.width;
-            const scaleY = innerHeight / model.height;
+      const scaleX = innerWidth / model.width;
+      const scaleY = innerHeight / model.height;
 
-            // fit the window
-            model.scale.set(Math.min(scaleX, scaleY));
+      // fit the window
+      model.scale.set(Math.min(scaleX, scaleY));
 
-            model.y = innerHeight * 0.4;
+      model.y = innerHeight * 0.4;
 
-            draggable(model);
-        });
+      draggable(model);
+    });
 
-        const model4 = models[0];
+    const model4 = models[0];
 
-        model4.on("pointerdown", (hitAreas) => {
-            model4.motion("PlayTrick");
-        });
-    })();
+    model4.on("pointerdown", (hitAreas) => {
+      model4.motion("PlayTrick");
+    });
+  })();
 
-    function draggable(model) {
-        model.buttonMode = true;
-        model.on("pointerdown", (e) => {
-            model.dragging = true;
-            model._pointerX = e.data.global.x - model.x;
-            model._pointerY = e.data.global.y - model.y;
-        });
-        model.on("pointermove", (e) => {
-            if (model.dragging) {
-                model.position.x = e.data.global.x - model._pointerX;
-                model.position.y = e.data.global.y - model._pointerY;
-            }
-        });
-        model.on("pointerupoutside", () => (model.dragging = false));
-        model.on("pointerup", () => (model.dragging = false));
-    }
+  function draggable(model) {
+    model.buttonMode = true;
+    model.on("pointerdown", (e) => {
+      model.dragging = true;
+      model._pointerX = e.data.global.x - model.x;
+      model._pointerY = e.data.global.y - model.y;
+    });
+    model.on("pointermove", (e) => {
+      if (model.dragging) {
+        model.position.x = e.data.global.x - model._pointerX;
+        model.position.y = e.data.global.y - model._pointerY;
+      }
+    });
+    model.on("pointerupoutside", () => (model.dragging = false));
+    model.on("pointerup", () => (model.dragging = false));
+  }
 </script>

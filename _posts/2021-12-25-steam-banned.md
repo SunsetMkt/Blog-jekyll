@@ -5,7 +5,7 @@ tags: Steam GitHub
 categories: article
 ---
 
-有未证实的报告称，Steam商店自2021-12-25起在中国大陆部分地区出现访问异常。
+有未证实的报告称，Steam 商店自 2021-12-25 起在中国大陆部分地区出现访问异常。
 
 SteamDB[声称](https://twitter.com/SteamDB/status/1474685012339531780)其亦收到相关报告。
 
@@ -13,15 +13,15 @@ SteamDB[声称](https://twitter.com/SteamDB/status/1474685012339531780)其亦收
 >
 > Store and API subdomains appear to experience connection resets on some Akamai IPs (which is typical for great firewall), similar to how GitHub was being blocked. Other subdomains (like partner site) work at the moment.
 >
-> 下午6:14 · 2021年12月25日·TweetDeck
+> 下午 6:14 · 2021 年 12 月 25 日·TweetDeck
 
 [reddit](https://www.reddit.com/r/Steam/comments/ro1rg9/breaking_news_steam_has_been_banned_in_china_the/)上亦出现相关内容。
 
-不过随着圣诞节促销，Steam商店在全球范围内也出现了不稳定的情况，有相关人士怀疑，部分访问故障可能来自服务器负荷过重导致的异常。
+不过随着圣诞节促销，Steam 商店在全球范围内也出现了不稳定的情况，有相关人士怀疑，部分访问故障可能来自服务器负荷过重导致的异常。
 
-SteamDB提到的 `similar to how GitHub was being blocked`指“检测 *.github.com，以及raw.githubusercontent.com域名的SNI，并对上述域名所对应的IP地址的443端口（HTTPS协议）间歇性执行TCP重置攻击，或者直接封锁指定端口（强制丢包），从而出现连接重置、连接超时等错误，每次封锁至少持续3分钟后才能正常进入网站。这导致了Github在中国大陆的访问被严重干扰，非常不稳定，时断时续，相关干扰一直持续至今未解除”（语出 维基百科），相关报道参见 [这里](https://www.v2ex.com/t/760217) [这里](https://www.v2ex.com/t/761907) [还有这里](https://www.v2ex.com/t/761558)，这种方法的确能造成Steam“不稳定”的假象。
+SteamDB 提到的 `similar to how GitHub was being blocked`指“检测 \*.github.com，以及 raw.githubusercontent.com 域名的 SNI，并对上述域名所对应的 IP 地址的 443 端口（HTTPS 协议）间歇性执行 TCP 重置攻击，或者直接封锁指定端口（强制丢包），从而出现连接重置、连接超时等错误，每次封锁至少持续 3 分钟后才能正常进入网站。这导致了 Github 在中国大陆的访问被严重干扰，非常不稳定，时断时续，相关干扰一直持续至今未解除”（语出 维基百科），相关报道参见 [这里](https://www.v2ex.com/t/760217) [这里](https://www.v2ex.com/t/761907) [还有这里](https://www.v2ex.com/t/761558)，这种方法的确能造成 Steam“不稳定”的假象。
 
-（差不多解释一下，互联网通信标准在设计的时候似乎并没有考虑到**国家级的流氓行为**，所以即使是使用TLS等加密技术，我们也能通过未加密的证书交换环节以及HTTPS协议头里以及我不知道的地方的信息发现这个数据包的目的地，注意只是目的地不包括内容，但这足以用于判断和封锁。一些新的标准例如DoH还有ESNI什么的被用于防御这种流氓行径，目前采用这些技术的请求在中国大陆的跨国连接中均被无差别封锁）
+（差不多解释一下，互联网通信标准在设计的时候似乎并没有考虑到**国家级的流氓行为**，所以即使是使用 TLS 等加密技术，我们也能通过未加密的证书交换环节以及 HTTPS 协议头里以及我不知道的地方的信息发现这个数据包的目的地，注意只是目的地不包括内容，但这足以用于判断和封锁。一些新的标准例如 DoH 还有 ESNI 什么的被用于防御这种流氓行径，目前采用这些技术的请求在中国大陆的跨国连接中均被无差别封锁）
 
 ~~目前，我们对此事持观望态度。~~
 
@@ -30,9 +30,9 @@ SteamDB提到的 `similar to how GitHub was being blocked`指“检测 *.github.
 > **他们也一样。**
 > —— Hannah.梅
 
-2021-12-26更新
+2021-12-26 更新
 
-以下代码被用于测试Steam商店的可连接性
+以下代码被用于测试 Steam 商店的可连接性
 
 ```python
 #! /usr/bin/env python3
@@ -152,9 +152,9 @@ if __name__ == "__main__":
 
 ```
 
-我在这里解释一下这是干什么的：这段代码会以普通网页浏览器的身份尝试访问 `https://store.steampowered.com/`，每次访问成功后休息1~2秒钟，如果一次访问在10秒钟内未加载完成/出于任何原因请求被阻断则视为访问失败（在程序中，这种情况的返回码为999），如果由于其他原因访问失败也计入在内（返回码不是999）。
+我在这里解释一下这是干什么的：这段代码会以普通网页浏览器的身份尝试访问 `https://store.steampowered.com/`，每次访问成功后休息 1~2 秒钟，如果一次访问在 10 秒钟内未加载完成/出于任何原因请求被阻断则视为访问失败（在程序中，这种情况的返回码为 999），如果由于其他原因访问失败也计入在内（返回码不是 999）。
 
-我们在一位热心人士提供的北京市亚马逊云服务器上在Docker容器Ubuntu环境内运行了上述代码，log如下：
+我们在一位热心人士提供的北京市亚马逊云服务器上在 Docker 容器 Ubuntu 环境内运行了上述代码，log 如下：
 
 ```verilog
  2021-12-26 13:23:31,849 - INFO - Starting steam_store_test.py
@@ -564,11 +564,11 @@ if __name__ == "__main__":
  2021-12-26 13:37:34,031 - WARNING - Total failed attempts 60
 ```
 
-在100次尝试中，60次尝试判定失败，失败原因均为超时（测试限制时间10s，返回码定义999），成功请求与失败请求交错分布。在我们的所处位置失败更频繁。
+在 100 次尝试中，60 次尝试判定失败，失败原因均为超时（测试限制时间 10s，返回码定义 999），成功请求与失败请求交错分布。在我们的所处位置失败更频繁。
 
-（我们采用HTTPie多次测试确定请求失败原因为 `[WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。`）
+（我们采用 HTTPie 多次测试确定请求失败原因为 `[WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。`）
 
-北京亚马逊云traceroute输出如下：
+北京亚马逊云 traceroute 输出如下：
 
 ```shell
 traceroute to store.steampowered.com (69.192.208.101), 30 hops max, 60 byte packets
@@ -604,7 +604,7 @@ traceroute to store.steampowered.com (69.192.208.101), 30 hops max, 60 byte pack
 30  * * *
 ```
 
-在美国俄勒冈达尔斯谷歌云上在Docker容器Debian环境内，我们执行了相同的测试，log如下：
+在美国俄勒冈达尔斯谷歌云上在 Docker 容器 Debian 环境内，我们执行了相同的测试，log 如下：
 
 ```verilog
  2021-12-26 13:52:46,944 - INFO - Starting steam_store_test.py
@@ -688,24 +688,24 @@ traceroute to store.steampowered.com (69.192.208.101), 30 hops max, 60 byte pack
 （以下省略）
 ```
 
-100次尝试没有出现任何问题，可以排除Steam服务器对测试程序的针对性屏蔽。
+100 次尝试没有出现任何问题，可以排除 Steam 服务器对测试程序的针对性屏蔽。
 
-值得注意的是，测试人员的设备和北京亚马逊云尝试连接的并不是同一个服务器IP（分别位于美国的两个不同的州且IP段有非常明显的差别），不太可能是针对某一个服务器IP的*“失误”*，况且还能ping通。
+值得注意的是，测试人员的设备和北京亚马逊云尝试连接的并不是同一个服务器 IP（分别位于美国的两个不同的州且 IP 段有非常明显的差别），不太可能是针对某一个服务器 IP 的*“失误”*，况且还能 ping 通。
 
 上述测验证明了如下结论：
 
-* 本次针对Steam的封锁与GitHub相似（消息证实）
-* 也许不是*“错误地”*封锁了某个IP段
+- 本次针对 Steam 的封锁与 GitHub 相似（消息证实）
+- 也许不是*“错误地”*封锁了某个 IP 段
 
 ~~我们会尽可能跟进报道。~~
 
-2021-12-27更新
+2021-12-27 更新
 
-根据v2ex网友的[方法](https://www.v2ex.com/t/824179)构建的[测试工具包](https://github.com/lwd-temp/steam-store-checker)现已发布，在多处地点已复现成功。
+根据 v2ex 网友的[方法](https://www.v2ex.com/t/824179)构建的[测试工具包](https://github.com/lwd-temp/steam-store-checker)现已发布，在多处地点已复现成功。
 
 详见页首视频。
 
-2021-12-31更新
+2021-12-31 更新
 
 于 2021 年 12 月 31 日 上午 12:08 来自 Steam 客服的信息
 
@@ -724,6 +724,6 @@ traceroute to store.steampowered.com (69.192.208.101), 30 hops max, 60 byte pack
 Thanks for using Steam,
 Michel C
 
-2022-01-07更新
+2022-01-07 更新
 
 冬促结束，情况依旧。

@@ -1,7 +1,7 @@
 ---
 title: Endnote 20 License.dat 授权文件
 date: 2023-05-03
-tags:  EndNote 版权争议
+tags: EndNote 版权争议
 categories: article
 ---
 
@@ -14,11 +14,12 @@ categories: article
     </style>
 </div>
 
-## 基于CyberChef的简单字符串的非对称加密
-使用CyberChef可以实现简单字符串的非对称加密，例子如下：
+## 基于 CyberChef 的简单字符串的非对称加密
 
-* 我们有一个String
-* [生成Keypair](https://gchq.github.io/CyberChef/#recipe=Generate_RSA_Key_Pair('2048','PEM'))
+使用 CyberChef 可以实现简单字符串的非对称加密，例子如下：
+
+- 我们有一个 String
+- [生成 Keypair](<https://gchq.github.io/CyberChef/#recipe=Generate_RSA_Key_Pair('2048','PEM')>)
 
 ```
 -----BEGIN PUBLIC KEY-----
@@ -60,14 +61,14 @@ nfoG7jJPF96DvDKJWjeXk6olhkc2bx5IbcaIIzhJjx6Zq5ZbQTTk
 -----END RSA PRIVATE KEY-----
 ```
 
-* [使用公钥加密](https://gchq.github.io/CyberChef/#recipe=Register('(%5B%5C%5Cs%5C%5CS%5D%2B)',true,false,false)Generate_UUID()MD5()Register('(.%7B16%7D)',true,false,false)Find_/_Replace(%7B'option':'Regex','string':'%5B%5C%5Cs%5C%5CS%5D%2B'%7D,'$R1',true,false,true,false)RSA_Encrypt('','RSA-OAEP','SHA-1')To_Base64('A-Za-z0-9%2B/%3D')Register('(%5B%5C%5Cs%5C%5CS%5D%2B)',true,false,false)Find_/_Replace(%7B'option':'Regex','string':'%5B%5C%5Cs%5C%5CS%5D%2B'%7D,'$R0',true,false,true,false)AES_Encrypt(%7B'option':'UTF8','string':'$R1'%7D,%7B'option':'UTF8','string':'$R1'%7D,'CBC','Raw','Raw',%7B'option':'Hex','string':''%7D)To_Base64('A-Za-z0-9%2B/%3D')Find_/_Replace(%7B'option':'Regex','string':'%5E'%7D,'$R2%5C%5Cn',false,false,true,false))
+- [使用公钥加密](<https://gchq.github.io/CyberChef/#recipe=Register('(%5B%5C%5Cs%5C%5CS%5D%2B)',true,false,false)Generate_UUID()MD5()Register('(.%7B16%7D)',true,false,false)Find_/_Replace(%7B'option':'Regex','string':'%5B%5C%5Cs%5C%5CS%5D%2B'%7D,'$R1',true,false,true,false)RSA_Encrypt('','RSA-OAEP','SHA-1')To_Base64('A-Za-z0-9%2B/%3D')Register('(%5B%5C%5Cs%5C%5CS%5D%2B)',true,false,false)Find_/_Replace(%7B'option':'Regex','string':'%5B%5C%5Cs%5C%5CS%5D%2B'%7D,'$R0',true,false,true,false)AES_Encrypt(%7B'option':'UTF8','string':'$R1'%7D,%7B'option':'UTF8','string':'$R1'%7D,'CBC','Raw','Raw',%7B'option':'Hex','string':''%7D)To_Base64('A-Za-z0-9%2B/%3D')Find_/_Replace(%7B'option':'Regex','string':'%5E'%7D,'$R2%5C%5Cn',false,false,true,false)>)
 
 ```
 RyPVnvbetdzcTPPaLPw86TJHlqpqjpzkm5kgVvofvWO0xEl+w+uXAuoAdCBZL96PBRwbOGVdkfcswSaIWBEi+dfEUBN5fts6IHuF2bIsXzW2lPNdSSCFejGz5iVWeOZvuFgycQHuYLt+OWkzm74OxgwxWirtS23HS49lx1yB81ufOeId07PnDb4UUXRpfeJRvKt4I8dNvyfGhFS8TAZ3PFr4kNHaCT5GZxpp6XhBwC2wTQDYjrVaV1952+SDFgRPBWXZRAuPBIsVqt/LW1eNVr0SV/ihAtNOcZbWWWGdhm8ZOKy8hzcD0868bds3bLSiGoJVTurD5nr+y+3AdYCXBQ==
 eAab/Gn8QgE7NSTL8wp8zJC4p8gf2dUVFV35LuDXCbZJwsystXb6P5x8cReIV9lnVR46lEeOlTWyzYs1IYIGAaJjf+2LfmQNtEWPJR4IoBjDnvrW1H8vBagoBdXY5yNAnNwnzzxDkeDPEsDsANHPI1vqLrWHiiCEXrGnj2rni1DP1G8V6yWWymeV6kWkN2maMenzM2CFeAbGqz6zyep34V2HXkZccCxUuLRTsZn0G9W9LpcCUQ3083tsN3QHAjCOBAgWAy6mwdYE+tkQZonxrJTrQkfgwQhh5650K3HZBvRQrAlojTqAW6Ebb+fAgV/4+IL5KnRnHGGI7e+nsUyOMV5v6pTB1GzvgBtcSLJtvF7wU7ERpKzJX3sFE0kbEHrp9CL3vNGr/NR7AC8SUcsC9xTChWSWnuZ2piebiisAXKdv1S4ENOw7b3eqD11TTzljsBgbdROVic9yXoEUptDAu3hDAg1PyAeMrhEotQtszDvnKpUMGRkExe0N0nrSG7sKl4KQDqOc/81CL71dme/Re2VZG2O8A5RW6Q9kZb099ecopqRCXwRSvmHhw7d9CWScA/GyPQ4XVqHf2Rf2NI6S9IM6/nxBNtX1aR+uR83n/2S+2MMGN5zGLGBBFMvYoaqy1St/Z4vU39mPfIDnpMsXnIiC+PGLLImBQyAqhchMYLYdh51XRUTx21cilX4xKBSkhx+CTfqWxq7+Bsnh2p4dLxULWqm4sXSzoqR7R881gsGh3C/MbKvaRKlLY6pI/WsYYKqqh6JqcTU4vD/mIw5ZpmClL5VmkuJo61N1wdr/MSepw4hL1kY4pCDfnhu8bo1fGKKbtf6hnqBBdf9xKZzfpHL1K0UQTgZTMud5P9zTEKBe+nW0SSGQfIMBEsc/ae182fi3xLdWuMGPEcuYmmP2lSLRHfQiL4QN0Q/Ngna9TkE6HEO4HgnLZlQSrfoBqcnXwidD4O/6WFZoVTV27IWfQk8AXi0xD0snA36VQF8N8ndhfpFqmqugILwQa14b4Ibq7FrwKVLMTM+CYv0zOwncv4OFRLt+ZTwGzH0zvxPs9X0ST+j/4kDOj0JW5QgbNeQ31uPDj0Ure+l9sKHyVxSLFxImWP7DIKjGS0oHaJSTl9fNbszpFyyIOA4Gq6UxNzF9wBdlACfOsDZsLPNKUkwks0uwQF7Bp5Jd1rMJXnHe2rWFmykrnqOQvh7kecFcISpztcRouG/ZbZCdFi/Tgr6lSZYBC74+kfg7rJ+ExUz48BzrO2v4RQsD3A4RVYjyGoyf081jkHJQUNl/J2QSrbDmtK0UtYFkEI9f+sqbKHWpaJDa6Ai3Rfxcxp52QzIMfI0Q+pnnMNP8YRXYnzaE9JG8cwkr12ge9OBa0dT2K+VtJaA=
 ```
 
-* [使用私钥解密](https://gchq.github.io/CyberChef/#recipe=Register('(%5B%5E%5C%5Cn%5D%2B)%5C%5Cs%2B(%5B%5E%5C%5Cn%5D%2B)',true,false,false)Find_/_Replace(%7B'option':'Regex','string':'%5B%5C%5Cs%5C%5CS%5D%2B'%7D,'$R0',true,false,true,false)From_Base64('A-Za-z0-9%2B/%3D',true)RSA_Decrypt('','','RSA-OAEP','SHA-1')Register('(%5B%5E%5C%5Cn%5D%2B)',true,false,false)Find_/_Replace(%7B'option':'Regex','string':'%5B%5C%5Cs%5C%5CS%5D%2B'%7D,'$R1',true,false,true,false)From_Base64('A-Za-z0-9%2B/%3D',true)AES_Decrypt(%7B'option':'UTF8','string':'$R2'%7D,%7B'option':'UTF8','string':'$R2'%7D,'CBC','Raw','Raw',%7B'option':'Hex','string':''%7D,%7B'option':'Hex','string':''%7D))
-* 得到String
+- [使用私钥解密](<https://gchq.github.io/CyberChef/#recipe=Register('(%5B%5E%5C%5Cn%5D%2B)%5C%5Cs%2B(%5B%5E%5C%5Cn%5D%2B)',true,false,false)Find_/_Replace(%7B'option':'Regex','string':'%5B%5C%5Cs%5C%5CS%5D%2B'%7D,'$R0',true,false,true,false)From_Base64('A-Za-z0-9%2B/%3D',true)RSA_Decrypt('','','RSA-OAEP','SHA-1')Register('(%5B%5E%5C%5Cn%5D%2B)',true,false,false)Find_/_Replace(%7B'option':'Regex','string':'%5B%5C%5Cs%5C%5CS%5D%2B'%7D,'$R1',true,false,true,false)From_Base64('A-Za-z0-9%2B/%3D',true)AES_Decrypt(%7B'option':'UTF8','string':'$R2'%7D,%7B'option':'UTF8','string':'$R2'%7D,'CBC','Raw','Raw',%7B'option':'Hex','string':''%7D,%7B'option':'Hex','string':''%7D)>)
+- 得到 String
 
-这里提供的示例*似乎*不能用于非ASCII字符，至少在中文字符上表现不如预期。
+这里提供的示例*似乎*不能用于非 ASCII 字符，至少在中文字符上表现不如预期。

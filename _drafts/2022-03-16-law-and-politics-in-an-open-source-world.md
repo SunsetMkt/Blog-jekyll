@@ -11,18 +11,18 @@ categories: article
 
 版权：本作品采用「[署名-非商业性使用-相同方式共享 4.0 国际](http://creativecommons.org/licenses/by-nc-sa/4.0/)」许可协议进行许可。
 
------
+---
 
 ## 缘起
 
-写这篇文章，其实有很多原因。因为最近发生的俄罗斯与乌克兰的战争，各种影响蔓延到了IT产业、互联网、社交媒体，当然也“烧”到了开源世界。
+写这篇文章，其实有很多原因。因为最近发生的俄罗斯与乌克兰的战争，各种影响蔓延到了 IT 产业、互联网、社交媒体，当然也“烧”到了开源世界。
 
-值得讨论的新闻事件，主要是2个，我在文章里，可能还会提到一些其他的事情。
+值得讨论的新闻事件，主要是 2 个，我在文章里，可能还会提到一些其他的事情。
 
-* https://github.blog/2022-03-02-our-response-to-the-war-in-ukraine/
-  * 2022 年 3 月 2 日 GitHub CEO Thomas Dohmke 发文《我们对乌克兰战争的回应》
-* https://github.com/facebook/react/issues
-  * 也是在 3 月 2 ~ 3 日，有很多人冲到 React 的社区，用简体中文谩骂 React 与美国，因为他们在自己的社区首页声明“ Support Ukraine ”
+- https://github.blog/2022-03-02-our-response-to-the-war-in-ukraine/
+  - 2022 年 3 月 2 日 GitHub CEO Thomas Dohmke 发文《我们对乌克兰战争的回应》
+- https://github.com/facebook/react/issues
+  - 也是在 3 月 2 ~ 3 日，有很多人冲到 React 的社区，用简体中文谩骂 React 与美国，因为他们在自己的社区首页声明“ Support Ukraine ”
 
 但是，真正让我觉得必须要写一篇文章来讨论这个事情的，是腾源会的一篇公众号文章《[GitHub 限制俄罗斯使用代码，「开源无国界」是伪命题吗？](https://mp.weixin.qq.com/s/Atc2lrpGddKmueymDJzuBA)》
 
@@ -32,8 +32,8 @@ categories: article
 
 其实，在 3 月 2 日， GitHub CEO 的文章发布之后，在中文社区有很多报道。我看到的标题，比较有典型性的是两个：
 
-* 云头条：《[GitHub：严格限制俄罗斯获取维持其侵略性军事能力所需要的技术](https://mp.weixin.qq.com/s/YIsgkiztpFE40ka3TbMZqw)》
-* 新智元：《[俄罗斯开发者或因制裁无法访问开源代码？Github CEO发文否认](https://mp.weixin.qq.com/s/HHPQj0qJqmxoWrNx4Wlpiw)》
+- 云头条：《[GitHub：严格限制俄罗斯获取维持其侵略性军事能力所需要的技术](https://mp.weixin.qq.com/s/YIsgkiztpFE40ka3TbMZqw)》
+- 新智元：《[俄罗斯开发者或因制裁无法访问开源代码？Github CEO 发文否认](https://mp.weixin.qq.com/s/HHPQj0qJqmxoWrNx4Wlpiw)》
 
 咱们来看看原文：
 
@@ -41,11 +41,11 @@ categories: article
 
 DeepL 翻译：
 
-> 在我们努力确保所有国家的开发者都能使用GitHub的同时，我们也在继续确保所有人都能获得免费的开源服务，**包括俄罗斯的开发者**。
+> 在我们努力确保所有国家的开发者都能使用 GitHub 的同时，我们也在继续确保所有人都能获得免费的开源服务，**包括俄罗斯的开发者**。
 
 另外一段话也非常重要，接着看原文：
 
-> Our legal team examines such mandates thoroughly, and we are complying with export controls and trade regulations as they evolve. This includes implementing stringent new export controls that are aimed at severely restricting Russia’s access to technologies and other items it needs to sustain its aggressive military capabilities. 
+> Our legal team examines such mandates thoroughly, and we are complying with export controls and trade regulations as they evolve. This includes implementing stringent new export controls that are aimed at severely restricting Russia’s access to technologies and other items it needs to sustain its aggressive military capabilities.
 
 DeepL 翻译
 
@@ -57,10 +57,10 @@ DeepL 翻译
 
 更进一步的讨论，其实需要更多的延伸阅读。
 
-* Linux 基金会：《[Understanding US export controls with open source projects](https://www.linuxfoundation.org/tools/understanding-us-export-controls-with-open-source-projects/)》
-  * 中文翻译： 《[Linux 基金会发布白皮书：公开发布给全世界的开源技术不受 EAR 约束](https://www.oschina.net/news/117075/understanding-us-export-controls-with-open-source-projects)》
-* Apache 基金会：《[Statement by The Apache Software Foundation regarding US Federal Register Notice of non-US affiliates added to Entity List Ruling](https://blogs.apache.org/foundation/entry/statement-by-the-apache-software)》
-  * 中文翻译：《[Apache 软件基金会回应：参与开源不受 EAR 约束](https://www.oschina.net/news/106904/statement-by-the-apache-software)》
+- Linux 基金会：《[Understanding US export controls with open source projects](https://www.linuxfoundation.org/tools/understanding-us-export-controls-with-open-source-projects/)》
+  - 中文翻译： 《[Linux 基金会发布白皮书：公开发布给全世界的开源技术不受 EAR 约束](https://www.oschina.net/news/117075/understanding-us-export-controls-with-open-source-projects)》
+- Apache 基金会：《[Statement by The Apache Software Foundation regarding US Federal Register Notice of non-US affiliates added to Entity List Ruling](https://blogs.apache.org/foundation/entry/statement-by-the-apache-software)》
+  - 中文翻译：《[Apache 软件基金会回应：参与开源不受 EAR 约束](https://www.oschina.net/news/106904/statement-by-the-apache-software)》
 
 其实，涉及到这两篇文章所提及的法律细节，还是非常复杂的。如果不复杂，也不必靠一个专门的法律团队来解读了。
 
@@ -110,7 +110,7 @@ DeepL 翻译
 
 翻译：
 
-> 作为个人，我对乌克兰人民所经历的一切深表同情，只希望乌克兰和平和安全。我个人在Twitter上表示支持，许多Vue团队/社区成员也做了同样的事情。然而，我不希望Vue这个开放源码软件项目成为政治信息的载体。我们将作为个人做我们能做的，但不是以项目的名义。
+> 作为个人，我对乌克兰人民所经历的一切深表同情，只希望乌克兰和平和安全。我个人在 Twitter 上表示支持，许多 Vue 团队/社区成员也做了同样的事情。然而，我不希望 Vue 这个开放源码软件项目成为政治信息的载体。我们将作为个人做我们能做的，但不是以项目的名义。
 
 在 996icu 项目，一位管理员写到：
 
@@ -128,10 +128,10 @@ DeepL 翻译
 
 还有两个案例，可以提及一下。
 
-* https://github.com/xianyi/OpenBLAS/issues/3551
-  * 有人在 OpenBLAS 项目上提议，删除对俄罗斯 Elbrus 处理器的支持，大意是：“继续支持 OpenBLAS 中的 Elbrus 处理器就等于支持普京政权及其军事侵略。”
-* https://git.eclipse.org/r/c/platform/eclipse.platform.swt/+/191171
-  * 有人在 Eclipse 项目上提议，不仅应该移除对 Elbrus 处理器的支持，还应该移除对中国的龙芯处理器的支持。
+- https://github.com/xianyi/OpenBLAS/issues/3551
+  - 有人在 OpenBLAS 项目上提议，删除对俄罗斯 Elbrus 处理器的支持，大意是：“继续支持 OpenBLAS 中的 Elbrus 处理器就等于支持普京政权及其军事侵略。”
+- https://git.eclipse.org/r/c/platform/eclipse.platform.swt/+/191171
+  - 有人在 Eclipse 项目上提议，不仅应该移除对 Elbrus 处理器的支持，还应该移除对中国的龙芯处理器的支持。
 
 因此，我非常厌恶那些在 react 项目下破口大骂的人，也不认同那些开源社区纷纷挂出的 Support Ukraine 的标签。更加反感那些看似义愤填膺，努力在开源社区里“**搞政治**”的人。
 
@@ -140,33 +140,33 @@ DeepL 翻译
 ## 回顾一下 OSD 的第五、第六条吧
 
 > 5、 No Discrimination Against Persons or Groups
-> 
+>
 > The license must not discriminate against any person or group of persons.
-> 
+>
 > 6、 No Discrimination Against Fields of Endeavor
-> 
+>
 > The license must not restrict anyone from making use of the program in a specific field of endeavor. For example, it may not restrict the program from being used in a business, or from being used for genetic research.
 
 翻译：
 
 > 5、 不歧视个人或团体
-> 
+>
 > 许可证不得歧视任何个人或团体。
-> 
+>
 > 6、 不歧视工作领域
-> 
+>
 > 许可证不得限制任何人在某一特定领域的工作中使用该程序。例如，它不得限制该程序在企业中使用，或用于遗传研究。
 
 甚至，在 OSI 网站的 [FAQ](https://opensource.org/faq#evil) 里，还特别注明：
 
 > Can I stop "evil people" from using my program?
-> 
+>
 > No. The Open Source Definition specifies that Open Source licenses may not discriminate against persons or groups. Giving everyone freedom means giving evil people freedom, too.
 
 翻译
 
 > 我可以阻止 "邪恶的人 "使用我的程序吗？
-> 
+>
 > 不能。开源定义规定，开源许可证不得歧视个人或团体。给予每个人自由意味着也给邪恶的人自由。
 
 是的，真正的践行开源精神，就是要做到这样。

@@ -197,7 +197,7 @@ Before a cruel whip ？Man who man would be
 
 那牧鞭与谦卑羔羊又算得什么？
 
- 
+
 
 Must rule the empire of himself
 

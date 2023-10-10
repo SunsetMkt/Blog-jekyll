@@ -6,10 +6,10 @@ categories: article
 
 # 覆写作者信息区，修改bio
 author:
-  name             : "lwd-temp"
-  avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "这个世界虽然不完美，但总有人守护着你。"
-  email            : "i@lwd-temp.top"
+  name: "lwd-temp"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "这个世界虽然不完美，但总有人守护着你。"
+  email: "i@lwd-temp.top"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -24,7 +24,7 @@ author:
 
 您不必独自面对一切。
 
-[北京24小时免费心理危机咨询热线：010-82951332](tel:01082951332)
+[北京 24 小时免费心理危机咨询热线：010-82951332](tel:01082951332)
 
 北京热线：[010-82951332](tel:01082951332)
 

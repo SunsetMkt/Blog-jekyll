@@ -27,7 +27,7 @@ $$
 $$
 
 $$
-c = a \cdot c 
+c = a \cdot c
 $$
 
 $$
@@ -60,11 +60,11 @@ a, b, c \neq \{ \{ a\}, b, c\}
 $$
 
 $$
-1 + (\frac{1}{1-x^2})^3 
+1 + (\frac{1}{1-x^2})^3
 $$
 
 $$
-1 + \left(\frac{1}{1-x^2}\right)^3 
+1 + \left(\frac{1}{1-x^2}\right)^3
 $$
 
 $$
@@ -124,4 +124,3 @@ $$
 8&9&\cdots&0
 \end{bmatrix}
 $$
-

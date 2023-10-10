@@ -4,7 +4,8 @@ date: 2022-02-02
 tags: Python 解密 站务
 categories: article
 ---
-参与者通过事先发放的二维码进入活动网站2022.lwd-temp.top（已停用），获取一份Python程序源码进行解密。
+
+参与者通过事先发放的二维码进入活动网站 2022.lwd-temp.top（已停用），获取一份 Python 程序源码进行解密。
 
 ```python
 #!/usr/bin/env python3
@@ -145,7 +146,7 @@ if __name__ == "__main__":
 
 此题为全程最难题目。
 
-由五个小写字母组成的的字符串且SHA256为0b720c64b2a12c00d4b1ccc0b9dbcbbd42ba66a28aa5bce6c167d2deb0e1f04f，由于哈希算法特性，我们几乎无法逆运算得出原始字符串。
+由五个小写字母组成的的字符串且 SHA256 为 0b720c64b2a12c00d4b1ccc0b9dbcbbd42ba66a28aa5bce6c167d2deb0e1f04f，由于哈希算法特性，我们几乎无法逆运算得出原始字符串。
 
 故穷举，代码如下：
 
@@ -175,7 +176,7 @@ for a in string.ascii_lowercase:
 
 ## 第二题
 
-本题会指引用户下载[莫娜_by_原神_b8870c3980f838bd2bca5ea9011e3d63.zip](https://drive.lwd-temp.top/api?path=/%E6%A1%A3%E6%A1%88%E4%B8%8E%E6%9D%82%E9%A1%B9/%E5%8E%9F%E7%A5%9EMMD%E6%A8%A1%E5%9E%8B%E5%A4%87%E4%BB%BD/%E8%8E%AB%E5%A8%9C_by_%E5%8E%9F%E7%A5%9E_b8870c3980f838bd2bca5ea9011e3d63.zip&raw=true)，本题设计原因如注释所述。
+本题会指引用户下载[莫娜*by*原神\_b8870c3980f838bd2bca5ea9011e3d63.zip](https://drive.lwd-temp.top/api?path=/%E6%A1%A3%E6%A1%88%E4%B8%8E%E6%9D%82%E9%A1%B9/%E5%8E%9F%E7%A5%9EMMD%E6%A8%A1%E5%9E%8B%E5%A4%87%E4%BB%BD/%E8%8E%AB%E5%A8%9C_by_%E5%8E%9F%E7%A5%9E_b8870c3980f838bd2bca5ea9011e3d63.zip&raw=true)，本题设计原因如注释所述。
 
 ```python
     # Part2
@@ -184,11 +185,11 @@ for a in string.ascii_lowercase:
     #             请保管好它，不仅因为这是未来解密的keyfile，更因为这是一些有爱的玩家群体抗争失败的唯一遗产。
 ```
 
-> 这里获得的文件是 莫娜_by_原神_b8870c3980f838bd2bca5ea9011e3d63.zip ，是一个适用于MMD的模型文件，版权信息见压缩包内容。
+> 这里获得的文件是 莫娜*by*原神\_b8870c3980f838bd2bca5ea9011e3d63.zip ，是一个适用于 MMD 的模型文件，版权信息见压缩包内容。
 >
 > 在“《原神》国服部分角色皮肤仓促修改事件导致的举报和反馈热潮”事件中，此角色的更改被着重反对。
 >
-> 请保管好它，不仅因为这是未来解密的keyfile，更因为这是一些有爱的玩家群体抗争失败的唯一遗产。
+> 请保管好它，不仅因为这是未来解密的 keyfile，更因为这是一些有爱的玩家群体抗争失败的唯一遗产。
 
 详见本站文章。
 
@@ -202,11 +203,11 @@ SNI，见[Steam 商店 store.steampowered.com 疑似 443 端口被干扰？ ICMP
 
 ## 整体代码逻辑
 
-每题分别通过校验hash的方式确定答案是否正确（都可以通过穷举获得答案），最后拼接全部答案及所有salt并算hash作为key。
+每题分别通过校验 hash 的方式确定答案是否正确（都可以通过穷举获得答案），最后拼接全部答案及所有 salt 并算 hash 作为 key。
 
 ## 加密卷
 
-在向用户提供key后引导用户下载加密卷（链接已停用），解密后根据内部文档使用key以及第二题中密钥文件解密获取证明文件下载链接（已停用，是基于Vaultwarden私人部署的加密下载链接，在产品中被称为“Bitwarden Send”）。
+在向用户提供 key 后引导用户下载加密卷（链接已停用），解密后根据内部文档使用 key 以及第二题中密钥文件解密获取证明文件下载链接（已停用，是基于 Vaultwarden 私人部署的加密下载链接，在产品中被称为“Bitwarden Send”）。
 
 ## 致谢
 
@@ -216,13 +217,13 @@ SNI，见[Steam 商店 store.steampowered.com 疑似 443 端口被干扰？ ICMP
 
 在构建整个解密流程中，有以下服务或开源项目被使用：
 
-* [python/cpython: The Python programming language (github.com)](https://github.com/python/cpython)
-* [spencerwooo/onedrive-vercel-index: OneDrive public directory listing, powered by Vercel and Next.js (github.com)](https://github.com/spencerwooo/onedrive-vercel-index)
-* [dani-garcia/vaultwarden: Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs (github.com)](https://github.com/dani-garcia/vaultwarden)
-* [veracrypt/VeraCrypt: Disk encryption with strong security based on TrueCrypt (github.com)](https://github.com/veracrypt/VeraCrypt)
-* [coder/code-server: VS Code in the browser (github.com)](https://github.com/coder/code-server)
-* [git/git: Git Source Code Mirror - This is a publish-only repository but pull requests can be turned into patches to the mailing list via GitGitGadget (https://gitgitgadget.github.io/). Please follow Documentation/SubmittingPatches procedure for any of your improvements.](https://github.com/git/git)
-* [Microsoft Visual Studio Code](https://code.visualstudio.com/)
-* [GitHub]()
-* [Railway](https://railway.app/)
-* [Microsoft SharePoint](https://www.microsoft.com/zh-cn/microsoft-365/sharepoint/collaboration)
+- [python/cpython: The Python programming language (github.com)](https://github.com/python/cpython)
+- [spencerwooo/onedrive-vercel-index: OneDrive public directory listing, powered by Vercel and Next.js (github.com)](https://github.com/spencerwooo/onedrive-vercel-index)
+- [dani-garcia/vaultwarden: Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs (github.com)](https://github.com/dani-garcia/vaultwarden)
+- [veracrypt/VeraCrypt: Disk encryption with strong security based on TrueCrypt (github.com)](https://github.com/veracrypt/VeraCrypt)
+- [coder/code-server: VS Code in the browser (github.com)](https://github.com/coder/code-server)
+- [git/git: Git Source Code Mirror - This is a publish-only repository but pull requests can be turned into patches to the mailing list via GitGitGadget (https://gitgitgadget.github.io/). Please follow Documentation/SubmittingPatches procedure for any of your improvements.](https://github.com/git/git)
+- [Microsoft Visual Studio Code](https://code.visualstudio.com/)
+- [GitHub]()
+- [Railway](https://railway.app/)
+- [Microsoft SharePoint](https://www.microsoft.com/zh-cn/microsoft-365/sharepoint/collaboration)

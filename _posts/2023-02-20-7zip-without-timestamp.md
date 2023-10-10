@@ -5,7 +5,7 @@ tags: 7Zip
 categories: article
 ---
 
-来自7-Zip开发者的回答：
+来自 7-Zip 开发者的回答：
 
 使用参数`tm-`。
 

@@ -5,7 +5,7 @@ tags: 公益 互联网 常识 教程
 categories: article
 ---
 
-观 哔哩哔哩用户Sakula小舞近日营销事故评论区 和 Grasscutter Discord群组#support-zh今日争执有感。
+观 哔哩哔哩用户 Sakula 小舞近日营销事故评论区 和 Grasscutter Discord 群组#support-zh 今日争执有感。
 
 我以为这是个常识。
 

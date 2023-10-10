@@ -1,7 +1,7 @@
 ---
 title: iOS 字符串渲染bug
 date: 2020-04-27
-tags:  iOS bug
+tags: iOS bug
 categories: article
 ---
 

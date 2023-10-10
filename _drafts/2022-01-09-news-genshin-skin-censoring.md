@@ -7,10 +7,9 @@ categories: article
 
 [进入新闻专题页](https://gh.lwd-temp.top/site-cdn/genshin-skin-censoring/)
 
-
 近日，《原神》国服部分角色皮肤仓促修改事件持续发酵，在国内外玩家群体中都产生了不小的影响。
 
-中国玩家群体在这一事件中积极行使公民权利的行为值得鼓励，同时也应注意到部分玩家针对目标泛化、“敌我”关系不清等问题应当及时处理。我们呼吁中国的文艺作品审核部门应当反思自身的职责和定位，不要让“为人民服务”成为一纸空谈。（本站记者余晖 2022年1月9日）
+中国玩家群体在这一事件中积极行使公民权利的行为值得鼓励，同时也应注意到部分玩家针对目标泛化、“敌我”关系不清等问题应当及时处理。我们呼吁中国的文艺作品审核部门应当反思自身的职责和定位，不要让“为人民服务”成为一纸空谈。（本站记者余晖 2022 年 1 月 9 日）
 
 相关链接：
 
@@ -18,7 +17,7 @@ categories: article
 
 [如何评价《原神》1 月 5 日发布的关于部分角色外观的调整？ - 知乎 (zhihu.com)](https://www.zhihu.com/question/509910166)
 
-[如何向有关部门申诉以取消原神在1月5日进行的人物立绘和模型的修改？ - 知乎 (zhihu.com)](https://www.zhihu.com/question/510082266)
+[如何向有关部门申诉以取消原神在 1 月 5 日进行的人物立绘和模型的修改？ - 知乎 (zhihu.com)](https://www.zhihu.com/question/510082266)
 
 [《原神》将修改四位女角色立绘与模型，会给游戏体验带来哪些影响？ - 知乎 (zhihu.com)](https://www.zhihu.com/question/509914184)
 
@@ -26,17 +25,17 @@ categories: article
 
 我们也备份了在此次热潮中流传甚广的两份文件，链接如下：
 
-[【0125原神角色修改事件】 【举报地址和文案】.docx](https://gh.lwd-temp.top/site-cdn/archive/%E8%A7%92%E8%89%B2%E4%BF%AE%E6%94%B9ys/%E3%80%900125%E5%8E%9F%E7%A5%9E%E8%A7%92%E8%89%B2%E4%BF%AE%E6%94%B9%E4%BA%8B%E4%BB%B6%E3%80%91%20%E3%80%90%E4%B8%BE%E6%8A%A5%E5%9C%B0%E5%9D%80%E5%92%8C%E6%96%87%E6%A1%88%E3%80%91.docx)
+[【0125 原神角色修改事件】 【举报地址和文案】.docx](https://gh.lwd-temp.top/site-cdn/archive/%E8%A7%92%E8%89%B2%E4%BF%AE%E6%94%B9ys/%E3%80%900125%E5%8E%9F%E7%A5%9E%E8%A7%92%E8%89%B2%E4%BF%AE%E6%94%B9%E4%BA%8B%E4%BB%B6%E3%80%91%20%E3%80%90%E4%B8%BE%E6%8A%A5%E5%9C%B0%E5%9D%80%E5%92%8C%E6%96%87%E6%A1%88%E3%80%91.docx)
 
-[角色修改相关证据0107-02.rar](https://gh.lwd-temp.top/site-cdn/archive/%E8%A7%92%E8%89%B2%E4%BF%AE%E6%94%B9ys/%E8%A7%92%E8%89%B2%E4%BF%AE%E6%94%B9%E7%9B%B8%E5%85%B3%E8%AF%81%E6%8D%AE0107-02.rar)
+[角色修改相关证据 0107-02.rar](https://gh.lwd-temp.top/site-cdn/archive/%E8%A7%92%E8%89%B2%E4%BF%AE%E6%94%B9ys/%E8%A7%92%E8%89%B2%E4%BF%AE%E6%94%B9%E7%9B%B8%E5%85%B3%E8%AF%81%E6%8D%AE0107-02.rar)
 
 ## 余晖每日乱评：我不知道你们到底在搞什么
 
 （2022-01-10 常驻评论员 余晖）
 
-由于事态紧急我就尽量不用临床腔（SCP基金会社区常用语），保证足够的感情流露。
+由于事态紧急我就尽量不用临床腔（SCP 基金会社区常用语），保证足够的感情流露。
 
-首先我想谈一下为什么我认为需要写个明确的针对此事件的评论。熟悉我的人应该知道，我不是一个合格的玩家，而且我有着非常糟糕的游戏背景。从本世纪初的《半条命》、《植物大战僵尸》、《愤怒的小鸟》到后来的《传送门》1和2、《半条命2》、《赛博朋克2077》，这些目标导向的游戏（《2077》可以算开放世界）没有一个我不作弊能玩得下来的，《Minecraft》我也从来没打通过，《APEX》打得七零八落、死亡率居高不下，《CS:GO》只能打过简单的机器人玩家。我从来就不会特别沉浸于某个游戏，也没有水平沉浸。《原神》我也算玩了一段时间，磨磨唧唧升到了45级，纯剧情向玩家，战斗系统一窍不通、圣遗物是什么能吃吗、升级突破好麻烦躺平，能玩下去最重要的理由是这个游戏节奏足够慢，由于最近就这一个游戏出名暂时还不准备弃坑。这游戏整体评价还不错，**我觉得我没必要一定去发文支持它**。很明显，这篇文章不只是为《原神》写的，我希望我们能从角色皮肤仓促修改事件**深入思考**一下，这场闹剧是怎么产生的。
+首先我想谈一下为什么我认为需要写个明确的针对此事件的评论。熟悉我的人应该知道，我不是一个合格的玩家，而且我有着非常糟糕的游戏背景。从本世纪初的《半条命》、《植物大战僵尸》、《愤怒的小鸟》到后来的《传送门》1 和 2、《半条命 2》、《赛博朋克 2077》，这些目标导向的游戏（《2077》可以算开放世界）没有一个我不作弊能玩得下来的，《Minecraft》我也从来没打通过，《APEX》打得七零八落、死亡率居高不下，《CS:GO》只能打过简单的机器人玩家。我从来就不会特别沉浸于某个游戏，也没有水平沉浸。《原神》我也算玩了一段时间，磨磨唧唧升到了 45 级，纯剧情向玩家，战斗系统一窍不通、圣遗物是什么能吃吗、升级突破好麻烦躺平，能玩下去最重要的理由是这个游戏节奏足够慢，由于最近就这一个游戏出名暂时还不准备弃坑。这游戏整体评价还不错，**我觉得我没必要一定去发文支持它**。很明显，这篇文章不只是为《原神》写的，我希望我们能从角色皮肤仓促修改事件**深入思考**一下，这场闹剧是怎么产生的。
 
 背景故事我就不在这里赘述，上面的链接还有本站的相关文章都提到过。
 
@@ -46,7 +45,7 @@ categories: article
 
 这样吧，我们先看看维基百科是怎么说的：
 
-> **妇女权利**（[英文](https://zh.wikipedia.org/wiki/英文)：Women's rights），是指世界性的妇女和女童所主张的[权利](https://zh.wikipedia.org/wiki/權利)和[自由](https://zh.wikipedia.org/wiki/自由)。妇女权利的概念为19世纪的[女权运动](https://zh.wikipedia.org/wiki/女權運動)及20世纪的[女性主义运动](https://zh.wikipedia.org/w/index.php?title=女性主義運動&action=edit&redlink=1)建立了基础。在一些国家这些权利已经制度化或得到法律、本地习俗及行为支持。妇女权利和更广泛的[人权](https://zh.wikipedia.org/wiki/人權)不同之处在于它声称妇女及女童在行使她们的权利时，受到历史和传统产生的固有偏见，对男人和男孩产生了不对等的优势[[1\]](https://zh.wikipedia.org/wiki/婦女權利#cite_note-Hosken-1)。
+> **妇女权利**（[英文](https://zh.wikipedia.org/wiki/英文)：Women's rights），是指世界性的妇女和女童所主张的[权利](https://zh.wikipedia.org/wiki/權利)和[自由](https://zh.wikipedia.org/wiki/自由)。妇女权利的概念为 19 世纪的[女权运动](https://zh.wikipedia.org/wiki/女權運動)及 20 世纪的[女性主义运动](https://zh.wikipedia.org/w/index.php?title=女性主義運動&action=edit&redlink=1)建立了基础。在一些国家这些权利已经制度化或得到法律、本地习俗及行为支持。妇女权利和更广泛的[人权](https://zh.wikipedia.org/wiki/人權)不同之处在于它声称妇女及女童在行使她们的权利时，受到历史和传统产生的固有偏见，对男人和男孩产生了不对等的优势[[1\]](https://zh.wikipedia.org/wiki/婦女權利#cite_note-Hosken-1)。
 >
 > 妇女权利概念的常见议题包括但不限于：身体完整和[自主](https://zh.wikipedia.org/wiki/自主)权、免于[性暴力](https://zh.wikipedia.org/wiki/性暴力)的权利、[投票](https://zh.wikipedia.org/wiki/妇女投票)的权利、担任公职的权利、订立法律合同的权利、在[家庭法](https://zh.wikipedia.org/wiki/家庭法)中享有平等权利、[工作的权利](https://zh.wikipedia.org/w/index.php?title=工作的权利&action=edit&redlink=1)、公平工资或[同工同酬](https://zh.wikipedia.org/wiki/同工同酬)、[生殖权利](https://zh.wikipedia.org/wiki/生殖权利)、[自行管有财产的权利](https://zh.wikipedia.org/wiki/财产权)、[获得教育的权利](https://zh.wikipedia.org/wiki/受教育权)[[2\]](https://zh.wikipedia.org/wiki/婦女權利#cite_note-quarterly-2)。
 >
@@ -64,7 +63,7 @@ categories: article
 >
 > https://www.douban.com/group/GirlsLoveGames/
 >
-> 晋江-cxfh原，开一个举报途径楼
+> 晋江-cxfh 原，开一个举报途径楼
 >
 > https://bbs.jjwxc.net/showmsg.php?board=3&id=3168940
 >
@@ -72,7 +71,7 @@ categories: article
 >
 > [https://web.archive.org/web/20220105133033/https://bbs.jjwxc.net/showmsg.php?board=3&id=3168940](https://web.archive.org/web/20220105133033/https:/bbs.jjwxc.net/showmsg.php?board=3&id=3168940)
 
-在写这篇文章之前我也去他们挂出来的某“豆瓣”平台链接（[原神女性玩家专用组小组 (douban.com)](https://www.douban.com/group/727999/)）看了看，这个社区乱七八糟什么都有，有在那感慨男孩子喊“女拳”的[我好悲哀，明明我在初中的时候男生们都是被教育要尊重女生的 (douban.com)](https://www.douban.com/group/topic/257617120/?_dtcc=1&_i=1795655_lkqB7s)、有在那讨论“申鹤”长得不好看的[我身边的一个男玩家也不喜欢申鹤正面的设计 (douban.com)](https://www.douban.com/group/topic/257614464/?_dtcc=1&_i=1795605_lkqB7s)[堵嘴忍冬纹，关门是y纹 (douban.com)](https://www.douban.com/group/topic/257543360/?_dtcc=1&_i=1796212_lkqB7s)、有在那报告自己被社工了的（这个可要小心，应该保护个人隐私，随意公开社工结果是非常错误的）[各位姐妹注意一下，自己的隐私可能被泄露了。（事主已道歉） (douban.com)](https://www.douban.com/group/topic/257576299/?_dtcc=1&_i=1795608_lkqB7s)、有在那嘲讽哔哩哔哩用户评论的[欧泡咯噔文学翻车实录，笑死我了 (douban.com)](https://www.douban.com/group/topic/257571104/?_dtcc=1&_i=1795594_lkqB7s)[提瓦特男孩保护提瓦特女孩，有。家人们，咱就是说，味真的太冲了。 (douban.com)](https://www.douban.com/group/topic/257489073/?_dtcc=1&_i=1796203_lkqB7s)、有转载“内鬼”所谓“爆料”的[好像没人搬这个关于未来草系反应的爆料 (douban.com)](https://www.douban.com/group/topic/257577098/?_dtcc=1&_i=1795777_lkqB7s)、还有在那”心里咯噔一声“的[这弹幕让我严重怀疑b站用户年龄 (douban.com)](https://www.douban.com/group/topic/257570175/?_dtcc=1&_i=1795765_lkqB7s)，哪有社会主义核心价值观的样子？
+在写这篇文章之前我也去他们挂出来的某“豆瓣”平台链接（[原神女性玩家专用组小组 (douban.com)](https://www.douban.com/group/727999/)）看了看，这个社区乱七八糟什么都有，有在那感慨男孩子喊“女拳”的[我好悲哀，明明我在初中的时候男生们都是被教育要尊重女生的 (douban.com)](https://www.douban.com/group/topic/257617120/?_dtcc=1&_i=1795655_lkqB7s)、有在那讨论“申鹤”长得不好看的[我身边的一个男玩家也不喜欢申鹤正面的设计 (douban.com)](https://www.douban.com/group/topic/257614464/?_dtcc=1&_i=1795605_lkqB7s)[堵嘴忍冬纹，关门是 y 纹 (douban.com)](https://www.douban.com/group/topic/257543360/?_dtcc=1&_i=1796212_lkqB7s)、有在那报告自己被社工了的（这个可要小心，应该保护个人隐私，随意公开社工结果是非常错误的）[各位姐妹注意一下，自己的隐私可能被泄露了。（事主已道歉） (douban.com)](https://www.douban.com/group/topic/257576299/?_dtcc=1&_i=1795608_lkqB7s)、有在那嘲讽哔哩哔哩用户评论的[欧泡咯噔文学翻车实录，笑死我了 (douban.com)](https://www.douban.com/group/topic/257571104/?_dtcc=1&_i=1795594_lkqB7s)[提瓦特男孩保护提瓦特女孩，有。家人们，咱就是说，味真的太冲了。 (douban.com)](https://www.douban.com/group/topic/257489073/?_dtcc=1&_i=1796203_lkqB7s)、有转载“内鬼”所谓“爆料”的[好像没人搬这个关于未来草系反应的爆料 (douban.com)](https://www.douban.com/group/topic/257577098/?_dtcc=1&_i=1795777_lkqB7s)、还有在那”心里咯噔一声“的[这弹幕让我严重怀疑 b 站用户年龄 (douban.com)](https://www.douban.com/group/topic/257570175/?_dtcc=1&_i=1795765_lkqB7s)，哪有社会主义核心价值观的样子？
 
 这个什么社区暂停加入了[关于暂停申请入组的通告 (douban.com)](https://www.douban.com/group/topic/257296495/?_dtcc=1&_i=1795762_lkqB7s)：
 
@@ -82,7 +81,7 @@ categories: article
 
 这个社区和女权搭不上半点关系，只靠抱怨、嘲讽、傲慢的情绪带不来任何影响，现实生活中中国女性的权力还没有切实保障、你们却先盯着电子游戏这个艺术载体，孰轻孰重？**当攻击谩骂成为主流，这个社区也是要完蛋的。**
 
-这里有个人说的挺好：[【原神2.4】心理学家讨论角色外观改动//游戏心理学·原神8·曾老师讲心理41_手机游戏热门视频 (bilibili.com)](https://www.bilibili.com/video/BV1Qa411q7v2)
+这里有个人说的挺好：[【原神 2.4】心理学家讨论角色外观改动//游戏心理学·原神 8·曾老师讲心理 41\_手机游戏热门视频 (bilibili.com)](https://www.bilibili.com/video/BV1Qa411q7v2)
 
 我想在这里说明一下**权力伸张的限度**这个问题：
 
@@ -102,7 +101,7 @@ categories: article
 
 ”相关审核要求“说的挺好，**我从来没见过成文的**。我见过某大逃杀类游戏人倒地上还坐起来跟我挥手道别的、我见过网易我的世界把”你死了“改成”你失败了“的、我见过射击游戏人被打中不流血说是反恐演习的。请各位思考一下，我要是拿枪冲我脑袋开一枪，我是不是得死；我要是从足够高的地方跳下去，是不是得死；**我要是死了还能不能从地上爬起来、凭空生成个盒子、把遗物放进去然后再跟你挥手道别？**
 
-对于文艺作品审核的争议一直都有，Sola病毒（[苏拉病毒 - 萌娘百科 万物皆可萌的百科全书 (moegirl.org.cn)](https://zh.moegirl.org.cn/苏拉病毒)）都是零几年的事了，怎么和近几个月的争论又差不多，真可谓“当时的明月换拨人看”。
+对于文艺作品审核的争议一直都有，Sola 病毒（[苏拉病毒 - 萌娘百科 万物皆可萌的百科全书 (moegirl.org.cn)](https://zh.moegirl.org.cn/苏拉病毒)）都是零几年的事了，怎么和近几个月的争论又差不多，真可谓“当时的明月换拨人看”。
 
 正如我前文所说，游戏就是艺术载体，艺术不一定要有教化的作用、不一定要有传播”正能量”的作用。一直以来我们要求的“落实主体责任、内容健康、积极向上”都是非常可笑的，艺术就是艺术、就是思想，**思想是管不住的**。
 
@@ -114,6 +113,6 @@ categories: article
 
 我不愿说国产游戏的风凉话，但这个事件确实让国际玩家看了不少笑话，我不太想谈他们的言论。
 
-最后，我再谈一下各个社区对质疑审核问题言论的删除和回避。我知道这些社区在政治类话题上自己冒着不小的风险，但什么造成了这些风险？我还记得我儿时看腾讯QQ的EULA（最终用户许可协议）时有差不多这么一句话，“禁止发布色情、赌博、政治类内容”，当时我年幼的脑子就把政治同色情赌博等画上了等号，现在看来却有些讽刺。**政治作为公共话题应当被自由讨论**，什么时候政治却变成了各大网站避之不及的“五谷轮回之所”了？
+最后，我再谈一下各个社区对质疑审核问题言论的删除和回避。我知道这些社区在政治类话题上自己冒着不小的风险，但什么造成了这些风险？我还记得我儿时看腾讯 QQ 的 EULA（最终用户许可协议）时有差不多这么一句话，“禁止发布色情、赌博、政治类内容”，当时我年幼的脑子就把政治同色情赌博等画上了等号，现在看来却有些讽刺。**政治作为公共话题应当被自由讨论**，什么时候政治却变成了各大网站避之不及的“五谷轮回之所”了？
 
 希望我这不太灵光的脑子产生的这些观点能对您的思考产生帮助。

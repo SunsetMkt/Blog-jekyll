@@ -41,7 +41,7 @@ The 21st Century is a time for dialogue and diplomacy, not war and hate.
 
 The Olympic Truce for peace during the Olympic and Paralympic Games is a UN Resolution adopted by consensus by 193 Member States at the 76th UN General Assembly. It must be respected and observed not violated.
 
-奥运会和残奥会期间的奥林匹克休战是193个会员国在第76届联合国大会上一致通过的联合国决议。它必须得到尊重和遵守，不得违反。
+奥运会和残奥会期间的奥林匹克休战是 193 个会员国在第 76 届联合国大会上一致通过的联合国决议。它必须得到尊重和遵守，不得违反。
 
 At the IPC we aspire to a better and more inclusive world, free from discrimination, free from hate, free from ignorance and free from conflict.
 
@@ -49,7 +49,7 @@ At the IPC we aspire to a better and more inclusive world, free from discriminat
 
 Here in Beijing, Paralympic athletes from 46 different nations will compete with each other, not against each other.
 
-在北京，来自46个不同国家的残奥运动员将相互竞争，而不是相互斗争。（with和against的区别，against含有敌意）
+在北京，来自 46 个不同国家的残奥运动员将相互竞争，而不是相互斗争。（with 和 against 的区别，against 含有敌意）
 
 Through sport they will showcase the best of humanity and highlight the values that should underpin a peaceful and inclusive world.
 
@@ -63,7 +63,7 @@ Tonight, the Paralympic Movement calls on world authorities to come together, as
 
 今晚，残奥会呼吁世界当局像运动员一样团结起来，促进和平、理解和包容。世界必须是一个分享的地方，而不是分裂的地方。
 
-Change Starts with Sport.  Not only can it bring harmony, but it can be a catalyst to transforming the lives of people, cities and countries.
+Change Starts with Sport. Not only can it bring harmony, but it can be a catalyst to transforming the lives of people, cities and countries.
 
 改变始于运动。它不仅能带来和谐，还能成为改变人们生活、城市和国家的催化剂。
 
@@ -71,7 +71,7 @@ As the first city to stage both the summer and winter Paralympics, Beijing is pr
 
 作为第一个举办夏季和冬季残奥会的城市，北京就是最好的证明。
 
-Ahead of these Games, hundreds of thousands of facilities have been made barrier free. 
+Ahead of these Games, hundreds of thousands of facilities have been made barrier free.
 
 在这些奥运会之前，成百上千个设施已经实现无障碍。
 
@@ -91,7 +91,7 @@ To the people of China: Xièxiè!
 
 致中国人民：谢谢（汉语拼音）！
 
-Paralympians, there is an important moment in your lives when, because of sport, you embrace your disability. Not as something that defines you, but something that is part of who you are.  As you embrace it, you find your strength, where others have seen weakness, and your find your own power and path to maximise what you can do.
+Paralympians, there is an important moment in your lives when, because of sport, you embrace your disability. Not as something that defines you, but something that is part of who you are. As you embrace it, you find your strength, where others have seen weakness, and your find your own power and path to maximise what you can do.
 
 残奥会运动员们，在你的生命中，有一个重要的时刻，因为运动，你拥抱了你的残疾。它不是定义你的东西，而是你的一部分。当你拥抱它时，你会发现自己的力量，在别人看到弱点的地方，你会找到自己的力量和道路，以最大限度地发挥你的能力。
 
@@ -119,7 +119,7 @@ Celebrate your achievements here, and be proud that your abilities can, and will
 
 在这里庆祝您的成就，并为您的能力能够并且将会为数以百万计的人改变世界而感到自豪。
 
-Above all, have fun and play fair. 
+Above all, have fun and play fair.
 
 最重要的是，玩得开心，公平竞争。
 

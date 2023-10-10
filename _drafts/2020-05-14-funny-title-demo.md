@@ -1,5 +1,5 @@
 ---
-title: Funny Title Demo 
+title: Funny Title Demo
 date: 2020-05-14
 tags: demo 前端
 categories: demo
