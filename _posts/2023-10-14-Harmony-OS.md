@@ -15,7 +15,7 @@ categories: article
 
 HarmonyOS（华为的 to C 移动端操作系统）的虚拟机镜像可以从[DevEco Studio](https://developer.harmonyos.com/cn/develop/deveco-studio)中获取。通过处理 Android Studio 虚拟机镜像的方法，可以获取 HarmonyOS（Android） 的各分区内容。
 
-无论如何，“AOSP 被禁用”都是伪命题。中国大陆境内的各大高校和企业分别维护了多份 AOSP 源代码镜像，不存在无法访问源代码的可能性。Google 无法禁止 AOSP 的使用，亦无法阻止在[许可协议](https://source.android.com/docs/setup/about/licenses?hl=zh-cn)内的二次开发（事实上，违法开源软件协议的诉讼在中国大陆很罕见）。Google 可以禁止 GMS（Google Play 服务）的使用，但仍可通过 root 等方式绕过限制，且非运行 Android 所必须。
+无论如何，“AOSP 被禁用”都是伪命题。中国大陆境内的各大高校和企业分别维护了多份 AOSP 源代码镜像，不存在无法访问源代码的可能性。Google 无法禁止 AOSP 的使用，亦无法阻止在[许可协议](https://source.android.com/docs/setup/about/licenses?hl=zh-cn)内的二次开发（事实上，违反开源软件协议的诉讼在中国大陆很罕见）。Google 可以禁止 GMS（Google Play 服务）的使用，但仍可通过 root 等方式绕过限制，且非运行 Android 所必须。
 
 事实上，AOSP 运行在中国大陆境内大量的公交站点牌、广告牌、电影票机、博物馆的交互式展台、电视机顶盒、电视上，这都不需要 Google 的许可，Google 也无法阻止。
 
