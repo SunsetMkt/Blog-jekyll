@@ -5,6 +5,10 @@ tags: 原神 私服 Java Grasscutter 逆向工程
 categories: article
 ---
 
+<p class="notice--danger">
+    这里记录的信息已经过时了，请直接参考[项目文档](https://github.com/Grasscutters/Grasscutter)。
+</p>
+
 项目地址：[Grasscutters/Grasscutter: A server software reimplementation for a certain anime game. (github.com)](https://github.com/Grasscutters/Grasscutter)
 
 截至发稿日支持 2.6 版本客户端
