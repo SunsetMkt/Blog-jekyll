@@ -43,6 +43,10 @@ Kaspersky 可能正在变更产品策略，若上述页面不可用，可尝试[
 
 如果 Kaspersky 彻底移除了 Kaspersky Security Cloud 产品，您可以尝试下载卡巴斯基标准版（[在线安装链接](https://dm.s.kaspersky-labs.com/zh-Hans-CN/Kaspersky4Win/21.15.8.493/startup.exe)/[离线安装包](https://box.kaspersky.com/f/563bb959776d48fbbe8b/?dl=1)）并使用激活码：
 
+> 简体中文版在线安装包 URL 拼接方式是：
+>
+> https://dm.s.kaspersky-labs.com/zh-Hans-CN/Kaspersky4Win/XX.XX.X.XXX/startup.exe
+
 <div>
     <div class="keys">
         <ul>
