@@ -41,7 +41,7 @@ Kaspersky 可能正在变更产品策略，若上述页面不可用，可尝试[
 
 ## 卡巴斯基免费版
 
-如果 Kaspersky 彻底移除了 Kaspersky Security Cloud 产品，您可以尝试下载卡巴斯基标准版（[在线安装链接](https://dm.s.kaspersky-labs.com/zh-Hans-CN/Kaspersky4Win/21.14.5.462/startup.exe)）并使用激活码：
+如果 Kaspersky 彻底移除了 Kaspersky Security Cloud 产品，您可以尝试下载卡巴斯基标准版（[在线安装链接](https://dm.s.kaspersky-labs.com/zh-Hans-CN/Kaspersky4Win/21.15.8.493/startup.exe)/[离线安装包](https://box.kaspersky.com/f/563bb959776d48fbbe8b/?dl=1)）并使用激活码：
 
 <div>
     <div class="keys">
@@ -59,7 +59,7 @@ Kaspersky 可能正在变更产品策略，若上述页面不可用，可尝试[
     </style>
 </div>
 
-来激活免费版。（或者直接使用[英文版 KFA](https://www.kaspersky.com/downloads/free-antivirus) [备用链接](https://pdc5.pa2.pdc.kaspersky.com/DownloadManagers/bd/bd40253c-fac1-4d3f-b4a5-d105c920fc04/startup.exe)）
+来激活免费版。（或者直接使用[英文版 KFA](https://www.kaspersky.com/downloads/free-antivirus) [备用链接](https://pdc6.pa2.pdc.kaspersky.com/DownloadManagers/36/3612d1da-4ba5-4efa-b2f7-0c0b0f6d4287/startup.exe)）
 
 > 卡巴斯基免费版和 Kaspersky Security Cloud Free 相比，缺少“文件粉碎机”（Free 版功能限制）、“无用数据清理”（半废弃）、“浏览器配置”（已废弃）功能，其余特性几乎一致。
 
