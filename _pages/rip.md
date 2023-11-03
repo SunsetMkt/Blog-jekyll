@@ -132,3 +132,5 @@ Shiruchan940923:
 > 我们永远不会忘记她善良的精神，以及她曾点亮我们每一天的种种方式。
 
 [Twitter](https://web.archive.org/web/20231103025226/https://twitter.com/Shiruchan940923)
+
+{% include gallery id="Shiruchan940923" %}
