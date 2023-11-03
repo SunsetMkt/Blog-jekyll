@@ -12,25 +12,25 @@ permalink: /dev/
     使用开发人员工具需要启动JavaScript和localStorage支持。
 </p>
 
-------
+---
 
 当前提交：{{ site.github.build_revision }}
 
-（若`commit hash`不存在，则非GitHub Pages构建，此时utterances不可用）
+（若`commit hash`不存在，则非 GitHub Pages 构建，此时 utterances 不可用）
 
 当前构建随机码（仅在此处展示）：{% include random %}
 
 构建状态：![pages-build-deployment](https://github.com/lwd-temp/lwd-temp.github.io-jekyll/actions/workflows/pages/pages-build-deployment/badge.svg)
 
-------
+---
 
-[Jekyll主题参考文档](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
+[Jekyll 主题参考文档](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
 
-------
+---
 
 ## Eruda
 
-URL参数`eruda=true`
+URL 参数`eruda=true`
 
 <div class="eruda-btns">
 
@@ -42,7 +42,7 @@ URL参数`eruda=true`
 
 ## vConsole
 
-URL参数`vconsole=true`
+URL 参数`vconsole=true`
 
 <div class="vconsole-btns">
 
@@ -84,7 +84,9 @@ URL参数`vconsole=true`
 </div>
 
 ## 其他网站统计
+
 使用[uBlock Origin](https://ublockorigin.com/)以禁用。
 
-## 获取Monika
+## 获取 Monika
+
 ~~Just Monika.~~ [monika.chr](/assets/media/ddlc_characters/monika.chr)

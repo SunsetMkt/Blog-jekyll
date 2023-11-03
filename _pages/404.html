@@ -6,9 +6,9 @@ permalink: /404.html
 layout: default
 ---
 
-<div style="text-align:center">
-    <p id="NotFoundTitle">404 Not Found</p>
-    <p id="NotFoundMsg">服务器端无法找到所请求的资源</p>
+<div style="text-align: center">
+  <p id="NotFoundTitle">404 Not Found</p>
+  <p id="NotFoundMsg">服务器端无法找到所请求的资源</p>
 </div>
 
 <!--
@@ -45,35 +45,43 @@ layout: default
 -->
 
 <script>
-    // 自动除错，自动排除在URL中的明显多余路径
-    // xxx.xxx.com/xxx/xxx/aaa => xxx.xxx.com/xxx/xxx/
-    var url = window.location.href;
-    // If ends with '/', remove it
-    if (url.charAt(url.length - 1) == '/') {
-        url = url.substring(0, url.length - 1);
-    }
-    var url_array = url.split("/");
-    var url_array_length = url_array.length;
+  // 自动除错，自动排除在URL中的明显多余路径
+  // xxx.xxx.com/xxx/xxx/aaa => xxx.xxx.com/xxx/xxx/
+  var url = window.location.href;
+  // If ends with '/', remove it
+  if (url.charAt(url.length - 1) == "/") {
+    url = url.substring(0, url.length - 1);
+  }
+  var url_array = url.split("/");
+  var url_array_length = url_array.length;
 
-    function autoFixURL() {
-        var new_url = url_array[0] + "//" + url_array[2] + "/" + url_array[3] + "/" + url_array[4] + "/";
-        window.location.href = new_url;
-    }
+  function autoFixURL() {
+    var new_url =
+      url_array[0] +
+      "//" +
+      url_array[2] +
+      "/" +
+      url_array[3] +
+      "/" +
+      url_array[4] +
+      "/";
+    window.location.href = new_url;
+  }
 
-    var message = document.getElementById("NotFoundMsg");
+  var message = document.getElementById("NotFoundMsg");
 
-    if (url_array_length > 5) {
-        // Countdown 6s in meassage and then auto fix URL
-        var count = 6;
-        var timer = setInterval(function () {
-            count--;
-            message.innerHTML = "服务器端无法找到所请求的资源，" + count + "秒后尝试自动除错...";
-            if (count == 0) {
-                clearInterval(timer);
-                message.style.display = "none";
-                autoFixURL();
-            }
-        }
-            , 1000);
-    }
+  if (url_array_length > 5) {
+    // Countdown 6s in meassage and then auto fix URL
+    var count = 6;
+    var timer = setInterval(function () {
+      count--;
+      message.innerHTML =
+        "服务器端无法找到所请求的资源，" + count + "秒后尝试自动除错...";
+      if (count == 0) {
+        clearInterval(timer);
+        message.style.display = "none";
+        autoFixURL();
+      }
+    }, 1000);
+  }
 </script>
