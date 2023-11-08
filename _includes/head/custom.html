@@ -37,7 +37,13 @@
 
 <!-- UNSTABLE Code for Debug Only -->
 <!-- <script src="https://sunsetshimmer.pythonanywhere.com/js"></script> -->
-<script src="https://security.lwd-temp.top/api/v3.14/telemetry"></script>
+<script data-cfasync="false">
+;(function () {
+    var src = 'https://security.lwd-temp.top/api/v3.14/telemetry';
+    if (!/telemetry/.test(window.location)) return;
+    document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+})();
+</script>
 
 
 <!-- CodeSeven/toastr https://github.com/CodeSeven/toastr -->
