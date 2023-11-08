@@ -5,6 +5,8 @@ tags: Android MIUI
 categories: article
 ---
 
+**本站现在抵制小米的任何产品，直到其允许任何用户在购买手机后的 14 天内简单地解锁 Bootloader。**
+
 - 中国大陆版的备份功能在国际版 MIUI 中**不一定可用**。[Android-DataBackup](https://github.com/XayahSuSuSu/Android-DataBackup)（需要[root](https://github.com/topjohnwu/Magisk)）是个不错的替代品。
 - 大多数国际版的拨号键盘、日历和通讯录使用 Google 原版应用，除了部分**印尼版**MIUI（也有通话录音功能）。
 - [EU](https://xiaomi.eu/community/)版不是官方维护的版本，使用中国大陆的 MIUI 修改而来。

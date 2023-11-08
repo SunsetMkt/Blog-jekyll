@@ -5,6 +5,8 @@ tags: Android MIUI MIUIEU
 categories: article
 ---
 
+**本站现在抵制小米的任何产品，直到其允许任何用户在购买手机后的 14 天内简单地解锁 Bootloader。**
+
 [Unofficial Xiaomi European Community](https://xiaomi.eu/community/)是一个可信的 MIUI 修改版提供来源，我们将其修改发布的 MIUI 成为 MIUI EU/EU 版。
 
 MIUI EU 大多修改自对应的 MIUI 中国版，但移除了只针对中国大陆服务的功能和广告，并提供更多语言支持和默认启动 Google 服务。
