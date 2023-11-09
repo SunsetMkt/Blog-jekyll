@@ -113,20 +113,8 @@ Shiruchan940923:
 
 {% include gallery id="brammool" %}
 
-## Shiruchan940923（☦🇧🇾 西露•梅塞诺维奇 ☦『シル•メセノビッチ』）
+## ☦🇧🇾 西露•梅塞诺维奇 ☦『シル•メセノビッチ』
 
-> 命运给了她第二次机会，她却用来欺骗：
->
-> 怀着柔情编织虚假，只为博取别人悲伤的眼泪。
->
-> 想要折断翅膀来博取关注，殊不知这只会败坏自己的名声。
->
-> 给这个世界带来的，不是美好，而是失望与遗憾。
->
-> 点亮生命不应建立在虚假之上，不要亵渎真诚相处的价值。
+根据我们的调查，此账号的所有经历为一人自导自演。无论导演者为谁，他的良心已经消逝了。
 
-大约她的确是早就死了吧。
-
-[Twitter](https://web.archive.org/web/20231103025226/https://twitter.com/Shiruchan940923)
-
-{% include gallery id="Shiruchan940923" %}
+涉事账号`UserByScreenName`接口返回的 ID 为`VXNlcjoxNDg5NzAxMTE0`和`VXNlcjoxNzIwMzI5NjY4MDU3MDQ3MDQw`，我们支持对这两个账号进行抵制。
