@@ -5,96 +5,34 @@
   src="https://fastly.jsdelivr.net/gh/dobarkod/cookie-banner@1.2.2/dist/cookiebanner.min.js"></script>
 -->
 
-<!--
-<script>
-    //检查HTTPS使用和提供警告
-    var protocolStr = document.location.protocol;
-    if (protocolStr == "http:") {
-        console.log("protocol = " + protocolStr);
-        httpToast();
-    }
-    else if (protocolStr == "https:") {
-        console.log("protocol = " + protocolStr);
-    }
-    else {
-        console.log("other protocol");
-    }
-</script>-->
-
 <!--<script>
     if (getQueryVariable("edit") == 1) {
         document.body.contentEditable = 'true';
         document.designMode = 'on';
     }
 </script>-->
-
-<!--
 <script>
-    if (Cookies.get('cookiebanner-accepted') != 1) {
-        cookieToast();
-    }
-</script>-->
-
-<!--
-<script>
-    // Function called if AdBlock is not detected
-    function adBlockNotDetected() {
-    	console.log('AdBlock is not enabled.');
-    }
-    // Function called if AdBlock is detected
-    function adBlockDetected() {
-    	console.log('AdBlock is enabled.');
-    	warningToast("AdBlock似乎已被启用，这可能会引起部分网页元素显示错误。");
-    }
-
-    // We look at whether FuckAdBlock already exists.
-    if(typeof fuckAdBlock !== 'undefined' || typeof FuckAdBlock !== 'undefined') {
-    	// If this is the case, it means that something tries to usurp are identity
-    	// So, considering that it is a detection
-    	adBlockDetected();
-    } else {
-    	// Otherwise, you import the script FuckAdBlock
-    	var importFAB = document.createElement('script');
-    	importFAB.onload = function() {
-    		// If all goes well, we configure FuckAdBlock
-    		fuckAdBlock.onDetected(adBlockDetected)
-    		fuckAdBlock.onNotDetected(adBlockNotDetected);
-    	};
-    	importFAB.onerror = function() {
-    		// If the script does not load (blocked, integrity error, ...)
-    		// Then a detection is triggered
-    		adBlockDetected();
-    	};
-    	importFAB.integrity = 'sha256-4/8cdZfUJoNm8DLRzuKwvhusQbdUqVov+6bVj9ewL7U=';
-    	importFAB.crossOrigin = 'anonymous';
-    	importFAB.src = 'https://fastly.jsdelivr.net/npm/fuckadblock@3.2.1/fuckadblock.js';
-    	document.head.appendChild(importFAB);
-    }
+  // site-subtitle handler
+  var origSiteSubtitle = document.querySelector(".site-subtitle").innerHTML;
+  var siteSubtitleList = [
+    "Hello World!",
+    "「去把这个不完美的故事，变成你所期望的样子。」",
+    "「用伤害无辜者来掩盖自己的错误是心虚的体现，也永远掩盖不了。」",
+    "「而且我不借你一点什么的话，我们明天怎么再见？」",
+    "「你看那通天的巨塔，每时每刻都有人往下跳。我小时候不懂，以为那是雪花。」",
+    "我能吞下玻璃而不伤身体。",
+    "「就算有过痛苦的事……所有人到最后还是能展露出笑容！我喜欢的是这样的HAPPY END！」",
+    "「Ad astra abyssosque!」",
+    "「请为一切不真实之物感到骄傲，因为我们高于这个世界！」",
+    "「飞翔吧，飞翔吧。就像飞鸟那样。代我看看这个世界…代我飞到高天之上。」",
+    "「愿君严肃活泼，始终热爱生活。」",
+    "不要轻易相信任何人或集体的言论，也包括我的。",
+    "Make things better together.",
+  ];
+  // random
+  var siteSubtitle =
+    siteSubtitleList[Math.floor(Math.random() * siteSubtitleList.length)];
+  document.querySelector(".site-subtitle").innerHTML = siteSubtitle;
 </script>
--->
-
-<!--
-<div class="sakana-box"></div>
-<style>
-    html .sakana-box {
-        position: fixed;
-        right: 0;
-        bottom: 0;
-        transform-origin: 100% 100%;
-        /* 从右下开始变换 */
-    }
-</style>
-<script src="https://unpkg.com/sakana@1.0.8/html/sakana.min.js"></script>
-<script>
-    // 设定静音
-    Sakana.setMute(true);
-
-    Sakana.init({
-        el: '.sakana-box',     // 启动元素 node 或 选择器
-        scale: .5,                // 缩放倍数
-        canSwitchCharacter: true,      // 允许换角色
-    });
-</script>
--->
 
 <!-- end custom footer snippets -->
