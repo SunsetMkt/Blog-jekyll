@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 locale                   : "zh-CN"
 title                    : "Sunset的博客"
 title_separator          : "-"
-subtitle                 : "“去把这个不完美的故事，变成你所期望的样子。”" # site tagline that appears below site title in masthead # 也可以当作slogan
+subtitle                 : "Placeholder. 您可能没有启用JavaScript。" # site tagline that appears below site title in masthead # 也可以当作slogan
 name                     : "Sunset"
 description              : "Sunset的博客"
 url                      : "https://jekyll.lwd-temp.top" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
