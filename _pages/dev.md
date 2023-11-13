@@ -52,26 +52,13 @@ URL 参数`vconsole=true`
 
 </div>
 
-<!--
+## 遥测
 
-```html
-<script data-cfasync="false">
-;(function () {
-    var src = '//unpkg.com/eruda@latest/eruda.js';
-    if (!/eruda=true/.test(window.location) && localStorage.getItem('active-eruda') != 'true') return;
-    document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
-    document.write('<scr' + 'ipt>eruda.init();</scr' + 'ipt>');
-})();
-;(function () {
-    var src = '//unpkg.com/vconsole@latest/dist/vconsole.min.js';
-    if (!/vconsole=true/.test(window.location) && localStorage.getItem('active-vconsole') != 'true') return;
-    document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
-    document.write('<scr' + 'ipt>var vConsole = new window.VConsole();</scr' + 'ipt>');
-})();
-</script>
-```
+> 默认关闭，不要使用，除非被开发者建议。不一定可以正常运行。
+>
+> 理论上会执行单独上报设备信息的操作，不会比 Cloudflare CDN 获取到更多的信息。
 
--->
+[遥测（点击一次，等待页面完整加载即可）](/?telemetry=1)
 
 ## Umami
 
