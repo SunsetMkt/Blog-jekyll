@@ -5,7 +5,7 @@ permalink: /sitemap/
 author_profile: false
 ---
 
-此站点所有页面的列表。 [XML 版本]({{ "sitemap.xml" | relative_url }}) 
+此站点所有页面的列表。对于那些机器人，也有可供消化的[XML 版本]({{ "sitemap.xml" | relative_url }})，也提供 [RSS Feed]({{ "feed.xml" | relative_url }})。
 
 <h2>Pages</h2>
 {% for post in site.pages %}
