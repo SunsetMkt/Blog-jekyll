@@ -211,6 +211,35 @@ function applyGrayFilterOnHashedDate(targetHashedDate) {
 
 applyGrayFilterOnHashedDate(53341);
 
+function checkOnHashedDate(targetHashedDate) {
+  // Accept hashed 'M-D' format
+  var currentDate = new Date();
+  var formattedCurrentDate =
+    currentDate.getMonth() + 1 + "-" + currentDate.getDate();
+  var hashedFormattedCurrentDate = hashCode(formattedCurrentDate);
+  if (hashedFormattedCurrentDate === targetHashedDate) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+function checkOnDate(targetDate) {
+  // Accept 'M-D' format
+  var currentDate = new Date();
+  var formattedCurrentDate =
+    currentDate.getMonth() + 1 + "-" + currentDate.getDate();
+  if (
+    formattedCurrentDate === targetDate ||
+    (currentDate.getMonth() + 1 === parseInt(targetDate.split("-")[0]) &&
+      currentDate.getDate() === parseInt(targetDate.split("-")[1]))
+  ) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
 if (document.querySelector(".site-subtitle")) {
   // site-subtitle handler
   var origSiteSubtitle = document.querySelector(".site-subtitle").innerHTML;
@@ -271,6 +300,35 @@ if (document.querySelector(".site-subtitle")) {
   // random
   var siteSubtitle =
     siteSubtitleList[Math.floor(Math.random() * siteSubtitleList.length)];
+
+  var nowDate = new Date();
+  // Date special
+  if (nowDate.getMonth() + 1 === 6) {
+    // 10%
+    if (Math.random() < 0.1) {
+      siteSubtitle = "爱就是爱。 Love is love. 🏳️‍🌈";
+    }
+  }
+
+  if (checkOnHashedDate(53341)) {
+    // 50%
+    if (Math.random() < 0.5) {
+      siteSubtitle = "「因为这是我的职责。」";
+    }
+  }
+
+  // from 11-24 to 12-7
+  if (
+    (nowDate.getMonth() + 1 === 11 && nowDate.getDate() >= 24) ||
+    (nowDate.getMonth() + 1 === 12 && nowDate.getDate() <= 7)
+  ) {
+    // 30%
+    if (Math.random() < 0.3) {
+      siteSubtitle =
+        "「我们太容易接受现实/因为现实总是那么不真实/2022年不该被这样画上句号/人生还有小径分叉的花园」";
+    }
+  }
+
   console.log(siteSubtitle);
   document.querySelector(".site-subtitle").innerHTML = siteSubtitle;
 } else {
