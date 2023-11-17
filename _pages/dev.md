@@ -20,6 +20,12 @@ permalink: /dev/
 
 当前构建随机码（仅在此处展示）：{% include random %}
 
+{% if jekyll.environment == "production" %}
+当前环境：生产环境
+{% else %}
+当前环境：非生产环境
+{% endif %}
+
 构建状态：![pages-build-deployment](https://github.com/lwd-temp/lwd-temp.github.io-jekyll/actions/workflows/pages/pages-build-deployment/badge.svg)
 
 ---
