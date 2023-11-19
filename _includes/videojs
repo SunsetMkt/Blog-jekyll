@@ -6,8 +6,7 @@
     <!-- unpkg : use a specific version of Video.js (change the version numbers as necessary) -->
     <link href="https://unpkg.com/video.js@8.3.0/dist/video-js.min.css" rel="stylesheet">
     <script src="https://unpkg.com/video.js@8.3.0/dist/video.min.js"></script>
-    <script src="https://unpkg.com/videojs-playbackrate-adjuster@1.0.1/dist/browser/videojs-playbackrate-adjuster.min.js"></script>
-    <video id="{{ unique_id }}" class="video-js" controls preload="auto" data-setup='{"fluid": true}'>
+    <video id="{{ unique_id }}" class="video-js" controls preload="auto" data-setup='{"fluid": true, "playbackRates": [0.5, 1, 1.5, 2]}'>
         <source src="{{ include.file }}">
         </source>
         <p class="vjs-no-js">
