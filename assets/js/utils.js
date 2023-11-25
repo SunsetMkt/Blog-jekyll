@@ -299,6 +299,7 @@ if (document.querySelector(".site-subtitle")) {
     "undefined",
     "NaN",
     "null",
+    "「在需要的时候，你要能够为自己挺身而出。」",
     // "「」",
   ];
   // random
