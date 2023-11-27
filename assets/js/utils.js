@@ -254,7 +254,7 @@ if (document.querySelector(".site-subtitle")) {
     "「Ad astra abyssosque!」",
     "「请为一切不真实之物感到骄傲，因为我们高于这个世界！」",
     "「飞翔吧，飞翔吧。就像飞鸟那样。代我看看这个世界…代我飞到高天之上。」",
-    "「愿君严肃活泼，始终热爱生活。」",
+    //"「愿君严肃活泼，始终热爱生活。」",
     "不要轻易相信任何人或集体的言论，也包括我的。",
     "共同携手，创造更美好。 Make things better together.",
     "「风向是会转变的，终有一天，会吹向更有光亮的方向。」",
@@ -328,10 +328,18 @@ if (document.querySelector(".site-subtitle")) {
     (nowDate.getMonth() + 1 === 11 && nowDate.getDate() >= 24) ||
     (nowDate.getMonth() + 1 === 12 && nowDate.getDate() <= 7)
   ) {
-    // 30%
-    if (Math.random() < 0.3) {
+    // 40%
+    if (Math.random() < 0.4) {
+      specialSiteSubtitles = [
+        "「我们太容易接受现实/因为现实总是那么不真实/2022年不该被这样画上句号/人生还有小径分叉的花园」",
+        "「历史不会浓缩在一个晚上，历史又常在一夜间被改写。」",
+        "「人不是活一辈子，不是活几年、几月、几天，而是活几个瞬间。」",
+        "210 × 297 mm",
+      ];
       siteSubtitle =
-        "「我们太容易接受现实/因为现实总是那么不真实/2022年不该被这样画上句号/人生还有小径分叉的花园」";
+        specialSiteSubtitles[
+          Math.floor(Math.random() * specialSiteSubtitles.length)
+        ];
     }
   }
 
