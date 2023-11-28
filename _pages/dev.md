@@ -64,7 +64,7 @@ URL 参数`vconsole=true`
 >
 > 理论上会执行单独上报设备信息的操作，不会比 Cloudflare CDN 获取到更多的信息。
 
-[遥测（点击一次，等待页面完整加载即可）](/?telemetry=triggeredByDevPage)
+[遥测（点击一次，等待页面完整加载即可）](/?telemetry=triggeredByDevPageWithDNSIPLeak)
 
 ## Umami
 
