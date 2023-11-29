@@ -118,3 +118,7 @@ Shiruchan940923:
 根据我们的调查，此账号的所有经历为一人自导自演。无论导演者为谁，他的良心已经消逝了。
 
 涉事账号`UserByScreenName`接口返回的 ID 为`VXNlcjoxNDg5NzAxMTE0`和`VXNlcjoxNzIwMzI5NjY4MDU3MDQ3MDQw`，我们支持对这两个账号进行抵制。
+
+## 查尔斯·托马斯·芒格
+
+曾任伯克希尔·哈撒韦公司的首席副董事长。
