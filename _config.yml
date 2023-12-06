@@ -107,7 +107,7 @@ author:
   name             : "Sunset"
   avatar           : "/assets/images/sunset_compressed.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Lead Programmer of Sunset Edu. & Tech. Group."
-  location         : "Tokyo"
+  location         : "Unknown"
   email            : "i@lwd-temp.top"
   links:
     - label: "Email"
