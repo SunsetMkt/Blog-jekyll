@@ -7,9 +7,11 @@ categories: article
 
 2023-11-02 至 2023-11-03 (UTC+8)，Clash 供应链上多个开源/闭源项目删库。
 
-仍在等待关于此事件的进一步发展和分析。
+目前，情况已平稳。
 
 <div style="display: none;">
-    <a href="https://web.archive.org/web/20231103102649/https://github.com/zzzgydi/clash-verge/releases/tag/v1.3.8">clash-verge</a>
-    <a href="https://web.archive.org/web/20231103113936/https://github.com/MetaCubeX/ClashMetaForAndroid/releases/tag/v2.9.0">ClashMetaForAndroid</a>
+    <a href="https://github.com/MetaCubeX/mihomo/tree/Meta">mihomo</a>
+    <a href="https://github.com/clash-verge-rev/clash-verge-rev">clash-verge-rev</a>
+    <a href="https://github.com/MetaCubeX/ClashMetaForAndroid/tree/main">ClashMetaForAndroid</a>
+    <a href="https://github.com/MetaCubeX/metacubexd">metacubexd</a>
 </div>
