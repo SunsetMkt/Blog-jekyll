@@ -1445,6 +1445,7 @@ B2）行動派（Activist），「揭示板」。
 
 （全劇終。）
 
+<!--
 <div>
   <script src="https://unpkg.com/opencc-js@1.0.5/dist/umd/full.js"></script>
   <script>
@@ -1468,3 +1469,4 @@ B2）行動派（Activist），「揭示板」。
   </script>
   <button onclick="Simplify()" id="SimplifyBtn">繁体转简体</button>
 </div>
+-->
