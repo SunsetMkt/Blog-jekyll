@@ -5,7 +5,7 @@ tags: Android MIUI
 categories: article
 ---
 
-**本站现在抵制小米的任何产品，直到其允许任何用户在购买手机后的 14 天内简单地解锁 Bootloader。**
+{% include warning-xiaomi.md %}
 
 > 我不知道这样做为什么会有用，但确实有用，所以记录在这里。
 
