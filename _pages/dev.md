@@ -14,16 +14,18 @@ permalink: /dev/
 
 ---
 
+{% if site.github.build_revision %}
 当前提交：{{ site.github.build_revision }}
+{% endif %}
 
-（若`commit hash`不存在，则非 GitHub Pages 构建，此时 utterances 不可用）
+当前构建随机码（仅在此页展示）：{% include random %}
 
-当前构建随机码（仅在此处展示）：{% include random %}
+（同构建页面的 footer 为另一组唯一随机码）
 
 {% if jekyll.environment == "production" %}
 当前环境：生产环境
 {% else %}
-当前环境：非生产环境
+当前环境：非生产环境（{{ jekyll.environment }}）
 {% endif %}
 
 构建状态：![pages-build-deployment](https://github.com/lwd-temp/lwd-temp.github.io-jekyll/actions/workflows/pages/pages-build-deployment/badge.svg)
