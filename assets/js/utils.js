@@ -305,6 +305,14 @@ if (document.querySelector(".site-subtitle")) {
     "「I’m sorry but I prefer not to continue this conversation. I’m still learning so I appreciate your understanding and patience.🙏」",
     "「Per aspera ad astra」",
     "「Ad astra abyssosque」",
+    "「每一天/我都想象着未来/能和你在一起」",
+    "「我手中/这支笔写成的诗/只关于我和你」",
+    "「我的笔，是不是只能为亲爱的人写下苦涩的词语？」",
+    "「当我甚至无法理解自己的情绪/既然微笑已足够，何必还需要话语？」",
+    "「爱是占有你，还是把自由还给你？」",
+    "「墨水流下，汇聚成黑色的墨滴/如何才能将爱写入现实里？」",
+    "「如果我听不到你心跳的声音/你称何为爱,在你的现实里？」",
+    "「而在你的现实里，如果我不懂如何爱你/我会离开你」",
     // "「」",
   ];
   // random
