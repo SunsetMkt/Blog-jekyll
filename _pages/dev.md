@@ -68,7 +68,35 @@ URL 参数`vconsole=true`
     不要点击此链接，除非被开发者/网站管理人员建议。
 </p>
 
-[遥测（点击一次，等待页面完整加载即可）](/?telemetry=triggeredByDevPageWithDNSIPLeak)
+<div>
+  <p id="telemetry-trigger" style="display: none">
+    <a href="/?telemetry=triggeredByDevPageWithDNSIPLeak"
+      >遥测（点击一次，等待页面完整加载即可）</a
+    >
+  </p>
+  <p id="show-telemetry-trigger">
+    点击此文本 ${showTelemetryTriggerCount} 次以显示遥测链接
+  </p>
+  <script>
+    const showTelemetryTrigger = document.getElementById(
+      "show-telemetry-trigger"
+    );
+    const telemetryTrigger = document.getElementById("telemetry-trigger");
+    var showTelemetryTriggerCount = 5;
+
+    showTelemetryTrigger.innerHTML = `点击此文本 ${showTelemetryTriggerCount} 次以显示遥测链接`;
+
+    showTelemetryTrigger.addEventListener("click", () => {
+      showTelemetryTriggerCount--;
+      showTelemetryTrigger.innerHTML = `点击此文本 ${showTelemetryTriggerCount} 次以显示遥测链接`;
+      if (showTelemetryTriggerCount <= 0) {
+        telemetryTrigger.style.display = "block";
+        showTelemetryTrigger.style.display = "none";
+      }
+    });
+
+  </script>
+</div>
 
 ## Umami
 
