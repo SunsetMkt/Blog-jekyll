@@ -16,6 +16,8 @@ permalink: /dev/
 
 {% if site.github.build_revision %}
 当前提交：{{ site.github.build_revision }}
+{% else %}
+当前提交：未知（非 GitHub Pages 构建环境）
 {% endif %}
 
 当前构建随机码（仅在此页展示）：{% include random %}
