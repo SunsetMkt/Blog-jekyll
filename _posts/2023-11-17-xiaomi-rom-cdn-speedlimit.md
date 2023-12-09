@@ -7,6 +7,8 @@ categories: article
 
 {% include warning-xiaomi.md %}
 
+当前，此方法似乎已失效。将跳转后链接中的`bigota`或`hugeota`替换成`superota`或`ultimateota`或许有效。
+
 > 我不知道这样做为什么会有用，但确实有用，所以记录在这里。
 
 ```hosts
