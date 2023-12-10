@@ -333,6 +333,7 @@ if (document.querySelector(".site-subtitle")) {
     "「L'eau dans son courant fait danser nos vies. Et la cité, elle nourrit. Ainsi que toi, mon doux amour.」",
     "「Non, le grand amour ne suffit pas. Seul un adieu fleurira. C'est notre histoire de vie, douce et amère.」",
     "「Moi, je suis et serai toujours là, à voir le monde et sa beauté. Et ça ne changera jamais, jamais...」",
+    "「如果拘泥于真假，那岂不是就错过了很多美好与感动嘛。」",
     // "「」",
   ];
   // random
