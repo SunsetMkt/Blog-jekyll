@@ -119,3 +119,17 @@ URL 参数`vconsole=true`
 ## 获取 Monika
 
 ~~Just Monika.~~ [monika.chr](/assets/media/ddlc_characters/monika.chr)
+
+## 将字体设置为 LXGW WenKai Screen （霞鹜文楷屏幕阅读版）
+
+关于 [lxgw-wenkai-webfont](https://github.com/chawyehsu/lxgw-wenkai-webfont)
+
+这是一个实验性选项，应用字体的方式不标准，可能会造成页面功能问题。
+
+<div class="LxgwWenKaiScreen-btns">
+
+    <a class="btn btn--info" onclick="localStorage.setItem('active-LxgwWenKaiScreen','true');location.reload();">启动</a>
+
+    <a class="btn btn--info" onclick="localStorage.removeItem('active-LxgwWenKaiScreen');location.reload();">关闭</a>
+
+</div>

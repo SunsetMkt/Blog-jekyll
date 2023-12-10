@@ -381,3 +381,36 @@ if (document.querySelector(".site-subtitle")) {
 } else {
   console.log("site-subtitle error");
 }
+
+function loadAndApplyLxgwWenKaiScreen() {
+  // https://github.com/chawyehsu/lxgw-wenkai-webfont
+  var link = document.createElement("link");
+  link.rel = "stylesheet";
+  link.type = "text/css";
+  link.href = "https://unpkg.com/lxgw-wenkai-screen-webfont@1.7.0/style.css";
+
+  document.head.appendChild(link);
+
+  link.onload = function () {
+    var currentFontFamily = window.getComputedStyle(document.body).fontFamily;
+    var newFontFamily = '"LXGW WenKai Screen", ' + currentFontFamily;
+
+    document.body.style.fontFamily = newFontFamily;
+
+    // 使用更具体的选择器以确保所有元素都使用新字体，但排除 Font Awesome 图标
+    document
+      .querySelectorAll('*:not([class*="fa"])')
+      .forEach(function (element) {
+        element.style.fontFamily = newFontFamily;
+      });
+  };
+}
+
+try {
+  // If localstorage active-LxgwWenKaiScreen is true, loadAndApplyLxgwWenKaiScreen
+  if (localStorage.getItem("active-LxgwWenKaiScreen") === "true") {
+    loadAndApplyLxgwWenKaiScreen();
+  }
+} catch (error) {
+  console.log("loadAndApplyLxgwWenKaiScreen error");
+}
