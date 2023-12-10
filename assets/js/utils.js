@@ -329,6 +329,10 @@ if (document.querySelector(".site-subtitle")) {
     "「记住不要因为有一些坏习惯而过分苛责自己。但如果它已经开始影响你的正常生活，你就需要认真看待这件事了。」",
     "「我希望你能成为最好的自己。今天的你也能让我感到骄傲吗？」",
     "「大概一个人在自己得病前，永远不会知道心理疾病是什么样的。但实际上，很多心理疾病其实是被低估了，你知道吗？但从医学上来讲...人们大多数时候不会去寻求心理专家的帮助。如果你觉得那样可以让你变得更好，不要羞于咨询。你得知道，我们的人生就是一场永不结束的提升之旅。」",
+    "「Ah, si je pouvais vivre dans l'eau, le monde serait-il plus beau ? Nous pardonneras-tu, ô chère mère ?」",
+    "「L'eau dans son courant fait danser nos vies. Et la cité, elle nourrit. Ainsi que toi, mon doux amour.」",
+    "「Non, le grand amour ne suffit pas. Seul un adieu fleurira. C'est notre histoire de vie, douce et amère.」",
+    "「Moi, je suis et serai toujours là, à voir le monde et sa beauté. Et ça ne changera jamais, jamais...」",
     // "「」",
   ];
   // random
