@@ -38,7 +38,9 @@ permalink: /dev/
 
 ---
 
-## Eruda
+## 调试功能
+
+### Eruda
 
 URL 参数`eruda=true`
 
@@ -50,7 +52,7 @@ URL 参数`eruda=true`
 
 </div>
 
-## vConsole
+### vConsole
 
 URL 参数`vconsole=true`
 
@@ -62,7 +64,9 @@ URL 参数`vconsole=true`
 
 </div>
 
-## 遥测
+## 统计和遥测
+
+### 遥测（非常规）
 
 > 默认关闭，不要使用，除非被开发者/网站管理人员建议。不一定可以正常运行。
 >
@@ -102,7 +106,7 @@ URL 参数`vconsole=true`
   </script>
 </div>
 
-## Umami
+### Umami
 
 <div class="umami-btns">
 
@@ -112,15 +116,13 @@ URL 参数`vconsole=true`
 
 </div>
 
-## 其他网站统计
+### 其他网站统计
 
 使用[uBlock Origin](https://ublockorigin.com/)以禁用。
 
-## 获取 Monika
+## 字体
 
-~~Just Monika.~~ [monika.chr](/assets/media/ddlc_characters/monika.chr)
-
-## 将字体设置为 LXGW WenKai Screen （霞鹜文楷屏幕阅读版）
+### 将字体设置为 LXGW WenKai Screen （霞鹜文楷屏幕阅读版）
 
 关于 [lxgw-wenkai-webfont](https://github.com/chawyehsu/lxgw-wenkai-webfont)
 
@@ -133,3 +135,23 @@ URL 参数`vconsole=true`
     <a class="btn btn--info" onclick="localStorage.removeItem('active-LxgwWenKaiScreen');location.reload();">关闭</a>
 
 </div>
+
+### 将字体设置为 Genshin Impact 的主要字体
+
+关于 [此字体](https://genshin-impact.fandom.com/wiki/Typeface)
+
+这是一个实验性选项，应用字体的方式不标准，可能会造成页面功能问题。
+
+<div class="HK4ECNFont-btns">
+
+    <a class="btn btn--info" onclick="localStorage.setItem('active-HK4ECNFont','true');location.reload();">启动</a>
+
+    <a class="btn btn--info" onclick="localStorage.removeItem('active-HK4ECNFont');location.reload();">关闭</a>
+
+</div>
+
+## Just Monika.
+
+### 获取 Monika
+
+[monika.chr](/assets/media/ddlc_characters/monika.chr)
