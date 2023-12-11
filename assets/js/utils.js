@@ -401,7 +401,8 @@ function loadAndApplyLxgwWenKaiScreen() {
     document
       .querySelectorAll('*:not([class*="fa"])')
       .forEach(function (element) {
-        element.style.fontFamily = newFontFamily;
+        element.style.fontFamily =
+          '"LXGW WenKai Screen", ' + element.style.fontFamily;
       });
   };
 }
@@ -413,4 +414,37 @@ try {
   }
 } catch (error) {
   console.log("loadAndApplyLxgwWenKaiScreen error");
+}
+
+function loadAndApplyHK4ECNFont() {
+  var style = document.createElement("style");
+  style.appendChild(
+    document.createTextNode(`
+    @font-face {
+      font-family: 'HK4E CN';
+      src: url('/assets/fonts/hk4e/zh-cn.ttf') format('truetype');
+    }
+  `)
+  );
+
+  document.head.appendChild(style);
+
+  var currentFontFamily = window.getComputedStyle(document.body).fontFamily;
+  var newFontFamily = '"HK4E CN", ' + currentFontFamily;
+
+  document.body.style.fontFamily = newFontFamily;
+
+  // 使用更具体的选择器以确保所有元素都使用新字体，但排除 Font Awesome 图标
+  document.querySelectorAll('*:not([class*="fa"])').forEach(function (element) {
+    element.style.fontFamily = '"HK4E CN", ' + element.style.fontFamily;
+  });
+}
+
+try {
+  // If localstorage active-HK4ECNFont is true, loadAndApplyHK4ECNFont
+  if (localStorage.getItem("active-HK4ECNFont") === "true") {
+    loadAndApplyHK4ECNFont();
+  }
+} catch (error) {
+  console.log("loadAndApplyHK4ECNFont error");
 }
