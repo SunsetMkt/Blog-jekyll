@@ -334,6 +334,10 @@ if (document.querySelector(".site-subtitle")) {
     "「Non, le grand amour ne suffit pas. Seul un adieu fleurira. C'est notre histoire de vie, douce et amère.」",
     "「Moi, je suis et serai toujours là, à voir le monde et sa beauté. Et ça ne changera jamais, jamais...」",
     "「如果拘泥于真假，那岂不是就错过了很多美好与感动嘛。」",
+    "「我爱你，一直远到月亮那里，再从月亮回到这里。」",
+    "在互联网上，从未谋面必然意味着低可信度。",
+    "对任何人的过度信任都将置您于危险之中，没有例外。",
+    "健康、双赢的人际关系基于自我独立。",
     // "「」",
   ];
   // random
