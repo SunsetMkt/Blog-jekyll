@@ -338,6 +338,7 @@ if (document.querySelector(".site-subtitle")) {
     "在互联网上，从未谋面必然意味着低可信度。",
     "对任何人的过度信任都将置您于危险之中，没有例外。",
     "健康、双赢的人际关系基于自我独立。",
+    "「Qui aimes-tu le mieux, homme énigmatique, dis ?」",
     // "「」",
   ];
   // random
