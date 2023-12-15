@@ -339,6 +339,8 @@ if (document.querySelector(".site-subtitle")) {
     "对任何人的过度信任都将置您于危险之中，没有例外。",
     "健康、双赢的人际关系基于自我独立。",
     "「Qui aimes-tu le mieux, homme énigmatique, dis ?」",
+    "「Troubleshooting any problem without the error log is like driving with your eyes closed.」",
+    "「在没有错误日志的情况下诊断任何问题无异于闭眼开车。」",
     // "「」",
   ];
   // random
