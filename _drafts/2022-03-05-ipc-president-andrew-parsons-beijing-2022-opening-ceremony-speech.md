@@ -134,5 +134,3 @@ Xièxiè! Thank you very much! Muito obrigado! Peace!
 It is now my honour to invite the President of the People’s Republic of China, His Excellency Xi Jinping to declare open the Beijing 2022 Paralympic Winter Games.
 
 现在，我荣幸地邀请中华人民共和国主席习近平阁下宣布北京 2022 年冬残奥会开幕。
-
-（翻译：Sunset & Google Translate）
