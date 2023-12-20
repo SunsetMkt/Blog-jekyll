@@ -40,6 +40,14 @@ permalink: /dev/
 
 ## 调试功能
 
+### 清空 localStorage
+
+<div>
+
+    <a class="btn btn--info" onclick="localStorage.clear();location.reload();">清空localStorage</a>
+
+</div>
+
 ### Eruda
 
 URL 参数`eruda=true`
