@@ -341,6 +341,7 @@ if (document.querySelector(".site-subtitle")) {
     "「Qui aimes-tu le mieux, homme énigmatique, dis ?」",
     "「Troubleshooting any problem without the error log is like driving with your eyes closed.」",
     "「在没有错误日志的情况下诊断任何问题无异于闭眼开车。」",
+    "「一切都将以阳光与彩虹终结！她兴高采烈地宣布，只要你情愿直面那烈火，这就是了。」",
     // "「」",
   ];
   // random
