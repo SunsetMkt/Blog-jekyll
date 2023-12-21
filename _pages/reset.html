@@ -1,0 +1,102 @@
+---
+title: "Reset"
+layout: blank
+sitemap: false
+permalink: /reset/
+---
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Reset</title>
+    <script>
+      function clearAllCookies() {
+        // 获取所有的Cookies
+        var cookies = document.cookie.split(";");
+
+        // 遍历所有的Cookies并将其过期时间设置为过去的日期
+        for (var i = 0; i < cookies.length; i++) {
+          var cookie = cookies[i];
+          var eqPos = cookie.indexOf("=");
+          var name = eqPos > -1 ? cookie.substr(0, eqPos) : cookie;
+          document.cookie = name + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT";
+        }
+      }
+
+      // 调用函数以清空所有Cookies
+      clearAllCookies();
+    </script>
+    <script>
+      localStorage.clear();
+    </script>
+    <script>
+      sessionStorage.clear();
+    </script>
+    <script>
+      function deleteAllIndexedDB() {
+        // 获取所有的数据库名称
+        return new Promise((resolve, reject) => {
+          const request = indexedDB.databases();
+
+          request.onsuccess = (event) => {
+            const databaseNames = event.target.result;
+
+            // 删除所有数据库
+            const deletePromises = Array.from(databaseNames).map((db) => {
+              return new Promise((resolveDelete, rejectDelete) => {
+                const deleteRequest = indexedDB.deleteDatabase(db.name);
+
+                deleteRequest.onsuccess = () => {
+                  resolveDelete();
+                };
+
+                deleteRequest.onerror = (error) => {
+                  rejectDelete(error);
+                };
+              });
+            });
+
+            // 等待所有删除操作完成
+            Promise.all(deletePromises)
+              .then(() => {
+                resolve();
+              })
+              .catch((error) => {
+                reject(error);
+              });
+          };
+
+          request.onerror = (error) => {
+            reject(error);
+          };
+        });
+      }
+
+      // 使用async/await调用函数
+      async function deleteAllIndexedDBAndDoSomething() {
+        try {
+          await deleteAllIndexedDB();
+          console.log(
+            "All IndexedDB databases have been deleted successfully."
+          );
+
+          // 在这里可以添加任何希望在删除后执行的代码
+        } catch (error) {
+          console.error("Error deleting IndexedDB databases:", error);
+        }
+      }
+
+      // 调用函数
+      deleteAllIndexedDBAndDoSomething();
+    </script>
+    <script>
+      window.location.href = "/";
+    </script>
+  </head>
+  <body>
+    <noscript>JavaScript is required for this page.</noscript>
+    <p>Persistent cleared.</p>
+    <p><a href="/">Go back</a></p>
+  </body>
+</html>
