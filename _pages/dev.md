@@ -25,9 +25,9 @@ permalink: /dev/
 （同构建页面的 footer 为另一组唯一随机码）
 
 {% if jekyll.environment == "production" %}
-当前环境：生产环境
+构建环境：生产环境
 {% else %}
-当前环境：非生产环境（{{ jekyll.environment }}）
+构建环境：非生产环境（{{ jekyll.environment }}）
 {% endif %}
 
 构建状态：![pages-build-deployment](https://github.com/lwd-temp/lwd-temp.github.io-jekyll/actions/workflows/pages/pages-build-deployment/badge.svg)
