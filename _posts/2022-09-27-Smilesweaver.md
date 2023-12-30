@@ -1,6 +1,6 @@
 ---
 title: 【转载】虚拟玩伴
-date: 2020-10-12
+date: 2022-09-27
 tags: 转载
 categories: article
 ---
@@ -1260,3 +1260,56 @@ B2）黑夜潜行者（Spy），「潜望镜」。
 「哎？你会说出这种话，今后怕是想再坏起来都很难了呀！再补充一条好不好？即便全世界除你之外所有人都一致认为你有错，你也永远有主张你其实没错，以及据理力争的权利！」
 
 （未完待续。）
+
+<!--下面的内容不要在分享时复制-->
+
+---
+
+网站管理员备注：本文内容不构成医疗建议。
+
+<!--
+<div>
+  <script src="https://unpkg.com/opencc-js@1.0.5/dist/umd/full.js"></script>
+  <script>
+    function Simplify() {
+      document.getElementById("SimplifyBtn").style.display = "none";
+
+      // 获取页面上所有<p>
+      const paragraphElements = document.querySelectorAll('p');
+
+      // 将繁体中文（台湾）转换为简体中文（中国大陆）
+      const converter = new OpenCC.Converter({ from: "tw", to: "cn" });
+
+      // 遍历所有<p>并转换
+      paragraphElements.forEach((element) => {
+        const originalText = element.textContent;
+        const convertedText = converter(originalText);
+        element.textContent = convertedText;
+      });
+    }
+
+  </script>
+  <button onclick="Simplify()" id="SimplifyBtn">繁体转简体</button>
+</div>
+-->
+
+<div>
+  <script>
+    // #main > article > div.page__inner-wrap > header > p > span.page__meta-date > time
+    // #main > article > div.page__inner-wrap > footer > p.page__date > time
+    var overrideDate = "August 15, 3769"; // 2022-09-27/3769-08-15
+
+    // Execute after page is loaded
+    document.addEventListener("DOMContentLoaded", function () {
+      if (overrideDate) {
+        document.querySelector(
+          "#main > article > div.page__inner-wrap > header > p > span.page__meta-date > time"
+        ).innerHTML = overrideDate;
+        document.querySelector(
+          "#main > article > div.page__inner-wrap > footer > p.page__date > time"
+        ).innerHTML = overrideDate;
+      }
+    });
+
+  </script>
+</div>

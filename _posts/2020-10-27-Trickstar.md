@@ -1,6 +1,6 @@
 ---
 title: 【转载】小玩子
-date: 2020-10-12
+date: 2020-10-27
 tags: 转载
 categories: article
 ---
@@ -1444,3 +1444,56 @@ B2）活动家（Activist），「揭示板」。
 「小铃铛，现在的你还好嘛？几十年之后我们又可以一起玩啦，到那时别忘把你制作的所有玩具连同你一起都带过来让我玩玩？２８小时 ⋯⋯ ２８天 ⋯⋯ ２８年 ⋯⋯ ２８个世纪 ⋯⋯ ２８次轮回都不够哦！」
 
 （全剧终。）
+
+<!--下面的内容不要在分享时复制-->
+
+---
+
+网站管理员备注：本文内容不构成医疗建议。
+
+<!--
+<div>
+  <script src="https://unpkg.com/opencc-js@1.0.5/dist/umd/full.js"></script>
+  <script>
+    function Simplify() {
+      document.getElementById("SimplifyBtn").style.display = "none";
+
+      // 获取页面上所有<p>
+      const paragraphElements = document.querySelectorAll('p');
+
+      // 将繁体中文（台湾）转换为简体中文（中国大陆）
+      const converter = new OpenCC.Converter({ from: "tw", to: "cn" });
+
+      // 遍历所有<p>并转换
+      paragraphElements.forEach((element) => {
+        const originalText = element.textContent;
+        const convertedText = converter(originalText);
+        element.textContent = convertedText;
+      });
+    }
+
+  </script>
+  <button onclick="Simplify()" id="SimplifyBtn">繁体转简体</button>
+</div>
+-->
+
+<div>
+  <script>
+    // #main > article > div.page__inner-wrap > header > p > span.page__meta-date > time
+    // #main > article > div.page__inner-wrap > footer > p.page__date > time
+    var overrideDate = "May 7, 3767"; // 2020-10-27/3767-05-07
+
+    // Execute after page is loaded
+    document.addEventListener("DOMContentLoaded", function () {
+      if (overrideDate) {
+        document.querySelector(
+          "#main > article > div.page__inner-wrap > header > p > span.page__meta-date > time"
+        ).innerHTML = overrideDate;
+        document.querySelector(
+          "#main > article > div.page__inner-wrap > footer > p.page__date > time"
+        ).innerHTML = overrideDate;
+      }
+    });
+
+  </script>
+</div>

@@ -1,6 +1,6 @@
 ---
 title: 【转载】別搶我玩具
-date: 2020-10-12
+date: 2020-10-27
 tags: 转载
 categories: article
 ---
@@ -1445,6 +1445,12 @@ B2）行動派（Activist），「揭示板」。
 
 （全劇終。）
 
+<!--下面的内容不要在分享时复制-->
+
+---
+
+网站管理员备注：本文内容不构成医疗建议。
+
 <!--
 <div>
   <script src="https://unpkg.com/opencc-js@1.0.5/dist/umd/full.js"></script>
@@ -1470,3 +1476,24 @@ B2）行動派（Activist），「揭示板」。
   <button onclick="Simplify()" id="SimplifyBtn">繁体转简体</button>
 </div>
 -->
+
+<div>
+  <script>
+    // #main > article > div.page__inner-wrap > header > p > span.page__meta-date > time
+    // #main > article > div.page__inner-wrap > footer > p.page__date > time
+    var overrideDate = "May 7, 3767"; // 2020-10-27/3767-05-07
+
+    // Execute after page is loaded
+    document.addEventListener("DOMContentLoaded", function () {
+      if (overrideDate) {
+        document.querySelector(
+          "#main > article > div.page__inner-wrap > header > p > span.page__meta-date > time"
+        ).innerHTML = overrideDate;
+        document.querySelector(
+          "#main > article > div.page__inner-wrap > footer > p.page__date > time"
+        ).innerHTML = overrideDate;
+      }
+    });
+
+  </script>
+</div>
