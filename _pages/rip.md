@@ -33,6 +33,11 @@ Shiruchan940923:
     image_path: /assets/postres/rip/Shiruchan940923-1.jpg
     alt: "Twitter Avatar"
     title: "Twitter Avatar"
+XingZ60:
+  - url: /assets/postres/rip/XingZ60.jpg
+    image_path: /assets/postres/rip/XingZ60.jpg
+    alt: "Twitter Avatar"
+    title: "Twitter Avatar"
 ---
 
 <style>
@@ -113,11 +118,13 @@ Shiruchan940923:
 
 {% include gallery id="brammool" %}
 
+<!--
 ## ☦🇧🇾 西露•梅塞诺维奇 ☦『シル•メセノビッチ』
 
 根据我们的调查，此账号的所有经历为一人自导自演。无论导演者为谁，他的良心已经消逝了。
 
 涉事账号`UserByScreenName`接口返回的 ID 为`VXNlcjoxNDg5NzAxMTE0`和`VXNlcjoxNzIwMzI5NjY4MDU3MDQ3MDQw`，我们支持对这两个账号进行抵制。
+-->
 
 ## 查尔斯·托马斯·芒格
 
@@ -126,3 +133,17 @@ Shiruchan940923:
 ## 高耀洁
 
 “中国防艾第一人”。
+
+## 朱令
+
+参考 [朱令铊中毒事件](https://zh.wikipedia.org/wiki/%E6%9C%B1%E4%BB%A4%E9%93%8A%E4%B8%AD%E6%AF%92%E4%BA%8B%E4%BB%B6)。
+
+## XingZ60
+
+> 未命名-星璃璃（幻梦）
+>
+> Mt(MtF) | SCP MTF Upsilon-4 | 多重人格侧面 | CN&EN(no good at it though) | 含糖 | 偶尔有暴躁发言 | 屏蔽一切无推文 fo 且审 fo，与立场无关 | 💫 @LiAlH4_Tr
+
+[Twitter](https://archive.ph/7l6Vm)
+
+{% include gallery id="XingZ60" %}
