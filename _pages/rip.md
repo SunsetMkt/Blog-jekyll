@@ -142,7 +142,7 @@ XingZ60:
 
 > 未命名-星璃璃（幻梦）
 >
-> Mt(MtF) | SCP MTF Upsilon-4 | 多重人格侧面 | CN&EN(no good at it though) | 含糖 | 偶尔有暴躁发言 | 屏蔽一切无推文 fo 且审 fo，与立场无关 | 💫 @LiAlH4_Tr
+> Mt(MtF) \| SCP MTF Upsilon-4 \| 多重人格侧面 \| CN&EN(no good at it though) \| 含糖 \| 偶尔有暴躁发言 \| 屏蔽一切无推文 fo 且审 fo，与立场无关 \| 💫 @LiAlH4_Tr
 
 [Twitter](https://archive.ph/7l6Vm)
 
