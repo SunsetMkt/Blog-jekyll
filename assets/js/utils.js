@@ -209,7 +209,11 @@ function applyGrayFilterOnHashedDate(targetHashedDate) {
   }
 }
 
-applyGrayFilterOnHashedDate(53341);
+try {
+  applyGrayFilterOnHashedDate(53341);
+} catch (error) {
+  console.log(error);
+}
 
 function checkOnHashedDate(targetHashedDate) {
   // Accept hashed 'M-D' format
@@ -449,7 +453,11 @@ function siteSubtitleHandler() {
 
 if (document.querySelector(".site-subtitle")) {
   // site-subtitle handler
-  siteSubtitleHandler();
+  try {
+    siteSubtitleHandler();
+  } catch (error) {
+    console.log(error);
+  }
 } else {
   console.log("site-subtitle error");
 }
