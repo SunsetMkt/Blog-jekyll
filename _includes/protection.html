@@ -1,4 +1,4 @@
-<script type="text/javascript" src="/assets/js/zhihuWatermark.js"></script>
+<script type="text/javascript" src="/assets/js/watermark-js-plus.1.3.32.umd.min.js"></script>
 <script type="text/javascript" src="/assets/js/Saberization-web-watermark.min.js"></script>
 
 <!--Disable Copying-->
@@ -62,23 +62,36 @@
 
 <!--Try to get information from Cloudflare trace-->
 <script>
+    function blindWatermark(text){
+        const watermark = new WatermarkPlus.BlindWatermark({
+        contentType: "multi-line-text",
+        content: text,
+        fontSize: 30,
+        width: 200,
+        height: 200,
+        onSuccess: () => {
+          // success callback
+        },
+      });
+      watermark.create();
+      return watermark;
+    }
     function watermark() {
         var url = "/cdn-cgi/trace";
         var xhr = new XMLHttpRequest();
         xhr.open("GET", url, true);
         // Get useragent & timestamp
         var timestamp = new Date().getTime();
-        var oldClassName = insertWatermark("Unloaded", timestamp);
+        var oldWatermark = blindWatermark(timestamp);
         xhr.onreadystatechange = function () {
             if (xhr.readyState == 4) {
                 var trace = xhr.responseText;
                 var ip = trace.split("ip=")[1].split("\n")[0];
                 var ts = trace.split("ts=")[1].split("\n")[0];
-                // Remove class == oldClassName
-                var oldClass = document.getElementsByClassName(oldClassName)[0];
-                oldClass.remove();
+                // Remove oldWatermark
+                oldWatermark.destroy();
                 // Insert new watermark
-                insertWatermark(ip, ts);
+                blindWatermark(ip + " | " + ts);
             }
         }
         xhr.send();
@@ -101,5 +114,5 @@
         tip: '你的浏览器不支持Canvas'
     });
 
-    watermarkInstance.render('8964');
+    watermarkInstance.render('禁止复制');
 </script>
