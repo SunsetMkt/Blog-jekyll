@@ -1,6 +1,9 @@
-/**Utils for lwd-temp.github.io
- * Author:lwd-temp
- * Part of the code is copied from the Internet.
+/**
+ * utils.js
+ *
+ * Utils for Blog.
+ * Badly designed for modified blog template, you can use it freely, but check before you copy.
+ * NO WARRANTY. Use at your own risk.
  */
 
 //获取URL参数
