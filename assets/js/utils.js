@@ -240,8 +240,7 @@ function checkOnDate(targetDate) {
   }
 }
 
-if (document.querySelector(".site-subtitle")) {
-  // site-subtitle handler
+function siteSubtitleHandler() {
   var origSiteSubtitle = document.querySelector(".site-subtitle").innerHTML;
   var siteSubtitleList = [
     "Hello World!",
@@ -446,6 +445,11 @@ if (document.querySelector(".site-subtitle")) {
 
   console.log(siteSubtitle);
   document.querySelector(".site-subtitle").innerHTML = siteSubtitle;
+}
+
+if (document.querySelector(".site-subtitle")) {
+  // site-subtitle handler
+  siteSubtitleHandler();
 } else {
   console.log("site-subtitle error");
 }
