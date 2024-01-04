@@ -10,11 +10,13 @@
     <p>Hello World</p>
     <script>
       const watermark = new WatermarkPlus.BlindWatermark({
-        contentType: "multi-line-text",
-        content: "hello my watermark watermark \n hello my watermark watermark",
-        fontSize: 30,
-        width: 200,
-        height: 200,
+        contentType: "rich-text",
+        content:
+          '<div style="background: #ccc;"><span style="color: #f00">' +
+          "WatermarkPlus.BlindWatermark WatermarkPlus.BlindWatermark" +
+          "</span></div>",
+        width: 300,
+        height: 300,
         onSuccess: () => {
           // success callback
         },

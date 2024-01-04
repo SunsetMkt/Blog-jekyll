@@ -1,118 +1,128 @@
-<script type="text/javascript" src="/assets/js/watermark-js-plus.1.3.32.umd.min.js"></script>
-<script type="text/javascript" src="/assets/js/Saberization-web-watermark.min.js"></script>
+<script
+  type="text/javascript"
+  src="/assets/js/watermark-js-plus.1.3.32.umd.min.js"
+></script>
+<script
+  type="text/javascript"
+  src="/assets/js/Saberization-web-watermark.min.js"
+></script>
 
 <!--Disable Copying-->
 <script>
-    document.oncontextmenu = function () { return false; }
-    document.onselectstart = function () { return false; }
+  document.oncontextmenu = function () {
+    return false;
+  };
+  document.onselectstart = function () {
+    return false;
+  };
 </script>
 <style>
-    body {
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-    }
+  body {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
 </style>
 
 <!--Anti-Devtools-->
 <script type="module">
-    import devtools from '/assets/js/devtools-detect.js'
+  import devtools from "/assets/js/devtools-detect.js";
 
-    function antiDevtools() {
-        // Redirect to /
-        window.location.href = '/';
-        // Clear console
-        console.clear();
+  function antiDevtools() {
+    // Redirect to /
+    window.location.href = "/";
+    // Clear console
+    console.clear();
+  }
+
+  window.addEventListener("devtoolschange", (event) => {
+    if (event.detail.isOpen) {
+      antiDevtools();
     }
+  });
 
-    window.addEventListener('devtoolschange', event => {
-        if (event.detail.isOpen) {
-            antiDevtools();
-        }
-    });
-
-    if (devtools.isOpen) {
-        antiDevtools();
-    }
+  if (devtools.isOpen) {
+    antiDevtools();
+  }
 </script>
-
 
 <!--If noscript, show a fullscreen cover-->
 <noscript>
-    <div class="anti-noscript">
-        <p>Please enable JavaScript.</p>
-    </div>
-    <style>
-        .anti-noscript {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: #fff;
-            z-index: 9999;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-    </style>
+  <div class="anti-noscript">
+    <p>Please enable JavaScript.</p>
+  </div>
+  <style>
+    .anti-noscript {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #fff;
+      z-index: 9999;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
 </noscript>
-
 
 <!--Try to get information from Cloudflare trace-->
 <script>
-    function blindWatermark(text){
-        const watermark = new WatermarkPlus.BlindWatermark({
-        contentType: "multi-line-text",
-        content: text,
-        fontSize: 50,
-        width: 200,
-        height: 200,
-        onSuccess: () => {
-          // success callback
-        },
-      });
-      watermark.create();
-      return watermark;
-    }
-    function watermark() {
-        var url = "/cdn-cgi/trace";
-        var xhr = new XMLHttpRequest();
-        xhr.open("GET", url, true);
-        // Get useragent & timestamp
-        var timestamp = new Date().getTime();
-        var oldWatermark = blindWatermark(timestamp);
-        xhr.onreadystatechange = function () {
-            if (xhr.readyState == 4) {
-                var trace = xhr.responseText;
-                var ip = trace.split("ip=")[1].split("\n")[0];
-                var ts = trace.split("ts=")[1].split("\n")[0];
-                // Remove oldWatermark
-                oldWatermark.destroy();
-                // Insert new watermark
-                blindWatermark(ip + " | " + ts);
-            }
-        }
-        xhr.send();
-    }
+  function blindWatermark(text) {
+    const watermark = new WatermarkPlus.BlindWatermark({
+      contentType: "rich-text",
+      content:
+        '<div style="background: #ccc;"><span style="color: #f00">' +
+        text +
+        "</span></div>",
+      width: 300,
+      height: 300,
+      onSuccess: () => {
+        // success callback
+      },
+    });
+    watermark.create();
+    return watermark;
+  }
+  function watermark() {
+    var url = "/cdn-cgi/trace";
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", url, true);
+    // Get useragent & timestamp
+    var timestamp = new Date().getTime();
+    var oldWatermark = blindWatermark(timestamp);
+    xhr.onreadystatechange = function () {
+      if (xhr.readyState == 4) {
+        var trace = xhr.responseText;
+        var ip = trace.split("ip=")[1].split("\n")[0];
+        var ts = trace.split("ts=")[1].split("\n")[0];
+        // Remove oldWatermark
+        oldWatermark.destroy();
+        // Insert new watermark
+        blindWatermark(ip + " | " + ts);
+      }
+    };
+    xhr.send();
+  }
 
-    watermark();
+  watermark();
 </script>
 
 <script>
-    const watermarkInstance = new WaterMark({
-        // 文字大小
-        size: '48px',
-        // 字体颜色
-        color: '#e1e1e1',
-        // 生成的 id
-        id: 'watermark',
-        // 指纹间距
-        density: 200,
-        // 不支持canvas的提示
-        tip: '你的浏览器不支持Canvas'
-    });
+  const watermarkInstance = new WaterMark({
+    // 文字大小
+    size: "48px",
+    // 字体颜色
+    color: "#e1e1e1",
+    // 生成的 id
+    id: "watermark",
+    // 指纹间距
+    density: 200,
+    // 不支持canvas的提示
+    tip: "你的浏览器不支持Canvas",
+  });
 
-    watermarkInstance.render('禁止复制');
+  watermarkInstance.render("禁止复制");
 </script>
