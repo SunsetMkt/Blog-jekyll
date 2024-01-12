@@ -40,3 +40,15 @@ https://ffmpeg.org/
 ### m3u8
 
 https://github.com/nilaoda/N_m3u8DL-CLI
+
+## 最糟糕的情况
+
+### 屏幕录制
+
+https://obsproject.com/
+
+### 反 DRM
+
+采集设备
+
+虚拟机 https://learn.microsoft.com/zh-cn/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v
