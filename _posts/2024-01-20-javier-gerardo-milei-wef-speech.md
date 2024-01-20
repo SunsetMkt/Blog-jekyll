@@ -9,6 +9,8 @@ categories: article
 
 网站管理员备注：本文内容不构成投资建议，或暗示我们支持其中的任何观点。
 
+翻译：GPT3.5 校译：无
+
 ---
 
 Good afternoon. Thank you very much.
