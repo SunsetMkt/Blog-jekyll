@@ -25,6 +25,7 @@ C:\Users\用户名\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\L
       type="number"
       id="viewdistance_chunks"
       placeholder="请输入渲染距离（区块数）"
+      min="1"
     />
   </p>
   <p>
@@ -39,8 +40,11 @@ C:\Users\用户名\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\L
     const viewdistance_config = document.getElementById("viewdistance_config");
 
     viewdistance_chunks.addEventListener("input", () => {
-      viewdistance_config.innerHTML = viewdistance_chunks.value * 16;
+      if (viewdistance_chunks.value > 65536) {
+        viewdistance_chunks.value = 65536;
+        alert("我们目前不认为存在可以达到此渲染距离的设备。");
+      }
+      viewdistance_config.innerHTML = Math.ceil(viewdistance_chunks.value * 16);
     });
-
   </script>
 </div>
