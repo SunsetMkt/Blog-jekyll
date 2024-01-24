@@ -24,6 +24,7 @@ C:\Users\用户名\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\L
     需要设置的渲染距离（区块数）：<input
       type="number"
       id="viewdistance_chunks"
+      placeholder="请输入渲染距离（区块数）"
     />
   </p>
   <p>
