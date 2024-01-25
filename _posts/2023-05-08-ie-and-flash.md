@@ -32,6 +32,8 @@ categories: article
 
 即使您成功安装了 Flash Player，大多数现代浏览器也禁止使用它。
 
+您亦可使用[CefFlashBrowser](https://github.com/Mzying2001/CefFlashBrowser)，它是一个集成 Flash 的开箱即用的简易浏览器。
+
 <div>
     <p id="hasflash"></p>
     <script>
