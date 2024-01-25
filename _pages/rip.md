@@ -38,6 +38,11 @@ XingZ60:
     image_path: /assets/postres/rip/XingZ60.jpg
     alt: "Twitter Avatar"
     title: "Twitter Avatar"
+DarlinChit:
+  - url: /assets/postres/rip/DarlinChit.jpg
+    image_path: /assets/postres/rip/DarlinChit.jpg
+    alt: "Twitter Avatar"
+    title: "Twitter Avatar"
 ---
 
 <style>
@@ -66,7 +71,7 @@ XingZ60:
 >
 > Via [One Among Us](https://one-among.us/profile/homoyamakaze/)
 
-[GitHub Profile](https://github.com/HomoYamakaze) [Twitter](https://web.archive.org/web/20221209083008/https://twitter.com/homoyamakaze)
+[GitHub Profile](https://github.com/HomoYamakaze) [Twitter](https://web.archive.org/web/20221209083008/https://twitter.com/homoyamakaze) [One Among Us](https://one-among.us/profile/homoyamakaze/)
 
 {% include gallery id="HomoYamakaze" %}
 
@@ -147,3 +152,21 @@ XingZ60:
 [Twitter](https://archive.ph/7l6Vm)
 
 {% include gallery id="XingZ60" %}
+
+## DarlinChit
+
+> Gravelle 咲夜ャ 🍥🏳️‍⚧️
+>
+> 喵呜~我是白纸，想和大家贴贴抱抱！
+>
+> | 18 | 165 | 45~58kg | 可涩涩不面基 | 全能程序员 | 断糖 | 喜欢同类 | 喜欢交友 | 可攻可受 | 某不知名狐狸 |
+>
+> 一个喜欢开发色情游戏的开发者！(暂时没时间开发)
+
+> 「我的死与任何人无关，这只是我的一个选择，请千万不要为此而仇恨别人。请好好地、阳光地、快乐地生活下去，请为自己好好生活着。」
+>
+> Via [One Among Us](https://one-among.us/profile/DarlinChit/)
+
+[Twitter](https://web.archive.org/web/20240125113323/https://nitter.tux.pizza/DarlinChit) [One Among Us](https://one-among.us/profile/DarlinChit/)
+
+{% include gallery id="DarlinChit" %}
