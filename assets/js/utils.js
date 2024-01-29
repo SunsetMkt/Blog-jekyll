@@ -556,3 +556,41 @@ try {
 } catch (error) {
   console.log("loadAndApplyHK4ECNFont error");
 }
+
+function loadAndApplyLxgwWenKai() {
+  // https://github.com/chawyehsu/lxgw-wenkai-webfont
+  var link = document.createElement("link");
+  link.rel = "stylesheet";
+  link.type = "text/css";
+  link.href = "https://unpkg.com/lxgw-wenkai-webfont@1.7.0/style.css";
+
+  document.head.appendChild(link);
+
+  link.onload = function () {
+    var currentFontFamily = window.getComputedStyle(document.body).fontFamily;
+    var newFontFamily = '"LXGW WenKai", ' + currentFontFamily;
+
+    document.body.style.fontFamily = newFontFamily;
+
+    // 使用更具体的选择器以确保所有元素都使用新字体
+    document.querySelectorAll("*").forEach(function (element) {
+      // if element tag is pre or code
+      if (element.tagName === "PRE" || element.tagName === "CODE") {
+        element.style.fontFamily =
+          '"LXGW WenKai Mono", ' + window.getComputedStyle(element).fontFamily;
+      } else {
+        element.style.fontFamily =
+          '"LXGW WenKai", ' + window.getComputedStyle(element).fontFamily;
+      }
+    });
+  };
+}
+
+try {
+  // If localstorage active-LxgwWenKai is true, loadAndApplyLxgwWenKai
+  if (localStorage.getItem("active-LxgwWenKai") === "true") {
+    loadAndApplyLxgwWenKai();
+  }
+} catch (error) {
+  console.log("loadAndApplyLxgwWenKai error");
+}

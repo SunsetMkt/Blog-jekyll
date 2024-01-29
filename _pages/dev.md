@@ -158,8 +158,24 @@ URL 参数`vconsole=true`
 
 </div>
 
+### 将字体设置为 LXGW WenKai（霞鹜文楷）
+
+关于 [lxgw-wenkai-webfont](https://github.com/chawyehsu/lxgw-wenkai-webfont)
+
+这是一个实验性选项，应用字体的方式不标准，可能会造成页面功能问题。
+
+<div class="LxgwWenKai-btns">
+
+    <a class="btn btn--info" onclick="localStorage.setItem('active-LxgwWenKai','true');location.reload();">启动</a>
+
+    <a class="btn btn--info" onclick="localStorage.removeItem('active-LxgwWenKai');location.reload();">关闭</a>
+
+</div>
+
 ## Just Monika.
 
 ### 获取 Monika
 
 [monika.chr](/assets/media/ddlc_characters/monika.chr)
+
+_这里提供了来自[Doki Doki Literature Club!](https://ddlc.moe/)的资源。_
