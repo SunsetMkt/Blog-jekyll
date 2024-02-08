@@ -48,6 +48,10 @@ permalink: /dev/
 
 </div>
 
+### 快速重置
+
+[Reset](/reset/)
+
 ### Eruda
 
 URL 参数`eruda=true`

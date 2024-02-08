@@ -91,12 +91,32 @@ permalink: /reset/
       deleteAllIndexedDBAndDoSomething();
     </script>
     <script>
-      window.location.href = "/";
+      // 移除所有service workers
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.getRegistrations().then((registrations) => {
+          for (let registration of registrations) {
+            registration.unregister();
+          }
+        });
+      }
+    </script>
+    <script>
+      // 移除所有缓存
+      if ("caches" in window) {
+        caches.keys().then((keys) => {
+          keys.forEach((key) => {
+            caches.delete(key);
+          });
+        });
+      }
+    </script>
+    <script>
+      // window.location.href = "/";
     </script>
   </head>
   <body>
     <noscript>JavaScript is required for this page.</noscript>
-    <p>Persistent cleared.</p>
+    <p>Persistent should be cleared.</p>
     <p><a href="/">Go back</a></p>
   </body>
 </html>
