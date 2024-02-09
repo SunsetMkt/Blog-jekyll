@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--https://gist.github.com/foolgry/e9f561b1ba39a785ee5d4163b13b9f11-->
+<html>
+  <head>
+    <title>北京时间</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f0f0f0;
+        font-family: Arial, sans-serif;
+      }
+
+      #time {
+        font-size: 3em;
+        color: #333;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="time"></div>
+
+    <script>
+      const timeDiv = document.getElementById("time");
+      function updateTime() {
+        var now = new Date();
+        var year = now.getFullYear();
+        var month = String(now.getMonth() + 1).padStart(2, "0");
+        var day = String(now.getDate()).padStart(2, "0");
+        var hour = String(now.getHours()).padStart(2, "0");
+        var minute = String(now.getMinutes()).padStart(2, "0");
+        var second = String(now.getSeconds()).padStart(2, "0");
+        var millisecond = String(now.getMilliseconds()).padStart(3, "0");
+
+        var time = `${year}-${month}-${day} ${hour}:${minute}:${second}.${millisecond}`;
+
+        timeDiv.innerHTML = time;
+
+        requestAnimationFrame(updateTime);
+      }
+
+      // 每毫秒更新一次时间
+      requestAnimationFrame(updateTime);
+    </script>
+  </body>
+</html>
