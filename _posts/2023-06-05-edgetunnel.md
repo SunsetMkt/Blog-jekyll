@@ -5,6 +5,10 @@ tags: Web JavaScript Cloudflare 代理 VLESS
 categories: article
 ---
 
+> 这里提供的信息可能已经过时了。
+>
+> 您亦可参考项目的其他 Fork，如[cmliu/edgetunnel](https://github.com/cmliu/edgetunnel)
+
 ## 前言
 
 几个月前，当我阅读[Xray 的文档](https://xtls.github.io/Xray-docs-next/config/outbounds/vless.html)，注意到 VLESS 是“**无状态**的轻量传输协议”，就想过它或许适合 Serverless。但是看到有人真的用 JavaScript 实现了，还是有点惊讶（因为不太了解网络协议）。
