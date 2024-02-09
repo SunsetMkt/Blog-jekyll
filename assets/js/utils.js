@@ -594,3 +594,21 @@ try {
 } catch (error) {
   console.log("loadAndApplyLxgwWenKai error");
 }
+
+/**
+ * Adds a script tag to the document dynamically.
+ *
+ * @param {string} src - The source URL of the script.
+ * @param {boolean} async - Indicates whether the script should be loaded asynchronously.
+ * @param {function} onload - Optional callback function to be executed when the script is loaded.
+ */
+function addScriptTag(src, async, onload) {
+  var scriptElement = document.createElement("script");
+  scriptElement.async = async;
+  scriptElement.src = src;
+  if (onload) {
+    scriptElement.onload = onload;
+  }
+  var firstScriptElement = document.getElementsByTagName("script")[0];
+  firstScriptElement.parentNode.insertBefore(scriptElement, firstScriptElement);
+}
