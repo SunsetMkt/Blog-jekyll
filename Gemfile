@@ -16,4 +16,4 @@ end
 gem 'wdm', '~> 0.1.1', :install_if => Gem.win_platform?
 
 # https://github.com/jekyll/jekyll/issues/9544
-gem "github-pages", "=228"
+# gem "github-pages", "=228"
