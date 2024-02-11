@@ -14,3 +14,6 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
 end
 # Please add the following to your Gemfile to avoid polling for changes:
 gem 'wdm', '~> 0.1.1', :install_if => Gem.win_platform?
+
+# https://github.com/jekyll/jekyll/issues/9544
+gem "github-pages", "=228"
