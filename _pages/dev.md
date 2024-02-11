@@ -9,7 +9,7 @@ permalink: /dev/
     警告：您清楚您在做什么吗？请在完全理解本页面内容的情况下操作。
 </p>
 <p class="notice--info">
-    使用开发人员工具需要启动JavaScript和localStorage支持。
+    使用开发人员工具需要JavaScript、Cookies和localStorage支持。
 </p>
 
 ---
@@ -118,13 +118,45 @@ URL 参数`vconsole=true`
   </script>
 </div>
 
-### Umami
+### Cloudflare Zaraz 管理的网站统计
 
-<div class="umami-btns">
+<div class="zaraz-btns">
 
-    <a class="btn btn--info" onclick="localStorage.setItem('umami.disabled','true');location.reload();">添加禁用Umami标记</a>
+    <script>
+      function setCookie(cname, cvalue, exdays, domain) {
+        var d = new Date();
+        d.setTime(d.getTime() + exdays * 24 * 60 * 60 * 1000);
+        var expires = "expires=" + d.toUTCString();
+        var cookieString = cname + "=" + cvalue + ";" + expires + ";path=/";
+        if (domain) {
+          cookieString += ";domain=" + domain;
+        }
+        document.cookie = cookieString;
+      }
 
-    <a class="btn btn--info" onclick="localStorage.removeItem('umami.disabled');location.reload();">删除禁用Umami标记</a>
+      function DisableZaraz() {
+        // if .lwd-temp.top in hostname
+        if (window.location.hostname.indexOf(".lwd-temp.top") > -1) {
+          setCookie("DisableZaraz", "true", 365, ".lwd-temp.top");
+        } else {
+          setCookie("DisableZaraz", "true", 365);
+        }
+      }
+
+      function EnableZaraz() {
+        setCookie("DisableZaraz", "true", 0);
+        // if .lwd-temp.top in hostname
+        if (window.location.hostname.indexOf(".lwd-temp.top") > -1) {
+          setCookie("DisableZaraz", "true", 0, ".lwd-temp.top");
+        } else {
+          setCookie("DisableZaraz", "true", 0);
+        }
+      }
+    </script>
+
+    <a class="btn btn--info" onclick="DisableZaraz();location.reload();">添加禁用标记</a>
+
+    <a class="btn btn--info" onclick="EnableZaraz();location.reload();">删除禁用标记</a>
 
 </div>
 
