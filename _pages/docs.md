@@ -1,6 +1,5 @@
 ---
 title: "Theme Documentation"
-excerpt: "Theme Documentation"
 layout: single
 permalink: /docs/
 ---

@@ -1,6 +1,5 @@
 ---
 title: "纪念我们的伙伴们"
-excerpt: "谨以此页面永远纪念那些曾经对他人产生深远影响、为开源事业作出巨大贡献、无私分享知识的伙伴们。"
 layout: single
 permalink: /rip/
 QianMo:
