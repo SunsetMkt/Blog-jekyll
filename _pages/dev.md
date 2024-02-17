@@ -136,9 +136,9 @@ URL 参数`vconsole=true`
       function DisableZaraz() {
         // if .lwd-temp.top in hostname
         if (window.location.hostname.indexOf(".lwd-temp.top") > -1) {
-          setCookie("DisableZaraz", "true", 3650, ".lwd-temp.top");
+          setCookie("DisableZaraz", "true", 400, ".lwd-temp.top");
         } else {
-          setCookie("DisableZaraz", "true", 3650);
+          setCookie("DisableZaraz", "true", 400);
         }
       }
 
