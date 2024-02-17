@@ -31,7 +31,7 @@ categories: article
     </style>
 </div>
 
-来激活免费版。（或者直接使用[英文版 KFA](https://www.kaspersky.com/downloads/free-antivirus) [备用链接](/assets/postres/2023-07-23-ksc-kfa-chinese/en_free_setup/startup.exe)）
+来激活免费版。（或者直接使用[英文版 KFA](https://www.kaspersky.com/downloads/free-antivirus) [备用链接](/assets/postres/2023-07-23-ksc-kfa-chinese/en_free_setup/kaspersky4win202121.16.6.467en_39971.exe)）
 
 > 卡巴斯基免费版和 Kaspersky Security Cloud Free 相比，缺少“文件粉碎机”（Free 版功能限制）、“无用数据清理”（半废弃）、“浏览器配置”（已废弃）功能，其余特性几乎一致。
 
@@ -41,6 +41,12 @@ categories: article
 
 ```
 https://api-router.kaspersky-labs.com/downloads/search/v3/b2c?productcodes=5003617&businesspurposes=Update&licensetiers=Free&sites=https%3A%2F%2Fwww.kaspersky.com&sites=https%3A%2F%2Fwww.kaspersky.com%2Fcarribean&sites=https%3A%2F%2Fwww.kaspersky.com%2Fisrael&sites=https%3A%2F%2Fwww.kaspersky.com%2Fsouth-east-asia&sites=https%3A%2F%2Fwww.kaspersky.com%2Findonesia&sites=https%3A%2F%2Fwww.kaspersky.com%2Fthe-european-union&sites=https%3A%2F%2Fwww.kaspersky.com%2Flatvia&sites=https%3A%2F%2Fwww.kaspersky.com%2Flithuania&sites=https%3A%2F%2Fwww.kaspersky.com%2Festonia&sites=https%3A%2F%2Fwww.kaspersky.com%2Funited-kingdom&sites=https%3A%2F%2Fwww.kaspersky.com%2Fcalifornia&sites=https%3A%2F%2Fwww.kaspersky.com%2Fbrazil
+```
+
+可以构建一个这样的请求，使其搜索简体中文版的免费安装包：
+
+```
+https://api-router.kaspersky-labs.com/downloads/search/v3/b2c?productcodes=5003617&businesspurposes=Update&licensetiers=Free&sites=https%3A%2F%2Fwww.kaspersky.com.cn
 ```
 
 <!--
