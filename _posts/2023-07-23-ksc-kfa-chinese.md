@@ -49,6 +49,8 @@ https://api-router.kaspersky-labs.com/downloads/search/v3/b2c?productcodes=50036
 https://api-router.kaspersky-labs.com/downloads/search/v3/b2c?productcodes=5003617&businesspurposes=Update&licensetiers=Free&sites=https%3A%2F%2Fwww.kaspersky.com.cn
 ```
 
+可以获取到[链接](https://products.s.kaspersky-labs.com/homeuser/Kaspersky4Win2021/21.16.6.467/chinese_simplified-0.340.0/3831343838327c44454c7c31_41114/startup.exe)/[备份](/assets/postres/2023-07-23-ksc-kfa-chinese/zh_free_setup/startup.exe)。
+
 <!--
 不一定有效:
 
