@@ -5,6 +5,42 @@ tags: Windows 杀毒软件 Kaspersky 卡巴斯基
 categories: article
 ---
 
+## 卡巴斯基免费版（推荐）
+
+如果 Kaspersky 彻底移除了 Kaspersky Security Cloud 产品，您可以尝试下载卡巴斯基标准版（[在线安装链接](https://dm.s.kaspersky-labs.com/zh-Hans-CN/Kaspersky4Win/21.15.8.493/startup.exe) [备用链接](/assets/postres/2023-07-23-ksc-kfa-chinese/zh_std_setup/startup.exe)）并使用激活码：
+
+> 简体中文版在线安装包 URL 格式是：
+>
+> https://dm.s.kaspersky-labs.com/zh-Hans-CN/Kaspersky4Win/XX.XX.X.XXX/startup.exe
+>
+> 您可手动替换 XX.XX.X.XXX 为最新的版本号。
+
+<div>
+    <div class="keys">
+        <ul>
+            <li><code>3SXCM-M9RJM-6985N-PWKP7</code></li>
+            <li><code>A23B5-44EXM-85MVF-KM2GQ</code></li>
+            <li><code>ZM4YW-FUTDY-W9B62-GSK26</code></li>
+        </ul>
+    </div>
+    <style>
+        .keys {
+            user-select: none;
+            filter: blur(3px);
+        }
+    </style>
+</div>
+
+来激活免费版。（或者直接使用[英文版 KFA](https://www.kaspersky.com/downloads/free-antivirus) [备用链接](/assets/postres/2023-07-23-ksc-kfa-chinese/en_free_setup/startup.exe)）
+
+> 卡巴斯基免费版和 Kaspersky Security Cloud Free 相比，缺少“文件粉碎机”（Free 版功能限制）、“无用数据清理”（半废弃）、“浏览器配置”（已废弃）功能，其余特性几乎一致。
+
+<!--
+不一定有效:
+
+您可以参考[此资料](https://forum.kaspersky.com/topic/latest-offline-installer-for-kis-2572/#comment-13319)和[此资料](https://forum.kaspersky.com/topic/install-kaspersky-in-command-prompt-31603/)来构建Kaspersky拒绝提供的离线安装包。
+-->
+
 Kaspersky Security Cloud Free 是个人认为卡巴斯基系列免费版的最优（设置项、其他非杀毒工具/功能）产品（截至 2023 年初，目前推荐卡巴斯基免费版），但是官方提供的下载渠道不包括简体中文版，本文描述如何安装 Kaspersky Security Cloud 简体中文版。
 
 ## 下载
@@ -38,37 +74,3 @@ kis21.3.10.391abzh-Hans_26153.exe /pPRODUCTTYPE=saas
 Kaspersky 可能正在变更产品策略，若上述页面不可用，可尝试[此链接](https://trial.s.kaspersky-labs.com/registered/xapi5wqwgf32q6omgp38/3436353739367c44454c7c32_26153/kis21.3.10.391abzh-Hans_26153.exe)直接下载安装程序（通过 Kaspersky 的服务器）。（[备用在线安装链接，请也使用命令行参数调用](https://dm.s.kaspersky-labs.com/zh-Hans-CN/KIS/21.3.10.391/startup.exe)）
 
 若您正在使用中国大陆的网络且登录 Kaspersky 账号有问题，请尝试使用全局代理。
-
-## 卡巴斯基免费版
-
-如果 Kaspersky 彻底移除了 Kaspersky Security Cloud 产品，您可以尝试下载卡巴斯基标准版（[在线安装链接](https://dm.s.kaspersky-labs.com/zh-Hans-CN/Kaspersky4Win/21.15.8.493/startup.exe)）并使用激活码：
-
-> 简体中文版在线安装包 URL 拼接方式是：
->
-> https://dm.s.kaspersky-labs.com/zh-Hans-CN/Kaspersky4Win/XX.XX.X.XXX/startup.exe
-
-<div>
-    <div class="keys">
-        <ul>
-            <li><code>3SXCM-M9RJM-6985N-PWKP7</code></li>
-            <li><code>A23B5-44EXM-85MVF-KM2GQ</code></li>
-            <li><code>ZM4YW-FUTDY-W9B62-GSK26</code></li>
-        </ul>
-    </div>
-    <style>
-        .keys {
-            user-select: none;
-            filter: blur(3px);
-        }
-    </style>
-</div>
-
-来激活免费版。（或者直接使用[英文版 KFA](https://www.kaspersky.com/downloads/free-antivirus) [备用链接](/assets/postres/2023-07-23-ksc-kfa-chinese/en_free_setup/startup.exe)）
-
-> 卡巴斯基免费版和 Kaspersky Security Cloud Free 相比，缺少“文件粉碎机”（Free 版功能限制）、“无用数据清理”（半废弃）、“浏览器配置”（已废弃）功能，其余特性几乎一致。
-
-<!--
-不一定有效:
-
-您可以参考[此资料](https://forum.kaspersky.com/topic/latest-offline-installer-for-kis-2572/#comment-13319)和[此资料](https://forum.kaspersky.com/topic/install-kaspersky-in-command-prompt-31603/)来构建Kaspersky拒绝提供的离线安装包。
--->
