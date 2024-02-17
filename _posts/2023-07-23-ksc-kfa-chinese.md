@@ -41,9 +41,11 @@ categories: article
 您可以参考[此资料](https://forum.kaspersky.com/topic/latest-offline-installer-for-kis-2572/#comment-13319)和[此资料](https://forum.kaspersky.com/topic/install-kaspersky-in-command-prompt-31603/)来构建Kaspersky拒绝提供的离线安装包。
 -->
 
+---
+
 Kaspersky Security Cloud Free 是个人认为卡巴斯基系列免费版的最优（设置项、其他非杀毒工具/功能）产品（截至 2023 年初，目前推荐卡巴斯基免费版），但是官方提供的下载渠道不包括简体中文版，本文描述如何安装 Kaspersky Security Cloud 简体中文版。
 
-## 下载
+## KSC Free 下载
 
 从[卡巴斯基中国大陆](https://www.kaspersky.com.cn/)的[试用页面](https://www.kaspersky.com.cn/downloads)选择卡巴斯基安全软件的[30 天试用下载](https://www.kaspersky.com.cn/downloads/internet-security-free-trial#download)。
 
