@@ -1,6 +1,6 @@
 ---
 title: Hello,world!
-date: 1000-01-01
+date: 1971-01-01
 tags: hello 测试
 categories: hello
 ---
