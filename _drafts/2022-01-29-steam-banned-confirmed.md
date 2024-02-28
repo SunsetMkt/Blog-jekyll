@@ -13,7 +13,7 @@ categories: article
 
 [Steam 商店 store.steampowered.com 疑似 443 端口被干扰？ ICMP 80 端口均正常 - V2EX](https://www.v2ex.com/t/824179)
 
-[简报：Steam 商店疑似出现访问故障（已证实） - lwd-temp 的博客](/article/steam-banned/)
+[简报：Steam 商店疑似出现访问故障（已证实）]({% post_url 2021-12-25-steam-banned %})
 
 ## 测试工具包
 
