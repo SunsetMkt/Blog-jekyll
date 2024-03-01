@@ -5,6 +5,8 @@ tags: Windows 杀毒软件 Kaspersky 卡巴斯基
 categories: article
 ---
 
+适用于高级用户的补充材料：[卡巴斯基免费版的 Windows 安装包下载 URL 获取]({% post_url 2024-02-17-kfa %})
+
 ## 卡巴斯基免费版（推荐）
 
 如果 Kaspersky 彻底移除了 Kaspersky Security Cloud 产品，您可以尝试下载卡巴斯基标准版（[在线安装链接](https://dm.s.kaspersky-labs.com/zh-Hans-CN/Kaspersky4Win/21.15.8.493/startup.exe) [备用链接](/assets/postres/2023-07-23-ksc-kfa-chinese/zh_std_setup/startup.exe)）并使用激活码：
