@@ -13,4 +13,35 @@
 
 > 严正声明：由于个别小米社区员工采用无理取闹的方式在答题时段频繁开关答题问卷、修改题目表述并更换选项内容，导致用户原本选择的正确答案被系统判定为错误。此举导致许多用户答题得分畸低，严重破坏了答题体验，也深深地伤害了广大米粉的心。且近期答题通过率几乎为 0 主要是由于填空题不审核、不出分导致的，本「小米 BootLoader《解锁资格答题测试》更新记录」拒绝为此背黑锅。同时，我们在此呼吁各位有解锁需求的小米用户共同抵制上述违规行为，营造良性答题环境。我们期待小米官方能站在用户角度考虑，降低答题难度至合理水平，并且提升满足 BL 解锁申请条件后的审核通过率，切实回应广大米粉的期待。 [#82](https://github.com/MlgmXyysd/Xiaomi-BootLoader-Questionnaire/discussions/82)
 
+<div>
+  <style>
+    @keyframes border-blink {
+      0% {
+        border-color: rgba(255, 0, 0, 0.5);
+      }
+      50% {
+        border-color: rgba(255, 0, 0, 0);
+      }
+      100% {
+        border-color: rgba(255, 0, 0, 0.5);
+      }
+    }
+
+    .border-on-edge {
+      border: 10px solid rgba(255, 0, 0, 0.5); /* 使用RGBA颜色，透明度为0.5 */
+      box-sizing: border-box; /* 让边框宽度计算在元素的宽度内 */
+      position: fixed; /* 固定位置，使得边框始终在屏幕边缘 */
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      pointer-events: none; /* 防止边框阻挡其他元素的交互 */
+      z-index: 9999; /* 确保边框在最顶层 */
+      animation: border-blink 3s infinite; /* 使用定义好的动画，持续时间为1秒，无限循环 */
+    }
+
+  </style>
+  <div class="border-on-edge"></div>
+</div>
+
 ---
