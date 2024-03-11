@@ -1975,7 +1975,7 @@ _你闯入了我的世界，从此星空大不同……_
 
 韵律走了过来，双手紧紧搂住余晖：“可怜的孩子啊……
 
-![Illustration by Zorbitas](/assets/postres/2024-03-06-日色破碎-FimTale/1389600022d650f269a9e.png)
+![](/assets/postres/2024-03-06-日色破碎-FimTale/1389600022d650f269a9e.png)
 
 天啊……没了你的世界简直是黯淡无光……”
 
