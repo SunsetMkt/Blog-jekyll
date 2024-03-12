@@ -31,8 +31,6 @@ Fimfiction 地址：http://www.fimfiction.net/story/234937/fractured-sunlight
 
 ![](/assets/postres/2024-03-06-日色破碎-FimTale/1381b0002c4e8981f5a7d.png)
 
-序
-
 _“生日快乐，余晖，生日快乐！”_
 
 暮光微笑着鼓着掌，看着余晖吹灭了生日蛋糕上的十支蜡烛。
