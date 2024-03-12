@@ -15,7 +15,7 @@ Fimfiction 地址：http://www.fimfiction.net/story/234937/fractured-sunlight
 
 译者：[Pinkiesparkle](https://tieba.baidu.com/home/main?un=Pinkiesparkle)
 
-此转载版本参考了作者在[博客](https://web.archive.org/web/20170915203555/http://pinkiesparkle.cn:80/wp-content/uploads/2017/01/Fractured-Sunlight.html)和 [FimTale](https://fimtale.com/t/10467) 上发布的两个版本，并提供 Markdown 格式化、注释整合、错别字修正、全角符号替换和插图补充。
+此转载版本参考了作者在[博客](https://web.archive.org/web/20170915203555/http://pinkiesparkle.cn:80/wp-content/uploads/2017/01/Fractured-Sunlight.html)和 [FimTale](https://fimtale.com/t/10467) 上发布的两个版本，并提供 Markdown 格式化、注释整合、错别字修正、全角符号替换和插图补充。感谢 [Prettier](https://github.com/prettier/prettier-vscode) 格式化、[ChatGPT](https://openai.com/chatgpt) 提供用于除错的正则表达式和 [pycorrector](https://github.com/shibing624/pycorrector) 检查错别字。
 
 ---
 
