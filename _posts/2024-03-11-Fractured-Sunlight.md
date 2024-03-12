@@ -3,7 +3,7 @@ title: 【转载】日色破碎
 date: 2024-03-11
 tags: MyLittlePony 转载 版权争议 ACG
 categories: article
-typora-root-url: ./..
+# typora-root-url: ./..
 ---
 
 ![](/assets/postres/2024-03-06-日色破碎-FimTale/1389f0001c5539fa118cd.png)
