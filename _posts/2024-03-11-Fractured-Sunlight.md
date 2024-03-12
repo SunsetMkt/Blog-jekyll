@@ -13,7 +13,7 @@ Fimfiction 地址：[Fractured Sunlight](https://www.fimfiction.net/story/234937
 
 原翻译地址：[新浪博客](https://blog.sina.com.cn/s/articlelist_5649786280_1_1.html)（新浪删了很多章节）
 
-译者：[Pinkiesparkle](https://tieba.baidu.com/home/main?un=Pinkiesparkle)
+译者：[Pinkiesparkle](https://tieba.baidu.com/home/main?un=Pinkiesparkle)（也制作了章节封面图）
 
 此转载版本参考了作者在[博客](https://web.archive.org/web/20170915203555/http://pinkiesparkle.cn:80/wp-content/uploads/2017/01/Fractured-Sunlight.html)和 [FimTale](https://fimtale.com/t/10467) 上发布的两个版本，并提供 Markdown 格式化、注释整合、错别字修正、全角符号替换和插图补充。
 
@@ -35,7 +35,7 @@ Fimfiction 地址：[Fractured Sunlight](https://www.fimfiction.net/story/234937
 
 在那场让她们分离的悲剧事故发生多年之后，暮光闪闪下定决心要走出失去亲人的阴影。她启动了一个独立的研究项目，调查坎特拉高中发生的离奇事件。她并不知晓，自己即将面对的，是一个来自她过去的幽灵。
 
-## 序章：日色破碎
+## 序章 日色破碎
 
 ![](/assets/postres/2024-03-06-日色破碎-FimTale/1381b0002c4e8981f5a7d.png)
 
@@ -7299,7 +7299,7 @@ _你闯入了我的世界，从此星空大不同……_
 
 瑞瑞哼了一声，“多愁善感。”
 
-## 宿命
+## 第二十三章 宿命
 
 ![](/assets/postres/2024-03-06-日色破碎-FimTale/138070002d4b429c3a7fc.png)
 
@@ -7613,7 +7613,7 @@ _你闯入了我的世界，从此星空大不同……_
 
 说完，余晖转身向坎特拉高中跑去。
 
-## 破碎
+## 第二十四章 破碎
 
 ![](/assets/postres/2024-03-06-日色破碎-FimTale/1372900030a9ea4239670.png)
 
@@ -8111,7 +8111,7 @@ _你闯入了我的世界，从此星空大不同……_
 
 暮暮抬起头，再次吻上余晖，“说啥都要去。”
 
-## 终章：日色
+## 终章 日色
 
 ![](/assets/postres/2024-03-06-日色破碎-FimTale/138b20000b39e7041ebdd.png)
 
