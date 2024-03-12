@@ -13,7 +13,7 @@ Fimfiction 地址：http://www.fimfiction.net/story/234937/fractured-sunlight
 
 原翻译地址：http://blog.sina.com.cn/s/articlelist_5649786280_1_1.html（新浪删了很多章节）
 
-译者：Pinkiesparkle
+译者：[Pinkiesparkle](https://tieba.baidu.com/home/main?un=Pinkiesparkle)
 
 此转载版本参考了作者在[博客](https://web.archive.org/web/20170915203555/http://pinkiesparkle.cn:80/wp-content/uploads/2017/01/Fractured-Sunlight.html)和 [FimTale](https://fimtale.com/t/10467) 上发布的两个版本，并提供 Markdown 格式化、注释整合、错别字修正、全角符号替换和插图补充。
 
