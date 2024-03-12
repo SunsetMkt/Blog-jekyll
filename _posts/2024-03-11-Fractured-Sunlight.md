@@ -33,8 +33,6 @@ Fimfiction 地址：[Fractured Sunlight](https://www.fimfiction.net/story/234937
 
 在那场让她们分离的悲剧事故发生多年之后，暮光闪闪下定决心要走出失去亲人的阴影。她启动了一个独立的研究项目，调查坎特拉高中发生的离奇事件。她并不知晓，自己即将面对的，是一个来自她过去的幽灵。
 
----
-
 ## 序章：日色破碎
 
 ![](/assets/postres/2024-03-06-日色破碎-FimTale/1381b0002c4e8981f5a7d.png)
