@@ -15,6 +15,8 @@ Fimfiction 地址：http://www.fimfiction.net/story/234937/fractured-sunlight
 
 译者：Pinkiesparkle
 
+此转载版本参考了作者在[博客](https://web.archive.org/web/20170915203555/http://pinkiesparkle.cn:80/wp-content/uploads/2017/01/Fractured-Sunlight.html)和 [FimTale](https://fimtale.com/t/10467) 上发布的两个版本，并提供 Markdown 格式化、注释整合、错别字修正、全角符号替换和插图补充。
+
 ---
 
 当暮光闪闪还是个孩子的时候，她最好的朋友是一个叫余晖烁烁的女孩。
@@ -8322,8 +8324,6 @@ _你闯入了我的世界，从此星空大不同……_
 余晖点头，转过来在暮暮的脸颊上吻了一口。
 
 “我也是。”
-
--完-
 
 ![](/assets/postres/2024-03-06-日色破碎-FimTale/137ee0002da344fc38b6b.png)
 
