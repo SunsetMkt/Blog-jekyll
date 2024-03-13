@@ -8411,4 +8411,4 @@ Pinkiesparkle
 [^29]: 编者注：是译者的本地化翻译。为了体现阿杰的语言风格，作者在翻译时使用了四川话。她的后续对话亦如此。
 [^30]: 编者注：是译者的本地化翻译。为了体现露娜的语言风格，作者在翻译时使用了文言文。她的后续对话亦如此。
 [^31]: 编者注：此时，暮暮还没有意识到她们口中的“Sunset”指的是余晖，所以误解成了落日。
-[^32]: 编者注：原歌词为 _Once, upon a time._ _You came into my world and made the stars align._ 来自 [Shine Like Rainbows](https://www.youtube.com/watch?v=thv6E6YKU5M)。
+[^32]: 编者注：原歌词为 _Once, upon a time._ _You came into my world and made the stars align._ 来自 [Shine Like Rainbows](https://www.youtube.com/watch?v=thv6E6YKU5M)，[中文字幕](https://www.bilibili.com/video/BV1FR4y1Q78e/)。
