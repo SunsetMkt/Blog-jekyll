@@ -4718,7 +4718,7 @@ _你闯入了我的世界，从此星空大不同……[^32]_
 
 暮暮跺了一下脚，捏着拳头，“点都不好笑！我刚刚是认真的来着！”
 
-余晖笑得被自己呛到了，弯下腰来，接着抽，“我知道！就是因为认真才好笑嘛！”
+余晖笑得被自己呛到了，弯下腰来，接着抽[^43]，“我知道！就是因为认真才好笑嘛！”
 
 暮暮吼了声什么，然后一路走回了室内，嘟哝着什么。
 
@@ -8425,3 +8425,4 @@ Pinkiesparkle
 [^40]: 编者注：原文是“Unless it’s the designated safe word, ‘Science'”。“在 BDSM 中，安全词是一个由个人使用的代码词、一系列代码词或其他信号，用来传达他们的身体或情绪状态，通常在接近或越过身体、情感或道德界限时使用。”[参考](https://en.wikipedia.org/wiki/Safeword)
 [^41]: 编者注：此处剧情与 14 章中译者删去的片段相关。
 [^42]: 编者注：“口交时，使用一小片乳胶（即口腔橡皮障）或使用乳胶防护屏障。每次使用后用热肥皂水清洗性玩具。或者每次使用时将其套上新的避孕套。在用到手指的阴道或肛交过程中，考虑戴乳胶手套。”[参考](https://www.mayoclinic.org/zh-hans/healthy-lifestyle/adult-health/in-depth/health-issues-for-lesbians/art-20047202)
+[^43]: 编者注：原文是“doubling over to her knees as she continued to shake”，此处为“颤抖”意。
