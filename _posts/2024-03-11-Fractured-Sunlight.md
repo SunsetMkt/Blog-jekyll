@@ -5878,7 +5878,7 @@ _你闯入了我的世界，从此星空大不同……[^32]_
 
 “120[^28] 那边已经检查过我了，”余晖说道，“还是很痛，但是没啥地方断了或者裂了，还好。”
 
-暮暮松手。韵律挑起一条眉毛，蹲下，穿上一副医用手套，“然后他们没送你去医院？即使感觉上没什么问题，你还是要去照一下 X 光。应力性骨折即使是在低速碰撞中也有可能发生，不及时处理的话会有大麻烦的。”
+暮暮松手。韵律挑起一条眉毛，蹲下，穿上一副医用手套，“然后他们没送你去医院？即使感觉上没什么问题，你还是要去照一下 X 光。应力性骨折[^48]即使是在低速碰撞中也有可能发生，不及时处理的话会有大麻烦的。”
 
 余晖摇头，“我又没有医保，好吧？而且我可不是人类，比你们结实。我很好—哎哟！”她叫了出来。韵律刚刚一定碰到了伤得比较重的地方。
 
@@ -8426,3 +8426,4 @@ Pinkiesparkle
 [^45]: 编者注：鬼父，大致指性侵子女的父亲。
 [^46]: 编者注：[Smile Song](https://www.youtube.com/watch?v=b1Vjorjlon4)，[中文字幕](https://www.bilibili.com/video/BV1Qv411e7PD/)。
 [^47]: 编者注：_Sunshine, sunshine, ladybugs awake! Clap your hooves and do a little shake!_ [参考](https://mlp.fandom.com/wiki/Princess_Cadance)
+[^48]: 编者注：应力性骨折是骨头上出现微小裂缝。它们是由**重复受力**引起的，往往是因过度使用—比如反复上下跳跃或长距离跑步。此处不应为应力性骨折。[参考](https://www.mayoclinic.org/zh-hans/diseases-conditions/stress-fractures/symptoms-causes/syc-20354057)
