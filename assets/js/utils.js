@@ -536,8 +536,8 @@ if (document.querySelector(".site-subtitle")) {
   try {
     siteSubtitleHandler();
     // on .site-subtitle scroll
-    document.querySelector(".site-subtitle").addEventListener("scroll", () => {
-      console.log("site-subtitle scroll");
+    document.querySelector(".site-subtitle").addEventListener("wheel", () => {
+      //console.log("site-subtitle scroll");
       siteSubtitleHandler();
     });
   } catch (error) {
