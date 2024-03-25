@@ -12,8 +12,6 @@ categories: article
     }
 </style>
 
-全文内容如下：
-
 <!--Main Content Starts Here-->
 
 ## 致从未谋面的阁下：一份来自 Sunset 的免责声明
@@ -24,7 +22,7 @@ categories: article
 
 本文件内容若存在多个语言版本，产生歧义时，以简体中文版本为准。本文件内容也许会随时更新，请自行检索 Sunset 的个人网站的相关内容，恕不另行通知。
 
-本文件的上次修订时间为：2022-07-21 13:08:00 UTC+8。
+本文件的上次修订时间为：2024-03-25 22:20:00 UTC+8。
 
 ### 未成年人
 
@@ -50,7 +48,7 @@ Sunset 不明示或暗示其公开和（或）通过私人方式提供的个人�
 - Sunset 的个人网站提供的任何信息
 - 通过 Sunset 的个人数字足迹 _（即在使用互联网时留下的数据痕迹）_ 推断出的任何信息
 
-**Sunset 不会纠正阁下对其个人信息的误解** ，亦不会通过交流 _（仅限于基于即时通信软件或站内信等方式的纯文字或多媒体交流）_ 故意明示或暗示错误的个人信息。在公开场合 _（例如：即时通信软件提供的聊天群组、论坛评论区、公开发表的文献，由于惯例、学术要求或法律法规要求必须明确的不包含在内）_ 对 Sunset 的个人信息的故意混淆甚至是被鼓励的。
+**Sunset 不会纠正阁下对其个人信息的误解** ，亦不会通过交流 _（仅限于基于即时通信软件或站内信等方式的纯文字或多媒体交流）_ 故意明示错误的个人信息。在公开场合 _（例如：即时通信软件提供的聊天群组、论坛评论区、公开发表的文献，由于惯例、学术要求或法律法规要求必须明确的不包含在内）_ 对 Sunset 的个人信息的故意混淆甚至是被鼓励的。
 
 Sunset 认为，出于人身安全考虑，阁下在互联网上暴露的信息应当成为您的伪装和保护，而不应当是您个人状况的真实写照。Sunset 鼓励阁下向其展示不真实的个人信息。
 
@@ -70,19 +68,31 @@ Sunset 相信阁下具有对“身体和心理健康”的明确认知，并希�
 
 ### 法律法规、宗教和政治
 
-Sunset 希望阁下能够遵守所在地的法律法规，且无意唆使您违反法律法规。
+Sunset 希望阁下能够尊重所在地的法律法规，且无意唆使您违反法律法规。
 
-Sunset 充分尊重阁下的宗教信仰和政治主张，但保留在理论上对其讨论和（或）评价的权力。
+Sunset 充分尊重阁下的宗教信仰和政治主张，但保留对其讨论和（或）评价的权利。
 
 ### 责任和义务
 
-Sunset 不会公开披露阁下的个人信息和（或）交流内容，亦不会公开通过您已公开的数字足迹推断出的信息。
+Sunset 不会在未经同意的情况下公开披露阁下的个人信息和（或）交流内容，亦不会公开通过您已公开的数字足迹推断出的信息。
 
 Sunset 会在力所能及的情况下，尽力协助阁下解决问题，但不会承担任何责任和（或）损失 _（存在其他可能影响此条款的协议或承诺的情况不包含在内）_ 。
 
 **阁下没有责任和（或）义务必须阅读、认同、和（或）遵守本文件的任何条款。** 阁下亦不需要告知 Sunset 有关履行本条款的任何决定或保证。 **阁下的平安高于一切规则和（或）协议。**
 
-对于涉及交易的事项，实施过程中应当遵守阁下所在地的法律法规，在此不另行说明。
+### 交易、借款和（或）捐赠
+
+对于涉及交易、借款和（或）捐赠的事项，实施过程中应当尊重阁下所在地的法律法规。
+
+为了保证交易、借款和（或）捐赠的安全和可靠性，Sunset 可能会侵入式地或非侵入式地收集阁下的个人信息且不另行通知，这被认为是一种类似“认识你的客户”_（英语：Know Your Customer, KYC）_ 的风控程序。由此类缘由收集的个人信息将不会被公开或用于其他用途。
+
+### 可能影响文件内容实施的情况
+
+Sunset 无法对抗当地的执法机构和（或）法律法规。在被要求和（或）威胁的情况下，Sunset 可能会向有关实体披露阁下的个人信息。在此种情况下，阁下可能无法收到有关此事件的通知。
+
+Sunset 会努力保证保存敏感信息的设备和第三方服务的安全。但是，在极端情况下，它们仍可能被攻击并导致数据泄露。
+
+出于公共利益考虑，Sunset 可能会经伦理审查后披露阁下的部分非敏感信息，且不必获取阁下的同意。
 
 ### 有关 Sunset 的是与不是
 
@@ -98,7 +108,7 @@ Sunset 不是：
 
 - “情感树洞”
 - 单向既得利益者
-- 阁下的计算机教师/维修工作者
+- 阁下的计算机教师/维修师
 - 医师、护理师、药剂师等
 - 用于达成个人目的的工具
 - 意识共享体
@@ -114,29 +124,3 @@ Sunset 祝阁下在使用互联网的过程中得偿所愿。
 <p align="right">Sunset（译作：余晖） &lt;i@lwd-temp.top&gt;</p>
 
 <!--Main Content Ends Here-->
-
-## 签名
-
-以上信息由 Sunset 签名，并提供签名文件`disclaimer.md.asc`内容如下：
-
-```
------BEGIN PGP SIGNATURE-----
-
-iQGzBAABCAAdFiEEr85y3hWmSiD55zG7yNENIf3LQFoFAmLY31gACgkQyNENIf3L
-QFqrfQv/UQ11Bsm02brFSWxUtIlusxUmXZMbA0d0ACVe/5M1APGnws9ossNwGcsF
-zC1mIQPOJa1u3RfDUCHghI0pBCGLnllC+iTShXykZjYO3ZWn5ofI2tm/R6O2dyQh
-PKUNj0uI3BLalrc27qYar3/Z0jF7I79nVULVHkaqC9sYEmsoGKRDCuKTH6ISXMkJ
-RlaVPUCMmUzcrLP53Sy8u5/qmJyuNrOPgxmXYRSwsXTpwyyAvQ8iYaOYdypsjkzK
-xIXRGZ/3GuNcJ0LQpbC6kX5nQ7gC7iuT32Onwv4V1iU3kGMqcyH3dkkgwRfpGqeB
-tXDxzh+k9Kegx0ThCQvHVs1fFR36EnAC6484NLN40ukEeiru2iTcxFnUm60MoH5S
-inMAoMiEugGrHNqwtLpXUI2ks90CvWA864oyK2hiRTp7NUGojWEQDl/ntA3YVv6v
-0pPTqXy2RuwH6uFgOkIjQZHHretQI77l4dDIaxQWeFSHdHxmpDM2QGNXBJz3T2gK
-y4z1+Tdq
-=X5sT
------END PGP SIGNATURE-----
-
-```
-
-请获取本文档源码，将`<!--Main Content Starts Here-->`和`<!--Main Content Ends Here-->`之间的部分使用`UTF-8`编码保存为`disclaimer.md`，并使用`disclaimer.md.asc`验证签名。
-
-Sunset 的公钥可以在其个人网站主页找到。
