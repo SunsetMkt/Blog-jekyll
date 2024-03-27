@@ -42,6 +42,15 @@ DarlinChit:
     image_path: /assets/postres/rip/DarlinChit.jpg
     alt: "Twitter Avatar"
     title: "Twitter Avatar"
+LedeShojoYuki:
+  - url: /assets/postres/rip/LedeShojoYuki.jpg
+    image_path: /assets/postres/rip/LedeShojoYuki.jpg
+    alt: "Twitter Avatar"
+    title: "Twitter Avatar"
+  - url: /assets/postres/rip/LedeShojoYuki-1.jpg
+    image_path: /assets/postres/rip/LedeShojoYuki-1.jpg
+    alt: "Her portrait, published on Twitter"
+    title: "Her portrait, published on Twitter"
 ---
 
 <style>
@@ -169,3 +178,27 @@ DarlinChit:
 [Twitter](https://web.archive.org/web/20240125113323/https://nitter.tux.pizza/DarlinChit) [One Among Us](https://one-among.us/profile/DarlinChit/)
 
 {% include gallery id="DarlinChit" %}
+
+## LedeShojoYuki
+
+_我们没有收到确切消息，此条目可能会随时更新。_
+
+> 朝露灼灼如泪滴，
+>
+> 花枝畏寒遍地开。
+>
+> 她无声地蜷缩离去，
+>
+> 远离尘世的厮磨和罪。
+
+小雪，一个活泼开朗、富有热情的年轻生命，温暖了我们的世界，却太早离开了我们。作为一名高中生，小雪热爱军乐、术曲、绘画、阅读和日语等多种艺术与知识，对动漫游戏文化也有浓厚的兴趣。她的父母经常爆发暴力冲突，她常年饱受父母的身体和语言虐待。小雪时而顽皮活泼，时而老成持重，偶有抑郁倾向——这份独特的个性，正是她用来抵御命运无情的武器。
+
+然而，命运却给了她太多的磨难：家庭的不幸、学业的压力、身心的疾病，一次次都在考验着她的意志。我们知道，在最绝望的时刻，她曾经试图放弃，但还是努力挣扎着想要寻找生的希望。最终，她还是选择了离开这个世界，让所有的痛苦和折磨都随之而去。
+
+小雪，你的离世让所有认识你的人都感到万分悲伤。我们无法完全体会你内心的煎熬，但我们衷心希望你此刻能够安息，你曾经的梦想能够在另一个世界里继续绽放。我们会继续为这个世界而战，让它变得更加美好。
+
+愿你安息，小雪。
+
+[Twitter](https://archive.ph/mUkpI)
+
+{% include gallery id="LedeShojoYuki" %}
