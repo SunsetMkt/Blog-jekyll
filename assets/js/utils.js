@@ -490,9 +490,9 @@ function siteSubtitleHandler() {
   var nowDate = new Date();
   // Date special
   if (nowDate.getMonth() + 1 === 6) {
-    // 10%
-    if (Math.random() < 0.1) {
-      siteSubtitle = "爱就是爱。 Love is love. 🏳️‍🌈";
+    // 20%
+    if (Math.random() < 0.2) {
+      siteSubtitle = "Proud to be me this month—and every other month. 🏳️‍🌈";
     }
   }
 
