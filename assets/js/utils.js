@@ -481,7 +481,7 @@ function siteSubtitleHandler() {
     "云宝终于学会了闪电天马的历史，但学到东西的不仅仅是她。我也学到了同等重要的事。学习的方法并不分好坏，因为每位小马都是独一无二的。",
     "今天我懂了，当你觉得朋友犯错的时候，你应该诚实地告诉他们。真正的朋友明白你说出来是为了他们着想。",
     "说起来，其实也怪。不管他们怎样赞美你多伟大，你心里不认同的话，赞美就毫无分量。有时，想过得快乐的话，就得放下过去。这样，当你抓到让你能力闪耀的机会时，你就能点亮整片天空。",
-    "	For she did not want him to see her crying. She was such a proud flower",
+    "For she did not want him to see her crying. She was such a proud flower",
     // "Placeholder",
   ];
   // random
