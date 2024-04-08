@@ -113,7 +113,7 @@ Sunset 不是：
 - 用于达成个人目的的工具
 - 意识共享体
 
-Sunset 的原创角色 _（英语：Original Character，简称 OC）_ 不明示或暗示 Sunset 的真实状态。
+Sunset 的[原创角色]({% post_url 2022-08-01-sunset-2 %}) _（英语：Original Character，简称 OC）_ 不明示或暗示 Sunset 的真实状态。
 
 ### 结语
 
