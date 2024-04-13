@@ -13,10 +13,10 @@ permalink: /dev/
 
 ---
 
-{% if site.github.build_revision %}
-当前提交：{{ site.github.build_revision }}
+{% if site.data['hash'] %}
+当前提交：{{ site.data['hash'] }}
 {% else %}
-当前提交：未知（非 GitHub Pages 构建环境）
+当前提交：未知（检查 jekyll-git-hash）
 {% endif %}
 
 当前构建随机码（仅在此页展示）：{% include random %}
@@ -29,7 +29,7 @@ permalink: /dev/
 构建环境：非生产环境（{{ jekyll.environment }}）
 {% endif %}
 
-构建状态：![pages-build-deployment](https://github.com/lwd-temp/lwd-temp.github.io-jekyll/actions/workflows/pages/pages-build-deployment/badge.svg)
+构建状态（GitHub Actions）：[![Deploy Jekyll site to Pages](https://github.com/lwd-temp/lwd-temp.github.io-jekyll/actions/workflows/jekyll.yml/badge.svg)](https://github.com/lwd-temp/lwd-temp.github.io-jekyll/actions/workflows/jekyll.yml)
 
 ---
 
