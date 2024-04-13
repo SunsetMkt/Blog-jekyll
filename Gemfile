@@ -24,3 +24,4 @@ gem "jekyll-webp"
 gem 'jekyll-loading-lazy'
 gem 'liquid-md5'
 gem 'jekyll-redirect-from'
+gem 'jekyll-target-blank'
