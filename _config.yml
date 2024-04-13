@@ -240,6 +240,7 @@ plugins:
   - jekyll-git-hash
   - jekyll-webp
   - jekyll-loading-lazy
+  - liquid-md5
 
 # mimic GitHub Pages with --safe
 # No need to keep this in further versions since GitHub has removed
