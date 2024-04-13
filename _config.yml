@@ -240,6 +240,8 @@ plugins:
   - jekyll-git-hash
 
 # mimic GitHub Pages with --safe
+# No need to keep this in further versions since GitHub has removed
+# the default "safe" Jekyll build environment and turn to Actions since 2024.6
 whitelist:
   - jekyll-paginate
   - jekyll-sitemap
