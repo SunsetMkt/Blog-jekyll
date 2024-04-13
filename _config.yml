@@ -239,6 +239,7 @@ plugins:
   - jekyll-include-cache
   - jekyll-git-hash
   - jekyll-webp
+  - jekyll-loading-lazy
 
 # mimic GitHub Pages with --safe
 # No need to keep this in further versions since GitHub has removed
