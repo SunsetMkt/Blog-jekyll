@@ -23,3 +23,4 @@ gem "jekyll-git-hash"
 gem "jekyll-webp"
 gem 'jekyll-loading-lazy'
 gem 'liquid-md5'
+gem 'jekyll-redirect-from'
