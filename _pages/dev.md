@@ -19,9 +19,11 @@ permalink: /dev/
 当前提交：未知（检查 jekyll-git-hash）
 {% endif %}
 
+<!--
 当前构建随机码（仅在此页展示）：{% include random %}
 
 （同构建页面的 footer 为另一组唯一随机码）
+-->
 
 {% if jekyll.environment == "production" %}
 构建环境：生产环境
