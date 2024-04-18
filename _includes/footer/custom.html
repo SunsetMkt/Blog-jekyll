@@ -12,4 +12,10 @@
     }
 </script>-->
 
+{% if page.path %}
+<script>
+  console.log("File path: {{ page.path }}");
+</script>
+{% endif %}
+
 <!-- end custom footer snippets -->
