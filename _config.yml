@@ -322,7 +322,7 @@ after_footer_scripts:
 # The values here represent the defaults if nothing is set
 # https://github.com/sverrirs/jekyll-webp
 webp:
-  enabled: true
+  enabled: false
   
   # The quality of the webp conversion 0 to 100 (where 100 is least lossy)
   quality: 75
