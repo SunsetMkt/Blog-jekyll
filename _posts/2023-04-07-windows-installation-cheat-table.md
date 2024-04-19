@@ -7,7 +7,7 @@ categories: article
 
 ## 推荐的方案
 
-对于任何可运行 Windows 11 的现代设备，推荐使用 Windows 11 专业工作站版。
+对于任何可运行 Windows 11 的现代设备，推荐使用 Windows 11 专业工作站版（易于下载 ISO）或企业版（最多的特性，减少广告和遥测，不易下载 ISO）。
 
 不再建议安装 Windows 10，除非有必须这样做的原因。
 
@@ -33,7 +33,7 @@ Office 版本一律推荐 O365ProPlus，并使用 Microsoft-Activation-Scripts �
 
 ## 安装 Office
 
-推荐：[官方 O365ProPlusRetail 简体中文在线安装程序](https://c2rsetup.officeapps.live.com/c2r/download.aspx?productReleaseID=O365ProPlusRetail&platform=Def&language=zh-cn)
+推荐：[官方 O365ProPlusRetail 简体中文在线安装程序](https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=O365ProPlusRetail&platform=x64&language=zh-cn&version=O16GA)
 
 <!--
 https://massgrave.dev/office_c2r_links.html#Chinese_[zh-cn] 认为，此链接为
@@ -56,7 +56,7 @@ https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=O365ProP
 irm https://massgrave.dev/get | iex
 ```
 
-支持永久数字激活 Windows 10/11，KMS 激活 Windows 和 Office（包括 365，以一种*workaround*的方法），并且可以切换 Windows 授权版本。
+支持永久数字激活 Windows 10/11，Ohook 激活 Office（包括 365），KMS 激活 Windows 和 Office（包括 365），并且可以切换 Windows 授权版本。
 
 或者，
 
@@ -77,3 +77,13 @@ irm https://massgrave.dev/get | iex
 LTSC 安装 Microsoft Store：管理员执行`wsreset -i`。
 
 特别感谢[MASSGRAVE](https://github.com/massgravel)。
+
+### 下载企业版 ISO
+
+命令行启动媒体制作工具：
+
+```shell
+.\MediaCreationTool_Win11_23H2.exe /Eula Accept /Retail /MediaArch x64 /MediaLangCode zh-CN /MediaEdition Enterprise
+```
+
+当工具询问激活码时，使用此通用激活码（不会激活）：`XGVPP-NMH47-7TTHJ-W3FW7-8HV2C`。
