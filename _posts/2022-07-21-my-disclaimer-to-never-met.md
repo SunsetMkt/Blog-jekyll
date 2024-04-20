@@ -3,6 +3,9 @@ title: "致从未谋面的阁下：一份来自Sunset的免责声明"
 date: 2022-07-21
 tags: 站务 免责声明 余晖 Sunset
 categories: article
+redirect_from:
+  - /privacy/
+  - /disclaimer/
 ---
 
 <!--段首缩进样式-->
