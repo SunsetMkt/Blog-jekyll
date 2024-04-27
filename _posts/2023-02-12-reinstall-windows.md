@@ -3,7 +3,7 @@ title: 重新安装Windows：必要性和方法
 date: 2023-02-12
 tags: Windows
 categories: article
-redirect_to: {% post_url 2023-04-07-windows-installation-cheat-table %}
+redirect_to: /article/windows-installation-cheat-table/
 ---
 
 > 这篇文章对操作系统的论述只针对 Windows，Linux 等其他操作系统有着完全不一样的特性。
