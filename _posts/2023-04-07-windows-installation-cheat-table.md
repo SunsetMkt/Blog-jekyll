@@ -87,3 +87,5 @@ LTSC 安装 Microsoft Store：管理员执行`wsreset -i`。
 ```
 
 当工具询问激活码时，使用此通用激活码（不会激活）：`XGVPP-NMH47-7TTHJ-W3FW7-8HV2C`。
+
+[这里](https://github.com/AveYo/MediaCreationTool.bat)有一个第三方工具，尚未确定有效性。
