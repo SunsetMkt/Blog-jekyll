@@ -29,7 +29,7 @@ categories: article
 
 Cloudflare Workers 有执行时间限制（15s？）和调用数量限制，无论是使用免费计划还是付费，这显然不是稳定运行代理服务器的最佳选择。
 
-`proxyIP`的实现原理是第三方对 Cloudflare 的代理，而不是 Cloudflare 自己的服务。**这有可能导致第三方获取到您与 Cloudflare 的通信内容。**
+`proxyIP`的实现原理是第三方对 Cloudflare 的代理，而不是直接连接 Cloudflare 自己的服务器。~~这有可能导致第三方获取到您与 Cloudflare 的通信内容。（存疑）~~
 
 因此，我不建议将`edgetunnel`作为生产环境的代理服务。它的技术展示意义可能大于实际意义。
 
@@ -39,7 +39,7 @@ Cloudflare Workers 有执行时间限制（15s？）和调用数量限制，无�
 
 ```javascript
 // https://raw.githubusercontent.com/zizifn/edgetunnel/main/src/worker-vless.js
-// <!--GAMFC-->version base on commit 43fad05dcdae3b723c53c226f8181fc5bd47223e, time is 2023-06-22 15:20:02 UTC<!--GAMFC-END-->.
+// <!--GAMFC-->version base on commit 841ed4e9ff121dde0ed6a56ae800c2e6c4f66056, time is 2024-04-16 18:02:37 UTC<!--GAMFC-END-->.
 // @ts-ignore
 import { connect } from "cloudflare:sockets";
 
@@ -705,7 +705,7 @@ async function handleUDPOutBound(webSocket, vlessResponseHeader, log) {
  * @returns {string}
  */
 function getVLESSConfig(userID, hostName) {
-  const vlessMain = `vless://${userID}@${hostName}:443?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2048#${hostName}`;
+  const vlessMain = `vless://${userID}\u0040${hostName}:443?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2048#${hostName}`;
   return `
 ################################################################
 v2ray
