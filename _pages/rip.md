@@ -179,9 +179,12 @@ LedeShojoYuki:
 
 {% include gallery id="DarlinChit" %}
 
+<!--
 ## LedeShojoYuki
 
 _我们没有收到确切消息，此条目可能会随时更新。_
+
+误报。
 
 > 朝露灼灼如泪滴，
 >
@@ -202,3 +205,4 @@ _我们没有收到确切消息，此条目可能会随时更新。_
 [Twitter](https://archive.ph/mUkpI)
 
 {% include gallery id="LedeShojoYuki" %}
+-->
