@@ -507,6 +507,7 @@ function siteSubtitleHandler() {
     "我这一生都是坚定不移的唯物主义者，唯有你，我希望有来生。",
     "世界和平。",
     "能解释为愚蠢的，就不要解释为恶意。",
+    "Garbage in, Garbage out.",
     // "Placeholder",
   ];
   // random
