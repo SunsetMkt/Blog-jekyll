@@ -508,6 +508,14 @@ function siteSubtitleHandler() {
     "世界和平。",
     "能解释为愚蠢的，就不要解释为恶意。",
     "Garbage in, Garbage out.",
+    "温柔不代表软弱。",
+    "Never under estimate a late entrant - they get to start by learning from all of your mistakes.",
+    "Don’t fool yourself into thinking your competitors know more than you do, opinions and ideas are like elbows - everyone has two. Do your research to gain some insight, back it up with your gut feel.. and most of all, be prepared to be patient.. very.. patient. It takes a least a decade to build an ‘overnight’ success.",
+    "If you want to be an anomaly , then you best start acting like an anomaly",
+    "If you’re focused on your competitors, then you’re not focused on your customer - commit to getting as close as possible to your customer, truly fall in love with the problem you solve for them, and you can’t lose.",
+    "A customer will pay for a feature for a month, they’ll pay for benefits for a lifetime.",
+    "The most attractive businesses in the world, are the businesses that nobody else deems attractive.",
+    "The media wants overnight successes (so they have someone to tear down). Ignore them. Ignore the early adopter critics that never have enough to play with. Ignore your investors that want proven tactics and predictable instant results. Listen instead to your real customers, to your vision and make something for the long haul. Because that's how long it's going to take.",
     // "Placeholder",
   ];
   // random
