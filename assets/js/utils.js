@@ -516,6 +516,7 @@ function siteSubtitleHandler() {
     "A customer will pay for a feature for a month, they’ll pay for benefits for a lifetime.",
     "The most attractive businesses in the world, are the businesses that nobody else deems attractive.",
     "The media wants overnight successes (so they have someone to tear down). Ignore them. Ignore the early adopter critics that never have enough to play with. Ignore your investors that want proven tactics and predictable instant results. Listen instead to your real customers, to your vision and make something for the long haul. Because that's how long it's going to take.",
+    "你可以对政治毫无兴趣，可你必须确信：政治对你却太有兴趣，政治绝不会因为你对政治不关心而放过你。所以，假如你不想作戏台上一具可怜的傀儡，给别人随心所欲地推来推去，你就别无选择——必须关心政治。这其实就是关心你自己。",
     // "Placeholder",
   ];
   // random
@@ -562,7 +563,7 @@ function siteSubtitleHandler() {
   // replace \n with <br>
   siteSubtitle = siteSubtitle.replace(/\n/g, "<br>");
   // set italic
-  siteSubtitle = "<i>" + siteSubtitle + "</i>";
+  siteSubtitle = "<i>「" + siteSubtitle + "」</i>";
   document.querySelector(".site-subtitle").innerHTML = siteSubtitle;
 }
 
