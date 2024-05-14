@@ -1,6 +1,6 @@
 ---
 title: "致从未谋面的阁下：一份来自Sunset的免责声明"
-date: 2022-07-21
+date: 2024-05-14
 tags: 站务 免责声明 余晖 Sunset
 categories: article
 redirect_from:
@@ -25,7 +25,7 @@ redirect_from:
 
 本文件内容若存在多个语言版本，产生歧义时，以简体中文版本为准。_（If there are multiple language versions of the content of this document and any ambiguity arises, the Simplified Chinese version shall prevail.）_ 本文件内容也许会随时更新，请自行检索 Sunset 的个人网站的相关内容，恕不另行通知。
 
-本文件的上次修订时间为：2024-05-10 UTC+9。
+本文件的上次修订时间为：2024-05-14 UTC+9。
 
 ### 未成年人
 
@@ -120,17 +120,27 @@ Sunset 不是：
 
 Sunset 的[原创角色]({% post_url 2022-08-01-sunset-2 %}) _（英语：Original Character，简称 OC）_ 不明示或暗示 Sunset 的真实状态。
 
-### 服务、信息、GDPR、隐私政策和倡议
+### 信息安全、隐私政策和 GDPR
+
+#### 基本情况
 
 互联网通信无法保证及时、安全、无错误和（或）无病毒。Sunset 不对消息中的任何错误或遗漏承担责任。
 
-除非特别说明，任何由 Sunset 提供的在线服务提供的信息和（或）内容并不构成 Sunset 的正式建议、支持或承诺，不排除 AIGC _（英语：Artificial Inteligence Generated Content，人工智能生产的内容）_，也不保证儿童安全评级（如类似 ESRB 的评级）。
+除非特别说明，Sunset 提供的在线服务 _（下称“服务”，或带有指代意义的其它称谓）_ 应被视为不安全的。
 
-除非特别说明，Sunset 提供的在线服务可能不会以遵守 [GDPR](https://gdpr-info.eu/) 的方式收集阁下的个人信息，且不以任何方式明确向欧盟用户提供服务。
+#### 内容安全
+
+除非特别说明，任何服务提供的信息和（或）内容并不构成 Sunset 的正式建议、支持或承诺，不排除 AIGC _（英语：Artificial Inteligence Generated Content，人工智能生产的内容）_，不保证无版权问题，也不保证儿童安全评级（如类似 ESRB 的评级）。
+
+#### GDPR
+
+除非特别说明，服务可能不会以遵守 [GDPR](https://gdpr-info.eu/) 的方式收集阁下的个人信息，且不以任何方式明确向欧盟用户提供服务。
 
 阁下可使用[流行的屏蔽器](https://github.com/gorhill/uBlock)来阻止服务收集阁下的个人信息。
 
-[打印前请考虑环境](https://thinkbeforeprinting.org/)。
+#### 统计和遥测
+
+阁下在使用任何服务时产生的信息均可能被用于统计和改善用户体验，且不做另行通知。
 
 ### 结语
 
