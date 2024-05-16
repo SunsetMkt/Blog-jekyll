@@ -9,7 +9,7 @@ categories: article
 
 ## 替换域名
 
-将 URL 中的域名替换为`cdn-ota.azureedge.net`或`bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com`。
+将 URL 中的域名替换为`bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com`。
 
 例：
 
