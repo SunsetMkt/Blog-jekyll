@@ -518,6 +518,7 @@ function siteSubtitleHandler() {
     "The media wants overnight successes (so they have someone to tear down). Ignore them. Ignore the early adopter critics that never have enough to play with. Ignore your investors that want proven tactics and predictable instant results. Listen instead to your real customers, to your vision and make something for the long haul. Because that's how long it's going to take.",
     "你可以对政治毫无兴趣，可你必须确信：政治对你却太有兴趣，政治绝不会因为你对政治不关心而放过你。所以，假如你不想作戏台上一具可怜的傀儡，给别人随心所欲地推来推去，你就别无选择——必须关心政治。这其实就是关心你自己。",
     "但有些事即便没有意义，也总是要去做的。",
+    "他们希望我们忘记。他们希望我们对我们自己土地上正在发生的事情视而不见。更重要的是，他们希望我们生活在恐惧之中。但我们的声音不会被压制。我们的存在永远不会被审查。",
     // "Placeholder",
   ];
   // random
