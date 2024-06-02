@@ -5,12 +5,7 @@ tags: 站务 免责声明 余晖 Sunset
 categories: article
 ---
 
-<!--段首缩进样式-->
-<style>
-    .page__inner-wrap .e-content p {
-        text-indent: 2em;
-    }
-</style>
+[Chinese original version]({% post_url 2024-05-14-my-disclaimer-to-never-met %}).
 
 ## To Whom I Have Never Met: A Disclaimer from Sunset
 

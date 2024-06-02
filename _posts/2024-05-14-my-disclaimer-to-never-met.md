@@ -8,18 +8,9 @@ redirect_from:
   - /disclaimer/
 ---
 
-<!--段首缩进样式-->
-<style>
-    .page__inner-wrap .e-content p {
-        text-indent: 2em;
-    }
-</style>
-
-<!--Main Content Starts Here-->
+[English translation by ChatGPT for reference only]({% post_url 2024-05-14-my-disclaimer-to-never-met-en %}). Please notice that the translation may be not up-to-date or inaccurate.
 
 ## 致从未谋面的阁下：一份来自 Sunset 的免责声明
-
-[English translation by ChatGPT for reference only]({% post_url 2024-05-14-my-disclaimer-to-never-met-en %})
 
 ### 介绍
 
@@ -153,5 +144,3 @@ Sunset 十分珍视与阁下的相识，且从未怀疑过您的真心实意。
 Sunset 祝阁下在使用互联网的过程中得偿所愿。
 
 <p align="right">Sunset（译作：余晖） &lt;i@lwd-temp.top&gt;</p>
-
-<!--Main Content Ends Here-->
