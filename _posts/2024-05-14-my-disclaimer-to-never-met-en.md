@@ -7,6 +7,10 @@ categories: article
 
 [Chinese original version]({% post_url 2024-05-14-my-disclaimer-to-never-met %}).
 
+<!--
+Prompt: Translate the Markdown document I provided into English, using strict language and not adding or subtracting text. You must keep the Markdown format.
+-->
+
 ## To Whom I Have Never Met: A Disclaimer from Sunset
 
 English Translation by ChatGPT for reference only, 2024-05-14 version.
