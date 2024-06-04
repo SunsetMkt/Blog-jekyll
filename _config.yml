@@ -12,103 +12,102 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "default"
+minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "default"
 
 # Site Settings
-locale                   : "zh-CN"
-title                    : "Sunset的博客"
-title_separator          : "-"
-subtitle                 : "Placeholder. 您可能没有启用JavaScript。" # site tagline that appears below site title in masthead # 也可以当作slogan
-name                     : "Sunset"
-description              : "Sunset的博客"
-url                      : "https://jekyll.lwd-temp.top" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : / # the subpath of your site, e.g. "/blog"
-repository               : "lwd-temp/lwd-temp.github.io-jekyll-utterances" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # "/assets/images/500x300.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs              : true # true, false (default)
-words_per_minute         : 200
+locale: "zh-CN"
+title: "Sunset的博客"
+title_separator: "-"
+subtitle: "Placeholder. 您可能没有启用JavaScript。" # site tagline that appears below site title in masthead # 也可以当作slogan
+name: "Sunset"
+description: "Sunset的博客"
+url: "https://jekyll.lwd-temp.top" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl: / # the subpath of your site, e.g. "/blog"
+repository: "lwd-temp/lwd-temp.github.io-jekyll-utterances" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser: # "/assets/images/500x300.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title: # overrides the website title displayed in the masthead, use " " for no title
+breadcrumbs: true # true, false (default)
+words_per_minute: 200
 comments:
-  provider               : "utterances" # "utterances" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider: "utterances" # "utterances" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname: # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+    server: # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    appid:
+    num_posts: # 5 (default)
+    colorscheme: # "light" (default), "dark"
   utterances:
-    theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
+    theme: # "github-light" (default), "github-dark"
+    issue_term: # "pathname" (default)
   giscus:
-    repo_id              : # Shown during giscus setup at https://giscus.app
-    category_name        : # Full text name of the category
-    category_id          : # Shown during giscus setup at https://giscus.app
-    discussion_term      : # "pathname" (default), "url", "title", "og:title"
-    reactions_enabled    : # '1' for enabled (default), '0' for disabled
-    theme                : # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
+    repo_id: # Shown during giscus setup at https://giscus.app
+    category_name: # Full text name of the category
+    category_id: # Shown during giscus setup at https://giscus.app
+    discussion_term: # "pathname" (default), "url", "title", "og:title"
+    reactions_enabled: # '1' for enabled (default), '0' for disabled
+    theme: # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
   staticman:
-    branch               : # "master"
-    endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
+    branch: # "master"
+    endpoint: # "https://{your Staticman v3 API}/v3/entry/github/"
 reCaptcha:
-  siteKey                :
-  secret                 :
+  siteKey:
+  secret:
 atom_feed:
-  path                   : # blank (default) uses feed.xml
-  hide                   : # true, false (default)
-search                   : true # true, false (default)
-search_full_content      : false # true, false (default)
-search_provider          : lunr # lunr (default), algolia, google
+  path: # blank (default) uses feed.xml
+  hide: # true, false (default)
+search: true # true, false (default)
+search_full_content: false # true, false (default)
+search_provider: lunr # lunr (default), algolia, google
 lunr:
-  search_within_pages    : true # true, false (default)
+  search_within_pages: true # true, false (default)
 algolia:
-  application_id         : # YOUR_APPLICATION_ID
-  index_name             : # YOUR_INDEX_NAME
-  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
-  powered_by             : # true (default), false
+  application_id: # YOUR_APPLICATION_ID
+  index_name: # YOUR_INDEX_NAME
+  search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
+  powered_by: # true (default), false
 google:
-  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
-  instant_search         : # false (default), true
+  search_engine_id: # YOUR_SEARCH_ENGINE_ID
+  instant_search: # false (default), true
 # SEO Related
-google_site_verification : # Done with DNS record
-bing_site_verification   : # Done with Google
-naver_site_verification  :
-yandex_site_verification : # Done
-baidu_site_verification  :
+google_site_verification: # Done with DNS record
+bing_site_verification: # Done with Google
+naver_site_verification:
+yandex_site_verification: # Done
+baidu_site_verification:
 
 # Social Sharing
 twitter:
-  username               : 
+  username:
 facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 : "/assets/images/sunset_compressed.jpg" # Open Graph/Twitter default site image
+  username:
+  app_id:
+  publisher:
+og_image: "/assets/images/sunset2_compressed.jpg" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type: # Person or Organization (defaults to Person)
+  name: # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
 # Analytics
 analytics:
-  provider               : # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider: # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : 
-    anonymize_ip         : # true, false (default)
-
+    tracking_id:
+    anonymize_ip: # true, false (default)
 
 # Site Author
 author:
-  name             : "Sunset"
-  avatar           : "/assets/images/sunset2_compressed.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Lead Programmer of Sunset Edu. & Tech. Group."
-  location         : "Unknown"
-  email            : "i@lwd-temp.top"
+  name: "Sunset"
+  avatar: "/assets/images/sunset2_compressed.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio: "Lead Programmer of Sunset Edu. & Tech. Group."
+  location: "Unknown"
+  email: "i@lwd-temp.top"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -120,7 +119,7 @@ author:
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/Sunset16094839"
+      # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
@@ -130,17 +129,17 @@ author:
       # url: "https://github.com/"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
-      url: "https://gitlab.com/lwd-temp"
+      url:
     - label: "Discord服务器"
       icon: "fab fa-fw fa-discord"
-      url: 
+      url:
 
 # Site Footer
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/Sunset16094839"
+      # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
@@ -157,7 +156,6 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
-
 
 # Reading Files
 include:
@@ -196,14 +194,12 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-
 # Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
 
 # Markdown Processing
 kramdown:
@@ -216,19 +212,16 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-
 # Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
 
 # Outputting
 permalink: /:categories/:title/
 paginate: 10 # amount of posts to show
 paginate_path: /page:num/
 timezone: Asia/Singapore # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
 
 # Plugins (previously gems:)
 plugins:
@@ -254,7 +247,6 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-
 
 # Archives
 #  Type
@@ -284,14 +276,12 @@ tag_archive:
 #     category: /categories/:name/
 #     tag: /tags/:name/
 
-
 # HTML Compression
 # - https://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
     envs: development
-
 
 # Defaults
 defaults:
@@ -323,7 +313,7 @@ after_footer_scripts:
 # https://github.com/sverrirs/jekyll-webp
 webp:
   enabled: false
-  
+
   # The quality of the webp conversion 0 to 100 (where 100 is least lossy)
   quality: 75
 
@@ -337,7 +327,7 @@ webp:
   # add ".gif" to the format list to generate webp for animated gifs as well
   formats: [".jpeg", ".jpg", ".png", ".tiff", ".gif"]
 
-  # File extensions for animated gif files 
+  # File extensions for animated gif files
   gifs: [".gif"]
 
   # Set to true to always regenerate existing webp files
