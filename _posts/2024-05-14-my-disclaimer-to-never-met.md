@@ -20,11 +20,11 @@ redirect_from:
 
 本文件内容若存在多个语言版本，产生歧义时，以简体中文版本为准。_（If there are multiple language versions of the content of this document and any ambiguity arises, the Simplified Chinese version shall prevail.）_ 本文件内容也许会随时更新，请自行检索 Sunset 的个人网站的相关内容，恕不另行通知。
 
-本文件的上次修订时间为：2024-06-02 UTC+9。
+本文件的上次修订时间为：2024-06-13。
 
 ### 未成年人
 
-本文件适用于具有完全民事行为能力的自然人，其在中华人民共和国（英语：People's Republic of China）境内需要年满 18 周岁。根据阁下所在地的法律法规，[具体年龄](https://en.wikipedia.org/wiki/Age_of_majority)可能有所不同。
+本文件适用于具有完全民事行为能力的自然人，其在大多数国家需要年满 18 周岁。根据阁下所在地的法律法规，[具体年龄](https://en.wikipedia.org/wiki/Age_of_majority)可能有所不同。
 
 **若阁下尚未成年，在您的法定监护人陪同下阅读此文件或许更为妥当。也许阁下出于种种原因并不希望此事被其得知，在此情况下，Sunset 尊重您的意愿，但仍希望您能充分阅读并理解文件内容。**
 
