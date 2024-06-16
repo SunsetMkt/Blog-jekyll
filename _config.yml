@@ -23,14 +23,14 @@ name: "Sunset"
 description: "Sunset的博客"
 url: "https://jekyll.lwd-temp.top" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: / # the subpath of your site, e.g. "/blog"
-repository: "lwd-temp/lwd-temp.github.io-jekyll-utterances" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository: # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser: # "/assets/images/500x300.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title: # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs: true # true, false (default)
 words_per_minute: 200
 comments:
-  provider: "utterances" # "utterances" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider: # "utterances" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
     shortname: # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
