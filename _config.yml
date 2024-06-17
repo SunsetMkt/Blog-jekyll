@@ -295,8 +295,8 @@ defaults:
       author_profile: true
       read_time: true # true
       comments: true # true
-      share: true # true
-      related: true # true
+      share: false # true
+      related: false # true
       toc: true # false # To show Table of Content (aka. menu)
 
 # head_scripts:
