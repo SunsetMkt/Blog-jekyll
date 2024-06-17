@@ -107,15 +107,15 @@ author:
   avatar: "/assets/images/sunset2_compressed.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio: "Lead Programmer of Sunset Edu. & Tech. Group."
   location: "Unknown"
-  email: "i@lwd-temp.top"
+  email: "hi@sunmkt.top"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:i@lwd-temp.top
+      url: # mailto:hi@sunmkt.top
       # url: mailto:your.name@email.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://www.lwd-temp.top"
+      url: # "https://sunmkt.top"
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
@@ -125,7 +125,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/lwd-temp"
+      url: "https://github.com/SunsetMkt"
       # url: "https://github.com/"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
@@ -145,11 +145,11 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/lwd-temp"
+      url: "https://github.com/SunsetMkt"
       # url:
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
-      url: "https://gitlab.com/lwd-temp"
+      url: # "https://gitlab.com/SunsetMkt"
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       # url:
@@ -300,7 +300,7 @@ defaults:
       toc: true # false # To show Table of Content (aka. menu)
 
 # head_scripts:
-#   - https://api.lwd-temp.top/static/staticapi.js
+#   - https://
 
 after_footer_scripts:
   # - https://unpkg.com/toastr@2.1.4/build/toastr.min.js

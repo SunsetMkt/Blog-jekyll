@@ -5,7 +5,7 @@ tags: 二创 知乎 黑童话 Steam 评论 剧本
 categories: article
 ---
 
-注意：我们相信此作品在一定的修改后可以成为更好、也更能被人们接受的艺术。目前，我们仍在修改此文档，如果阁下有任何建议，请直接[提交您的修改](https://github.com/lwd-temp/lwd-temp.github.io-jekyll/blob/master/_posts/2022-01-05-script-of-a-dark-fairytale.md)，非常感谢您的参与。
+注意：我们相信此作品在一定的修改后可以成为更好、也更能被人们接受的艺术。目前，我们仍在修改此文档，如果阁下有任何建议，请直接提交您的修改，非常感谢您的参与。
 
 ---
 

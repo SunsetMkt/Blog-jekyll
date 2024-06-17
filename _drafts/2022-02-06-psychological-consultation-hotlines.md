@@ -6,20 +6,7 @@ categories: article
 
 # 覆写作者信息区，修改bio
 author:
-  name: "lwd-temp"
-  avatar: "/assets/images/bio-photo.jpg"
   bio: "这个世界虽然不完美，但总有人守护着你。"
-  email: "i@lwd-temp.top"
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: mailto:i@lwd-temp.top
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://www.lwd-temp.top"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/lwd-temp"
 ---
 
 您不必独自面对一切。

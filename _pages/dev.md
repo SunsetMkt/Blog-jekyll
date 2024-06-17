@@ -119,48 +119,6 @@ URL 参数`vconsole=true`
   </script>
 </div>
 
-### Cloudflare Zaraz 管理的网站统计
-
-<div class="zaraz-btns">
-
-    <script>
-      function setCookie(cname, cvalue, exdays, domain) {
-        var d = new Date();
-        d.setTime(d.getTime() + exdays * 24 * 60 * 60 * 1000);
-        var expires = "expires=" + d.toUTCString();
-        var cookieString = cname + "=" + cvalue + ";" + expires + ";path=/";
-        if (domain) {
-          cookieString += ";domain=" + domain;
-        }
-        document.cookie = cookieString;
-      }
-
-      function DisableZaraz() {
-        // if .lwd-temp.top in hostname
-        if (window.location.hostname.indexOf(".lwd-temp.top") > -1) {
-          setCookie("DisableZaraz", "true", 400, ".lwd-temp.top");
-        } else {
-          setCookie("DisableZaraz", "true", 400);
-        }
-      }
-
-      function EnableZaraz() {
-        setCookie("DisableZaraz", "true", 0);
-        // if .lwd-temp.top in hostname
-        if (window.location.hostname.indexOf(".lwd-temp.top") > -1) {
-          setCookie("DisableZaraz", "true", 0, ".lwd-temp.top");
-        } else {
-          setCookie("DisableZaraz", "true", 0);
-        }
-      }
-    </script>
-
-    <a class="btn btn--info" onclick="DisableZaraz();location.reload();">添加禁用标记</a>
-
-    <a class="btn btn--info" onclick="EnableZaraz();location.reload();">删除禁用标记</a>
-
-</div>
-
 ### 其他网站统计
 
 使用[uBlock Origin](https://ublockorigin.com/)以禁用。
