@@ -8,7 +8,7 @@ excerpt: 人脑可用的信息加密和传递方案
 
 # 一种在校园内较安全地传递信息的方法
 
-**lwd-temp 2020.6.24**
+**sunsets-deprecated-username 2020.6.24**
 
 **Summary:人脑可用的信息加密和传递方案**
 

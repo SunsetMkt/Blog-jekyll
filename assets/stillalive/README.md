@@ -1,6 +1,6 @@
 <img src="res/the-cake-is-a-lie.png" height="200px" />
 
-[Play on GitHub Pages](https://lwd-temp.github.io/still-alive-web-chs)
+[Play on GitHub Pages](https://sunsets-deprecated-username.github.io/still-alive-web-chs)
 
 still-alive-web
 ===============

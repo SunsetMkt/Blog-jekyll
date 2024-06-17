@@ -5,16 +5,16 @@ tags: Python 解密 站务
 categories: article
 ---
 
-参与者通过事先发放的二维码进入活动网站 2022.lwd-temp.top（已停用），获取一份 Python 程序源码进行解密。
+参与者通过事先发放的二维码进入活动网站 2022.sunsets-deprecated-domain-attention.top（已停用），获取一份 Python 程序源码进行解密。
 
 ```python
 #!/usr/bin/env python3
 # coding: utf-8
 # Quiz for 2022 Spring Festival Gift Activity
-# Author: @lwd-temp & GitHub Copilot
-# Repo: https://github.com/lwd-temp/happy-spring-festival-2022
+# Author: @sunsets-deprecated-username & GitHub Copilot
+# Repo: https://github.com/sunsets-deprecated-username/happy-spring-festival-2022
 # Date: 2022-01-27
-# 也可以在 https://2022.lwd-temp.top/quiz.py 获取此文件
+# 也可以在 https://2022.sunsets-deprecated-domain-attention.top/quiz.py 获取此文件
 import hashlib
 import random
 import string
@@ -67,7 +67,7 @@ if __name__ == "__main__":
     #             请保管好它，不仅因为这是未来解密的keyfile，更因为这是一些有爱的玩家群体抗争失败的唯一遗产。
     horizontal_line()
     print("第二题：这个部分没有任何需要您解决的问题。您将会获得一个文件，请保管好它。")
-    quiz_str2 = "https://drive.lwd-temp.top/api?path=/%E6%A1%A3%E6%A1%88%E4%B8%8E%E6%9D%82%E9%A1%B9/%E5%8E%9F%E7%A5%9EMMD%E6%A8%A1%E5%9E%8B%E5%A4%87%E4%BB%BD/%E8%8E%AB%E5%A8%9C_by_%E5%8E%9F%E7%A5%9E_b8870c3980f838bd2bca5ea9011e3d63.zip&raw=true"
+    quiz_str2 = "https://drive.sunsets-deprecated-domain-attention.top/api?path=/%E6%A1%A3%E6%A1%88%E4%B8%8E%E6%9D%82%E9%A1%B9/%E5%8E%9F%E7%A5%9EMMD%E6%A8%A1%E5%9E%8B%E5%A4%87%E4%BB%BD/%E8%8E%AB%E5%A8%9C_by_%E5%8E%9F%E7%A5%9E_b8870c3980f838bd2bca5ea9011e3d63.zip&raw=true"
     print("您的第二步的文件获取链接为：")
     print(quiz_str2)
     print("为了方便您下载，请输入y并按下Enter键，我们会通过您的默认浏览器下载此文件。您也可以输入n并按下Enter键，这样就不会打开浏览器。")
@@ -125,7 +125,7 @@ if __name__ == "__main__":
     print("它的密码是上述字符串，密钥文件为您在第二题中获得的文件，请使用VeraCrypt解密此卷。")
     print("在解密后，您将会得到一份指导，请继续完成其所述内容。")
     print("请不要放弃！这将是最后一个解密环节。")
-    disk_url = "https://drive.lwd-temp.top/api?path=/%E6%A1%A3%E6%A1%88%E4%B8%8E%E6%9D%82%E9%A1%B9/Quiz/quiz.hc&raw=true"
+    disk_url = "https://drive.sunsets-deprecated-domain-attention.top/api?path=/%E6%A1%A3%E6%A1%88%E4%B8%8E%E6%9D%82%E9%A1%B9/Quiz/quiz.hc&raw=true"
     print("用于下一步解密的VeraCrypt加密卷的下载地址：")
     print(disk_url)
     print("为了方便您下载，请输入y并按下Enter键，我们会通过您的默认浏览器下载此文件。您也可以输入n并按下Enter键，这样就不会打开浏览器。")
@@ -176,7 +176,7 @@ for a in string.ascii_lowercase:
 
 ## 第二题
 
-本题会指引用户下载[莫娜*by*原神\_b8870c3980f838bd2bca5ea9011e3d63.zip](https://drive.lwd-temp.top/api?path=/%E6%A1%A3%E6%A1%88%E4%B8%8E%E6%9D%82%E9%A1%B9/%E5%8E%9F%E7%A5%9EMMD%E6%A8%A1%E5%9E%8B%E5%A4%87%E4%BB%BD/%E8%8E%AB%E5%A8%9C_by_%E5%8E%9F%E7%A5%9E_b8870c3980f838bd2bca5ea9011e3d63.zip&raw=true)，本题设计原因如注释所述。
+本题会指引用户下载[莫娜*by*原神\_b8870c3980f838bd2bca5ea9011e3d63.zip](https://drive.sunsets-deprecated-domain-attention.top/api?path=/%E6%A1%A3%E6%A1%88%E4%B8%8E%E6%9D%82%E9%A1%B9/%E5%8E%9F%E7%A5%9EMMD%E6%A8%A1%E5%9E%8B%E5%A4%87%E4%BB%BD/%E8%8E%AB%E5%A8%9C_by_%E5%8E%9F%E7%A5%9E_b8870c3980f838bd2bca5ea9011e3d63.zip&raw=true)，本题设计原因如注释所述。
 
 ```python
     # Part2

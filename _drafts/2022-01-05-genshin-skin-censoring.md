@@ -7,8 +7,8 @@ categories: article
 
 [《原神》将修改部分角色外观，你有哪些建议？ - 知乎 (zhihu.com)](https://www.zhihu.com/question/509909910)
 
-旧版模型备份：[lwd-temp/site-cdn: GitHub CDN for lwd-temp.top
-](https://github.com/lwd-temp/site-cdn)
+旧版模型备份：[sunsets-deprecated-username/site-cdn: GitHub CDN for sunsets-deprecated-domain-attention.top
+](https://github.com/sunsets-deprecated-username/site-cdn)
 
 您也可以通过页面右上角的控制器选择您希望查看的模型并翻到页面最下端（一直向下翻）查看模型展示。模型版权归米哈游所有。
 
@@ -177,8 +177,8 @@ _又注：根据部分旅行者反馈，绫华的模型亦有修改。20220114 �
             }
 
 
-            const modelFile = 'https://fastly.jsdelivr.net/gh/lwd-temp/site-cdn/mmd/blank.pmx';
-            const vmdFiles = ['https://fastly.jsdelivr.net/gh/lwd-temp/site-cdn/mmd/blank.vmd'];
+            const modelFile = 'https://fastly.jsdelivr.net/gh/sunsets-deprecated-username/site-cdn/mmd/blank.pmx';
+            const vmdFiles = ['https://fastly.jsdelivr.net/gh/sunsets-deprecated-username/site-cdn/mmd/blank.vmd'];
 
             helper = new MMDAnimationHelper({
                 afterglow: 2.0
@@ -230,7 +230,7 @@ _又注：根据部分旅行者反馈，绫华的模型亦有修改。20220114 �
 
                 const gui = new GUI();
 
-                gui.add(api, 'model', { 安柏: 'https://fastly.jsdelivr.net/gh/lwd-temp/site-cdn/mmd/安柏/安柏.pmx', 罗莎莉亚: 'https://fastly.jsdelivr.net/gh/lwd-temp/site-cdn/mmd/罗莎莉亚/罗莎莉亚.pmx', 莫娜: 'https://fastly.jsdelivr.net/gh/lwd-temp/site-cdn/mmd/莫娜/莫娜1.0.pmx', 琴: 'https://fastly.jsdelivr.net/gh/lwd-temp/site-cdn/mmd/琴/琴.pmx', 神里绫华: 'https://fastly.jsdelivr.net/gh/lwd-temp/site-cdn/mmd/神里绫华/神里绫华.pmx' }).onChange(function () {
+                gui.add(api, 'model', { 安柏: 'https://fastly.jsdelivr.net/gh/sunsets-deprecated-username/site-cdn/mmd/安柏/安柏.pmx', 罗莎莉亚: 'https://fastly.jsdelivr.net/gh/sunsets-deprecated-username/site-cdn/mmd/罗莎莉亚/罗莎莉亚.pmx', 莫娜: 'https://fastly.jsdelivr.net/gh/sunsets-deprecated-username/site-cdn/mmd/莫娜/莫娜1.0.pmx', 琴: 'https://fastly.jsdelivr.net/gh/sunsets-deprecated-username/site-cdn/mmd/琴/琴.pmx', 神里绫华: 'https://fastly.jsdelivr.net/gh/sunsets-deprecated-username/site-cdn/mmd/神里绫华/神里绫华.pmx' }).onChange(function () {
                     loader.loadWithAnimation(api['model'], vmdFiles, function (mmd) {
 
                         scene.remove(mesh);

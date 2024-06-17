@@ -1,5 +1,5 @@
 ---
-title: 关于lwd-temp
+title: 关于sunsets-deprecated-username
 date: 2020-04-26
 tags: ACG SCPFoundation 设定 ████████ 原创 站务
 categories: article
@@ -41,9 +41,9 @@ categories: article
 
 这些 Repos 通常因具有保存或备份意义、异常有趣、异常无聊、在项目中被使用或只是误操作而被 Fork。
 
-# lwd-temp 这个用户名的含义？
+# sunsets-deprecated-username 这个用户名的含义？
 
-lwd-temp，准确地说是 l-w-d---t-e-m-p，是部分使用随机生成并部分使用职员姓名缩写而组成的用户名。
+sunsets-deprecated-username，准确地说是 l-w-d---t-e-m-p，是部分使用随机生成并部分使用职员姓名缩写而组成的用户名。
 
 # 职员信息
 
@@ -63,7 +63,7 @@ Sunset，或是 Sunset Shimmer,余晖。
 
 ## L
 
-L，当项目的大部分由她完成时更喜欢用 lwd-temp 称呼自己，有时也会用 Sunset 的名字，原因不明。
+L，当项目的大部分由她完成时更喜欢用 sunsets-deprecated-username 称呼自己，有时也会用 Sunset 的名字，原因不明。
 
 主要贡献：大部分代码部分，maybe_not_the_last_letter 部分文案，网站群基础设施管理，in-memory-of-███ 文案部分。
 

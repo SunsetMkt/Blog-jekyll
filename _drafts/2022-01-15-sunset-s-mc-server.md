@@ -10,7 +10,7 @@ categories: article
 ## 服务器地址
 
 ```
-mc.lwd-temp.top
+mc.sunsets-deprecated-domain-attention.top
 ```
 
 （不定期启动，请等待私下通知）
@@ -19,7 +19,7 @@ mc.lwd-temp.top
 
 如果您从未了解并安装过 Minecraft Java 版，可以在这里下载预先配置好的游戏客户端（只适用于 64 位现代 Windows 操作系统）。
 
-[点击下载](https://drive.lwd-temp.top/api?path=/Minecraft/Minecraft_1.18.1_Java_FabulouslyOptimized_x64.7z&raw=true)
+[点击下载](https://drive.sunsets-deprecated-domain-attention.top/api?path=/Minecraft/Minecraft_1.18.1_Java_FabulouslyOptimized_x64.7z&raw=true)
 
 已知问题：客户端可能不会默认使用独立显卡运行。如果问题发生，请使用显卡驱动程序提供的选项将客户端文件 java.exe 和 javaw.exe 设置为使用独立显卡运行，整合包内的设置脚本亦可执行此操作。
 
@@ -29,7 +29,7 @@ mc.lwd-temp.top
 整合包：Fabulously+Optimized-3.1.0-alpha.7
 光影：ComplementaryShaders_v4.3.3
 JDK采用OpenJDK
-整合包打包者：https://www.lwd-temp.top/
+整合包打包者：https://www.sunsets-deprecated-domain-attention.top/
 
 启动脚本说明：
 常规用户请使用“运行客户端.bat”

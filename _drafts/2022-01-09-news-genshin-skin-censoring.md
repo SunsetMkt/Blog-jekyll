@@ -5,7 +5,7 @@ tags: 游戏 原神
 categories: article
 ---
 
-[进入新闻专题页](https://gh.lwd-temp.top/site-cdn/genshin-skin-censoring/)
+[进入新闻专题页](https://gh.sunsets-deprecated-domain-attention.top/site-cdn/genshin-skin-censoring/)
 
 近日，《原神》国服部分角色皮肤仓促修改事件持续发酵，在国内外玩家群体中都产生了不小的影响。
 
@@ -25,9 +25,9 @@ categories: article
 
 我们也备份了在此次热潮中流传甚广的两份文件，链接如下：
 
-[【0125 原神角色修改事件】 【举报地址和文案】.docx](https://gh.lwd-temp.top/site-cdn/archive/%E8%A7%92%E8%89%B2%E4%BF%AE%E6%94%B9ys/%E3%80%900125%E5%8E%9F%E7%A5%9E%E8%A7%92%E8%89%B2%E4%BF%AE%E6%94%B9%E4%BA%8B%E4%BB%B6%E3%80%91%20%E3%80%90%E4%B8%BE%E6%8A%A5%E5%9C%B0%E5%9D%80%E5%92%8C%E6%96%87%E6%A1%88%E3%80%91.docx)
+[【0125 原神角色修改事件】 【举报地址和文案】.docx](https://gh.sunsets-deprecated-domain-attention.top/site-cdn/archive/%E8%A7%92%E8%89%B2%E4%BF%AE%E6%94%B9ys/%E3%80%900125%E5%8E%9F%E7%A5%9E%E8%A7%92%E8%89%B2%E4%BF%AE%E6%94%B9%E4%BA%8B%E4%BB%B6%E3%80%91%20%E3%80%90%E4%B8%BE%E6%8A%A5%E5%9C%B0%E5%9D%80%E5%92%8C%E6%96%87%E6%A1%88%E3%80%91.docx)
 
-[角色修改相关证据 0107-02.rar](https://gh.lwd-temp.top/site-cdn/archive/%E8%A7%92%E8%89%B2%E4%BF%AE%E6%94%B9ys/%E8%A7%92%E8%89%B2%E4%BF%AE%E6%94%B9%E7%9B%B8%E5%85%B3%E8%AF%81%E6%8D%AE0107-02.rar)
+[角色修改相关证据 0107-02.rar](https://gh.sunsets-deprecated-domain-attention.top/site-cdn/archive/%E8%A7%92%E8%89%B2%E4%BF%AE%E6%94%B9ys/%E8%A7%92%E8%89%B2%E4%BF%AE%E6%94%B9%E7%9B%B8%E5%85%B3%E8%AF%81%E6%8D%AE0107-02.rar)
 
 ## 余晖每日乱评：我不知道你们到底在搞什么
 

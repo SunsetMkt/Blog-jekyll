@@ -31,8 +31,6 @@ permalink: /dev/
 构建环境：非生产环境（{{ jekyll.environment }}）
 {% endif %}
 
-构建状态（GitHub Actions）：[![Deploy Jekyll site to Pages](https://github.com/lwd-temp/lwd-temp.github.io-jekyll/actions/workflows/jekyll.yml/badge.svg)](https://github.com/lwd-temp/lwd-temp.github.io-jekyll/actions/workflows/jekyll.yml)
-
 ---
 
 [Jekyll 主题参考文档](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)

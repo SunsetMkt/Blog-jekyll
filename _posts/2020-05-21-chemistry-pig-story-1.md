@@ -28,4 +28,4 @@ categories: article
 
 ---
 
-欢迎参与元素小猪系列故事创作，[点击这里](https://github.com/lwd-temp/chemistry-pig-story)前往项目 GitHub 仓库。
+欢迎参与元素小猪系列故事创作，[点击这里](https://github.com/sunsets-deprecated-username/chemistry-pig-story)前往项目 GitHub 仓库。

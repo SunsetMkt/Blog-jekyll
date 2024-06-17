@@ -451,11 +451,11 @@ Written by EXPLORER
 
 至此，星联系列不再写了。也许是考试的原因。四年前我不再创作，2019 年又拾起笔来，而今又放下，不知何时再启。封闭的世界就该封闭着，想象就该留在想象力。觉着开放得太多了。
 
-今感谢[@莫宗](https://www.lofter.com/mentionredirect.do?blogId=540102132) 让我遇见 lofter。感谢[@倦暖](https://www.lofter.com/mentionredirect.do?blogId=524430116) [@莫宗](https://www.lofter.com/mentionredirect.do?blogId=540102132) [@玻尔如是说](https://www.lofter.com/mentionredirect.do?blogId=817515255) 对此系列的支持，以及[@lwd-temp](https://www.lofter.com/mentionredirect.do?blogId=520565334) 为妥善保管文章作出的贡献。
+今感谢[@莫宗](https://www.lofter.com/mentionredirect.do?blogId=540102132) 让我遇见 lofter。感谢[@倦暖](https://www.lofter.com/mentionredirect.do?blogId=524430116) [@莫宗](https://www.lofter.com/mentionredirect.do?blogId=540102132) [@玻尔如是说](https://www.lofter.com/mentionredirect.do?blogId=817515255) 对此系列的支持，以及[@sunsets-deprecated-username](https://www.lofter.com/mentionredirect.do?blogId=520565334) 为妥善保管文章作出的贡献。
 
 ---
 
-> 来自 lwd-temp：
+> 来自 sunsets-deprecated-username：
 >
 > Em...非常欣赏有能力独自完成无论篇幅长短的科幻小说的作者，
 >

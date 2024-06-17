@@ -37,7 +37,7 @@ SteamDB 提到的 `similar to how GitHub was being blocked`指“检测 \*.githu
 ```python
 #! /usr/bin/env python3
 # steam_store_test.py - test the connectivity of steam store
-# author: lwd-temp
+# author: sunsets-deprecated-username
 # date: 2021-12-26
 import contextlib
 import logging
@@ -701,7 +701,7 @@ traceroute to store.steampowered.com (69.192.208.101), 30 hops max, 60 byte pack
 
 2021-12-27 更新
 
-根据 v2ex 网友的[方法](https://www.v2ex.com/t/824179)构建的[测试工具包](https://github.com/lwd-temp/steam-store-checker)现已发布，在多处地点已复现成功。
+根据 v2ex 网友的[方法](https://www.v2ex.com/t/824179)构建的[测试工具包](https://github.com/sunsets-deprecated-username/steam-store-checker)现已发布，在多处地点已复现成功。
 
 详见页首视频。
 

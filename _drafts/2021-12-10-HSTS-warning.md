@@ -14,7 +14,7 @@ X-Content-Type-Options: nosniff
 
 本站域名已提交 Chromium 的 HSTS 预加载列表（[HSTS Preload List Submission](https://hstspreload.org/)），正在等待提交到预加载列表(is pending submission to the preload list)。
 
-强制 HTTPS 跳转已经通过 Cloudflare 页面规则设置在大部分页面上，lwd-temp.top 的跳转规则经过特殊设置以便实现 HSTS 合规，部分页面（Vercel 的域名验证）强制使用不安全连接。
+强制 HTTPS 跳转已经通过 Cloudflare 页面规则设置在大部分页面上，sunsets-deprecated-domain-attention.top 的跳转规则经过特殊设置以便实现 HSTS 合规，部分页面（Vercel 的域名验证）强制使用不安全连接。
 
 # 备忘
 

@@ -3,7 +3,7 @@ title: 在校园中安全传递信息的方法改进版
 date: 2020-06-26
 tags: 文档 说明 转载
 categories: article
-excerpt: lwd-temp加密方案改进版，达到安全、方便、可行性高的目的。
+excerpt: sunsets-deprecated-username加密方案改进版，达到安全、方便、可行性高的目的。
 author: EXPLORER
 ---
 
@@ -11,7 +11,7 @@ author: EXPLORER
 
 **_Copyright EXPLORER（2020.6.26）_**
 
-**SUMMARY：lwd-temp 加密方案改进版，达到安全、方便、可行性高的目的。**
+**SUMMARY：sunsets-deprecated-username 加密方案改进版，达到安全、方便、可行性高的目的。**
 
 ## 加密方案
 
