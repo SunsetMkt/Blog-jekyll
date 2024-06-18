@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /secret/
 Disallow: /secret
 
-Sitemap: /sitemap.xml
+Sitemap: https://blog.sunmkt.top/sitemap.xml
