@@ -14,7 +14,8 @@ Google 决定在 Chromium 中推行富有争议 Manifest V3 标准并移除对 V
 - Windows 下对 x64 和 ARM64 架构的支持
 - Linux 支持
 - 隐私保护特性
-- 开放源代码
+- 开放源代码（可编译）
+- 不强制使用 VPN
 
 我们谨慎地评估了市面上常见的浏览器，并最终选择了 Firefox 和 Brave（基于 Chromium，请勿启动任何 Web 3 或虚拟货币特性。虽然仍然不堪，它至少是开源的。请注意，Brave 的开发商不是非营利性组织）。
 
