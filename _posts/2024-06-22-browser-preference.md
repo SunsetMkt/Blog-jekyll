@@ -16,7 +16,7 @@ Google 决定在 Chromium 中推行富有争议 Manifest V3 标准并移除对 V
 - 隐私保护特性
 - 开放源代码
 
-我们谨慎地评估了市面上常见的浏览器，并最终选择了 Firefox 和 Brave（基于 Chromium，请勿启动任何 Web 3 或虚拟货币特性。虽然仍然不堪，它至少是开源的）。
+我们谨慎地评估了市面上常见的浏览器，并最终选择了 Firefox 和 Brave（基于 Chromium，请勿启动任何 Web 3 或虚拟货币特性。虽然仍然不堪，它至少是开源的。请注意，Brave 的开发商不是非营利性组织）。
 
 预期中的使用场景是：主要使用 Firefox，并将 Brave 作为兼容性替代。（MS Edge 可作为 Internet Explorer 的兼容性替代，但是，说真的，我们最好尽快弃用那些仅支持 Internet Explorer 的网站）
 
