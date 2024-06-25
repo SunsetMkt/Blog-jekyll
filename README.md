@@ -2,14 +2,17 @@
 
 Blog
 
-# Powered by
+[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/LICENSE)
+[![Jekyll](https://img.shields.io/badge/jekyll-%3E%3D%203.7-blue.svg)](https://jekyllrb.com/)
+
+## Powered by
 
 - GitHub Pages
 - Jekyll
 - Minimal Mistakes Jekyll theme
 - Vercel
 
-# About Minimal Mistakes Jekyll theme
+## About Minimal Mistakes Jekyll theme
 
 [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/)
 
@@ -19,7 +22,7 @@ Blog
 
 The MIT License (MIT)
 
-Copyright (c) 2013-2020 Michael Rose and contributors
+Copyright (c) 2013-2024 Michael Rose and contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -92,3 +95,7 @@ Pure Liquid Jekyll Table of Contents is distributed under the terms of the [MIT 
 Minimal Mistakes incorporates [Lunr](http://lunrjs.com),
 Copyright (c) 2018 Oliver Nightingale.
 Lunr is distributed under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+
+Minimal Mistakes incorporates [clipboard.js](https://clipboardjs.com/),
+Copyright (c) 2021 Zeno Rocha.
+Clipboard.js is distributed under the terms of the [MIT License](https://opensource.org/licenses/MIT).
