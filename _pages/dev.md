@@ -89,7 +89,7 @@ URL 参数`vconsole=true`
 
 <div>
   <p id="telemetry-trigger" style="display: none">
-    <a href="/?telemetry=triggeredByDevPageWithDNSIPLeak"
+    <a href="/?telemetry=triggeredByDevPageWithall"
       >遥测（点击一次，等待页面完整加载即可）</a
     >
   </p>
