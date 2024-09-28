@@ -8,6 +8,7 @@ sidebar:
 last_modified_at: 2022-01-10T07:59:46-05:00
 last_modified_at: 2022-05-30T12:18:47-04:00
 last_modified_at: '2024-06-15T17:54:53+08:00'
+last_modified_at: '2024-09-26T13:40:04+08:00'
 toc: false
 ---
 
@@ -17,6 +18,29 @@ toc: false
 -->
 
 {% raw %}
+## Unreleased
+
+### Enhancements
+
+- Add RTL Support. [#4886](https://github.com/mmistakes/minimal-mistakes/pull/4886)
+- Add missing Polish translation. [#4890](https://github.com/mmistakes/minimal-mistakes/pull/4890)
+- Rewrite most directions with [CSS logical properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_logical_properties_and_values).
+- Remove unnecessary "type" attribute [#4956](https://github.com/mmistakes/minimal-mistakes/issues/4956)
+- The "if" means the default is never used [#4955](https://github.com/mmistakes/minimal-mistakes/issues/4955)
+- For pages without a title, show the site title only once [#4959](https://github.com/mmistakes/minimal-mistakes/issues/4959)
+- Use `documents-collection.html` partial in `home` layout.
+
+### Bug Fixes
+
+- Replace a redirected link to MadeMistakes in footer. [#4882](https://github.com/mmistakes/minimal-mistakes/pull/4882)
+- Fix wrong float direction for `feature_row` with `type="right"`. [#4061](https://github.com/mmistakes/minimal-mistakes/issues/4061)
+- Fix reset stylesheet overruling `$doc-font-size`. [#4983](https://github.com/mmistakes/minimal-mistakes/issues/4983)
+- Fix JavaScript null error on home and splash layouts. [#4938](https://github.com/mmistakes/minimal-mistakes/issues/4938), [#4939](https://github.com/mmistakes/minimal-mistakes/pull/4939)
+
+### Documentation & Maintenance
+
+- Automatically update Algolia search index with GitHub Actions.
+
 ## [4.26.2](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.26.2)
 
 ### Enhancements
