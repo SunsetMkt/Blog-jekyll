@@ -212,3 +212,5 @@ _我们没有收到确切消息，此条目可能会随时更新。_
 > Sayuri（日语：さユり，1996 年 6 月 7 日—2024 年 9 月 20 日）为来自日本福冈县福冈市的 J-pop 创作歌手，又常被称为缺氧少女 Sayuri（日语：酸欠少女さユり）。
 >
 > [Via 维基百科](https://zh.wikipedia.org/zh-cn/Sayuri)
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1yt4wO7dKCwsfjch8SN9aU?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
