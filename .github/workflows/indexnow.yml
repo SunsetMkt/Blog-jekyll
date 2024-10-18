@@ -1,0 +1,22 @@
+name: IndexNow
+
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches: [$default-branch, main]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  indexnow:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: bojieyang/indexnow-action@v2 # v2 is the latest major version following the action-versioning.
+        with:
+          # The location of your sitemap must start with http(s).
+          # Currently, XML Sitemap, Sitemap index, RSS and Atom formats are supported.
+          sitemap-location: "https://blog.sunmkt.top/sitemap.xml"
+          key: ${{ secrets.INDEXNOW_KEY }} # The key you get from IndexNow.
+          since: 30
+          endpoint: "api.indexnow.org"
