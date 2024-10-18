@@ -1,0 +1,18 @@
+name: google-indexing-script
+
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches: [$default-branch, main]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  google-indexing-script:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Google Indexing Script
+        run: |
+          npm i -g google-indexing-script
+          GIS_CLIENT_EMAIL=${{ secrets.GIS_CLIENT_EMAIL }} GIS_PRIVATE_KEY=${{ secrets.GIS_PRIVATE_KEY }} GIS_QUOTA_RPM_RETRY=true gis blog.sunmkt.top
