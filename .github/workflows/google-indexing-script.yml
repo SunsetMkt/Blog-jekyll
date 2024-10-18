@@ -16,7 +16,7 @@ jobs:
         run: |
           npm i -g google-indexing-script
           gis -v
-          echo "${{ secrets.GIS_AUTH_JSON }}" > service_account.json
+          echo ${{ secrets.GIS_AUTH_JSON_B64 }} | base64 --decode > service_account.json
           mkdir ~/.gis
           mv service_account.json ~/.gis
           gis blog.sunmkt.top --rpm-retry
