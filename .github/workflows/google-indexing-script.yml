@@ -16,4 +16,7 @@ jobs:
         run: |
           npm i -g google-indexing-script
           gis -v
-          gis blog.sunmkt.top --client-email ${{ secrets.GIS_CLIENT_EMAIL }} --private-key ${{ secrets.GIS_PRIVATE_KEY }} --rpm-retry
+          echo "${{ secrets.GIS_AUTH_JSON }}" > service_account.json
+          mkdir ~/.gis
+          mv service_account.json ~/.gis
+          gis blog.sunmkt.top --rpm-retry
