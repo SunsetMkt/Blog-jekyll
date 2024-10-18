@@ -15,4 +15,5 @@ jobs:
       - name: Google Indexing Script
         run: |
           npm i -g google-indexing-script
-          GIS_CLIENT_EMAIL=${{ secrets.GIS_CLIENT_EMAIL }} GIS_PRIVATE_KEY=${{ secrets.GIS_PRIVATE_KEY }} GIS_QUOTA_RPM_RETRY=true gis blog.sunmkt.top
+          gis -v
+          gis blog.sunmkt.top --client-email ${{ secrets.GIS_CLIENT_EMAIL }} --private-key ${{ secrets.GIS_PRIVATE_KEY }} --rpm-retry
