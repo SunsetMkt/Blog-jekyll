@@ -269,7 +269,7 @@ plugins:
   - jekyll-redirect-from
   - jekyll-target-blank
   - jekyll_random_hex
-  - jekyll-last-modified-at
+  # - jekyll-last-modified-at
 
 # mimic GitHub Pages with --safe
 # No need to keep this in further versions since GitHub has removed
