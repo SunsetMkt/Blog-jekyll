@@ -336,6 +336,10 @@ defaults:
       path: "assets/**/*"
     values:
       sitemap: false
+  - scope:
+      path: "secret/**/*"
+    values:
+      sitemap: false
 
 # head_scripts:
 #   - https://
