@@ -331,6 +331,11 @@ defaults:
       share: true # true
       related: false # true
       toc: true # false # To show Table of Content (aka. menu)
+  # Sitemap Ignore
+  - scope:
+      path: "assets/**/*"
+    values:
+      sitemap: false
 
 # head_scripts:
 #   - https://
