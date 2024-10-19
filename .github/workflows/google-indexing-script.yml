@@ -13,6 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Google Indexing Script
+        continue-on-error: true
         run: |
           npm i -g google-indexing-script
           gis -v
