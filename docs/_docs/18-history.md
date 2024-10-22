@@ -9,6 +9,7 @@ last_modified_at: 2022-01-10T07:59:46-05:00
 last_modified_at: 2022-05-30T12:18:47-04:00
 last_modified_at: '2024-06-15T17:54:53+08:00'
 last_modified_at: '2024-09-26T13:40:04+08:00'
+last_modified_at: '2024-10-02T22:57:15+08:00'
 toc: false
 ---
 
@@ -36,6 +37,7 @@ toc: false
 - Fix wrong float direction for `feature_row` with `type="right"`. [#4061](https://github.com/mmistakes/minimal-mistakes/issues/4061)
 - Fix reset stylesheet overruling `$doc-font-size`. [#4983](https://github.com/mmistakes/minimal-mistakes/issues/4983)
 - Fix JavaScript null error on home and splash layouts. [#4938](https://github.com/mmistakes/minimal-mistakes/issues/4938), [#4939](https://github.com/mmistakes/minimal-mistakes/pull/4939)
+- Fix bad &lt;figure&gt; HTML if "alt" contains quotes.
 
 ### Documentation & Maintenance
 
