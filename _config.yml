@@ -389,3 +389,8 @@ webp:
   # Default transforms `image.png` to `image.webp`, while changing to true transforms `image.png` to `image.png.webp`
   append_ext: true
 ############################################################
+
+# https://github.com/mmistakes/minimal-mistakes/discussions/2033#discussioncomment-460914
+# Allow user to toggle between themes [light/dark]
+# minimal_mistakes_skin: "default"
+minimal_mistakes_skin_dark: "dark"

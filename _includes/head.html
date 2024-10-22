@@ -17,7 +17,14 @@
 </script>
 
 <!-- For all browsers -->
+<!-- https://github.com/mmistakes/minimal-mistakes/discussions/2033#discussioncomment-460914 -->
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+{% if site.minimal_mistakes_skin_dark %}
+  <meta name="color-scheme" content="light dark">
+  <style>
+    @import url("{{ '/assets/css/main2.css' | relative_url }}") (prefers-color-scheme: dark);
+  </style>
+{% endif %}
 <link rel="preload" href="https://unpkg.com/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://unpkg.com/fontawesome-free@latest/css/all.min.css"></noscript>
 
