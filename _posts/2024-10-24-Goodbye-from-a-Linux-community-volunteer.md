@@ -1,7 +1,7 @@
 ---
-title: "linux: Goodbye from a Linux community volunteer"
+title: "【转载】linux: Goodbye from a Linux community volunteer"
 date: 2024-10-24
-tags: Linux 开源 政治 翻译
+tags: Linux 开源 政治 翻译 转载
 categories: article
 ---
 
