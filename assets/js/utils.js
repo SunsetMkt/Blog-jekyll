@@ -529,6 +529,7 @@ function siteSubtitleHandler() {
     "我们的爱国，一面不能知有国家，不知有个人；一面不能知有国家，不知有世界。我们是要托庇在这个国家底下，将国内各个人的天赋能力，尽量发挥，向世界人类全体文明大大的有所贡献。",
     "文学必须干预政治，直到政治不再干预文学为止。",
     "“自由软件”尊重用户的自由，并且尊重整个社区。粗略来讲，一个软件如果是自由软件，这意味着用户可以自由地运行，拷贝，分发，学习，修改并改进该软件。",
+    "ChatGPT knows nothing and understands nothing. Its output is merely smooth babbling. Anything it states or implies about reality is fabrication (unless “fabrication” implies more understanding than that system really has). Seeing a correct answer to any real question in ChatGPT output is folly, as many have learned to their dismay. That is not a matter of implementation details. It is an inherent limitation due to the fundamental approach these systems use.",
     // "Placeholder",
   ];
   // random
