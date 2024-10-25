@@ -5,6 +5,8 @@ tags: Linux 开源 政治 翻译 转载
 categories: article
 ---
 
+阅读更多：[\[PATCH\] Revert "MAINTAINERS: Remove some entries due to various compliance requirements."](https://lore.kernel.org/all/20241023080935.2945-2-kexybiscuit@aosc.io/) [linux: Goodbye from a Linux community volunteer](https://lore.kernel.org/netdev/2m53bmuzemamzc4jzk2bj7tli22ruaaqqe34a2shtdtqrd52hp@alifh66en3rj/)
+
 你好，Linux 内核社区：
 
 我相信你们已经听说了 Greg 最近的提交（6e90b675cf942e，“MAINTAINERS: Remove some entries due to various compliance requirements”）引起的新闻。如你所见，这次变更涉及了一些与俄罗斯相关的开发者被从官方内核维护者名单中移除，包括我在内。
