@@ -19,7 +19,7 @@ categories: article
 
 下载的安装包可以被直接安装，但若启动应用，将会被提示应用在当前微软账号中不可用（未购买），错误代码`0x803F8001`。（我没有找到这个行为的文档，在这里称为“Microsoft Store 应用的运行前正版验证”）
 
-通过 7-Zip（有时不可靠）或 Windows 10 SDK（可通过 Visual Studio Installer 安装）中的`MakeAppx.exe`工具（[文档](https://learn.microsoft.com/en-us/windows/win32/appxpkg/make-appx-package--makeappx-exe-)）（推荐），可以提取 appx/appxbundle 安装包内的文件。
+通过 7-Zip（有时不可靠，无法正确处理文件名中的空格或 URL 编码）或 Windows 10 SDK（可通过 Visual Studio Installer 安装）中的`MakeAppx.exe`工具（[文档](https://learn.microsoft.com/en-us/windows/win32/appxpkg/make-appx-package--makeappx-exe-)）（推荐），可以提取 appx/appxbundle 安装包内的文件。
 
 通常，我们处理的是 appx 安装包的提取文件。若是 appxbundle，请确定并提取 bundle 中主要的 appx。
 
