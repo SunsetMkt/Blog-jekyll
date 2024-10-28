@@ -22,7 +22,7 @@ title_separator: "-"
 subtitle: "Placeholder. 您可能没有启用JavaScript。" # site tagline that appears below site title in masthead # 也可以当作slogan
 name: "Sunset"
 description: "Sunset的博客"
-url: https://blog.sunmkt.top # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: https://blog.sunmkt.uk # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: / # the subpath of your site, e.g. "/blog"
 repository: SunsetMkt/Blog-jekyll # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser: "/assets/images/500x300.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -116,15 +116,15 @@ author:
   avatar: "/assets/images/sunset2_compressed.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio: "Lead Programmer of Sunset Edu. & Tech. Group."
   location: "Unknown"
-  email: "hi@sunmkt.top"
+  email: "hi@sunmkt.uk"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: # mailto:hi@sunmkt.top
+      url: # mailto:hi@sunmkt.uk
       # url: mailto:your.name@email.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: # "https://sunmkt.top"
+      url: # "https://sunmkt.uk"
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"

@@ -20,4 +20,4 @@ jobs:
           echo ${{ secrets.GIS_AUTH_JSON_B64 }} | base64 --decode > service_account.json
           mkdir ~/.gis
           mv service_account.json ~/.gis
-          gis blog.sunmkt.top --rpm-retry
+          gis blog.sunmkt.uk --rpm-retry
