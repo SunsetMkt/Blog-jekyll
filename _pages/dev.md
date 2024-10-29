@@ -160,18 +160,18 @@ URL 参数`vconsole=true`
         }
       }
 
-      function DisableAnalytics() {
-        setCookie("DisableAnalytics", "true", 400, "." + getMainHost());
+      function DisableAnalysis() {
+        setCookie("DisableAnalysis", "true", 400, "." + getMainHost());
       }
 
-      function RmDisableAnalytics() {
-        setCookie("DisableAnalytics", "true", 0, "." + getMainHost());
+      function RmDisableAnalysis() {
+        setCookie("DisableAnalysis", "true", 0, "." + getMainHost());
       }
     </script>
 
-    <a class="btn btn--info" onclick="DisableAnalytics();location.reload();">添加禁用标记</a>
+    <a class="btn btn--info" onclick="DisableAnalysis();location.reload();">添加禁用标记</a>
 
-    <a class="btn btn--info" onclick="RmDisableAnalytics();location.reload();">删除禁用标记</a>
+    <a class="btn btn--info" onclick="RmDisableAnalysis();location.reload();">删除禁用标记</a>
 
 </div>
 
