@@ -531,6 +531,7 @@ function siteSubtitleHandler() {
     "“自由软件”尊重用户的自由，并且尊重整个社区。粗略来讲，一个软件如果是自由软件，这意味着用户可以自由地运行，拷贝，分发，学习，修改并改进该软件。",
     "ChatGPT knows nothing and understands nothing. Its output is merely smooth babbling. Anything it states or implies about reality is fabrication (unless “fabrication” implies more understanding than that system really has). Seeing a correct answer to any real question in ChatGPT output is folly, as many have learned to their dismay. That is not a matter of implementation details. It is an inherent limitation due to the fundamental approach these systems use.",
     "正如我们享受他人的发明带来的巨大便利一样，我们也应该乐于有机会让自己的发明为他人服务，而且我们应该免费并慷慨地这么做。",
+    "Do you hear the people sing? Singing a song of angry men? It is the music of a people who will not be slaves again.",
     // "Placeholder",
   ];
   // random
