@@ -562,6 +562,8 @@ function siteSubtitleHandler() {
     "Cellular phones will not give you cancer. Only hepatitis.",
     "Humans can survive underwater. But not for very long.",
     "The Fact Sphere is not defective. Its facts are wholly accurate and very interesting.",
+    "All right, paradox time. This - sentence - is - false! Don't-think-about-it-don't-think-about-it…",
+    "Spaaace!",
     // "Placeholder",
   ];
   // random
