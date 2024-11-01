@@ -29,7 +29,7 @@ index 7d256da971..bf8c6a3006 100644
    }
 ```
 
-开箱即用的修补和构建工作流可参考[Sunsetwarden](https://github.com/SunsetMkt/bitwarden-browser-extension-builder)。
+开箱即用的修补和构建工作流可参考[Sunsetwarden](https://github.com/SunsetMkt/Sunsetwarden)。
 
 ## 第三方 Android 客户端
 
