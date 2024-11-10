@@ -9,7 +9,7 @@ categories: article
 >
 > VOCALOID 是日本 YAMAHA 公司自主开发的一款电子歌声合成软件，输入音调和歌词，就可以合成贴近人类声音的歌声。
 >
-> 萌娘百科 https://zh.moegirl.org.cn/VOCALOID
+> 萌娘百科 https://moegirl.uk/VOCALOID
 
 我第一次装上这个软件之后的想法大概是
 

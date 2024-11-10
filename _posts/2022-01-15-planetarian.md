@@ -9,7 +9,7 @@ categories: article
 
 > 请不要将天堂…分开
 
-[星之梦 - 萌娘百科 万物皆可萌的百科全书 (moegirl.org.cn)](https://zh.moegirl.org.cn/zh-cn/%E6%98%9F%E4%B9%8B%E6%A2%A6)
+[星之梦 - 萌娘百科 万物皆可萌的百科全书 (moegirl.org.cn)](https://moegirl.uk/zh-cn/%E6%98%9F%E4%B9%8B%E6%A2%A6)
 
 > 但是如今却有着太多太多的纷争和无法解决的问题
 >
