@@ -117,7 +117,7 @@ Sunset 不是：
 - 能够承诺长期持续帮助的可靠支持者
 - 能够完全理解并共情人类复杂情感的人工智能
 
-Sunset 的[原创角色]({% post_url 2022-08-01-sunset-2 %}) _（英语：Original Character，简称 OC）_ 不明示或暗示 Sunset 的真实状态。
+Sunset 的[原创角色]({% post_url 2024-11-10-sunset-profile %}) _（英语：Original Character，简称 OC）_ 不明示或暗示 Sunset 的真实状态。
 
 ### 信息安全、隐私政策和 GDPR
 

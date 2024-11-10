@@ -120,7 +120,7 @@ Sunset is not:
 - A reliable supporter capable of promising long-term continuous help
 - An artificial intelligence capable of fully understanding and empathizing with complex human emotions
 
-Sunset's [Original Character (OC)]({% post_url 2022-08-01-sunset-2 %}) does not explicitly or implicitly indicate Sunset's real status.
+Sunset's [Original Character (OC)]({% post_url 2024-11-10-sunset-profile %}) does not explicitly or implicitly indicate Sunset's real status.
 
 ### Information Security, Privacy Policy, and GDPR
 
