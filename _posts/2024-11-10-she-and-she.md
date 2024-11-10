@@ -6,7 +6,7 @@ categories: article
 excerpt: 天台，月光，生锈的长椅。银色的什么，一闪一闪。
 ---
 
-转载自[angelkawaii.xyz](https://angelkawaii.xyz/2024/11/08/post/)，使用[CC BY-SA 4.0 协议](https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1)授权。
+转载自[angelkawaii.xyz](https://angelkawaii.xyz/2024/11/08/post/)，使用 Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License 授权。
 
 ---
 
