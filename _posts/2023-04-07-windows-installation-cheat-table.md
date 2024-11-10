@@ -19,7 +19,7 @@ Office 版本一律推荐 O365ProPlus，并使用 Microsoft-Activation-Scripts �
 
 建议：[Windows 11 官方媒体制作工具/ISO 下载](https://www.microsoft.com/zh-cn/software-download/windows11)
 
-不建议：[Windows 10（October 14, 2025 停止支持）](https://www.microsoft.com/zh-cn/software-download/windows10)
+不建议：~~[Windows 10（October 14, 2025 停止支持）](https://www.microsoft.com/zh-cn/software-download/windows10)~~
 
 > 如不显示 ISO 下载，使用开发人员工具切换 UserAgent 到 Apple 设备（iPad 等），刷新。
 
@@ -50,10 +50,10 @@ https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=O365ProP
 
 推荐：[Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts)
 
-或者直接在 Powershell 中执行：
+或者直接在 Powershell 中执行（感谢 [massgravel](https://massgrave.dev/)）：
 
 ```pwsh
-irm https://massgrave.dev/get | iex
+irm https://get.activated.win | iex
 ```
 
 支持永久数字激活 Windows 10/11，Ohook 激活 Office（包括 365），KMS 激活 Windows 和 Office（包括 365），并且可以切换 Windows 授权版本。
@@ -68,15 +68,15 @@ irm https://massgrave.dev/get | iex
 
 可以通过[创建一个恢复驱动器](https://support.microsoft.com/zh-cn/windows/%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E6%81%A2%E5%A4%8D%E9%A9%B1%E5%8A%A8%E5%99%A8-abb4691b-5324-6d4a-8766-73fab304c246)来备份 OEM 提供的操作系统镜像（若存在），建议在收到产品后就这样做，此备份可能有不可替代的应用场景。
 
-你可以在[这里](https://massgrave.dev/)获得更多关于下载和安装 Windows 和 Office 的参考资料。此第三方提供的[Windows 和 Office 下载资源](https://massgrave.dev/genuine-installation-media.html)被认为是可靠的。
+你可以在[这里](https://massgrave.dev/)获得更多关于下载和安装 Windows 和 Office 的参考资料。此第三方提供的[Windows 和 Office 下载资源](https://massgrave.dev/genuine-installation-media)被认为是可靠的。
 
-不建议使用[UUPDump](https://uupdump.net/)获取镜像，除非有必须这样做的需求。
+不建议使用[UUPDump](https://uupdump.net/)获取镜像，除非有必须这样做的需求（例如获取 [ARM64](https://massgrave.dev/windows_arm_links) 版本或获取特定的 Insider 版本）。不推荐为 ARM64 设备安装 Insider 版本。
 
-有关下载 Windows 10 LTSC 的说明,请参考[这里](https://massgrave.dev/windows_ltsc_links.html)。[TL;DR](https://files.rg-adguard.net/file/7ce8b5a4-57d2-905c-62f3-e4d44e25bcf3)。
+有关下载 Windows 10/11 LTSC 的说明,请参考[这里](https://massgrave.dev/windows_ltsc_links)。对于可以安装消费者版本的设备，未见安装 LTSC 版本的明显必要性，不建议安装。
 
 LTSC 安装 Microsoft Store：管理员执行`wsreset -i`。
 
-特别感谢[MASSGRAVE](https://github.com/massgravel)。
+特别感谢[massgravel](https://github.com/massgravel)。
 
 ### 下载企业版 ISO
 
