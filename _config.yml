@@ -270,6 +270,7 @@ plugins:
   - jekyll-target-blank
   - jekyll_random_hex
   # - jekyll-last-modified-at
+  - jekyll-admin
 
 # mimic GitHub Pages with --safe
 # No need to keep this in further versions since GitHub has removed
