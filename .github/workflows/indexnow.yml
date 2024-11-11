@@ -18,5 +18,5 @@ jobs:
           # Currently, XML Sitemap, Sitemap index, RSS and Atom formats are supported.
           sitemap-location: "https://blog.sunmkt.uk/sitemap.xml"
           key: ${{ secrets.INDEXNOW_KEY }} # The key you get from IndexNow.
-          since: 180 # Half a year
+          since: 1 # One day
           endpoint: "api.indexnow.org" # We don't use Bing because it's junk.
