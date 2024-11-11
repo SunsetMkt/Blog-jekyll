@@ -8,11 +8,13 @@ main:
   #   url: /year-archive/
   # - title: "Sample Collections"
   #   url: /collection-archive/
-   - title: "站点地图"
-     url: /sitemap/
+  - title: "站点地图"
+    url: /sitemap/
+  - title: "友情链接"
+    url: /friends/
   #  - title: "关于隐私"
   #    url: /privacy
-   - title: "免责声明"
-     url: /disclaimer/
-   - title: "开发人员工具"
-     url: /dev/
+  - title: "免责声明"
+    url: /disclaimer/
+  - title: "开发人员工具"
+    url: /dev/
