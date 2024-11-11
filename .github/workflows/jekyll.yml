@@ -52,7 +52,7 @@ jobs:
         continue-on-error: true
         env:
           ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
-        run: bundle exec jekyll algolia
+        run: rm minimal-mistakes-jekyll.gemspec && bundle exec jekyll algolia
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
