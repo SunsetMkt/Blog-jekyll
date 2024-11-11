@@ -25,18 +25,28 @@ def mkdir(path):
 
 
 def fix_md(path):
+    filename = remove_extension(get_filename(path))
+    title = remove_extension("".join(filename[11:]))
     with open(path, "r", encoding="utf-8") as f:
         # Get the tags: line
         lines = f.readlines()
+        repost = False
         for i in range(len(lines)):
             if lines[i].startswith("tags"):
                 tags = lines[i].split(":")[1].strip().split(" ")
                 out = "tags:\n"
                 for tag in tags:
+                    if tag == "转载":
+                        repost = True
+                        continue
                     out += f"  - {tag}\n"
+                out += f"slug: {title}\n"
                 lines[i] = out
+        fulltext = "".join(lines)
+        if repost:
+            fulltext = fulltext.replace("categories: article", "categories: repost")
         with open(path, "w", encoding="utf-8") as f:
-            f.writelines(lines)
+            f.write(fulltext)
 
 
 def main():
@@ -44,7 +54,7 @@ def main():
         filename = remove_extension(get_filename(path))
         title = remove_extension("".join(filename[11:]))
         respath = os.path.join(RES_PATH, filename)
-        outpath = os.path.join(OUT_PATH, title)
+        outpath = os.path.join(OUT_PATH, filename)
         mkdir(outpath)
         # Check if respath is a dir
         if os.path.isdir(respath):
