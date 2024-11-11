@@ -19,12 +19,19 @@ gem 'wdm', '~> 0.1.1', :install_if => Gem.win_platform?
 # gem "github-pages", "=228"
 # no idea
 
-gem "jekyll-git-hash"
-gem "jekyll-webp"
-gem 'jekyll-loading-lazy'
-gem 'liquid-md5'
-gem 'jekyll-redirect-from'
-gem 'jekyll-target-blank'
-gem 'jekyll_random_hex'
-gem 'jekyll-last-modified-at'
-gem 'jekyll-admin'
+group :jekyll_plugins do
+  gem "jekyll-feed"
+  gem "jekyll-seo-tag"
+  gem "jekyll-sitemap"
+  gem "jekyll-paginate"
+  gem "jekyll-include-cache"
+  gem "jekyll-algolia"
+  gem "jekyll-git-hash"
+  gem "jekyll-webp"
+  gem 'jekyll-loading-lazy'
+  gem 'liquid-md5'
+  gem 'jekyll-redirect-from'
+  gem 'jekyll-target-blank'
+  gem 'jekyll_random_hex'
+  gem 'jekyll-last-modified-at'
+end
