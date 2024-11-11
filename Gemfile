@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-gemspec
+# gemspec
 
 # https://github.com/jekyll/jekyll/pull/9225
 # Fix Cloudflare Pages build error
