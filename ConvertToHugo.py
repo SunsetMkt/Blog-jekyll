@@ -24,6 +24,21 @@ def mkdir(path):
     os.makedirs(path, exist_ok=True)
 
 
+def fix_md(path):
+    with open(path, "r", encoding="utf-8") as f:
+        # Get the tags: line
+        lines = f.readlines()
+        for i in range(len(lines)):
+            if lines[i].startswith("tags"):
+                tags = lines[i].split(":")[1].strip().split(" ")
+                out = "tags:\n"
+                for tag in tags:
+                    out += f"  - {tag}\n"
+                lines[i] = out
+        with open(path, "w", encoding="utf-8") as f:
+            f.writelines(lines)
+
+
 def main():
     for path in list_dir(POSTS_PATH):
         filename = remove_extension(get_filename(path))
@@ -35,7 +50,11 @@ def main():
         if os.path.isdir(respath):
             # Copy respath to out
             shutil.copytree(respath, outpath, dirs_exist_ok=True)
-        cp = shutil.copyfile(path, os.path.join(outpath + "/index.md"))
+        fix_md(path)
+        if path.endswith(".html"):
+            shutil.copyfile(path, os.path.join(outpath, "index.html"))
+        else:
+            shutil.copyfile(path, os.path.join(outpath, "index.md"))
 
 
 if __name__ == "__main__":
