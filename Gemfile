@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-# gemspec
+# gemspec cause error on Cf Pages
 gem "jekyll", ">= 3.7", "< 5.0"
 gem "jekyll-paginate", "~> 1.1"
 gem "jekyll-sitemap", "~> 1.3"
