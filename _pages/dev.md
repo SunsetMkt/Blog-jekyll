@@ -2,6 +2,7 @@
 title: "开发人员工具"
 layout: single
 permalink: /dev/
+author_profile: true
 ---
 
 <p class="notice--danger">
