@@ -22,7 +22,7 @@ title_separator: "-"
 subtitle: "Placeholder. 您可能没有启用JavaScript。" # site tagline that appears below site title in masthead # 也可以当作slogan
 name: "Sunset"
 description: "Sunset的博客"
-url: https://blog.sunmkt.uk # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: https://blog2.sunmkt.uk # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: / # the subpath of your site, e.g. "/blog"
 repository: SunsetMkt/Blog-jekyll # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser: "/assets/images/500x300.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
