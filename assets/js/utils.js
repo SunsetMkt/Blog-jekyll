@@ -617,7 +617,9 @@ function siteSubtitleHandler() {
 if (document.querySelector(".site-subtitle")) {
   // site-subtitle handler
   try {
-    siteSubtitleHandler();
+    // siteSubtitleHandler();
+    document.querySelector(".site-subtitle").innerHTML =
+      "我们正在将 Jekyll 引擎替换为 Hugo 引擎，部分页面可能有变动或不再被支持。";
     // on .site-subtitle scroll
     document.querySelector(".site-subtitle").addEventListener("wheel", () => {
       // Prevent default behavior
